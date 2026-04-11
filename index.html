@@ -255,20 +255,20 @@
 
     const DEFAULT_DATA = {
       modules: [
-        { id: 'mod0', name: 'Module 0: Introduction', progress: 98, notesAdded: false, notesComment: '' },
-        { id: 'mod1', name: 'Module 1: Algebra Basics', progress: 100, notesAdded: false, notesComment: '' },
-        { id: 'mod2', name: 'Module 2: Geometry Tools', progress: 95, notesAdded: false, notesComment: '' },
-        { id: 'mod3', name: 'Module 3: Algebra Tools', progress: 98, notesAdded: false, notesComment: '' },
-        { id: 'mod4', name: 'Module 4: Combinatorics Tools', progress: 15, notesAdded: false, notesComment: '' },
-        { id: 'mod5', name: 'Module 5: Number Theory Tools', progress: 0, notesAdded: false, notesComment: '' },
+        { id: 'mod0', name: 'Module 0: Introduction', progress: 98, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'mod1', name: 'Module 1: Algebra Basics', progress: 100, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'mod2', name: 'Module 2: Geometry Tools', progress: 95, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'mod3', name: 'Module 3: Algebra Tools', progress: 98, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'mod4', name: 'Module 4: Combinatorics Tools', progress: 15, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'mod5', name: 'Module 5: Number Theory Tools', progress: 0, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
       ],
       workouts: [
-        { id: 'w1a', name: 'Workout 1A: Algebra Basics', progress: 100, notesAdded: false, notesComment: '' },
-        { id: 'w1b', name: 'Workout 1B: Algebra Basics', progress: 100, notesAdded: false, notesComment: '' },
-        { id: 'w2a', name: 'Workout 2A: Geometry Tools', progress: 0, notesAdded: false, notesComment: '' },
-        { id: 'w3a', name: 'Workout 3A: Algebra Tools', progress: 0, notesAdded: false, notesComment: '' },
-        { id: 'w4a', name: 'Workout 4A: Combinatorics Tools', progress: 3, notesAdded: false, notesComment: '' },
-        { id: 'w5a', name: 'Workout 5A: Number Theory Tools', progress: 0, notesAdded: false, notesComment: '' },
+        { id: 'w1a', name: 'Workout 1A: Algebra Basics', progress: 100, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'w1b', name: 'Workout 1B: Algebra Basics', progress: 100, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'w2a', name: 'Workout 2A: Geometry Tools', progress: 0, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'w3a', name: 'Workout 3A: Algebra Tools', progress: 0, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'w4a', name: 'Workout 4A: Combinatorics Tools', progress: 3, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
+        { id: 'w5a', name: 'Workout 5A: Number Theory Tools', progress: 0, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
       ],
       flags: [],
       lastUpdated: TODAY,
@@ -383,6 +383,14 @@
         if (!result.modules || result.modules.length === 0) result.modules = DEFAULT_DATA.modules;
         if (!result.workouts || result.workouts.length === 0) result.workouts = DEFAULT_DATA.workouts;
         if (!result.flags) result.flags = [];
+        // Backfill new fields on individual items
+        const backfill = (item) => ({
+          hasTodos: false, todoComment: '',
+          notesAdded: false, notesComment: '',
+          ...item,
+        });
+        result.modules = result.modules.map(backfill);
+        result.workouts = result.workouts.map(backfill);
         return result;
       }
 
@@ -512,6 +520,7 @@
       const workoutsComplete = data.workouts.filter(w => w.progress === 100).length;
       const modulesWithNotes = data.modules.filter(m => m.notesAdded).length;
       const workoutsWithNotes = data.workouts.filter(w => w.notesAdded).length;
+      const totalTodos = data.modules.filter(m => m.hasTodos).length + data.workouts.filter(w => w.hasTodos).length;
 
       const ghColor = ghStatus === 'synced' ? '#4dff88'
         : ghStatus === 'error' ? '#ff6b6b'
@@ -616,6 +625,10 @@
               <div className="stat-number">{workoutsWithNotes}</div>
               <div className="stat-label">Workouts w/ Notes</div>
             </div>
+            <div className="stat-card">
+              <div className="stat-number" style={{color: totalTodos > 0 ? '#ffa040' : '#66d9ff'}}>{totalTodos}</div>
+              <div className="stat-label">Has TODOs</div>
+            </div>
           </div>
 
           <div className="section">
@@ -665,6 +678,7 @@
 
     function ItemCard({ item, type, onUpdate }) {
       const [editingComment, setEditingComment] = useState(false);
+      const [editingTodo, setEditingTodo] = useState(false);
 
       return (
         <div className="card">
@@ -723,6 +737,49 @@
                     }}
                   >
                     {item.notesComment}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+
+          <div className="notes-section" style={{borderTopColor: item.hasTodos ? '#ffa04055' : '#333'}}>
+            <div className="checkbox-group">
+              <input
+                type="checkbox"
+                id={`${item.id}-todos`}
+                checked={item.hasTodos}
+                onChange={(e) => onUpdate({hasTodos: e.target.checked})}
+              />
+              <label className="checkbox-label" htmlFor={`${item.id}-todos`} style={{color: item.hasTodos ? '#ffa040' : undefined}}>
+                Has TODOs
+              </label>
+            </div>
+            {(item.hasTodos || item.todoComment) && (
+              <div style={{marginTop: '10px'}}>
+                {editingTodo || !item.todoComment ? (
+                  <textarea
+                    value={item.todoComment}
+                    onChange={(e) => onUpdate({todoComment: e.target.value})}
+                    placeholder="e.g., Need to do Exam 2, write down formulas for X"
+                    onBlur={() => setEditingTodo(false)}
+                    autoFocus={editingTodo}
+                    style={{borderColor: item.hasTodos ? '#ffa04055' : '#333'}}
+                  />
+                ) : (
+                  <div
+                    onClick={() => setEditingTodo(true)}
+                    style={{
+                      background: '#0a0e27',
+                      padding: '8px',
+                      borderRadius: '4px',
+                      border: `1px solid ${item.hasTodos ? '#ffa04055' : '#333'}`,
+                      cursor: 'pointer',
+                      fontSize: '0.9em',
+                      color: '#cca050',
+                    }}
+                  >
+                    {item.todoComment}
                   </div>
                 )}
               </div>
