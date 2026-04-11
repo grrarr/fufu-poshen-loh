@@ -1148,8 +1148,11 @@
     function ProblemCard({ problem, onUpdate, onDelete }) {
       const [expanded, setExpanded] = useState(false);
       const [editingNote, setEditingNote] = useState(false);
+      const [editingImage, setEditingImage] = useState(false);
       const [confirmDelete, setConfirmDelete] = useState(false);
+      const [imgError, setImgError] = useState(false);
       const meta = STATUS_META[problem.status] || STATUS_META.untriaged;
+      const hasImage = !!(problem.imageUrl && problem.imageUrl.trim());
 
       return (
         <div className="problem-card" data-status={problem.status}>
@@ -1158,12 +1161,37 @@
               {problem.text}
             </div>
             <div className="problem-meta">
+              {hasImage && <span style={{fontSize: '0.8em', color: '#666'}} title="Has image">IMG</span>}
               <span className="status-badge" data-status={problem.status}>{meta.label}</span>
             </div>
           </div>
           {expanded && (
             <div className="problem-detail">
               <div className="source-badge">{problem.source} &middot; Added {problem.dateAdded}</div>
+
+              {/* Image display */}
+              {hasImage && !imgError && (
+                <div style={{marginTop: '10px'}}>
+                  <img
+                    src={problem.imageUrl}
+                    alt="Problem diagram"
+                    onError={() => setImgError(true)}
+                    style={{
+                      maxWidth: '100%',
+                      maxHeight: '400px',
+                      borderRadius: '4px',
+                      border: '1px solid #333',
+                      background: '#fff',
+                    }}
+                  />
+                </div>
+              )}
+              {hasImage && imgError && (
+                <div style={{marginTop: '10px', fontSize: '0.8em', color: '#ff6b6b'}}>
+                  Image failed to load: {problem.imageUrl}
+                </div>
+              )}
+
               <div className="problem-actions">
                 <select
                   value={problem.status}
@@ -1176,6 +1204,12 @@
                   <option value="needs-formula">Needs Formula / Algorithm Card</option>
                   <option value="promoted">Promoted to Spaced Rep</option>
                 </select>
+                <button
+                  onClick={(e) => { e.stopPropagation(); setEditingImage(!editingImage); }}
+                  style={{padding: '4px 10px', fontSize: '0.8em', color: hasImage ? '#4dff88' : '#4da6ff', borderColor: hasImage ? '#4dff88' : '#4da6ff'}}
+                >
+                  {hasImage ? 'Edit Image' : '+ Image'}
+                </button>
                 {!confirmDelete ? (
                   <button className="danger" onClick={() => setConfirmDelete(true)} style={{padding: '4px 10px', fontSize: '0.8em'}}>Delete</button>
                 ) : (
@@ -1185,6 +1219,39 @@
                   </>
                 )}
               </div>
+
+              {/* Image URL input */}
+              {editingImage && (
+                <div style={{marginTop: '8px'}}>
+                  <div style={{fontSize: '0.8em', color: '#666', marginBottom: '4px'}}>
+                    Image URL (e.g., https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-final-q7.png)
+                  </div>
+                  <div style={{display: 'flex', gap: '6px'}}>
+                    <input
+                      type="text"
+                      value={problem.imageUrl || ''}
+                      onChange={(e) => { onUpdate(problem.id, { imageUrl: e.target.value }); setImgError(false); }}
+                      onClick={(e) => e.stopPropagation()}
+                      placeholder="Paste image URL..."
+                      style={{
+                        flex: 1, background: '#141926', color: '#e0e0e0',
+                        border: '1px solid #333', borderRadius: '4px',
+                        padding: '6px 8px', fontSize: '0.85em',
+                      }}
+                    />
+                    {hasImage && (
+                      <button
+                        className="danger"
+                        onClick={(e) => { e.stopPropagation(); onUpdate(problem.id, { imageUrl: '' }); setImgError(false); }}
+                        style={{padding: '4px 10px', fontSize: '0.8em'}}
+                      >
+                        Remove
+                      </button>
+                    )}
+                  </div>
+                </div>
+              )}
+
               {/* Note field */}
               <div style={{marginTop: '8px'}}>
                 {editingNote || !problem.note ? (

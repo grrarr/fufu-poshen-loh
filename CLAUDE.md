@@ -87,6 +87,11 @@ Most updates are done in the browser. If you need to manually edit data:
   - `promoted` — Already added to fufu-spaced-rep as a card
 - Problems are added via bulk paste (separated by blank lines) with a source tag (e.g., "Module 3 - Final Exam")
 - Intended workflow: Extract via Claude in Chrome → paste into bank → triage → promote hard ones to spaced rep
+- Problems can have an attached **image URL** — for geometry diagrams, figures, etc.
+  - Images stored in `images/` folder in the repo (e.g., `images/mod3-final-q7.png`)
+  - Served via `https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/FILENAME`
+  - Click "+ Image" on any problem card to attach a URL
+  - Displayed inline with white background (for diagrams on white)
 
 ---
 
@@ -107,4 +112,4 @@ Most updates are done in the browser. If you need to manually edit data:
 - Export to PDF or Google Sheets
 - One-click promote from problem bank → fufu-spaced-rep (auto-generate card with source tag)
 - Problem bank: batch triage (select multiple → mark trivial)
-- Problem bank: image/LaTeX support for math notation
+- Problem bank: LaTeX rendering for math notation
