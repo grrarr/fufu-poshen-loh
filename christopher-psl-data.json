@@ -1507,6 +1507,182 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321913,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "1. A metal alloy is 20% silver. How many grams of silver are found in 80 grams of alloy?\n(A) 25\n(B) 16\n(C) 40\n(D) 20\n(E) 18",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321914,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "2. Suppose you invested in some unusual stock which goes up in price by 10% whenever the year is odd, and then drops by 10% whenever the year is even. If you keep this stock for 20 years, what will be the change in the value of your investment over this time?\n(A) The stock will increase overall over the 20 years\n(B) The stock will decrease overall over the 20 years\n(C) The stock price will stay the same throughout the 20 years\n(D) The stock price will go up after the first year, and then stay the same price for the rest of the time\n(E) The stock price will go down after the first year and then stay the same price for the rest of the time",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321915,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "3. Alice, Bob and Charlie went to the movies. Alice contributed $15 to the cost of the tickets, Bob contributed $6 to the cost of the tickets, and Charlie forgot his money, so he contributed nothing. How would you find the amount of money that Charlie owes Alice and Bob?\n(A) Each person's ticket costs ($6+$15)/3 = $21/3 = $7, so Charlie should pay Alice $7, but he shouldn't pay Bob anything, because Bob actually underpaid for his ticket, also. Bob should pay Alice an additional $1 to make up for the fact that he only paid $6 at the beginning.\n(B) First, you find the cost of each ticket, which is $15+$6=$21, and divide it by 3 to get $7 for the cost of one ticket, which is what Charlie owes each of Alice and Bob.\n(C) Charlie owes $15+$6=$21 to Alice and Bob, so he should pay each of them $21/2=$10.50.\n(D) Charlie should pay Alice $9 so that she will have contributed the same amount as Bob.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321916,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "4. There are cats, dogs and pigs in a ratio of 1/2 : 1/3 : 1/5, and there are 24 more pigs than cats. How many animals are there altogether?\n(A) 320\n(B) 640\n(C) 960\n(D) 36",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321917,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "5. A koala is sleeping on the top of a hill. Every minute, the koala slips 3 inches down. In 18 minutes, the koala will be halfway down the hill. How many inches tall is the hill? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321918,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "6. Suppose that all of these gears are all connected by a chain to a driving motor. Which of the following gears will spin at the fastest RPM (revolutions per minute)?\n(A) A gear with 500 teeth\n(B) A gear with 200 teeth\n(C) A gear with 50 teeth\n(D) A gear with 10 teeth\n(E) They all spin at the same rate",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321919,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "7. Write the number 2946573833993 in scientific notation.\n(A) 0.29 * 10^13\n(B) 2.9 * 10^12\n(C) 2.9 * 10^13\n(D) 0.29 * 10^12",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321920,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "8. Alex designs a model of the Empire State Building that is 4 inches wide and 10 inches high. If the real Empire State Building is 1250 feet tall, how wide, in feet, is the Empire State Building according to Alex's proportions?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321921,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "9. In order to transport goods, there are 16 vans total, and each must make 12 trips. How many vans will be needed in order to transport the same amount of cargo, if the number of trips that each van takes is increased by one-third (1/3)?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321922,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "10. The A Company charges an initial cost of $250, plus $75, for every month you rent out an apartment. The B Company charges an initial cost of $375, plus $70, for every month that you rent out the same building. For what number of months are both companies A and B charging you the same amount overall?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321923,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "--- BONUS ---",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321924,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "11. You already have one cent in your piggy bank. Your boss gives you 1 cent on day one, 2 cents on day two, 4 cents on day three, 8 cents on day four, and so on. All payments are in pennies. Your piggy bank will become full after the payment on the ninth day. After which payment will your piggy bank be half full?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321925,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "12. Sixteen pears are equal in cost to 20 apples, and 25 apples are equal in cost to 35 bananas, and 63 bananas are equal in cost to $3. How many dollars do 12 pears cost? Your answer should be a number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321926,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "13. Open-topped cubical cardboard boxes are manufactured with costs directly proportional to their surface areas. A 3x3x3 box costs $3.24. How many dollars does a 5x5x5 box cost to make? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321927,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "14. Bill usually makes chicken soup for his family of four, using 7 cups of broth, 3 tablespoons of salt, 2.5 cups of vegetables, and 1 teaspoon of basil. Today he is using the same recipe, but only making one portion for himself. If c is the number of cups of broth, s is the number of tablespoons of salt, v is the number of cups of vegetables, and b is the number of teaspoons of basil he will need, what is c+s+v+b, expressed as a simplified fraction? Your answer should be the fraction only, without spaces, e.g. 1/2",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321928,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "15. In a family, each boy has one more brother than sister. Each girl has 2 times as many brothers as sisters. How many total children are there in the family?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321929,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "16. Alice, Bob and Charlie each invest $100, $200 and $300 into an item worth $600. Suppose the value of the item grows to $900, and the three people decide to cash out; if they divide the money fairly (i.e. based on the proportions of the initial investment), how much profit did Bob make, in dollars?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321930,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "17. Brand A says they offer 25% more juice than Brand B for only 90% of the cost. What fraction of the unit price that Brand B offers for its orange juice is the unit price that Brand A offers for its orange juice? Your answer should be a fraction in simplest form, without spaces, e.g. 1/2",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321931,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "--- SUPER BONUS ---",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321932,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "18. A customer in a shoe store bought a pair of shoes on sale for $15, paying with a $20 bill. He didn't have change, so he asked a lady for change. She gave him a $10 bill and two $5 bills for the $20 bill. The salesman gave the customer $5 change. Then, the lady who just gave the change came and said that the $20 bill was counterfeit. The salesman examined the $20 bill and agreed that it was worthless, and gave the lady another $20 bill. That evening, the shoe salesman was trying to reconcile his balance sheet for the day and he became very confused. What total value did the shoe store actually lose in this strange transaction? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321933,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "19. Jamal makes pink paint by combining red paint and white paint in a ratio of 2:7, respectively. If red paint and pink paint cost twice as much as white paint at the store, what fraction of the store pink paint's unit cost is Jamal's pink paint's unit cost? Express your answer as a simplified fraction, without spaces, e.g. 1/2",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891321934,
+      "source": "Module 1 - Week 3 Challenge [✅ PASSED 90%]",
+      "text": "20. There are two 3-D printers, one faster and one slower. The slower printer's speed of printing is 3/4 the speed of the faster one. The slower printer is printing a cube of side length 5, and the faster printer is printing a cube of side length 3. Consider how fast the height of each cube grows (note, not the volume, but the height.) What is the ratio of the height-growth rate of the 3 cube compared to the 5 cube? Your answer should be a fraction in simplest form, without spaces, e.g. 1/2.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
     }
   ],
   "lastUpdated": "2026-04-11"
