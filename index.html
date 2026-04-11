@@ -18,7 +18,7 @@
     }
     .container { max-width: 1200px; margin: 0 auto; }
     h1 { color: #4da6ff; margin-bottom: 10px; font-size: 2em; }
-    .header-info { color: #888; font-size: 0.9em; margin-bottom: 30px; }
+    .header-info { color: #888; font-size: 0.9em; margin-bottom: 10px; }
     .section { margin-bottom: 40px; }
     .section-title {
       font-size: 1.3em;
@@ -99,6 +99,8 @@
       display: flex;
       gap: 10px;
       margin-top: 20px;
+      flex-wrap: wrap;
+      align-items: center;
     }
     button {
       background: #1a3a52;
@@ -117,6 +119,17 @@
       border-color: #ff6b6b;
     }
     button.danger:hover { background: #4a2a2a; }
+    button.success {
+      background: #1a3a2a;
+      color: #4dff88;
+      border-color: #4dff88;
+    }
+    button.success:hover { background: #2a4a3a; }
+    button.warn {
+      background: #3a2a1a;
+      color: #ffa040;
+      border-color: #ffa040;
+    }
     .flags-section {
       background: #1a1f3a;
       border: 1px solid #444;
@@ -145,13 +158,100 @@
     }
     .stat-number { font-size: 2em; color: #66d9ff; font-weight: bold; }
     .stat-label { color: #888; font-size: 0.9em; margin-top: 5px; }
+    .gh-panel {
+      background: #1a1f3a;
+      border: 1px solid #333;
+      border-radius: 6px;
+      padding: 12px 15px;
+      margin-bottom: 20px;
+    }
+    .gh-panel-title {
+      font-size: 0.85em;
+      color: #888;
+      font-family: 'Monaco', 'Courier New', monospace;
+      margin-bottom: 8px;
+    }
+    .gh-panel-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .gh-panel input[type="password"] {
+      flex: 1;
+      min-width: 160px;
+      background: #0a0e27;
+      color: #e0e0e0;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-size: 0.9em;
+      outline: none;
+    }
+    .gh-panel input[type="password"]:focus { border-color: #66d9ff; }
+    .gh-panel-hint {
+      font-size: 0.8em;
+      color: #555;
+      font-family: 'Monaco', 'Courier New', monospace;
+      margin-top: 6px;
+    }
+    .toast {
+      background: #1a2a3a;
+      border: 1px solid #4da6ff33;
+      border-radius: 6px;
+      padding: 8px 14px;
+      margin-bottom: 14px;
+      font-size: 0.9em;
+      color: #4da6ff;
+      text-align: center;
+    }
+    .header-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .header-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .sync-info {
+      font-size: 0.8em;
+      color: #555;
+      margin-top: 4px;
+      font-family: 'Monaco', 'Courier New', monospace;
+    }
   </style>
 </head>
 <body>
   <div id="root"></div>
 
   <script type="text/babel">
-    const { useState, useEffect } = React;
+    const { useState, useEffect, useCallback, useRef } = React;
+
+    // ── localStorage shim ──────────────────────────────────────────────────────
+    window.storage = {
+      getItem(key) {
+        try { return localStorage.getItem(key); } catch (e) { return null; }
+      },
+      setItem(key, value) {
+        try { localStorage.setItem(key, value); } catch (e) { console.error('Storage error:', e); }
+      },
+    };
+
+    // ── Constants ──────────────────────────────────────────────────────────────
+    const STORAGE_KEY = 'christopher-psl-v1';
+    const BACKUP_KEY = 'christopher-psl-v1-backup';
+    const GH_TOKEN_KEY = 'christopher-psl-gh-token';
+    const GH_OWNER = 'grrarr';
+    const GH_REPO = 'fufu-poshen-loh';
+    const GH_DATA_PATH = 'christopher-psl-data.json';
+
+    const TODAY = new Date().toISOString().split('T')[0];
 
     const DEFAULT_DATA = {
       modules: [
@@ -171,45 +271,149 @@
         { id: 'w5a', name: 'Workout 5A: Number Theory Tools', progress: 0, notesAdded: false, notesComment: '' },
       ],
       flags: [],
-      lastUpdated: new Date().toISOString().split('T')[0],
+      lastUpdated: TODAY,
     };
 
-    window.storage = {
-      getItem(key) {
-        try {
-          return localStorage.getItem(key);
-        } catch (e) {
-          return null;
+    // ── GitHub helpers ─────────────────────────────────────────────────────────
+
+    async function ghFetch(token) {
+      try {
+        const headers = { Accept: 'application/vnd.github.v3+json' };
+        if (token) headers.Authorization = `token ${token}`;
+        const r = await fetch(
+          `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_DATA_PATH}`,
+          { headers }
+        );
+        if (!r.ok) return null;
+        const d = await r.json();
+        const parsed = JSON.parse(atob(d.content.replace(/\n/g, '')));
+        return { data: parsed, sha: d.sha };
+      } catch { return null; }
+    }
+
+    async function ghWrite(token, data, sha) {
+      const content = btoa(unescape(encodeURIComponent(
+        JSON.stringify({ version: 1, updated: TODAY, ...data }, null, 2)
+      )));
+      const r = await fetch(
+        `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_DATA_PATH}`,
+        {
+          method: 'PUT',
+          headers: {
+            Authorization: `token ${token}`,
+            Accept: 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            message: `Update christopher-psl progress ${TODAY}`,
+            content,
+            ...(sha ? { sha } : {}),
+          }),
         }
-      },
-      setItem(key, value) {
-        try {
-          localStorage.setItem(key, value);
-        } catch (e) {
-          console.error('Storage error:', e);
-        }
-      },
-    };
+      );
+      if (!r.ok) throw new Error(r.status);
+      return (await r.json()).content.sha;
+    }
+
+    // ── App ────────────────────────────────────────────────────────────────────
 
     function App() {
       const [data, setData] = useState(null);
       const [newFlag, setNewFlag] = useState('');
 
-      useEffect(() => {
-        const stored = window.storage.getItem('christopher-psl-v1');
-        const backup = window.storage.getItem('christopher-psl-v1-backup');
-        const loaded = stored ? JSON.parse(stored) : backup ? JSON.parse(backup) : DEFAULT_DATA;
-        setData(loaded);
+      // GitHub sync state
+      const ghTokenRef = useRef('');
+      const ghShaRef = useRef(null);
+      const [ghStatus, setGhStatus] = useState('idle'); // idle | loading | synced | saving | error
+      const [showGhSetup, setShowGhSetup] = useState(false);
+      const [tokenDraft, setTokenDraft] = useState('');
+      const [lastSynced, setLastSynced] = useState(null);
+      const [toast, setToast] = useState(null);
+
+      const flash = useCallback((msg, duration = 2500) => {
+        setToast(msg);
+        setTimeout(() => setToast(null), duration);
       }, []);
 
-      const save = (newData) => {
+      // Load on mount
+      useEffect(() => {
+        (async () => {
+          // Load token from localStorage
+          let token = '';
+          try {
+            const t = window.storage.getItem(GH_TOKEN_KEY);
+            if (t) { token = t; ghTokenRef.current = t; }
+          } catch {}
+
+          // Try GitHub first
+          setGhStatus('loading');
+          let loaded = null;
+          const ghResult = await ghFetch(token || null);
+          if (ghResult) {
+            ghShaRef.current = ghResult.sha;
+            setGhStatus(token ? 'synced' : 'idle');
+            setLastSynced(new Date().toLocaleTimeString());
+            loaded = ghResult.data;
+            // Merge in any missing fields from DEFAULT_DATA
+            loaded = mergeWithDefaults(loaded);
+          } else {
+            setGhStatus(token ? 'error' : 'idle');
+          }
+
+          // Fall back to localStorage
+          if (!loaded) {
+            const stored = window.storage.getItem(STORAGE_KEY);
+            const backup = window.storage.getItem(BACKUP_KEY);
+            loaded = stored
+              ? JSON.parse(stored)
+              : backup
+              ? JSON.parse(backup)
+              : DEFAULT_DATA;
+          }
+
+          setData(loaded);
+        })();
+      }, []);
+
+      // Merge loaded data with default structure (adds new fields if missing)
+      function mergeWithDefaults(loaded) {
+        if (!loaded) return DEFAULT_DATA;
+        const result = { ...DEFAULT_DATA, ...loaded };
+        // Ensure modules array has all default entries
+        if (!result.modules || result.modules.length === 0) result.modules = DEFAULT_DATA.modules;
+        if (!result.workouts || result.workouts.length === 0) result.workouts = DEFAULT_DATA.workouts;
+        if (!result.flags) result.flags = [];
+        return result;
+      }
+
+      const save = useCallback(async (newData) => {
         setData(newData);
-        window.storage.setItem('christopher-psl-v1', JSON.stringify(newData));
-        window.storage.setItem('christopher-psl-v1-backup', JSON.stringify(newData));
-      };
+        // Always save to localStorage first
+        window.storage.setItem(STORAGE_KEY, JSON.stringify(newData));
+        window.storage.setItem(BACKUP_KEY, JSON.stringify(newData));
+
+        // Then sync to GitHub if token set
+        const token = ghTokenRef.current;
+        if (token) {
+          setGhStatus('saving');
+          try {
+            let sha = ghShaRef.current;
+            if (!sha) {
+              const existing = await ghFetch(token);
+              sha = existing?.sha || null;
+            }
+            const newSha = await ghWrite(token, newData, sha);
+            ghShaRef.current = newSha;
+            setGhStatus('synced');
+            setLastSynced(new Date().toLocaleTimeString());
+          } catch {
+            setGhStatus('error');
+          }
+        }
+      }, []);
 
       const updateItem = (type, id, updates) => {
-        const newData = { ...data, lastUpdated: new Date().toISOString().split('T')[0] };
+        const newData = { ...data, lastUpdated: TODAY };
         const arr = type === 'module' ? [...data.modules] : [...data.workouts];
         const idx = arr.findIndex(x => x.id === id);
         if (idx >= 0) {
@@ -221,13 +425,21 @@
 
       const addFlag = () => {
         if (!newFlag.trim()) return;
-        const newData = { ...data, flags: [...data.flags, { id: Date.now(), text: newFlag }], lastUpdated: new Date().toISOString().split('T')[0] };
+        const newData = {
+          ...data,
+          flags: [...data.flags, { id: Date.now(), text: newFlag }],
+          lastUpdated: TODAY,
+        };
         save(newData);
         setNewFlag('');
       };
 
       const removeFlag = (id) => {
-        const newData = { ...data, flags: data.flags.filter(f => f.id !== id), lastUpdated: new Date().toISOString().split('T')[0] };
+        const newData = {
+          ...data,
+          flags: data.flags.filter(f => f.id !== id),
+          lastUpdated: TODAY,
+        };
         save(newData);
       };
 
@@ -237,24 +449,155 @@
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `christopher-psl-backup-${new Date().toISOString().split('T')[0]}.json`;
+        a.download = `christopher-psl-backup-${TODAY}.json`;
         a.click();
+        URL.revokeObjectURL(url);
+        flash('Exported backup JSON');
       };
 
-      if (!data) return <div style={{color: '#666'}}>Loading...</div>;
+      const importData = (e) => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = async (ev) => {
+          try {
+            const parsed = JSON.parse(ev.target.result);
+            const merged = mergeWithDefaults(parsed);
+            await save(merged);
+            flash('Data imported successfully');
+          } catch {
+            flash('Import failed: invalid JSON');
+          }
+        };
+        reader.readAsText(file);
+        e.target.value = '';
+      };
+
+      const doSaveToken = async () => {
+        const t = tokenDraft.trim();
+        if (!t) return;
+        window.storage.setItem(GH_TOKEN_KEY, t);
+        ghTokenRef.current = t;
+        setShowGhSetup(false);
+        setTokenDraft('');
+        setGhStatus('saving');
+        try {
+          const existing = await ghFetch(t);
+          const sha = existing?.sha || null;
+          const newSha = await ghWrite(t, data, sha);
+          ghShaRef.current = newSha;
+          setGhStatus('synced');
+          setLastSynced(new Date().toLocaleTimeString());
+          flash('Connected to GitHub — synced!');
+        } catch {
+          setGhStatus('error');
+          flash('Token saved, but sync failed — check PAT permissions');
+        }
+      };
+
+      const doClearToken = () => {
+        window.storage.setItem(GH_TOKEN_KEY, '');
+        ghTokenRef.current = '';
+        ghShaRef.current = null;
+        setGhStatus('idle');
+        setShowGhSetup(false);
+        flash('GitHub sync disabled');
+      };
+
+      const fileRef = useRef(null);
+
+      if (!data) return <div style={{color: '#666', padding: '40px'}}>Loading...</div>;
 
       const modulesComplete = data.modules.filter(m => m.progress === 100).length;
       const workoutsComplete = data.workouts.filter(w => w.progress === 100).length;
       const modulesWithNotes = data.modules.filter(m => m.notesAdded).length;
       const workoutsWithNotes = data.workouts.filter(w => w.notesAdded).length;
 
+      const ghColor = ghStatus === 'synced' ? '#4dff88'
+        : ghStatus === 'error' ? '#ff6b6b'
+        : (ghStatus === 'saving' || ghStatus === 'loading') ? '#ffa040'
+        : '#888';
+
+      const ghLabel = ghStatus === 'saving' ? 'Saving...'
+        : ghStatus === 'loading' ? 'Loading...'
+        : ghStatus === 'synced' ? '● GH'
+        : ghStatus === 'error' ? '⚠ GH'
+        : 'GH';
+
       return (
         <div className="container">
-          <h1>Christopher's Po-Shen Loh Progress</h1>
-          <div className="header-info">
-            <strong>App URL:</strong> https://grrarr.github.io/fufu-poshen-loh/ |
-            <strong> Last updated:</strong> {data.lastUpdated}
+          <div className="header-toolbar">
+            <div>
+              <h1>Christopher's Po-Shen Loh Progress</h1>
+              <div className="header-info">
+                <strong>App URL:</strong> https://grrarr.github.io/fufu-poshen-loh/ &nbsp;|&nbsp;
+                <strong>Last updated:</strong> {data.lastUpdated}
+              </div>
+              {lastSynced && ghStatus === 'synced' && (
+                <div className="sync-info">Last synced to GitHub: {lastSynced}</div>
+              )}
+            </div>
+            <div className="header-actions">
+              <button onClick={exportData} title="Download JSON backup">Export JSON</button>
+              <button onClick={() => fileRef.current?.click()} title="Import from JSON file">Import JSON</button>
+              <input ref={fileRef} type="file" accept=".json" onChange={importData} style={{display: 'none'}} />
+              <button
+                onClick={() => setShowGhSetup(!showGhSetup)}
+                style={{
+                  background: '#1a3a52',
+                  color: ghColor,
+                  border: `1px solid ${ghColor}`,
+                  padding: '8px 16px',
+                  borderRadius: '4px',
+                  cursor: 'pointer',
+                  fontSize: '0.9em',
+                  transition: 'all 0.2s',
+                }}
+                title={
+                  ghStatus === 'synced' ? `Synced to GitHub (${GH_DATA_PATH})`
+                  : ghStatus === 'error' ? 'GitHub sync error — click to reconfigure'
+                  : 'Set up GitHub sync'
+                }
+              >
+                {ghLabel}
+              </button>
+            </div>
           </div>
+
+          {/* GitHub setup panel */}
+          {showGhSetup && (
+            <div className="gh-panel">
+              <div className="gh-panel-title">
+                GitHub Personal Access Token — syncs to {GH_OWNER}/{GH_REPO}/{GH_DATA_PATH}
+              </div>
+              <div className="gh-panel-row">
+                <input
+                  type="password"
+                  value={tokenDraft}
+                  onChange={(e) => setTokenDraft(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && doSaveToken()}
+                  placeholder="ghp_..."
+                />
+                <button
+                  onClick={doSaveToken}
+                  disabled={!tokenDraft.trim()}
+                  className="success"
+                  style={{opacity: tokenDraft.trim() ? 1 : 0.4}}
+                >
+                  Save
+                </button>
+                {ghTokenRef.current && (
+                  <button onClick={doClearToken} className="danger">Disconnect</button>
+                )}
+              </div>
+              <div className="gh-panel-hint">
+                Create at github.com/settings/tokens — needs Contents: Read &amp; Write on {GH_REPO}
+              </div>
+            </div>
+          )}
+
+          {/* Toast */}
+          {toast && <div className="toast">{toast}</div>}
 
           <div className="summary-stats">
             <div className="stat-card">
@@ -276,7 +619,7 @@
           </div>
 
           <div className="section">
-            <div className="section-title">📚 Modules</div>
+            <div className="section-title">Modules</div>
             <div className="grid">
               {data.modules.map(mod => (
                 <ItemCard key={mod.id} item={mod} type="module" onUpdate={(updates) => updateItem('module', mod.id, updates)} />
@@ -285,7 +628,7 @@
           </div>
 
           <div className="section">
-            <div className="section-title">💪 Workouts</div>
+            <div className="section-title">Workouts</div>
             <div className="grid">
               {data.workouts.map(wo => (
                 <ItemCard key={wo.id} item={wo} type="workout" onUpdate={(updates) => updateItem('workout', wo.id, updates)} />
@@ -294,7 +637,7 @@
           </div>
 
           <div className="section">
-            <div className="section-title">⚠️ Manual Flags (Exams Not Done, etc.)</div>
+            <div className="section-title">Manual Flags (Exams Not Done, etc.)</div>
             <div className="flags-section">
               {data.flags.length > 0 && (
                 <div style={{marginBottom: '15px'}}>
@@ -302,20 +645,18 @@
                     <div key={flag.id} className="flag-item">
                       <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'start'}}>
                         <div>{flag.text}</div>
-                        <button className="danger" onClick={() => removeFlag(flag.id)} style={{padding: '4px 8px', fontSize: '0.8em'}}>✕</button>
+                        <button className="danger" onClick={() => removeFlag(flag.id)} style={{padding: '4px 8px', fontSize: '0.8em'}}>x</button>
                       </div>
                     </div>
                   ))}
                 </div>
               )}
-              <textarea value={newFlag} onChange={(e) => setNewFlag(e.target.value)} placeholder="e.g., Module 0 - Exam 2 not done&#10;Module 3 - Exam final not done" />
-              <button onClick={addFlag} style={{marginTop: '10px', background: '#1a3a2a', color: '#4dff88', borderColor: '#4dff88'}}>Add Flag</button>
-            </div>
-          </div>
-
-          <div className="section">
-            <div className="button-group">
-              <button onClick={exportData}>📥 Export Backup (JSON)</button>
+              <textarea
+                value={newFlag}
+                onChange={(e) => setNewFlag(e.target.value)}
+                placeholder={"e.g., Module 0 - Exam 2 not done\nModule 3 - Exam final not done"}
+              />
+              <button onClick={addFlag} className="success" style={{marginTop: '10px'}}>Add Flag</button>
             </div>
           </div>
         </div>
@@ -366,7 +707,7 @@
                     onChange={(e) => onUpdate({notesComment: e.target.value})}
                     placeholder="e.g., Lessons 1-10 noted, 14-15 missing"
                     onBlur={() => setEditingComment(false)}
-                    autoFocus
+                    autoFocus={editingComment}
                   />
                 ) : (
                   <div
@@ -378,7 +719,7 @@
                       border: '1px solid #333',
                       cursor: 'pointer',
                       fontSize: '0.9em',
-                      color: '#aaa'
+                      color: '#aaa',
                     }}
                   >
                     {item.notesComment}
