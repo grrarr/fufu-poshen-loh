@@ -16,10 +16,12 @@ An interactive progress tracker for Christopher's Po-Shen Loh math curriculum. S
 - **6 Modules** (0-5): Introduction → Algebra Basics → Geometry Tools → Algebra Tools → Combinatorics Tools → Number Theory Tools
 - **6 Workouts** (1A, 1B, 2A, 3A, 4A, 5A): Aligned to modules for practice
 
-### Tracking three things:
+### Tracking five things:
 1. **Progress %** — Completion level (0–100%). Note: percentages can be deceptive (e.g., 98% might not mean final exam is done)
 2. **Spaced rep notes** — Checkbox + comment field to track note-taking progress (e.g., "days 2-3 done, 5 and 9 needed")
-3. **Manual flags** — Free-form notes for exams not done, topics needing review, etc.
+3. **TODOs** — Per-module/workout checkbox + comment for action items (exams to do, formulas to write down)
+4. **Manual flags** — Free-form notes for exams not done, topics needing review, etc.
+5. **Exam Problem Bank** — Extracted problems from mini tests and final exams with triage workflow
 
 ---
 
@@ -28,6 +30,7 @@ An interactive progress tracker for Christopher's Po-Shen Loh math curriculum. S
 ### In the browser:
 - **Update progress %**: Drag the slider for any module/workout
 - **Toggle spaced rep notes**: Check the checkbox, then add a comment (e.g., "lessons 1-10 noted, 14-15 missing")
+- **Track TODOs**: Check "Has TODOs" on any card, add notes like "need to do Exam 2, write formulas for X"
 - **Add manual flags**: Write flags like "Module 0 - Exam 2 not done" and click "Add Flag"
 - **Export/Import backups**: Use buttons in header toolbar
 - All changes auto-save to localStorage and backup
@@ -76,6 +79,14 @@ Most updates are done in the browser. If you need to manually edit data:
 - Percentages are tracked but **should be manually verified** — some internal structures weight final exams heavily (e.g., 1/1), so 98% ≠ final exam complete
 - Spaced rep notes are typically **in-progress**, not all-or-nothing — use the comment field to track which lessons/days are done
 - Manual flags section is for exam statuses, topics to revisit, or other loose ends
+- **Exam Problem Bank** stores extracted problems with triage statuses:
+  - `untriaged` — Not yet reviewed
+  - `trivial` — He knows it cold, hidden by default in "All" view
+  - `needs-review` — Can't solve or might forget, candidate for spaced rep
+  - `needs-formula` — Needs a "write down this formula/algorithm" concept card created in spaced rep
+  - `promoted` — Already added to fufu-spaced-rep as a card
+- Problems are added via bulk paste (separated by blank lines) with a source tag (e.g., "Module 3 - Final Exam")
+- Intended workflow: Extract via Claude in Chrome → paste into bank → triage → promote hard ones to spaced rep
 
 ---
 
@@ -94,3 +105,6 @@ Most updates are done in the browser. If you need to manually edit data:
 - Auto-sync across devices (CouchDB, Firebase, etc.)
 - Scheduling integration for spaced rep reviews
 - Export to PDF or Google Sheets
+- One-click promote from problem bank → fufu-spaced-rep (auto-generate card with source tag)
+- Problem bank: batch triage (select multiple → mark trivial)
+- Problem bank: image/LaTeX support for math notation
