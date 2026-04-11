@@ -1683,6 +1683,182 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748487,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "1. Who gets more work done, 2x people who each work at a rate of (1/2) job/hour, or x people who each work at a rate of 1 job/hour?\n(A) 2x people who work at a rate of (1/2) job/hour\n(B) x people who work at a rate of 1 job/hour\n(C) They get the same amount of work done in the same amount of time\n(D) Not enough information to tell",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748488,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "2. 140 pounds of fresh cherries can be dried to get 21 pounds of dried cherries. How many pounds of dried cherries can be gotten from 160 pounds of fresh cherries?\n(A) 18\n(B) 20\n(C) 22\n(D) 24\n(E) 21",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748489,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "3. What would be the rate of water flow of an intake pipe that can fill a swimming pool in 3 hours?\n(A) 1 gallon per hour\n(B) 1/3 pool/hour\n(C) 1 hour / (1/4 pool)\n(D) 100 gallons per foot\n(E) 100 gallons per cubic meter",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748490,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "4. Which of the following is FALSE about the relationship between amount of work done, number of people doing the work and the amount of time spent doing the work?\n(A) The bigger the number of people doing the work, the less time it takes\n(B) The bigger the number of people doing the work, the more work that can be done\n(C) The less time you have, the more people you need to do the work\n(D) The less work that is done, the more time it takes\n(E) The more time you have, the fewer the people that you need",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748491,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "5. A company wants to make 250 protractors and 60 calculators every hour. A given worker can either make 10 protractors or 4 calculators per hour. How many workers will the company need to make the exact amount of products every hour?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748492,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "6. A large water tank has two inlet pipes (a large and a small one) and one outlet pipe. It takes 2 hours to fill the tank with the large inlet pipe. On the other hand, it takes 5 hours to fill the tank with the small inlet pipe. The outlet pipe allows the full tank to be emptied in 7 hours. Assuming that the tank is initially empty, what fraction will be filled in 1 hour if all three pipes are in operation? Your answer should be a fraction in simplest form, without spaces, e.g. 1/2.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748493,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "7. Alice and Bob start from the same position on a track and both start jogging clockwise along it. Alice runs at 4 miles per hour, and Bob runs at 3 miles per hour. How much extra distance will Alice have covered when she passes Bob?\n(A) 1 mile\n(B) 2 miles\n(C) One track lap\n(D) 3/4 of a track lap\n(E) 4/3 of a track lap",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748494,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "8. You just finished a triathlon in a spectacular 2 hours, and you want to know how fast you swam. The race consists of 1 mile of swimming, 12 miles of bicycling, and 3 miles of running. You know that you biked for 1 hour and you ran at a speed of 5 miles per hour. How many miles per hour did you swim? Your answer should be a number only, rounded to the nearest tenth, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748495,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "9. The harmonic mean, a type of average of two speeds, is different from simply the arithmetic average of two rates, because\n(A) If you go equal distance at speed number one and the same distance at speed number two, you don't spend equal amounts of time at each speed, since the faster speed will get you there in less time\n(B) A mean is different from an average\n(C) We need to find the median instead of the mean\n(D) An arithmetic mean is the sum of a set of numbers divided by the number of numbers in the set\n(E) The harmonic mean tells us the middle value of two speeds",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748496,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "10. If a ants can dig b tunnels in c hours, how many tunnels can b ants dig in a hours?\n(A) b^2/c\n(B) a^2/b\n(C) c^2/a",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748497,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "--- BONUS ---",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748498,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "11. A train travels at a constant speed of 120 meters per second. The front of the train has just reached the entrance of a tunnel. Two seconds later, all of the train is inside the tunnel, and 3 seconds after that, the back of the train exits the tunnel. What is the length of the train divided by the length of the tunnel? Your answer should be a fraction in simplest form, without spaces, e.g. 1/2",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748499,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "12. A cyclist travels at a constant speed for 6 hours over a distance d. How much longer, in hours, will it take for him to travel if he goes 50% longer distance? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748500,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "13. The long hand of a clock takes 60 minutes for one rotation, while the small hand takes 12 hours for one rotation. If it is 2:00 p.m. now, at what time will the two hands overlap for the 5th time?\n(A) 5:25 p.m.\n(B) 5:27 p.m.\n(C) 6:30 p.m.\n(D) 6:33 p.m.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748501,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "14. A car travels at a speed of 15 kilometers per hour (kph) for 4 hours, then travels for a distance of 30 kilometers at a speed of 20 kph, then 144 kilometers at 36 kph, and 12 kph for the last 30 minutes. What was the kilometers per hour of the car's average speed?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748502,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "15. A car is driving at 40 mph. It passes a train station. Fifteen minutes later, a train passes through the station at 60 mph. How far from the train station will the car be when it is passed by the train, if both vehicles stay at a constant speed the whole time? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748503,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "16. Elizabeth leaves home at 7:30 p.m., walking at 3 miles per hour. Once she has gone 4 miles, Robert leaves the same house and bikes on her path at 19 miles per hour. How many minutes later after 7:30 p.m. do Elizabeth and Robert meet? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748504,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "17. Suppose you take a trip with your car and drive uphill for 40 miles, which uses up 1/6 of your gas tank, and then you drive your car downhill for 60 miles, which uses up another 1/6 of your tank. You arrive at Numberland and have a day of math fun. Before you leave to go home, you fill your tank with 2 gallons of gas, and then you make the trip back using the same route. Assuming that your tank has a capacity of 12 gallons and you left home with a full tank, how many gallons of gas will you have when you get back home? Your answer should be a decimal, rounded to the nearest tenth, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748505,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "--- SUPER BONUS ---",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748506,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "18. A pirate tries to explode an enemy ship by lighting a fuse in the ammunition hold. Every minute, 1/4th of the fuse burns away. He spends 16 seconds running through the ship, which is 10 meters long, and then escapes into a jolly-boat which he rows to shore 20 meters away. His rowing speed is one-fifth of his running speed, and if he brings n treasure chests onto the jolly-boat, his rowing speed reduces by n/(10+n) of his original rowing speed. How many treasure chests can he carry to shore in one trip before the fuse detonates the explosives?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748507,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "19. Train stations A and B are connected by a straight track that is 72 miles long. A slow freight train traveling at 18 miles per hour leaves A and heads towards B. At the same time, a bird who flies at 30 miles per hour leaves B and heads towards A. When the bird meets the train, it turns around \"instantaneously\" and heads back towards B. When the bird reaches the station, it turns around and heads back towards A until it meets the train. Then the bird turns around again and heads back towards the station. This process continues until the train reaches B. What is the total distance flown by the bird?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775891748508,
+      "source": "Module 1 - Week 4 Challenge [✅ PASSED 80%]",
+      "text": "20. Each sheet of paper costs $0.0025 and each cardboard cover costs $0.20. If a notebook is made using 168 sheets of paper and two cardboard covers, how many dollars does it cost to manufacture 200 notebooks? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
     }
   ],
   "lastUpdated": "2026-04-11"
