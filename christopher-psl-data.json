@@ -285,7 +285,7 @@
     },
     {
       "id": 1775886267062,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "1. [Figure: standard 6-sided die] Standard 6-sided dice with the numbers 1 through 6 have the property that every pair of opposite sides has the same sum. What is that sum?",
       "status": "untriaged",
       "note": "",
@@ -293,7 +293,7 @@
     },
     {
       "id": 1775886267063,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "2. How many ways are there to arrange 7 people sitting in a row?\n(A) 7 * 6 * 5 * 4 * 3 * 2 * 1\n(B) 7\n(C) 7 + 6 + 5 + 4 + 3 + 2 + 1\n(D) 7 + 7 + 7 + 7 + 7 + 7 + 7\n(E) 7^6",
       "status": "untriaged",
       "note": "",
@@ -301,7 +301,7 @@
     },
     {
       "id": 1775886267064,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "3. [Figure: two cubes, side lengths 1 inch and 2 inches] Suppose you have two cubes of different sizes. The first has a side length of 1 inch and the second has a side length of 2 inches. How many times larger is the volume of the second cube compared to the first?\n(A) 2 times as large\n(B) 4 times as large\n(C) 8 times as large\n(D) 12 times as large\n(E) Impossible to determine",
       "status": "untriaged",
       "note": "",
@@ -309,7 +309,7 @@
     },
     {
       "id": 1775886267065,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "4. [Figure: 10x10 grid numbered 1-100, diagonal from top-right to bottom-left highlighted: 10, 19, 28, 37, 46, 55, 64, 73, 82, 91] What is the average of the numbers along the diagonal of this square, from the top right to the bottom left? (Answer as a decimal, e.g. 1.5)",
       "status": "untriaged",
       "note": "",
@@ -317,7 +317,7 @@
     },
     {
       "id": 1775886267066,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "5. [Figure: same 10x10 grid, same diagonal highlighted] What is the sum of the numbers along the diagonal of this square, from the top right to the bottom left?",
       "status": "untriaged",
       "note": "",
@@ -325,7 +325,7 @@
     },
     {
       "id": 1775886267067,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "6. A multiple of n is a number that can be divided by n. What is the least common multiple of 1, 2, 4, 8, 16, 32, 64, 128, and 256? Note: These numbers follow a special pattern!",
       "status": "untriaged",
       "note": "",
@@ -333,7 +333,7 @@
     },
     {
       "id": 1775886267068,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "7. [Figure: 3x3 magic square, top-left = 2, top-right = 6, middle-left = ?, all other cells blank] This diagram is a partially-filled magic square, where each row, column, and 3-box-long diagonal has the same sum, and the numbers from 1 through 9 each appear exactly once. What number goes in the middle left box?",
       "status": "untriaged",
       "note": "",
@@ -341,7 +341,7 @@
     },
     {
       "id": 1775886267069,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "8. Find the value of -9 + -8 + -7 + -6 + -5 + -4 + -3 + -2 + -1 + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12.",
       "status": "untriaged",
       "note": "",
@@ -349,7 +349,7 @@
     },
     {
       "id": 1775886267070,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "9. Can we make a magic square with the numbers 2, 3, 4, 5, 6, 7, 8, 9, 10?\n(A) No. The sum of the first 10 numbers is 55, which isn't divisible by 3.\n(B) Yes. We can still find ways to make each row sum to 15.\n(C) No. Substituting 10 for 1 destabilizes the sums.\n(D) Yes. The row sum changes from 15 to 18, but a magic square is still possible.\n(E) No. The largest number in a magic square must be divisible by three.",
       "status": "untriaged",
       "note": "",
@@ -357,15 +357,15 @@
     },
     {
       "id": 1775886267071,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
-      "text": "10. If there are 6 people in a room, the number of ways to pick 3 of them is exactly (6 * 5 * 4) / (3 * 2 * 1). Why do we divide by 3 * 2 * 1?\n(A) We need to use all numbers 6, 5, 4, 3, 2, 1; multiply first half, divide by second.\n(B) 6 * 5 * 4 counts picking in order; divide by ways to rearrange the 3 people NOT picked.\n(C) 6 * 5 * 4 counts picking in order; divide by ways to rearrange the 3 people who WERE picked.\n(D) Split 6 people into groups of 3, 2, 1 and pick from each group.\n(E) The formula is wrong — we should subtract instead.",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
+      "text": "10. If there are 6 people in a room, the number of ways to pick 3 of them is exactly (6 * 5 * 4) / (3 * 2 * 1). Why do we divide by 3 * 2 * 1?\n(A) We need to use all numbers 6, 5, 4, 3, 2, 1; multiply first half, divide by second.\n(B) 6 * 5 * 4 counts picking in order; divide by ways to rearrange the 3 people NOT picked.\n(C) 6 * 5 * 4 counts picking in order; divide by ways to rearrange the 3 people who WERE picked.\n(D) Split 6 people into groups of 3, 2, 1 and pick from each group.\n(E) The formula is wrong â we should subtract instead.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11"
     },
     {
       "id": 1775886267072,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "--- BONUS (not scored) ---",
       "status": "untriaged",
       "note": "",
@@ -373,7 +373,7 @@
     },
     {
       "id": 1775886267073,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "11. You're behind a car in the right-turn lane. The car in front flashes its blinker every 1.2 seconds. Your blinker flashes every 1 second. Both just flashed simultaneously. How many seconds later will both flash simultaneously again?",
       "status": "untriaged",
       "note": "",
@@ -381,7 +381,7 @@
     },
     {
       "id": 1775886267074,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "12. What is the least common multiple of 91, 1001, and 26?",
       "status": "untriaged",
       "note": "",
@@ -389,7 +389,7 @@
     },
     {
       "id": 1775886267075,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "13. How many ways are there to choose 8 people from a group of 10?",
       "status": "untriaged",
       "note": "",
@@ -397,7 +397,7 @@
     },
     {
       "id": 1775886267076,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "14. [Figure: small regular hexagon] A regular hexagon has perimeter 60. Another regular hexagon has perimeter 180. What is the area of the SMALLER hexagon divided by the area of the LARGER hexagon? Write as a fraction in simplest form (enter numerator and denominator separately).",
       "status": "untriaged",
       "note": "",
@@ -405,7 +405,7 @@
     },
     {
       "id": 1775886267077,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "15. [Figure: 6 circles arranged in a symmetric ring/flower pattern, each adjacent pair overlapping] How many intersections are there between the circles in this picture?",
       "status": "untriaged",
       "note": "",
@@ -413,7 +413,7 @@
     },
     {
       "id": 1775886267078,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "16. [Figure: house diagram] How many 1-centimeter cubes would fit in a 2000-square-foot 2-story house with 10-foot ceiling heights? (~30 cm per foot.)\n(A) 100 thousand\n(B) 1 million\n(C) 1 billion",
       "status": "untriaged",
       "note": "",
@@ -421,7 +421,7 @@
     },
     {
       "id": 1775886267079,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "17. Suppose a is a positive integer and b is a multiple of a. Which are true? Select all that apply.\n(A) b is strictly bigger than a.\n(B) The prime factorizations of a and b have exactly the same sets of primes.\n(C) Every prime in the factorization of a is also in the factorization of b.\n(D) Every prime in the factorization of b is also in the factorization of a.\n(E) Each prime in b's factorization has a power >= its power in a's factorization.",
       "status": "untriaged",
       "note": "",
@@ -429,7 +429,7 @@
     },
     {
       "id": 1775886267080,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "--- SUPER BONUS (extreme challenge) ---",
       "status": "untriaged",
       "note": "",
@@ -437,7 +437,7 @@
     },
     {
       "id": 1775886267081,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "18. [Figure: two cubes being painted] A factory paints cubes. If the paint for the big cube's surface is exactly 4 times the paint for the small cube, what is the volume of the big cube divided by the volume of the small cube?",
       "status": "untriaged",
       "note": "",
@@ -445,7 +445,7 @@
     },
     {
       "id": 1775886267082,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "19. A pizza store sells 12-inch diameter and 16-inch diameter pizzas. What percent larger are the 16-inch pizzas, rounded to the nearest percent?",
       "status": "untriaged",
       "note": "",
@@ -453,8 +453,184 @@
     },
     {
       "id": 1775886267083,
-      "source": "Module 0 - Week 2 Challenge [⚠️ NOT PASSED - best score 0%]",
+      "source": "Module 0 - Week 2 Challenge [â ï¸ NOT PASSED - best score 0%]",
       "text": "20. [Figure: large square subdivided by many intersecting diagonal and horizontal/vertical lines, forming a complex pattern] How many triangles are in this picture? A triangle can have lines through it.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909654,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "1. If you go 180 miles at a speed of 60 miles per hour, how many hours do you travel?\n(A) 60\n(B) 180\n(C) 60 - 180\n(D) π\n(E) 180 / 60",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909655,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "2. Which one of these numbers is a factor of 12?\n(A) 6\n(B) 24\n(C) 36\n(D) 120\n(E) π",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909656,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "3. Is the product 31 * 27 * 161 * 3 odd or even?\n(A) Odd\n(B) Even",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909657,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "4. A group of kids from the Movie Appreciation Club bought several $7 movie tickets for a total of $301. Later, more kids joined and also bought $7 tickets. The total became $343. How many kids joined in the second phase?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909658,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "5. If you run towards a faraway friend at 5 mph and she bikes towards you at 15 mph, how many miles closer are you to each other after 1 hour?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909659,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "6. If the area of a circle is 9π, what is its diameter?\n(A) 100\n(B) π\n(C) 81π\n(D) 6\n(E) -6",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909660,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "7. Candidates A and B run in an election with 100 voters. 30 people vote for A. What is the probability a randomly chosen voter votes for B?\n(A) 1/7\n(B) 0.7\n(C) 0.007\n(D) 1/27\n(E) -3",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909661,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "8. How many factors does 2^4 * 3 = 48 have?\n(A) 4 * 1 = 4 factors\n(B) 4 + 1 = 5 factors\n(C) 2 * 3 = 6 factors\n(D) (4+1) * (1+1) = 10 factors\n(E) 48 / 4 = 12 factors",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909662,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "9. A car company makes sedans, SUVs, and minivans in gray or blue. 30% are sedans; of sedans, 60% are gray. You pick a random car. What percent chance is it a blue sedan? (Round to nearest whole percent, no % sign.)",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909663,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "10. It takes 2 hours to drive to the next town at 55 mph. Today you drive 5 mph faster. How many minutes does it take today?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909664,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "--- BONUS (not scored) ---",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909665,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "11. 1000 switches, all off. Person 1 flips every switch. Person 2 flips every 2nd. ... Person 1000 flips every 1000th. Then lightning breaks the first 100 switches (turns them off). Which equals the number of switches still on?\n(A) The number of perfect squares <= 1000\n(B) The number of numbers from 1 to 1000 with an odd number of factors\n(C) The number of primes from 101 to 1000\n(D) The number of numbers from 101 to 1000 with an even number of factors\n(E) The number of perfect squares from 101 to 1000",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909666,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "12. Trains pass you every hour at 60 mph while you stand still. You start biking at 15 mph toward the trains. What is the relative speed of the trains toward you (in mph)?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909667,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "13. Your speedometer showed 60 mph but your tires are 33-inch diameter instead of normal 30-inch. The speedometer assumes 30-inch tires. How many mph were you actually going?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909668,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "14. [Figure: chain running over 6 gears in 2 vertical columns. Each gear has circumference 2 inches. Distance between top-left and bottom-left gear centers = 35 inches. Distance between top-middle and bottom-middle gear centers = 5 inches.] How many inches long is the chain?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909669,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "15. Alice jogs at 8 mph. One minute later Bob spends 15 seconds unlocking his bike then rides at 12 mph. What is the ratio of Bob's relative speed to Alice's speed? (fraction in lowest terms, no spaces)",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909670,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "16. [Figure: running track = 2 semicircles (inner radius r) joined by 2 straightaways (length m), with 4 lanes of width w each.] What is the difference in length between the innermost and outermost lane?\n(A) 2πr + 2m\n(B) 2π * 3w\n(C) 2π * 3w + 2m\n(D) 2π * 4w\n(E) 2π * 4w + 2m",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909671,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "17. Trains pass every hour at 60 mph while you stand still. You bike at 15 mph toward them. How many minutes between successive trains passing you?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909672,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "--- SUPER BONUS (extreme challenge) ---",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909673,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "18. Alice jogs at 8 mph. One minute later Bob spends 15 sec unlocking his bike then rides at 12 mph. From when Bob starts riding, how many seconds until he catches Alice?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909674,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "19. It rains 20% of the time. You wear your poodle shirt 40% of the time (independent of rain). What percent chance that it rains OR you wear the poodle shirt OR both? (Number only, no % sign.)",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775886909675,
+      "source": "Module 0 - Week 3 Challenge [✅ PASSED 70%]",
+      "text": "20. [Figure: building floor plan. Center room = Start. Exits: A (top-right), B (right), C (bottom), D (left), E (top-left). Rooms connected by doors.] You always enter a random door to an unvisited room until you find an exit. What is the probability you exit via A, B, or C? (fraction in simplest form, no spaces)",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11"
