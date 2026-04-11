@@ -29,14 +29,30 @@ An interactive progress tracker for Christopher's Po-Shen Loh math curriculum. S
 - **Update progress %**: Drag the slider for any module/workout
 - **Toggle spaced rep notes**: Check the checkbox, then add a comment (e.g., "lessons 1-10 noted, 14-15 missing")
 - **Add manual flags**: Write flags like "Module 0 - Exam 2 not done" and click "Add Flag"
-- **Export backup**: Click "Export Backup (JSON)" to save a local copy
+- **Export/Import backups**: Use buttons in header toolbar
 - All changes auto-save to localStorage and backup
+
+### GitHub sync (optional):
+1. Click the **GH** button in the top-right (gray if offline)
+2. Paste your GitHub Personal Access Token (PAT with `repo` scope)
+3. Click **Save Token**
+4. Status changes to **● GH** (green, synced)
+5. All future changes auto-sync to `christopher-psl-data.json` in the repo
+6. Sync status and last updated timestamp shown in header
+7. Click **Disconnect** to disable GitHub sync and revert to localStorage-only
+
+**To create a GitHub PAT:**
+- Go to https://github.com/settings/tokens
+- Click "Generate new token (classic)"
+- Scopes: check `repo` (full control of private repositories)
+- Copy the token and paste into the app
 
 ### From Claude Code:
 Most updates are done in the browser. If you need to manually edit data:
 - Edit `index.html` → find `DEFAULT_DATA` object → update module/workout values
+- Or the app syncs to `christopher-psl-data.json` which you can also edit directly
 - Commit and push
-- Refresh the browser (data reloads from GitHub)
+- Refresh the browser to reload
 
 ---
 
@@ -63,12 +79,13 @@ Most updates are done in the browser. If you need to manually edit data:
 
 ---
 
-## GitHub deployment
+## GitHub deployment & API sync
 
-- Hosted on GitHub Pages: `grrarr/fufu-poshen-loh`
-- Source: `main` (or `master` if that's what's deployed)
-- Deploys automatically on push (~30 seconds)
-- To set up GitHub CLI for future autonomous repo operations: `gh auth login`
+- **GitHub Pages**: Hosted at https://grrarr.github.io/fufu-poshen-loh/
+- **Repository**: `grrarr/fufu-poshen-loh` (branch: `master`)
+- **Data sync file**: `christopher-psl-data.json` (auto-created on first sync)
+- **Auto-deploys** on every push (~30 seconds)
+- **GitHub CLI**: Already set up with `gh auth login` for autonomous repo operations (Claude Code uses this for commits/pushes)
 
 ---
 
