@@ -120,22 +120,55 @@ I need to extract all problems from this page. For each problem:
 
 1. If it's pure text/numbers — copy the problem text exactly
 2. If it has math symbols (fractions, exponents, square roots, summations, etc.) — write them out in plain readable math. Use: ^ for exponents, sqrt() for roots, / for fractions, * for multiply. E.g., "What is 2^3 + sqrt(16) / 4?"
-3. If it has any image — whether it's a geometric figure, diagram, table, chart, or graph — grab the image URL (right-click → Copy Image Address, or inspect the <img> src) and include it on a separate line right after the problem, formatted as: IMAGE: https://... Also briefly describe what it shows in brackets, e.g., [Figure: triangle with labeled sides] or [Table: values of f(x)]. Do NOT try to reproduce tables/charts as text if they're rendered as images.
+3. If it has any image — whether it's a geometric figure, diagram, table, chart, or graph — grab the image URL (right-click → Copy Image Address, or inspect the <img> src) and include it on a separate line right after the problem, formatted as: IMAGE: https://... Also briefly describe what it shows in brackets, e.g., [Figure: triangle with labeled sides] or [Table: values of f(x)]. Do NOT try to reproduce tables/charts as text if they're rendered as images. Do NOT screenshot or embed images directly — just give me the URL.
 4. If it has multiple choice answers — include them as (A) (B) (C) (D) (E) after the question
 
 Format: output each problem separated by a blank line. Number them. Don't add commentary.
 
+Important: Do NOT take screenshots of images. Only extract the image src URL from the HTML. This avoids size limit errors.
+
 Source label for these problems: Module 0 - Mini Test 3
 ```
 
-### After extraction
-1. Copy Claude's entire output
-2. Go to https://grrarr.github.io/fufu-poshen-loh/
-3. Scroll to **Exam Problem Bank** → click **+ Add Problems**
-4. Enter the source name (e.g., `Module 0 - Mini Test 3`)
-5. Paste the problems
-6. Click **Add N Problem(s)**
-7. For any problem that had `IMAGE: https://...` in the output — expand the problem → click **+ Image** → paste that URL
+For pages with multiple tests (mini tests + final), use this variant instead:
+
+```
+I need to extract all problems from every test on this page — all mini tests and the final exam. For each problem:
+
+1. If it's pure text/numbers — copy the problem text exactly
+2. If it has math symbols (fractions, exponents, square roots, summations, etc.) — write them out in plain readable math. Use: ^ for exponents, sqrt() for roots, / for fractions, * for multiply. E.g., "What is 2^3 + sqrt(16) / 4?"
+3. If it has any image — whether it's a geometric figure, diagram, table, chart, or graph — grab the image URL (right-click → Copy Image Address, or inspect the <img> src) and include it on a separate line right after the problem, formatted as: IMAGE: https://... Also briefly describe what it shows in brackets, e.g., [Figure: triangle with labeled sides] or [Table: values of f(x)]. Do NOT try to reproduce tables/charts as text if they're rendered as images. Do NOT screenshot or embed images directly — just give me the URL.
+4. If it has multiple choice answers — include them as (A) (B) (C) (D) (E) after the question
+
+Label each section with its source — e.g., "Module 3 - Mini Test 1", "Module 3 - Mini Test 2", "Module 3 - Final Exam", etc.
+
+Format: output each problem separated by a blank line. Number them within each section. Don't add commentary.
+
+Important: Do NOT take screenshots of images. Only extract the image src URL from the HTML. This avoids size limit errors.
+```
+
+### After extraction — adding to the app via Claude in Chrome
+
+Once extraction is done, give Claude this prompt:
+
+```
+Now navigate to https://grrarr.github.io/fufu-poshen-loh/
+
+Scroll down to the "Exam Problem Bank" section. For each test section you extracted (e.g., "Module 3 - Mini Test 1"), do the following:
+
+1. Click the + Add Problems button
+2. In the source field, type the source name exactly (e.g., "Module 3 - Mini Test 1")
+3. In the text area, paste all the problems for that source — each separated by a blank line
+4. Click the Add N Problem(s) button
+5. Repeat for each source section
+
+After all problems are added, for any problem that had an IMAGE: URL in the extraction:
+1. Find and click on that problem to expand it
+2. Click the + Image button
+3. Paste the image URL into the field
+
+Work through all sources one batch at a time. Confirm when done.
+```
 
 ### If image URLs break later
 PSL's image URLs may expire or require auth. If an image stops loading:
@@ -152,10 +185,12 @@ Go through untriaged problems together:
 - Already added to fufu-spaced-rep → **In Spaced Rep**
 
 ### Gotchas
+- **Image size error**: If Claude in Chrome hits "image dimensions exceed max allowed size" — it's trying to screenshot instead of grabbing the URL. Remind it: "Do NOT screenshot — only extract the `<img>` src URL from the HTML"
 - **Multi-part problems**: Claude should keep parts together as one problem. If it splits them, delete the fragment and edit the main one
 - **Answer keys**: Tell Claude: "Ignore the answer key, just extract the problems"
 - **Long tests**: Scroll and ask Claude to "continue extracting from where you left off" — paste both batches with the same source name
 - **Unreadable diagrams**: If Claude can't interpret a figure, it'll come through vague. The image URL is the backup — attach it via + Image
+- **If Claude can't find the + Add Problems button**: Tell it to scroll to the bottom of the page
 
 ---
 
