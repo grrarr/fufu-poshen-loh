@@ -1331,6 +1331,182 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925731,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "1. An alternative recipe for cookies requires 8 eggs, 6 cups flour, 3 cups sugar. If you want to use exactly 5 eggs to make these cookies, what will be the adjusted recipe for these cookies?\n(A) 5 eggs, 5 cups flour, 5 cups sugar\n(B) 5 eggs, 3 3/4 cups flour, 1 7/8 cups sugar\n(C) 5 eggs, 2 cups flour, 5 cups sugar\n(D) 5 eggs, 6 cups flour, 6 cups sugar\n(E) 5 eggs, 5 cups flour, 2 cups sugar",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925732,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "2. The ratio of red candies, to blue candies, to yellow candies in a bag is 2:3:5. What percent of the total candies are red?\n(A) 20%\n(B) 1/3\n(C) 10%\n(D) 66.67%\n(E) 2%",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925733,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "3. Which of the following sequences is a geometric sequence? In a geometric sequence, a term is found by multiplying the previous term by a certain number, called a factor, which is the same for all terms.\n(A) 10, 110, 1110, 11110\n(B) 1, 2, 3, 4\n(C) 108, 36, 12, 4\n(D) 0.1, 0.11, 0.111, 0.1111\n(E) 12, 14, 16, 18",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925734,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "4. An oak tree is 80 feet taller than a flagpole, and three times as tall as it. How many feet tall is the flagpole? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925735,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "5. Anna has a water bottle that is half full. After she drinks 15 fluid ounces from the bottle, it is only one-fifth full. What is the total capacity of the water bottle, in fluid ounces?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925736,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "6. Joe wants to buy a shirt that costs $50, and he has a coupon for 30% off. When he arrives at the store, however, he sees that the shirt has already been discounted 20%, but he can still use the coupon. How much does Joe end up paying for the shirt, in dollars?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925737,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "7. If two similar rectangles are proportional to each other, with the first rectangle having dimensions length1 and width1, and the second rectangle having dimensions length2 and width2, then all of the following statements are true EXCEPT for which one?\n(A) length2/length1 = width2/width1\n(B) length2/width1 = width2/length1\n(C) length2/width2 = length1/width1\n(D) width2/length2 = width1/length1\n(E) width2/width1 = length2/length1",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925738,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "8. Adam eats 20% of a pizza, Bethany eats another 1/3 of the pizza, and Charlie eats the remaining 14 slices. How many slices total did the pizza originally have?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925739,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "9. Which of the following is the same as 2% of 50?\n(A) 20% of 5\n(B) 5% of 20\n(C) (2/100) * 50\n(D) 50% of 2\n(E) All of the above",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925740,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "10. Your brother is half as tall as a tree which is three times as tall as you. What percent taller is your brother compared to you?\n(A) 30%\n(B) 300%\n(C) 50%\n(D) 1/2\n(E) 3.5%",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925741,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "--- BONUS ---",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925742,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "11. By what percent will the area of a rectangle increase if its sides increase by 20%? Your answer should be a number, without the % sign.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925743,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "12. You paid $15.73 total for a meal at a restaurant, which includes the cost of the tip, which is 15% of the menu price of the meal. What is the menu price of your meal?\n(A) $15.73 * 0.15\n(B) $15.73 * 1.15\n(C) $15.73 * 0.85\n(D) $15.73 / 0.15\n(E) $15.73 / 1.15",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925744,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "13. A brother's age is 40% of his sister's age. What percent of the brother's age is the sister's age? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925745,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "14. Calculate 1001 * 0.0142857142857142857... as a (terminating) decimal.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925746,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "15. Number B is twice as big as Number C, and Number A is 5/6 of Number B. Find the percent of Number A that is Number C. Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925747,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "16. At the beginning of the year, the number of men employed at a plant was 40% of the total factory workers. After six months, 6 men were hired and 5 women quit, making the number of men and women at the factory equal. How many people were working at the plant at the beginning of the year?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925748,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "17. Alice and Bob are playing a game together. If Bob uses a fair dice, there is a 50% chance that he will win. However, there is a 60% chance that Bob will cheat using an unfair dice which gives him a 75% chance of winning. What percent of the time does Bob actually win? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925749,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "--- SUPER BONUS ---",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925750,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "18. A watermelon is 99% water. You have 100 pounds of watermelon. After a week under the sun, the watermelon has dried down to being 98% water. What is the total weight of the watermelon now? Your answer should be the number only, without units.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925751,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "19. Evan is deciding whether to open a bank account in Bank A or Bank B. Bank A has a yearly annual interest rate of 10% (that is, at the end of every year, the amount of money in a Bank A account increases by 10%). Bank B has an interest rate that is applied once every three years (that is, at the end of every three-year period, the amount of money in a Bank B account increases by some fixed rate). What is the smallest such interest rate that Bank B must have in order to be competitive with Bank A? Express your answer as a percent rounded to the nearest tenth, e.g. 50.5",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775890925752,
+      "source": "Module 1 - Week 2 Challenge [✅ PASSED 90%]",
+      "text": "20. Near a lake, 17% of the pollywogs eat 75% of the flies. If they had each eaten 7% more, what percent less do the rest of the pollywogs eat?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
     }
   ],
   "lastUpdated": "2026-04-11"
