@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "updated": "2026-04-11",
+  "modules": [
+    {
+      "id": "mod0",
+      "name": "Module 0: Introduction",
+      "progress": 98,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "mod1",
+      "name": "Module 1: Algebra Basics",
+      "progress": 100,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "mod2",
+      "name": "Module 2: Geometry Tools",
+      "progress": 95,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "mod3",
+      "name": "Module 3: Algebra Tools",
+      "progress": 98,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "mod4",
+      "name": "Module 4: Combinatorics Tools",
+      "progress": 15,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "mod5",
+      "name": "Module 5: Number Theory Tools",
+      "progress": 0,
+      "notesAdded": false,
+      "notesComment": ""
+    }
+  ],
+  "workouts": [
+    {
+      "id": "w1a",
+      "name": "Workout 1A: Algebra Basics",
+      "progress": 100,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "w1b",
+      "name": "Workout 1B: Algebra Basics",
+      "progress": 100,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "w2a",
+      "name": "Workout 2A: Geometry Tools",
+      "progress": 0,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "w3a",
+      "name": "Workout 3A: Algebra Tools",
+      "progress": 0,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "w4a",
+      "name": "Workout 4A: Combinatorics Tools",
+      "progress": 3,
+      "notesAdded": false,
+      "notesComment": ""
+    },
+    {
+      "id": "w5a",
+      "name": "Workout 5A: Number Theory Tools",
+      "progress": 0,
+      "notesAdded": false,
+      "notesComment": ""
+    }
+  ],
+  "flags": [],
+  "lastUpdated": "2026-04-11"
+}
