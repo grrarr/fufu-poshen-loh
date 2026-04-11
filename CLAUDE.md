@@ -87,9 +87,11 @@ Most updates are done in the browser. If you need to manually edit data:
   - `promoted` — Already added to fufu-spaced-rep as a card
 - Problems are added via bulk paste (separated by blank lines) with a source tag (e.g., "Module 3 - Final Exam")
 - Intended workflow: Extract via Claude in Chrome → paste into bank → triage → promote hard ones to spaced rep
-- Problems can have an attached **image URL** — for geometry diagrams, figures, etc.
-  - Images stored in `images/` folder in the repo (e.g., `images/mod3-final-q7.png`)
-  - Served via `https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/FILENAME`
+- Problems can have an attached **image URL** — for geometry diagrams, figures, tables, charts, etc.
+  - Prefer using the original image URL from the PSL platform (grab via right-click → Copy Image Address)
+  - If PSL URLs expire, fall back to hosting in `images/` folder in the repo
+  - Fallback URLs served via `https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/FILENAME`
+  - Naming convention: `mod{N}-mt{N}-q{N}.png` (mini test), `mod{N}-final-q{N}.png` (final), `w{X}-mt{N}-q{N}.png` / `w{X}-final-q{N}.png` (workouts)
   - Click "+ Image" on any problem card to attach a URL
   - Displayed inline with white background (for diagrams on white)
 
@@ -102,6 +104,58 @@ Most updates are done in the browser. If you need to manually edit data:
 - **Data sync file**: `christopher-psl-data.json` (auto-created on first sync)
 - **Auto-deploys** on every push (~30 seconds)
 - **GitHub CLI**: Already set up with `gh auth login` for autonomous repo operations (Claude Code uses this for commits/pushes)
+
+---
+
+## Extracting exam problems with Claude in Chrome
+
+### Setup
+Open the exam/test page in the PSL platform. Make sure the full test is visible (scroll to load all problems if needed).
+
+### The prompt
+Adapt the source name each time (e.g., "Module 0 - Mini Test 3", "Module 3 - Final Exam", "Workout 1A - Final Exam").
+
+```
+I need to extract all problems from this page. For each problem:
+
+1. If it's pure text/numbers — copy the problem text exactly
+2. If it has math symbols (fractions, exponents, square roots, summations, etc.) — write them out in plain readable math. Use: ^ for exponents, sqrt() for roots, / for fractions, * for multiply. E.g., "What is 2^3 + sqrt(16) / 4?"
+3. If it has any image — whether it's a geometric figure, diagram, table, chart, or graph — grab the image URL (right-click → Copy Image Address, or inspect the <img> src) and include it on a separate line right after the problem, formatted as: IMAGE: https://... Also briefly describe what it shows in brackets, e.g., [Figure: triangle with labeled sides] or [Table: values of f(x)]. Do NOT try to reproduce tables/charts as text if they're rendered as images.
+4. If it has multiple choice answers — include them as (A) (B) (C) (D) (E) after the question
+
+Format: output each problem separated by a blank line. Number them. Don't add commentary.
+
+Source label for these problems: Module 0 - Mini Test 3
+```
+
+### After extraction
+1. Copy Claude's entire output
+2. Go to https://grrarr.github.io/fufu-poshen-loh/
+3. Scroll to **Exam Problem Bank** → click **+ Add Problems**
+4. Enter the source name (e.g., `Module 0 - Mini Test 3`)
+5. Paste the problems
+6. Click **Add N Problem(s)**
+7. For any problem that had `IMAGE: https://...` in the output — expand the problem → click **+ Image** → paste that URL
+
+### If image URLs break later
+PSL's image URLs may expire or require auth. If an image stops loading:
+1. Screenshot it or re-grab from PSL
+2. Save as e.g. `mod0-mt3-q5.png`
+3. Tell Claude Code: "add this image to the images folder and push"
+4. Update the image URL in the app to: `https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-mt3-q5.png`
+
+### Triage session (separate step, with Christopher)
+Go through untriaged problems together:
+- He solves it instantly → **Trivial**
+- He's unsure or gets it wrong → **Needs Review**
+- He doesn't know the formula/method → **Needs Formula** (note which formula)
+- Already added to fufu-spaced-rep → **In Spaced Rep**
+
+### Gotchas
+- **Multi-part problems**: Claude should keep parts together as one problem. If it splits them, delete the fragment and edit the main one
+- **Answer keys**: Tell Claude: "Ignore the answer key, just extract the problems"
+- **Long tests**: Scroll and ask Claude to "continue extracting from where you left off" — paste both batches with the same source name
+- **Unreadable diagrams**: If Claude can't interpret a figure, it'll come through vague. The image URL is the backup — attach it via + Image
 
 ---
 
