@@ -3371,6 +3371,166 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802316,
+      "source": "Module 3 - Mini Test 4",
+      "text": "Suppose we have these four equations: y = 3x + 2; y = 3x + 5; y = −x + 10; y = −x + 15. Consider the points that we get from these lines crossing each other. If you connect all of these points with straight lines, what kind of shape do you get? (A) parallelogram (B) triangle (C) circle (D) square (E) line",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802317,
+      "source": "Module 3 - Mini Test 4",
+      "text": "In order to find the point E that is equidistant (equal distance) from three points, A, B, and C, you would do which of the following steps? (A) Connect the midpoints of AB and BC, and E is the midpoint of this line. (B) Find the midpoint of the line connecting A and C. This is E. (C) Draw an arc with B as the center, passing through A and C, and point E is at the middle of this arc. (D) Draw B as the equidistant point. (E) Construct a line perpendicular to AB passing through its center, and construct a line perpendicular to BC passing through its center. E is where these two lines cross.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802318,
+      "source": "Module 3 - Mini Test 4",
+      "text": "An ant starts walking along a parabola, y(x) = x^2, starting from the point where x = 3. He walks until a point where x = 3 + a, where a is a positive number. What is the y-coordinate of the point that he is at now? (A) 6 + 2a (B) 9 + 6a + a^2 (C) 9 + a^2 (D) 9a (E) 9 + a",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802319,
+      "source": "Module 3 - Mini Test 4",
+      "text": "An ant walks along a parabola, y = x^2, from point A, on the curve where x = 3, to point B, on the curve where x = 3 + a, and a is positive. Find the slope of the straight line AB. (A) 6 (B) 3 (C) 2 (D) 6 + a (E) 3 + a",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802320,
+      "source": "Module 3 - Mini Test 4",
+      "text": "If the distinct lines y = ax + b and y = −7x + 49 never intersect, what is the value of a?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802321,
+      "source": "Module 3 - Mini Test 4",
+      "text": "Which of the following choices corresponds to equation(s) of a straight line? (A) y = 1 (B) y = x + 1 (C) y = x^2 + 2x + 1 (D) y = x^3 + 3x^2 + 3x + 1 (E) The first and second choices",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802322,
+      "source": "Module 3 - Mini Test 4",
+      "text": "Find the perimeter of a triangle bounded by a straight line 5x + 12y = −60 and coordinate axes.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802323,
+      "source": "Module 3 - Mini Test 4",
+      "text": "You are looking for a new phone plan and found two options: Pi-Phone and Euler-Mobile. Pi-Phone costs $30 a month plus 5 cents for every call you make. Euler-Mobile, on the other hand, only costs $3 a month, but calls cost 16 cents. How many calls do you need to make for Pi-Phone to be a better deal?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802324,
+      "source": "Module 3 - Mini Test 4",
+      "text": "There are six different parallel lines of slope 1/3 that are equal distance apart. If the distance between the y-intercepts of two adjacent lines is 72, find the distance between the x-intercepts of those two adjacent lines.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802325,
+      "source": "Module 3 - Mini Test 4",
+      "text": "What is the slope of the line that touches the graph of the curve y = x^2 + x at only the point (1, 2)?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802326,
+      "source": "Module 3 - Mini Test 4",
+      "text": "Points A(1,1), B(4,2) and C(0,7) are the vertices of the triangle ABC. What is the slope of the line that contains the height of the triangle drawn to AB?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802327,
+      "source": "Module 3 - Mini Test 4",
+      "text": "Find the slope of the line containing the midpoint of (0,3) and (7,8) and the midpoint of (−3,−19) and (4,10). Your answer should be a fraction in simplest terms, with no spaces, and not a mixed number, e.g. 3/2",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802328,
+      "source": "Module 3 - Mini Test 4",
+      "text": "The sum of the x-coordinates of a triangle's vertices equals 71. What is the square of the sum of the x-coordinates of the midpoints of the sides of this triangle?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802329,
+      "source": "Module 3 - Mini Test 4",
+      "text": "A square has opposite corners at (11,2) and (15,10). Find the sum of the x-coordinates of its other two corners.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802330,
+      "source": "Module 3 - Mini Test 4",
+      "text": "A banana is at (0,0). A monkey is running along x + 2y = 20 towards the banana. At some point (a,b) the distance from the monkey to the banana stops decreasing and starts to increase. What is a + b?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802331,
+      "source": "Module 3 - Mini Test 4",
+      "text": "A lattice point is a coordinate (x,y) where both values of x and y are integers. The graph of 3y = 2x + 15 crosses how many lattice points inside or on the border of the shaded square region above?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802332,
+      "source": "Module 3 - Mini Test 4",
+      "text": "Ten different lines pass through the point (3,4), and they each have different slopes which form an arithmetic progression, starting from a slope of −1, −2, −3, −4, −5, −6, −7, −8 and −9 to a slope of −10. What is the sum of the y-intercepts of these ten lines?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802333,
+      "source": "Module 3 - Mini Test 4",
+      "text": "The length of the straight line between (3,7) and (5x − 6, 6x − 5) is sqrt(193x). What is the sum of the possible values of x?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802334,
+      "source": "Module 3 - Mini Test 4",
+      "text": "Squares A and B both have dimensions 2019 * 2019. Square A has both its dimensions enlarged by integer x, while Square B has both its dimensions decreased by this same quantity x. What is the least x such that the resulting difference between the area of Square A and the area of Square B is at least 2019 * 2019?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898802335,
+      "source": "Module 3 - Mini Test 4",
+      "text": "A helicopter flies to a point 2 km north and 1 km west of its starting point. Then it turns to the right at a 90 degree angle and flies a distance equal to its previous distance plus 1/2 of its very first distance. (Note: Not half of its previous distance, but half of its first leg.) How many kilometers away will the helicopter be from its original position after 96 such turns? Your answer should be in the form a*sqrt(b), where b does not contain any square factors.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
     }
   ],
   "lastUpdated": "2026-04-11"
