@@ -3531,6 +3531,166 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873313,
+      "source": "Module 3 - Final Exam",
+      "text": "Find the vertical distance between two parallel lines given by the following equations: y(x) = 5x − 11; g(x) = 5x + 6",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873314,
+      "source": "Module 3 - Final Exam",
+      "text": "There are 100 cycles, all of which are bicycles (which have 2 wheels) or tricycles (which have 3 wheels). The cycles have 237 wheels altogether. How many bicycles are there?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873315,
+      "source": "Module 3 - Final Exam",
+      "text": "Suppose that the symbol x @ y means 1/x + 1/y. If 3 @ (2 @ x) = 1, what is x?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873316,
+      "source": "Module 3 - Final Exam",
+      "text": "There are three 2-digit numbers that have the property that if you subtract 3 times its tens digit from it, the result is the original 2-digit number with the digits swapped. Find the sum of these three 2-digit numbers.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873317,
+      "source": "Module 3 - Final Exam",
+      "text": "What is the sum of all even 2-digit numbers?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873318,
+      "source": "Module 3 - Final Exam",
+      "text": "A square's area plus its perimeter equals 285. What is the side length of the square?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873319,
+      "source": "Module 3 - Final Exam",
+      "text": "Starting from a point on the ground, a ball is thrown straight up to a height of 1 meter. It bounces up and down vertically, each time reaching a maximum height that is 2/3 its previous maximum height. How many total meters will the ball travel, if it keeps bouncing forever?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873320,
+      "source": "Module 3 - Final Exam",
+      "text": "Simplify sqrt(20 + 10*sqrt(3)) and rewrite it in simplest radical form as a*(sqrt(b) + sqrt(c)) by filling whole numbers into these blanks.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873321,
+      "source": "Module 3 - Final Exam",
+      "text": "If Brian bikes to school at a speed of 15 miles per hour, he will get to school two minutes early. If he bikes to school at a speed of 12 miles per hour, he will get to school two minutes late. What speed should he bike at so that he gets to school on time? Your answer should be an improper fraction in simplest terms.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873322,
+      "source": "Module 3 - Final Exam",
+      "text": "Find the value of the positive number: sqrt(30 + sqrt(30 + sqrt(30 + ...)))",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873323,
+      "source": "Module 3 - Final Exam",
+      "text": "The sum of two numbers is 16 and the sum of their cubes is 1456. What is the product of the two numbers?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873324,
+      "source": "Module 3 - Final Exam",
+      "text": "Two numbers have a difference of 4 with an arithmetic mean 7 larger than their geometric mean. Find their sum. Your answer should be a fraction in simplest terms.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873325,
+      "source": "Module 3 - Final Exam",
+      "text": "What is the slope of the curve y = x^3 at the point (2, 8)?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873326,
+      "source": "Module 3 - Final Exam",
+      "text": "Two friends, R.U. Cumming and Ida Ngo, live 7 miles apart. R.U. starts to walk toward Ida's house, texting her along the way. After receiving R.U.'s text, Ida decides to walk towards his house, at 6/5 his speed. They meet somewhere in between, after R.U. has spent 3 times as long walking as Ida. How many miles did R.U. walk?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873327,
+      "source": "Module 3 - Final Exam",
+      "text": "A triangle has corners A(0,0), B(12,0), and C(0,6). If the midpoint of AB is connected to C and the midpoint of AC is connected to B, they intersect at a point with coordinates (x,y). What is x?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873328,
+      "source": "Module 3 - Final Exam",
+      "text": "The length of the straight line between (4,6) and (x+1, 4x−2) is sqrt(151x). What is the sum of the possible values of x?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873329,
+      "source": "Module 3 - Final Exam",
+      "text": "A straight line passes through the points (−10, 1/3) and (−2, 17/3). What is the x-intercept of another line perpendicular to this first line which passes through the midpoint between (−10, 1/3) and (−2, 17/3)?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873330,
+      "source": "Module 3 - Final Exam",
+      "text": "Find the smallest positive integer n such that n^2 − 20n + 64 is a positive square.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873331,
+      "source": "Module 3 - Final Exam",
+      "text": "What is the value of b that makes 42ab + 24b = 35a + 20 true for all values of a? Your answer should be a fraction in simplest terms.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898873332,
+      "source": "Module 3 - Final Exam",
+      "text": "Suppose xy = 9 and x + 1/y = 100. Find the value of y + 1/x. Your answer should be a fraction in simplest terms.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
     }
   ],
   "lastUpdated": "2026-04-11"
