@@ -3395,7 +3395,8 @@
       "text": "An ant starts walking along a parabola, y(x) = x^2, starting from the point where x = 3. He walks until a point where x = 3 + a, where a is a positive number. What is the y-coordinate of the point that he is at now? (A) 6 + 2a (B) 9 + 6a + a^2 (C) 9 + a^2 (D) 9a (E) 9 + a",
       "status": "untriaged",
       "note": "",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/M4W4-exam-point-x-3.png"
     },
     {
       "id": 1775898802319,
