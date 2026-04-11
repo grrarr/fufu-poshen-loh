@@ -225,6 +225,145 @@
       margin-top: 4px;
       font-family: 'Monaco', 'Courier New', monospace;
     }
+
+    /* ── Exam Problem Bank ─────────────────────────────────────────────── */
+    .problem-bank {
+      background: #1a1f3a;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 15px;
+    }
+    .problem-filters {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 15px;
+    }
+    .problem-filters button {
+      padding: 5px 12px;
+      font-size: 0.8em;
+      border-radius: 20px;
+    }
+    .problem-filters button.active {
+      background: #2a4a62;
+      font-weight: bold;
+    }
+    .problem-card {
+      background: #0a0e27;
+      border-radius: 6px;
+      margin: 8px 0;
+      border-left: 3px solid #555;
+      overflow: hidden;
+    }
+    .problem-card[data-status="untriaged"] { border-left-color: #888; }
+    .problem-card[data-status="trivial"] { border-left-color: #4dff88; }
+    .problem-card[data-status="needs-review"] { border-left-color: #ff6b6b; }
+    .problem-card[data-status="promoted"] { border-left-color: #4da6ff; }
+    .problem-card[data-status="needs-formula"] { border-left-color: #d97706; }
+    .problem-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 10px 12px;
+      cursor: pointer;
+      gap: 10px;
+    }
+    .problem-header:hover { background: #141926; }
+    .problem-text {
+      flex: 1;
+      font-size: 0.9em;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .problem-text.collapsed {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    .problem-meta {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .status-badge {
+      font-size: 0.7em;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+    }
+    .status-badge[data-status="untriaged"] { background: #333; color: #888; }
+    .status-badge[data-status="trivial"] { background: #1a3a2a; color: #4dff88; }
+    .status-badge[data-status="needs-review"] { background: #3a1a1a; color: #ff6b6b; }
+    .status-badge[data-status="promoted"] { background: #1a2a3a; color: #4da6ff; }
+    .status-badge[data-status="needs-formula"] { background: #3a2a1a; color: #d97706; }
+    .problem-detail {
+      padding: 0 12px 12px;
+      border-top: 1px solid #1a1f3a;
+    }
+    .problem-detail select {
+      background: #141926;
+      color: #e0e0e0;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 5px 8px;
+      font-size: 0.85em;
+      cursor: pointer;
+    }
+    .problem-detail select:focus { outline: none; border-color: #66d9ff; }
+    .problem-actions {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+    .source-badge {
+      font-size: 0.75em;
+      color: #666;
+      font-family: 'Monaco', 'Courier New', monospace;
+    }
+    .bulk-add-section {
+      background: #0a0e27;
+      border: 1px solid #333;
+      border-radius: 6px;
+      padding: 12px;
+      margin-top: 15px;
+    }
+    .bulk-add-section input[type="text"] {
+      width: 100%;
+      background: #141926;
+      color: #e0e0e0;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-size: 0.9em;
+      margin-bottom: 8px;
+    }
+    .bulk-add-section input[type="text"]:focus { outline: none; border-color: #66d9ff; }
+    .bank-summary {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+      font-size: 0.85em;
+    }
+    .bank-summary-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .bank-summary-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+    }
   </style>
 </head>
 <body>
@@ -271,6 +410,7 @@
         { id: 'w5a', name: 'Workout 5A: Number Theory Tools', progress: 0, notesAdded: false, notesComment: '', hasTodos: false, todoComment: '' },
       ],
       flags: [],
+      examProblems: [],
       lastUpdated: TODAY,
     };
 
@@ -383,6 +523,7 @@
         if (!result.modules || result.modules.length === 0) result.modules = DEFAULT_DATA.modules;
         if (!result.workouts || result.workouts.length === 0) result.workouts = DEFAULT_DATA.workouts;
         if (!result.flags) result.flags = [];
+        if (!result.examProblems) result.examProblems = [];
         // Backfill new fields on individual items
         const backfill = (item) => ({
           hasTodos: false, todoComment: '',
@@ -514,6 +655,46 @@
 
       const fileRef = useRef(null);
 
+      // ── Exam Problem Bank helpers ───────────────────────────────────
+      const addExamProblems = (source, textBlock) => {
+        if (!textBlock.trim() || !source.trim()) return;
+        // Split by blank lines or numbered patterns like "1." "2)" etc.
+        const chunks = textBlock.split(/\n\s*\n/).filter(s => s.trim());
+        const newProblems = chunks.map((text, i) => ({
+          id: Date.now() + i,
+          source: source.trim(),
+          text: text.trim(),
+          status: 'untriaged', // untriaged | trivial | needs-review | promoted | needs-formula
+          note: '',
+          dateAdded: TODAY,
+        }));
+        const newData = {
+          ...data,
+          examProblems: [...(data.examProblems || []), ...newProblems],
+          lastUpdated: TODAY,
+        };
+        save(newData);
+        flash(`Added ${newProblems.length} problem${newProblems.length > 1 ? 's' : ''}`);
+      };
+
+      const updateProblem = (id, updates) => {
+        const newData = {
+          ...data,
+          examProblems: data.examProblems.map(p => p.id === id ? { ...p, ...updates } : p),
+          lastUpdated: TODAY,
+        };
+        save(newData);
+      };
+
+      const deleteProblem = (id) => {
+        const newData = {
+          ...data,
+          examProblems: data.examProblems.filter(p => p.id !== id),
+          lastUpdated: TODAY,
+        };
+        save(newData);
+      };
+
       if (!data) return <div style={{color: '#666', padding: '40px'}}>Loading...</div>;
 
       const modulesComplete = data.modules.filter(m => m.progress === 100).length;
@@ -521,6 +702,15 @@
       const modulesWithNotes = data.modules.filter(m => m.notesAdded).length;
       const workoutsWithNotes = data.workouts.filter(w => w.notesAdded).length;
       const totalTodos = data.modules.filter(m => m.hasTodos).length + data.workouts.filter(w => w.hasTodos).length;
+      const problems = data.examProblems || [];
+      const problemCounts = {
+        total: problems.length,
+        untriaged: problems.filter(p => p.status === 'untriaged').length,
+        trivial: problems.filter(p => p.status === 'trivial').length,
+        needsReview: problems.filter(p => p.status === 'needs-review').length,
+        promoted: problems.filter(p => p.status === 'promoted').length,
+        needsFormula: problems.filter(p => p.status === 'needs-formula').length,
+      };
 
       const ghColor = ghStatus === 'synced' ? '#4dff88'
         : ghStatus === 'error' ? '#ff6b6b'
@@ -629,6 +819,10 @@
               <div className="stat-number" style={{color: totalTodos > 0 ? '#ffa040' : '#66d9ff'}}>{totalTodos}</div>
               <div className="stat-label">Has TODOs</div>
             </div>
+            <div className="stat-card">
+              <div className="stat-number" style={{color: problemCounts.untriaged > 0 ? '#ffa040' : '#66d9ff'}}>{problemCounts.total}</div>
+              <div className="stat-label">Exam Problems</div>
+            </div>
           </div>
 
           <div className="section">
@@ -671,6 +865,17 @@
               />
               <button onClick={addFlag} className="success" style={{marginTop: '10px'}}>Add Flag</button>
             </div>
+          </div>
+
+          <div className="section">
+            <div className="section-title">Exam Problem Bank</div>
+            <ExamProblemBank
+              problems={problems}
+              counts={problemCounts}
+              onAdd={addExamProblems}
+              onUpdate={updateProblem}
+              onDelete={deleteProblem}
+            />
           </div>
         </div>
       );
@@ -785,6 +990,232 @@
               </div>
             )}
           </div>
+        </div>
+      );
+    }
+
+    // ── Exam Problem Bank ──────────────────────────────────────────────
+
+    const STATUS_META = {
+      untriaged:      { label: 'Untriaged',      color: '#888' },
+      trivial:        { label: 'Trivial',         color: '#4dff88' },
+      'needs-review': { label: 'Needs Review',    color: '#ff6b6b' },
+      promoted:       { label: 'In Spaced Rep',   color: '#4da6ff' },
+      'needs-formula':{ label: 'Needs Formula',   color: '#d97706' },
+    };
+
+    function ExamProblemBank({ problems, counts, onAdd, onUpdate, onDelete }) {
+      const [filter, setFilter] = useState('all');
+      const [sourceFilter, setSourceFilter] = useState('all');
+      const [showBulkAdd, setShowBulkAdd] = useState(false);
+      const [bulkSource, setBulkSource] = useState('');
+      const [bulkText, setBulkText] = useState('');
+      const [showTrivial, setShowTrivial] = useState(false);
+
+      const sources = [...new Set(problems.map(p => p.source))].sort();
+
+      let filtered = problems;
+      if (filter !== 'all') filtered = filtered.filter(p => p.status === filter);
+      if (sourceFilter !== 'all') filtered = filtered.filter(p => p.source === sourceFilter);
+      // Hide trivial by default unless filter is set to trivial or showTrivial is on
+      if (filter !== 'trivial' && !showTrivial) filtered = filtered.filter(p => p.status !== 'trivial');
+
+      const doBulkAdd = () => {
+        onAdd(bulkSource, bulkText);
+        setBulkText('');
+      };
+
+      return (
+        <div className="problem-bank">
+          {/* Summary dots */}
+          <div className="bank-summary">
+            {Object.entries(STATUS_META).map(([key, meta]) => {
+              const count = key === 'untriaged' ? counts.untriaged
+                : key === 'trivial' ? counts.trivial
+                : key === 'needs-review' ? counts.needsReview
+                : key === 'promoted' ? counts.promoted
+                : counts.needsFormula;
+              return (
+                <div key={key} className="bank-summary-item">
+                  <span className="bank-summary-dot" style={{background: meta.color}}></span>
+                  <span style={{color: meta.color}}>{count}</span>
+                  <span style={{color: '#666'}}>{meta.label}</span>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Filter bar */}
+          <div className="problem-filters">
+            {[
+              ['all', `All (${counts.total})`],
+              ['untriaged', `Untriaged (${counts.untriaged})`],
+              ['needs-review', `Needs Review (${counts.needsReview})`],
+              ['needs-formula', `Needs Formula (${counts.needsFormula})`],
+              ['promoted', `In Spaced Rep (${counts.promoted})`],
+              ['trivial', `Trivial (${counts.trivial})`],
+            ].map(([key, label]) => (
+              <button
+                key={key}
+                className={filter === key ? 'active' : ''}
+                onClick={() => { setFilter(key); if (key === 'trivial') setShowTrivial(true); }}
+                style={filter === key ? {
+                  color: key === 'all' ? '#4da6ff' : STATUS_META[key]?.color || '#4da6ff',
+                  borderColor: key === 'all' ? '#4da6ff' : STATUS_META[key]?.color || '#4da6ff',
+                } : {}}
+              >
+                {label}
+              </button>
+            ))}
+            {/* Source filter */}
+            {sources.length > 1 && (
+              <select
+                value={sourceFilter}
+                onChange={(e) => setSourceFilter(e.target.value)}
+                style={{
+                  background: '#141926', color: '#e0e0e0', border: '1px solid #333',
+                  borderRadius: '20px', padding: '5px 12px', fontSize: '0.8em', cursor: 'pointer',
+                }}
+              >
+                <option value="all">All sources</option>
+                {sources.map(s => <option key={s} value={s}>{s}</option>)}
+              </select>
+            )}
+          </div>
+
+          {/* Show/hide trivial toggle (when viewing All) */}
+          {filter === 'all' && counts.trivial > 0 && (
+            <div style={{marginBottom: '10px'}}>
+              <label style={{fontSize: '0.8em', color: '#666', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px'}}>
+                <input type="checkbox" checked={showTrivial} onChange={(e) => setShowTrivial(e.target.checked)} />
+                Show trivial ({counts.trivial})
+              </label>
+            </div>
+          )}
+
+          {/* Problem list */}
+          {filtered.length === 0 && problems.length > 0 && (
+            <div style={{color: '#555', padding: '20px', textAlign: 'center', fontSize: '0.9em'}}>
+              No problems match this filter
+            </div>
+          )}
+          {filtered.length === 0 && problems.length === 0 && (
+            <div style={{color: '#555', padding: '20px', textAlign: 'center', fontSize: '0.9em'}}>
+              No exam problems yet. Use "Add Problems" below to paste extracted problems.
+            </div>
+          )}
+          {filtered.map(p => (
+            <ProblemCard key={p.id} problem={p} onUpdate={onUpdate} onDelete={onDelete} />
+          ))}
+
+          {/* Bulk add */}
+          <div style={{marginTop: '15px'}}>
+            <button onClick={() => setShowBulkAdd(!showBulkAdd)} className={showBulkAdd ? 'warn' : 'success'}>
+              {showBulkAdd ? 'Cancel' : '+ Add Problems'}
+            </button>
+          </div>
+          {showBulkAdd && (
+            <div className="bulk-add-section">
+              <div style={{marginBottom: '8px', fontSize: '0.85em', color: '#888'}}>
+                Paste problems below. Separate each problem with a blank line.
+              </div>
+              <input
+                type="text"
+                value={bulkSource}
+                onChange={(e) => setBulkSource(e.target.value)}
+                placeholder="Source (e.g., Module 0 - Mini Test 3, Workout 1A - Final Exam)"
+              />
+              <textarea
+                value={bulkText}
+                onChange={(e) => setBulkText(e.target.value)}
+                placeholder={"Problem 1 text here...\n\nProblem 2 text here...\n\nProblem 3 text here..."}
+                style={{minHeight: '120px'}}
+              />
+              <button
+                onClick={doBulkAdd}
+                className="success"
+                style={{marginTop: '8px', opacity: bulkSource.trim() && bulkText.trim() ? 1 : 0.4}}
+                disabled={!bulkSource.trim() || !bulkText.trim()}
+              >
+                Add {bulkText.split(/\n\s*\n/).filter(s => s.trim()).length || 0} Problem(s)
+              </button>
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    function ProblemCard({ problem, onUpdate, onDelete }) {
+      const [expanded, setExpanded] = useState(false);
+      const [editingNote, setEditingNote] = useState(false);
+      const [confirmDelete, setConfirmDelete] = useState(false);
+      const meta = STATUS_META[problem.status] || STATUS_META.untriaged;
+
+      return (
+        <div className="problem-card" data-status={problem.status}>
+          <div className="problem-header" onClick={() => setExpanded(!expanded)}>
+            <div className={`problem-text ${expanded ? '' : 'collapsed'}`}>
+              {problem.text}
+            </div>
+            <div className="problem-meta">
+              <span className="status-badge" data-status={problem.status}>{meta.label}</span>
+            </div>
+          </div>
+          {expanded && (
+            <div className="problem-detail">
+              <div className="source-badge">{problem.source} &middot; Added {problem.dateAdded}</div>
+              <div className="problem-actions">
+                <select
+                  value={problem.status}
+                  onChange={(e) => onUpdate(problem.id, { status: e.target.value })}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <option value="untriaged">Untriaged</option>
+                  <option value="trivial">Trivial (he knows it)</option>
+                  <option value="needs-review">Needs Review</option>
+                  <option value="needs-formula">Needs Formula / Algorithm Card</option>
+                  <option value="promoted">Promoted to Spaced Rep</option>
+                </select>
+                {!confirmDelete ? (
+                  <button className="danger" onClick={() => setConfirmDelete(true)} style={{padding: '4px 10px', fontSize: '0.8em'}}>Delete</button>
+                ) : (
+                  <>
+                    <button className="danger" onClick={() => onDelete(problem.id)} style={{padding: '4px 10px', fontSize: '0.8em'}}>Confirm</button>
+                    <button onClick={() => setConfirmDelete(false)} style={{padding: '4px 10px', fontSize: '0.8em'}}>Cancel</button>
+                  </>
+                )}
+              </div>
+              {/* Note field */}
+              <div style={{marginTop: '8px'}}>
+                {editingNote || !problem.note ? (
+                  <textarea
+                    value={problem.note}
+                    onChange={(e) => onUpdate(problem.id, { note: e.target.value })}
+                    onBlur={() => setEditingNote(false)}
+                    autoFocus={editingNote}
+                    placeholder="Notes (e.g., needs trapezoid area formula card, promote with source 'PSL Mod 3 Q7')"
+                    style={{minHeight: '40px'}}
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                ) : (
+                  <div
+                    onClick={(e) => { e.stopPropagation(); setEditingNote(true); }}
+                    style={{
+                      background: '#141926',
+                      padding: '6px 8px',
+                      borderRadius: '4px',
+                      border: '1px solid #333',
+                      cursor: 'pointer',
+                      fontSize: '0.85em',
+                      color: '#aaa',
+                    }}
+                  >
+                    {problem.note}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
         </div>
       );
     }
