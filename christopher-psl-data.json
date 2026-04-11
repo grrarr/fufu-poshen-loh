@@ -3051,6 +3051,166 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898641999,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Jenny has taken 5 tests for her geometry class and has an average score of 83. If she wants an average score of 85, what does she need to get on her next test?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642000,
+      "source": "Module 3 - Mini Test 2",
+      "text": "If number a decreases by 20% and number b increases by 10%, then which of the following expressions is equal to the sum of a and b after they have changed? (A) a − 20% + b + 10% (B) 0.20a + 0.10b (C) (a + b) * (−10%) (D) 0.8a + 1.1b (E) 1.2a + 1.1b",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642001,
+      "source": "Module 3 - Mini Test 2",
+      "text": "The average of Andrew, Beatrice, and Carl's ages is 29. What will the average of their ages be in exactly 4 years?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642002,
+      "source": "Module 3 - Mini Test 2",
+      "text": "If an arithmetic sequence has a as its first term, which of the following is the nth term of this sequence? (Here r is the difference between neighboring terms.) (A) nth term = a * n (B) nth term = a^n (C) nth term = a * r^n (D) nth term = a + (n−1)r (E) nth term = a + n",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642003,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Find the value of (sqrt((sqrt(7))^3))^4.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642004,
+      "source": "Module 3 - Mini Test 2",
+      "text": "The simplified version of sqrt(12 + 6*sqrt(3)) should have which of the following forms, where a and b are both integers, and the square root is in simplest form? (A) a*sqrt(3) + b*sqrt(2) (B) a*sqrt(3) (C) a + b*sqrt(3) (D) a (E) a*sqrt(b)",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642005,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Find the fraction that is the same as 0.133133133... Your answer should be a fraction, without spaces, e.g. 1/2",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642006,
+      "source": "Module 3 - Mini Test 2",
+      "text": "When a decimal point is placed between two consecutive numbers, the new number that is formed is their average. What is the sum of the two numbers?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642007,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Simplify this expression: sqrt(12 + 6*sqrt(3)) (A) sqrt(3) + 3 (B) 4*sqrt(3) (C) 3*sqrt(3) (D) 6 + 3*sqrt(3) (E) 3 + 6*sqrt(3)",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642008,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Given two numbers a and b, where a ≠ b, what is true about the geometric mean compared to the arithmetic mean of a and b? (A) The geometric mean is always larger than the arithmetic mean (B) The geometric mean is always smaller than the arithmetic mean (C) The geometric mean is always the same as the arithmetic mean (D) The geometric mean is smaller if a and b are less than 10 (E) The geometric mean is larger if a and b are greater than 10",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642009,
+      "source": "Module 3 - Mini Test 2",
+      "text": "The third and twenty-seventh terms of an arithmetic sequence are −51 and 21, respectively. What is the seventy-second term?",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642010,
+      "source": "Module 3 - Mini Test 2",
+      "text": "If one arithmetic sequence has first term a and difference between terms r, and a second arithmetic sequence has first term a+1 and difference between terms equal to r+1, then find the difference between the sum of the first 2019 terms of the first sequence and the first 2019 terms of the second sequence. (A) 1 (B) 2 (C) 2019 + 1+2+3+4+...+2017+2018 (D) 2019 (E) 1+2+3+4+...+2017+2018",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642011,
+      "source": "Module 3 - Mini Test 2",
+      "text": "If (1/4)^4 = 2^x, find the value of x.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642012,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Which is bigger, (((2^2)^2)^2)^2 or 2^(2^(2^(2^2)))? (A) (((2^2)^2)^2)^2 (B) 2^(2^(2^(2^2))) (C) They are the same (D) Not enough information to tell",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642013,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Find the fractional form of the decimal 0.2777... (the 777 repeats). Your answer should be a fraction in simplest terms without spaces, e.g. 1/2",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642014,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Find the value of 1.142857142857... + 2.285714285714... + 3.428571428571... + 4.571428571428... + 5.714285714285... + 6.857142857142... + 7.142857142857... + 8.285714285714... + 9.428571428571... + 10.571428571428... + 11.714285714285... + 12.857142857142... + 13.142857142857... + 14.285714285714... + 15.428571428571... + 16.571428571428... + 17.714285714285... + 18.857142857142... + 19.142857142857... + 20.285714285714... + 21.428571428571... + 22.571428571428... + 23.714285714285... + 24.857142857142...",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642015,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Find the value of (cbrt(2) + cbrt(16) + cbrt(54))^3.",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642016,
+      "source": "Module 3 - Mini Test 2",
+      "text": "Simplify this expression: sqrt(sqrt(5) − sqrt(3 − sqrt(29 − 12*sqrt(5))))",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642017,
+      "source": "Module 3 - Mini Test 2",
+      "text": "The sum of the first 4 terms in an arithmetic series is 58. The sum of the first 8 terms in the arithmetic series is 236. What is the first term of the series? Your answer should be a fraction without spaces, e.g. 1/2",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
+    },
+    {
+      "id": 1775898642018,
+      "source": "Module 3 - Mini Test 2",
+      "text": "For each of the integers from 1 to 2019, take the greatest positive integer less than or equal to the square root of it. Find the sum of all these numbers. Write the number without commas, e.g. 11999",
+      "status": "untriaged",
+      "note": "",
+      "dateAdded": "2026-04-11"
     }
   ],
   "lastUpdated": "2026-04-11"
