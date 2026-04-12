@@ -7,6 +7,7 @@ An interactive progress tracker for Christopher's Po-Shen Loh math curriculum. S
 **App URL**: https://grrarr.github.io/fufu-poshen-loh/
 **Repo**: https://github.com/grrarr/fufu-poshen-loh
 **Source**: `index.html` (single file — React + Babel standalone, localStorage for persistence)
+**Extraction Guide**: `poshen-loh-extraction-guide.md` — comprehensive reference for Claude in Chrome exam extraction sessions (see below)
 
 ---
 
@@ -109,73 +110,22 @@ Most updates are done in the browser. If you need to manually edit data:
 
 ## Extracting exam problems with Claude in Chrome
 
-### Setup
-Open the exam/test page in the PSL platform. Make sure the full test is visible (scroll to load all problems if needed).
+**Full reference:** `poshen-loh-extraction-guide.md` — covers all 11 sections in detail. Read it before any extraction session.
 
-### The prompt
-Adapt the source name each time (e.g., "Module 0 - Mini Test 3", "Module 3 - Final Exam", "Workout 1A - Final Exam").
+### Key things the guide covers that aren't in this file:
+- **Brillium platform navigation** (§2-3): How to access exams via hidden form submission (`#exam__form`), landing page scenarios (Confirm Start, Confirm Login, Summary/0%), and exam timer warnings (60-75 min)
+- **MathJax extraction** (§4): `innerHTML` is blocked by browser security — must use `querySelectorAll` on MathML elements (`msup`, `mfrac`, `msqrt`, `mroot`). `textContent` is lossy (strips exponents/fractions)
+- **Image handling** (§5): NEVER screenshot images — only extract `<img>` src URLs. JS pattern for filtering out logos included
+- **React form input workaround** (§7): Standard `.value =` doesn't trigger React state. Must use `Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set` pattern
+- **Christopher's Module 3 scores** (§6): W1=80%, W2=100%, W3=60%, W4=60%, Final=40%
+- **Complete per-exam workflow** (§9): 12-step checklist from course page → Brillium → extraction → assembly
+- **10 common gotchas** (§10): Gray overlay, innerHTML blocked, timed-out attempts, dark tracker app, MathJax lossy textContent, React inputs, exam timers, retake limits, scrollable containers, image size errors
 
-```
-I need to extract all problems from this page. For each problem:
-
-1. If it's pure text/numbers — copy the problem text exactly
-2. If it has math symbols (fractions, exponents, square roots, summations, etc.) — write them out in plain readable math. Use: ^ for exponents, sqrt() for roots, / for fractions, * for multiply. E.g., "What is 2^3 + sqrt(16) / 4?"
-3. If it has any image — whether it's a geometric figure, diagram, table, chart, or graph — grab the image URL (right-click → Copy Image Address, or inspect the <img> src) and include it on a separate line right after the problem, formatted as: IMAGE: https://... Also briefly describe what it shows in brackets, e.g., [Figure: triangle with labeled sides] or [Table: values of f(x)]. Do NOT try to reproduce tables/charts as text if they're rendered as images. Do NOT screenshot or embed images directly — just give me the URL.
-4. If it has multiple choice answers — include them as (A) (B) (C) (D) (E) after the question
-
-Format: output each problem separated by a blank line. Number them. Don't add commentary.
-
-Important: Do NOT take screenshots of images. Only extract the image src URL from the HTML. This avoids size limit errors.
-
-Source label for these problems: Module 0 - Mini Test 3
-```
-
-For pages with multiple tests (mini tests + final), use this variant instead:
-
-```
-I need to extract all problems from every test on this page — all mini tests and the final exam. For each problem:
-
-1. If it's pure text/numbers — copy the problem text exactly
-2. If it has math symbols (fractions, exponents, square roots, summations, etc.) — write them out in plain readable math. Use: ^ for exponents, sqrt() for roots, / for fractions, * for multiply. E.g., "What is 2^3 + sqrt(16) / 4?"
-3. If it has any image — whether it's a geometric figure, diagram, table, chart, or graph — grab the image URL (right-click → Copy Image Address, or inspect the <img> src) and include it on a separate line right after the problem, formatted as: IMAGE: https://... Also briefly describe what it shows in brackets, e.g., [Figure: triangle with labeled sides] or [Table: values of f(x)]. Do NOT try to reproduce tables/charts as text if they're rendered as images. Do NOT screenshot or embed images directly — just give me the URL.
-4. If it has multiple choice answers — include them as (A) (B) (C) (D) (E) after the question
-
-Label each section with its source — e.g., "Module 3 - Mini Test 1", "Module 3 - Mini Test 2", "Module 3 - Final Exam", etc.
-
-Format: output each problem separated by a blank line. Number them within each section. Don't add commentary.
-
-Important: Do NOT take screenshots of images. Only extract the image src URL from the HTML. This avoids size limit errors.
-```
-
-### After extraction — adding to the app via Claude in Chrome
-
-Once extraction is done, give Claude this prompt:
-
-```
-Now navigate to https://grrarr.github.io/fufu-poshen-loh/
-
-Scroll down to the "Exam Problem Bank" section. For each test section you extracted (e.g., "Module 3 - Mini Test 1"), do the following:
-
-1. Click the + Add Problems button
-2. In the source field, type the source name exactly (e.g., "Module 3 - Mini Test 1")
-3. In the text area, paste all the problems for that source — each separated by a blank line
-4. Click the Add N Problem(s) button
-5. Repeat for each source section
-
-After all problems are added, for any problem that had an IMAGE: URL in the extraction:
-1. Find and click on that problem to expand it
-2. Click the + Image button
-3. Paste the image URL into the field
-
-Work through all sources one batch at a time. Confirm when done.
-```
-
-### If image URLs break later
-PSL's image URLs may expire or require auth. If an image stops loading:
-1. Screenshot it or re-grab from PSL
-2. Save as e.g. `mod0-mt3-q5.png`
-3. Tell Claude Code: "add this image to the images folder and push"
-4. Update the image URL in the app to: `https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-mt3-q5.png`
+### Quick reference — source naming convention
+| PSL Exam Name | Tracker Source Name |
+|---|---|
+| Week N Challenge | Module X - Mini Test N |
+| Final Challenge | Module X - Final Exam |
 
 ### Triage session (separate step, with Christopher)
 Go through untriaged problems together:
@@ -184,13 +134,12 @@ Go through untriaged problems together:
 - He doesn't know the formula/method → **Needs Formula** (note which formula)
 - Already added to fufu-spaced-rep → **In Spaced Rep**
 
-### Gotchas
-- **Image size error**: If Claude in Chrome hits "image dimensions exceed max allowed size" — it's trying to screenshot instead of grabbing the URL. Remind it: "Do NOT screenshot — only extract the `<img>` src URL from the HTML"
-- **Multi-part problems**: Claude should keep parts together as one problem. If it splits them, delete the fragment and edit the main one
-- **Answer keys**: Tell Claude: "Ignore the answer key, just extract the problems"
-- **Long tests**: Scroll and ask Claude to "continue extracting from where you left off" — paste both batches with the same source name
-- **Unreadable diagrams**: If Claude can't interpret a figure, it'll come through vague. The image URL is the backup — attach it via + Image
-- **If Claude can't find the + Add Problems button**: Tell it to scroll to the bottom of the page
+### If image URLs break later
+PSL's image URLs may expire or require auth. If an image stops loading:
+1. Screenshot it or re-grab from PSL
+2. Save as e.g. `mod0-mt3-q5.png`
+3. Tell Claude Code: "add this image to the images folder and push"
+4. Update the image URL in the app to: `https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-mt3-q5.png`
 
 ---
 
