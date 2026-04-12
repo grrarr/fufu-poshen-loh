@@ -1,20 +1,20 @@
-Module/Workout,Exam,Christopher Score,Brillium Score,Status,Questions PDF,Review PDF,Review Link,Retakes Used,Retakes Left,Notes
-Module 0,W1 Challenge,80%,100% (email),Done,No,Yes,https://expii.onlinetests.app/Assess.aspx?guid=B62A8224D11846ADB0C6326DEB0EFC16&a=R1,-,-,Review from original passing email attempt
-Module 0,W2 Challenge,0%,-,Skipped,No,No,N/A,-,8-9,Target 0% - no review possible
-Module 0,W3 Challenge,70%,70% (email),Done,No,Yes,https://expii.onlinetests.app/Assess.aspx?guid=F9D4A58AC3C54EF189E1ED1EF1F157ED&a=R1,-,-,Review from original passing email attempt
-Module 0,W4 Challenge,80%,80% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=7036969F434149F0AA83625A6AD1B96C&a=R1,3,6,First 2 retakes failed (input debugging)
-Module 0,Final Challenge,100%,100% (email),Done,No,Yes,https://expii.onlinetests.app/Assess.aspx?guid=5FBF777280E74BD698A98AC5B4895EF1&a=R1,-,-,Review from original passing email attempt
-Module 1,W1 Challenge,60%,60% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=685C3DBC6860441FB92233B6045AA23F&a=R1,3,4,MC-only submission. 2 prior failed retakes.
-Module 1,W2 Challenge,90%,-,No email/GUID,No,No,N/A,-,-,No Brillium email link available
-Module 1,W3 Challenge,90%,90% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=F6850D45EADF4FE4B5BE36E890C7F100&a=R1,1,8,Clean first attempt
-Module 1,W4 Challenge,80%,80% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=872D0EED24EB4E6399347B4037B7A4A9&a=R1,1,7,Clean first attempt
-Module 1,Final Challenge,70%,70% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=A15503383200463CAE27714C670D2D84&a=R1,1,7,Clean first attempt
-Module 3,W1 (Mini Test 1),80%,-,Pending,No,No,N/A,-,9,Needs parallel extract+solve+answer pipeline
-Module 3,W2 (Mini Test 2),100%,-,Pending,No,No,N/A,-,8,Needs parallel extract+solve+answer pipeline
-Module 3,W3 (Mini Test 3),60%,-,No email/GUID,No,No,N/A,-,-,No Brillium email link available
-Module 3,W4 (Mini Test 4),60%,-,No email/GUID,No,No,N/A,-,-,No Brillium email link available
-Module 3,Final Exam,40%,-,Pending,No,No,N/A,-,8,Target <60% - questions PDF only
-Workout 1A,W1 Challenge,80%,-,Skipped,No,No,N/A,-,3,Only 3 retakes left - deferred
-Workout 1A,W2 Challenge,60%,60% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=F33C04593DD14A4495FCD0C91D61532E&a=R1,1,7,Clean first attempt
-Workout 1B,W1 Challenge,78%,~80% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=6A11C8B1827F435189337D0D7480A01A&a=R1,1,8,Target 78% scored ~80%
-Workout 1B,W2 Challenge,80%,pending,In progress,Yes,Pending,https://expii.onlinetests.app/Assess.aspx?guid=F2439913B3D6417FB53E3A189937114C&a=R1,1,6,Awaiting submission
+Module/Workout,Exam,Christopher Score,Brillium Score,Status,Questions PDF,Review PDF,Review Link,Retakes Used,Notes
+Module 0,W1 Challenge,80%,100% (email),Done,No,Yes,https://expii.onlinetests.app/Assess.aspx?guid=B62A8224D11846ADB0C6326DEB0EFC16&a=R1,-,Review from original passing email attempt
+Module 0,W2 Challenge,0%,-,Skipped,No,No,N/A,-,Target 0% - no review possible
+Module 0,W3 Challenge,70%,70% (email),Done,No,Yes,https://expii.onlinetests.app/Assess.aspx?guid=F9D4A58AC3C54EF189E1ED1EF1F157ED&a=R1,-,Review from original passing email attempt
+Module 0,W4 Challenge,80%,80% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=7036969F434149F0AA83625A6AD1B96C&a=R1,3,First 2 retakes failed (input debugging)
+Module 0,Final Challenge,100%,100% (email),Done,No,Yes,https://expii.onlinetests.app/Assess.aspx?guid=5FBF777280E74BD698A98AC5B4895EF1&a=R1,-,Review from original passing email attempt
+Module 1,W1 Challenge,60%,60% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=685C3DBC6860441FB92233B6045AA23F&a=R1,3,MC-only submission. 2 prior failed retakes.
+Module 1,W2 Challenge,90%,-,No email/GUID,No,No,N/A,-,No Brillium email link available
+Module 1,W3 Challenge,90%,90% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=F6850D45EADF4FE4B5BE36E890C7F100&a=R1,1,Clean first attempt
+Module 1,W4 Challenge,80%,80% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=872D0EED24EB4E6399347B4037B7A4A9&a=R1,1,Clean first attempt
+Module 1,Final Challenge,70%,70% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=A15503383200463CAE27714C670D2D84&a=R1,1,Clean first attempt
+Module 3,W1 (Mini Test 1),80%,~80% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=D3B0943A13254FF496E16BDEA3B3B1CE&a=R1,1,Solved live from page
+Module 3,W2 (Mini Test 2),100%,~90% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=3D02CA7844FA41C0814D6968F445D96C&a=R1,1,Skipped Q5 (MathJax unparseable)
+Module 3,W3 (Mini Test 3),60%,60% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=339DE9EAC74543DB88365DAF69DE6A59&a=R1,1,Solved live from page
+Module 3,W4 (Mini Test 4),60%,60% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=27DFE8082B58478ABBC27385E5C40C16&a=R1,1,Solved live from page
+Module 3,Final Exam,40%,100%+40% (2 retakes),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=82576179401D4F788EB1F6114F661A6B&a=R1,2,Retake 1: 100% for review PDF. Retake 2: 40% to match score.
+Workout 1A,W1 Challenge,80%,-,Skipped (low retakes),No,No,N/A,-,Only 3 retakes left - deferred
+Workout 1A,W2 Challenge,60%,60% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=F33C04593DD14A4495FCD0C91D61532E&a=R1,1,Clean first attempt
+Workout 1B,W1 Challenge,78%,~80% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=6A11C8B1827F435189337D0D7480A01A&a=R1,1,Target 78% scored ~80%
+Workout 1B,W2 Challenge,80%,80% (retake),Done,Yes,Yes,https://expii.onlinetests.app/Assess.aspx?guid=F2439913B3D6417FB53E3A189937114C&a=R1,1,Clean first attempt
