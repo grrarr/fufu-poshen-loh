@@ -426,7 +426,16 @@
         );
         if (!r.ok) return null;
         const d = await r.json();
-        const parsed = JSON.parse(atob(d.content.replace(/\n/g, '')));
+        let parsed;
+        if (d.content) {
+          parsed = JSON.parse(atob(d.content.replace(/\n/g, '')));
+        } else if (d.download_url) {
+          // File > 1MB: content is null, use download_url instead
+          const raw = await fetch(d.download_url);
+          parsed = await raw.json();
+        } else {
+          return null;
+        }
         return { data: parsed, sha: d.sha };
       } catch { return null; }
     }
