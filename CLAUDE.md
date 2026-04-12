@@ -135,6 +135,49 @@ Go through untriaged problems together:
 - He doesn't know the formula/method → **Needs Formula** (note which formula)
 - Already added to fufu-spaced-rep → **In Spaced Rep**
 
+### PDF generation for exams
+For every exam retake, generate **two PDFs**:
+1. **Questions-only PDF** — save BEFORE filling in answers (clean exam)
+2. **Review PDF (Q+A)** — save AFTER submitting with a passing score (shows correct answers)
+
+Both are generated via playwright (headless Chromium, separate from Chrome MCP). Launch the questions PDF as a background agent immediately after landing on the questions page, before filling answers.
+
+**Naming convention:**
+```
+Module 0 - W4 Challenge (Questions).pdf   # questions only
+Module 0 - W4 Challenge (Review).pdf      # questions + answers
+```
+
+### Brillium retake workflow (proven process)
+1. Navigate to course exam page → submit hidden `#exam__form` (target='_self')
+2. Confirm Start page (a=L3) → click Continue. Or Confirm Login (a=S1) → click Start Answering Questions
+3. Questions page (a=Q1) loads → launch Questions PDF agent in background (playwright, separate browser)
+4. Extract questions via `get_page_text` + MathML queries (`msup`, `mfrac`, `msqrt`)
+5. Solve questions, fill answers via JS:
+   - **MC radio buttons**: `document.getElementById('TCTMC1-3').click()` — works without alt-tab
+   - **FR text inputs**: Must use setter pattern + focus/blur:
+     ```js
+     const setter = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set;
+     setter.call(input, 'answer'); input.focus();
+     input.dispatchEvent(new Event('input', {bubbles:true}));
+     input.dispatchEvent(new Event('change', {bubbles:true}));
+     input.blur();
+     ```
+   - **FR inputs require user to alt-tab to Chrome** before submission (Chrome throttles background tab input events)
+6. User alt-tabs to Chrome, then clicks: Finished → Confirm → Finished (3-click submit)
+7. Summary page shows score (may need alt-tab to trigger score animation)
+8. If score >=60%: launch Review PDF agent via playwright
+
+**Critical gotchas:**
+- Questions are **randomized** per attempt — solve from page text, don't rely on bank ordering
+- `.value = 'x'` does NOT work for Brillium FR inputs — must use the setter pattern above
+- Score animation shows 0% until user alt-tabs to Chrome — the actual score is correct
+- For <60% targets (e.g., matching 40%): no review PDF available, questions PDF only
+- Input IDs: `TCTNF{N}` (numeric FR), `TCTFI{N}` (text FR), `TCTMF{N}1`/`TCTMF{N}2` (split fraction), `TCTMC{N}-{idx}` (MC radio)
+
+### Exam tracking
+`brillium emails/exam-retake-tracker.csv` tracks all exams: scores, PDF status, review links, retakes remaining.
+
 ### If image URLs break later
 PSL's image URLs may expire or require auth. If an image stops loading:
 1. Screenshot it or re-grab from PSL
