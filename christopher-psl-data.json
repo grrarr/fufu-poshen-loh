@@ -280,7 +280,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "1. [Figure: standard 6-sided die] Standard 6-sided dice with the numbers 1 through 6 have the property that every pair of opposite sides has the same sum. What is that sum?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 7",
       "dateAdded": "2026-04-11"
     },
     {
@@ -288,7 +288,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "2. How many ways are there to arrange 7 people sitting in a row?\n(A) 7 * 6 * 5 * 4 * 3 * 2 * 1\n(B) 7\n(C) 7 + 6 + 5 + 4 + 3 + 2 + 1\n(D) 7 + 7 + 7 + 7 + 7 + 7 + 7\n(E) 7^6",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (A)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -296,7 +296,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "3. [Figure: two cubes, side lengths 1 inch and 2 inches] Suppose you have two cubes of different sizes. The first has a side length of 1 inch and the second has a side length of 2 inches. How many times larger is the volume of the second cube compared to the first?\n(A) 2 times as large\n(B) 4 times as large\n(C) 8 times as large\n(D) 12 times as large\n(E) Impossible to determine",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (C)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -304,7 +304,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "4. [Figure: 10x10 grid numbered 1-100, diagonal from top-right to bottom-left highlighted: 10, 19, 28, 37, 46, 55, 64, 73, 82, 91] What is the average of the numbers along the diagonal of this square, from the top right to the bottom left? (Answer as a decimal, e.g. 1.5)",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 50.5",
       "dateAdded": "2026-04-11"
     },
     {
@@ -312,7 +312,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "5. [Figure: same 10x10 grid, same diagonal highlighted] What is the sum of the numbers along the diagonal of this square, from the top right to the bottom left?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 505",
       "dateAdded": "2026-04-11"
     },
     {
@@ -320,7 +320,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "6. A multiple of n is a number that can be divided by n. What is the least common multiple of 1, 2, 4, 8, 16, 32, 64, 128, and 256? Note: These numbers follow a special pattern!",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 256",
       "dateAdded": "2026-04-11"
     },
     {
@@ -328,7 +328,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "7. [Figure: 3x3 magic square, top-left = 2, top-right = 6, middle-left = ?, all other cells blank] This diagram is a partially-filled magic square, where each row, column, and 3-box-long diagonal has the same sum, and the numbers from 1 through 9 each appear exactly once. What number goes in the middle left box?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 9",
       "dateAdded": "2026-04-11"
     },
     {
@@ -336,7 +336,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "8. Find the value of -9 + -8 + -7 + -6 + -5 + -4 + -3 + -2 + -1 + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 33",
       "dateAdded": "2026-04-11"
     },
     {
@@ -344,7 +344,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "9. Can we make a magic square with the numbers 2, 3, 4, 5, 6, 7, 8, 9, 10?\n(A) No. The sum of the first 10 numbers is 55, which isn't divisible by 3.\n(B) Yes. We can still find ways to make each row sum to 15.\n(C) No. Substituting 10 for 1 destabilizes the sums.\n(D) Yes. The row sum changes from 15 to 18, but a magic square is still possible.\n(E) No. The largest number in a magic square must be divisible by three.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (B)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -352,7 +352,7 @@
       "source": "Module 0 - Week 2 Challenge",
       "text": "10. If there are 6 people in a room, the number of ways to pick 3 of them is exactly (6 * 5 * 4) / (3 * 2 * 1). Why do we divide by 3 * 2 * 1?\n(A) We need to use all numbers 6, 5, 4, 3, 2, 1; multiply first half, divide by second.\n(B) 6 * 5 * 4 counts picking in order; divide by ways to rearrange the 3 people NOT picked.\n(C) 6 * 5 * 4 counts picking in order; divide by ways to rearrange the 3 people who WERE picked.\n(D) Split 6 people into groups of 3, 2, 1 and pick from each group.\n(E) The formula is wrong ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ we should subtract instead.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 14",
       "dateAdded": "2026-04-11"
     },
     {
@@ -600,7 +600,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "1. Perfect square numbers have which possible last digits?\n(A) 1, 2, 3, 4, 5, 6, 7, 8, 9, 0\n(B) 1, 3, 5, 7, 9\n(C) 2, 4, 6, 8, 0\n(D) 1, 4, 9, 6, 5, 0\n(E) 0",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (C)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -608,7 +608,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "2. [Figure: quadrilateral with angles 120ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ° (top), 45ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ° (right), 60ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ° (bottom-left), and ?? (middle-left).] How many degrees are in the marked angle?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 19",
       "dateAdded": "2026-04-11"
     },
     {
@@ -616,7 +616,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "3. [Figure: triangle with angles 36ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ° (top-right), 72ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ° (bottom-right), and a straight line extending from the bottom-left vertex; the marked angle ?? is the exterior angle at bottom-left.] How many degrees are in the marked angle?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 2",
       "dateAdded": "2026-04-11"
     },
     {
@@ -624,7 +624,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "4. What is (100 - 29) + (382382 - 100) + (129 - 382382)?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 31",
       "dateAdded": "2026-04-11"
     },
     {
@@ -632,7 +632,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "5. The sum of the interior angles in any polygon is always a multiple of which of these numbers?\n(A) 101\n(B) 53\n(C) 107\n(D) 180\n(E) 360",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 2520",
       "dateAdded": "2026-04-11"
     },
     {
@@ -640,7 +640,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "6. What is 5/14 - 1/2 + 1/7?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 1",
       "dateAdded": "2026-04-11"
     },
     {
@@ -648,7 +648,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "7. [Figure: hexagonal beehive grid, triangular arrangement, A at top (apex), B near bottom row, 5 rows of hexagons. You can only move from one hexagon to a neighboring hexagon directly below it (one of the two below it).] How many different paths are there from A to B?\n(A) 4\n(B) 1\n(C) 33\n(D) 37\n(E) 2",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: -50",
       "dateAdded": "2026-04-11"
     },
     {
@@ -656,7 +656,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "8. What are the last two digits of 2019^122?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 12345678987654321",
       "dateAdded": "2026-04-11"
     },
     {
@@ -664,7 +664,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "9. What is the last digit of 27^1828^6?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (A)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -672,7 +672,7 @@
       "source": "Module 0 - Week 4 Challenge",
       "text": "10. What is (6/17) * (7/5) * (8/3) * (5/6) * (3/7) expressed in simplest fractional form? (fraction without spaces, e.g. 1/2)",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 20",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1080,7 +1080,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "1. If 8/9 + 10/11 = 1 + 1/(1 + 1/(a + 1/(b + 1/c))), where a, b, and c are integers, what are a, b, and c?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 23",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1088,7 +1088,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "2. Which of the following is the formula for the sum of the first n squares, starting with n=1?\n(A) n(n+1)(n+2)/6\n(B) (n^2+n+1)/6\n(C) n(n+1)(2n+1)/6\n(D) n(n-1)(2n+1)/6",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 6",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1096,7 +1096,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "3. A recipe for puff pastry calls for rolling out the dough and folding it, done 6 times. How many layers are there in the puff pastry?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 1/6",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1104,7 +1104,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "4. What is 23564541 divided by 1001?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 35",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1112,7 +1112,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "5. Given that (a+4)(a+3)(a-2) - (a+4)(a-6) = 1400, for integer a, find the value of a.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 99/100",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1120,7 +1120,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "6. Arnav, Bing and Chirag are playing a total of 30 card games, and bet $1 on each game. The two losers pay $1 each to the winner of the game. If Arnav ends up winning a net $15, how many games did he win?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 1",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1128,7 +1128,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "7. Without using a calculator, what are the first 3 digits of 123456789/1000001?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 8",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1136,7 +1136,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "8. Suppose a+c+d = -14, b+c+d = 6, a+b+d = -9, a+b+c = 5. What is the value of b?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 1023",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1144,7 +1144,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "9. Arnav, Bing and Chirag are playing a total of 30 card games, and bet $1 on each game. The two losers pay $1 to the winner of each game. If Arnav ends up winning a net $15 and Bing loses $9 more than Chirag, then how many games did Chirag win?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 36",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1152,7 +1152,7 @@
       "source": "Workout 1A - Week 2 Challenge",
       "text": "10. What is the sum 15+17+19+21+23+25+27+29+31+33+35?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 3",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1240,7 +1240,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "1. Which of these fractions is the biggest?\n(A) 1/2\n(B) 2/3\n(C) 3/4\n(D) 4/5\n(E) 5/6",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (E)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1248,7 +1248,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "2. Which of these fractions is the biggest?\n(A) 6/5\n(B) 5/4\n(C) 4/3\n(D) 3/2\n(E) 2/1",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (E)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1256,7 +1256,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "3. Which of the following decimals is equal to 3/7?\n(A) 0.428571...\n(B) 0.285714...\n(C) 0.857142...\n(D) 0.571428...\n(E) 0.714285...",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (A)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1264,7 +1264,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "4. Find the value of (14/15) * (12/13) * (16/17) * (13/14) * (15/16). Your answer should be a fraction in simplest form written without spaces, e.g. 1/2.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 12/17",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1272,7 +1272,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "5. If your basketball shooting success rate is 1/3, then which of the following is true?\n(A) You made one miss shot and three successful shots\n(B) You made one successful shot and three miss shots\n(C) You made one successful shot, and then three more successful shots\n(D) You made one miss shot, and three times as many successful shots\n(E) You made one success shot, and three times as many total shots (misses plus successes)",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (C)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1280,7 +1280,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "6. Find which of the following is equal to 0.1666... * 12\n(A) 1/6\n(B) 4/3\n(C) 2\n(D) 4\n(E) 0.22",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (D)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1288,7 +1288,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "7. What is 1.125 * 2.666...?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 3",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1296,7 +1296,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "8. Find the value of (1 + 1/3) * (1 + 1/4) * (1 + 1/5) * (1 + 1/6). Your answer should be a fraction written without spaces, like this: 1/2",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 7/3",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1304,7 +1304,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "9. While using a computer program, you accidentally scaled a photograph down to 80% of its previous size, and saved, so you can't undo your mistake. By what percent should you increase the dimensions of the photograph in order to undo your mistake?\n(A) 25%\n(B) 20%\n(C) 15%\n(D) 10%\n(E) 5%",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 16/25",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1312,7 +1312,7 @@
       "source": "Module 1 - Week 1 Challenge",
       "text": "10. Over summer you visit your grandmother, and return home to find that you've gained weight; 11% of your weight, to be precise. Shortly after, you eat some mysterious cafeteria food and fall sick for several weeks, which makes you lose 11% of your current weight. How does your weight now compare to your weight before summer?\n(A) Your weight now is the same as your weight before summer.\n(B) Your weight now is up by 2.1%\n(C) Your weight now is down by 1.21%\n(D) Your weight now is up by 10%\n(E) Your weight now is down by 1%",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (D)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1400,7 +1400,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "1. An alternative recipe for cookies requires 8 eggs, 6 cups flour, 3 cups sugar. If you want to use exactly 5 eggs to make these cookies, what will be the adjusted recipe for these cookies?\n(A) 5 eggs, 5 cups flour, 5 cups sugar\n(B) 5 eggs, 3 3/4 cups flour, 1 7/8 cups sugar\n(C) 5 eggs, 2 cups flour, 5 cups sugar\n(D) 5 eggs, 6 cups flour, 6 cups sugar\n(E) 5 eggs, 5 cups flour, 2 cups sugar",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 2",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1408,7 +1408,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "2. The ratio of red candies, to blue candies, to yellow candies in a bag is 2:3:5. What percent of the total candies are red?\n(A) 20%\n(B) 1/3\n(C) 10%\n(D) 66.67%\n(E) 2%",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (D)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1416,7 +1416,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "3. Which of the following sequences is a geometric sequence? In a geometric sequence, a term is found by multiplying the previous term by a certain number, called a factor, which is the same for all terms.\n(A) 10, 110, 1110, 11110\n(B) 1, 2, 3, 4\n(C) 108, 36, 12, 4\n(D) 0.1, 0.11, 0.111, 0.1111\n(E) 12, 14, 16, 18",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (B)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1424,7 +1424,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "4. An oak tree is 80 feet taller than a flagpole, and three times as tall as it. How many feet tall is the flagpole? Your answer should be the number only, without units.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (C)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1432,7 +1432,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "5. Anna has a water bottle that is half full. After she drinks 15 fluid ounces from the bottle, it is only one-fifth full. What is the total capacity of the water bottle, in fluid ounces?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 4",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1440,7 +1440,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "6. Joe wants to buy a shirt that costs $50, and he has a coupon for 30% off. When he arrives at the store, however, he sees that the shirt has already been discounted 20%, but he can still use the coupon. How much does Joe end up paying for the shirt, in dollars?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: -40",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1448,7 +1448,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "7. If two similar rectangles are proportional to each other, with the first rectangle having dimensions length1 and width1, and the second rectangle having dimensions length2 and width2, then all of the following statements are true EXCEPT for which one?\n(A) length2/length1 = width2/width1\n(B) length2/width1 = width2/length1\n(C) length2/width2 = length1/width1\n(D) width2/length2 = width1/length1\n(E) width2/width1 = length2/length1",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 16",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1456,7 +1456,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "8. Adam eats 20% of a pizza, Bethany eats another 1/3 of the pizza, and Charlie eats the remaining 14 slices. How many slices total did the pizza originally have?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 12",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1464,7 +1464,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "9. Which of the following is the same as 2% of 50?\n(A) 20% of 5\n(B) 5% of 20\n(C) (2/100) * 50\n(D) 50% of 2\n(E) All of the above",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 120",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1472,7 +1472,7 @@
       "source": "Module 1 - Week 2 Challenge",
       "text": "10. Your brother is half as tall as a tree which is three times as tall as you. What percent taller is your brother compared to you?\n(A) 30%\n(B) 300%\n(C) 50%\n(D) 1/2\n(E) 3.5%",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 6",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1560,7 +1560,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "1. A metal alloy is 20% silver. How many grams of silver are found in 80 grams of alloy?\n(A) 25\n(B) 16\n(C) 40\n(D) 20\n(E) 18",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (A)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1568,7 +1568,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "2. Suppose you invested in some unusual stock which goes up in price by 10% whenever the year is odd, and then drops by 10% whenever the year is even. If you keep this stock for 20 years, what will be the change in the value of your investment over this time?\n(A) The stock will increase overall over the 20 years\n(B) The stock will decrease overall over the 20 years\n(C) The stock price will stay the same throughout the 20 years\n(D) The stock price will go up after the first year, and then stay the same price for the rest of the time\n(E) The stock price will go down after the first year and then stay the same price for the rest of the time",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (B)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1576,7 +1576,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "3. Alice, Bob and Charlie went to the movies. Alice contributed $15 to the cost of the tickets, Bob contributed $6 to the cost of the tickets, and Charlie forgot his money, so he contributed nothing. How would you find the amount of money that Charlie owes Alice and Bob?\n(A) Each person's ticket costs ($6+$15)/3 = $21/3 = $7, so Charlie should pay Alice $7, but he shouldn't pay Bob anything, because Bob actually underpaid for his ticket, also. Bob should pay Alice an additional $1 to make up for the fact that he only paid $6 at the beginning.\n(B) First, you find the cost of each ticket, which is $15+$6=$21, and divide it by 3 to get $7 for the cost of one ticket, which is what Charlie owes each of Alice and Bob.\n(C) Charlie owes $15+$6=$21 to Alice and Bob, so he should pay each of them $21/2=$10.50.\n(D) Charlie should pay Alice $9 so that she will have contributed the same amount as Bob.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 1331",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1584,7 +1584,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "4. There are cats, dogs and pigs in a ratio of 1/2 : 1/3 : 1/5, and there are 24 more pigs than cats. How many animals are there altogether?\n(A) 320\n(B) 640\n(C) 960\n(D) 36",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 28.80",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1592,7 +1592,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "5. A koala is sleeping on the top of a hill. Every minute, the koala slips 3 inches down. In 18 minutes, the koala will be halfway down the hill. How many inches tall is the hill? Your answer should be the number only, without units.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 8000",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1600,7 +1600,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "6. Suppose that all of these gears are all connected by a chain to a driving motor. Which of the following gears will spin at the fastest RPM (revolutions per minute)?\n(A) A gear with 500 teeth\n(B) A gear with 200 teeth\n(C) A gear with 50 teeth\n(D) A gear with 10 teeth\n(E) They all spin at the same rate",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 5%",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1608,7 +1608,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "7. Write the number 2946573833993 in scientific notation.\n(A) 0.29 * 10^13\n(B) 2.9 * 10^12\n(C) 2.9 * 10^13\n(D) 0.29 * 10^12",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 13.60",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1616,7 +1616,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "8. Alex designs a model of the Empire State Building that is 4 inches wide and 10 inches high. If the real Empire State Building is 1250 feet tall, how wide, in feet, is the Empire State Building according to Alex's proportions?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 66",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1624,7 +1624,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "9. In order to transport goods, there are 16 vans total, and each must make 12 trips. How many vans will be needed in order to transport the same amount of cargo, if the number of trips that each van takes is increased by one-third (1/3)?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 0%",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1632,7 +1632,7 @@
       "source": "Module 1 - Week 3 Challenge",
       "text": "10. The A Company charges an initial cost of $250, plus $75, for every month you rent out an apartment. The B Company charges an initial cost of $375, plus $70, for every month that you rent out the same building. For what number of months are both companies A and B charging you the same amount overall?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 40",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1720,7 +1720,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "1. Who gets more work done, 2x people who each work at a rate of (1/2) job/hour, or x people who each work at a rate of 1 job/hour?\n(A) 2x people who work at a rate of (1/2) job/hour\n(B) x people who work at a rate of 1 job/hour\n(C) They get the same amount of work done in the same amount of time\n(D) Not enough information to tell",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (C)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1728,7 +1728,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "2. 140 pounds of fresh cherries can be dried to get 21 pounds of dried cherries. How many pounds of dried cherries can be gotten from 160 pounds of fresh cherries?\n(A) 18\n(B) 20\n(C) 22\n(D) 24\n(E) 21",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 1 hour",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1736,7 +1736,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "3. What would be the rate of water flow of an intake pipe that can fill a swimming pool in 3 hours?\n(A) 1 gallon per hour\n(B) 1/3 pool/hour\n(C) 1 hour / (1/4 pool)\n(D) 100 gallons per foot\n(E) 100 gallons per cubic meter",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 2 hours",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1744,7 +1744,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "4. Which of the following is FALSE about the relationship between amount of work done, number of people doing the work and the amount of time spent doing the work?\n(A) The bigger the number of people doing the work, the less time it takes\n(B) The bigger the number of people doing the work, the more work that can be done\n(C) The less time you have, the more people you need to do the work\n(D) The less work that is done, the more time it takes\n(E) The more time you have, the fewer the people that you need",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 6",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1752,7 +1752,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "5. A company wants to make 250 protractors and 60 calculators every hour. A given worker can either make 10 protractors or 4 calculators per hour. How many workers will the company need to make the exact amount of products every hour?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 30 hours",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1760,7 +1760,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "6. A large water tank has two inlet pipes (a large and a small one) and one outlet pipe. It takes 2 hours to fill the tank with the large inlet pipe. On the other hand, it takes 5 hours to fill the tank with the small inlet pipe. The outlet pipe allows the full tank to be emptied in 7 hours. Assuming that the tank is initially empty, what fraction will be filled in 1 hour if all three pipes are in operation? Your answer should be a fraction in simplest form, without spaces, e.g. 1/2.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 20",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1768,7 +1768,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "7. Alice and Bob start from the same position on a track and both start jogging clockwise along it. Alice runs at 4 miles per hour, and Bob runs at 3 miles per hour. How much extra distance will Alice have covered when she passes Bob?\n(A) 1 mile\n(B) 2 miles\n(C) One track lap\n(D) 3/4 of a track lap\n(E) 4/3 of a track lap",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 15",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1776,7 +1776,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "8. You just finished a triathlon in a spectacular 2 hours, and you want to know how fast you swam. The race consists of 1 mile of swimming, 12 miles of bicycling, and 3 miles of running. You know that you biked for 1 hour and you ran at a speed of 5 miles per hour. How many miles per hour did you swim? Your answer should be a number only, rounded to the nearest tenth, without units.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (C)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1784,7 +1784,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "9. The harmonic mean, a type of average of two speeds, is different from simply the arithmetic average of two rates, because\n(A) If you go equal distance at speed number one and the same distance at speed number two, you don't spend equal amounts of time at each speed, since the faster speed will get you there in less time\n(B) A mean is different from an average\n(C) We need to find the median instead of the mean\n(D) An arithmetic mean is the sum of a set of numbers divided by the number of numbers in the set\n(E) The harmonic mean tells us the middle value of two speeds",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 48",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1792,7 +1792,7 @@
       "source": "Module 1 - Week 4 Challenge",
       "text": "10. If a ants can dig b tunnels in c hours, how many tunnels can b ants dig in a hours?\n(A) b^2/c\n(B) a^2/b\n(C) c^2/a",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 6 hours",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1880,7 +1880,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "1. The cost of a house falls by 0.5%, ending up as $995,000. How many dollars did the house cost before its price fall? Your answer should be the number only, without commas or units.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 5000",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1888,7 +1888,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "2. Simplify 1 + 1/(2 + 1/(3 + 1/4)). Your answer should be a fraction without spaces, e.g. 3/2.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 1",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1896,7 +1896,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "3. At a potluck, Agatha brings four dishes, Bertha brings three dishes, and five other friends bring no dishes but instead money to help pay for the food. If all the dishes are eaten up, and everyone eats the same amount, what fraction of the money should go to Bertha? Your answer should be a fraction without spaces, e.g. 3/2.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 41",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1904,7 +1904,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "4. During your 1-hour exercise class, you spent 12 times as many minutes jogging as doing jumping jacks, and 6 times as many minutes jogging as stretching. How many minutes did you spend doing jumping jacks? Your answer should be the number only, without units.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 1024",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1912,7 +1912,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "5. What is the simplified value of 0.625 * 4.5 * 3.6... * 3.2?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 67",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1920,7 +1920,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "6. Moe R. can finish cutting a lawn in 3.5 hours. Fynn Isher can cut the same lawn in 84 minutes. How many hours will it take them to mow the lawn if they work together? Your answer should be the number only, without units.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 5050",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1928,7 +1928,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "7. Two Olympic runners are running clockwise around an indoor track. They both can run a lap in less than one minute. If they start at the same time and at the same position, after 4 2/3 minutes, the faster runner will have covered 1 more lap than the slower runner, with each runner having covered an integer number of laps in that time. The time it takes each of them to finish one lap is an integer number of seconds. How many more seconds does it take the slower runner to finish one lap compared with the faster runner?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 31",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1936,7 +1936,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "8. Sam's little sister is playing a game called Counting Apples. Her rating changes: rises by 10% on Day 1, falls by 20% on Day 2, rises by 30% on Day 3, falls by 40% on Day 4, rises by 50% on Day 5. Overall, what is the percent change from beginning of Day 1 to end of Day 5? Express as integer rounded to nearest whole number.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 96",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1944,7 +1944,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "9. Find the value of a positive number x that makes the following true: (x - 10)% of x equals 6.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 25pi",
       "dateAdded": "2026-04-11"
     },
     {
@@ -1952,7 +1952,7 @@
       "source": "Module 1 - Final Challenge",
       "text": "10. A red car going 40 mph catches up to a blue car going 30 mph. The blue car begins accelerating at 1/3 mph/sec and the red car begins accelerating at 1/6 mph/sec. After two minutes, which car is ahead?\n(A) The red car is ahead.\n(B) The blue car is ahead.\n(C) They are at the same position.",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 1/4",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2040,7 +2040,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "1. Suppose 60^2 - 17^2 = 11X. What is X?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 301",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2048,7 +2048,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "2. Prof. Loh spilled water on his notes, so he can't see the first digit of the number he was squaring. It ended with a 5 and its square was a four-digit number starting with 4. If the number has digits x5, what is x?\nIMAGE: https://dailyimg.poshenloh.com/m1b-week1-65-squared-smudge.png",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (C)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2056,7 +2056,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "3. Two horses are hooked up to a thresher, at distances of 57 feet and 133 feet from the center. If the outer horse is going at 11.666... mph, how many mph is the inner horse going?\nIMAGE: https://dailyimg.poshenloh.com/M1b-week1-horses2.png",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 9801",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2064,7 +2064,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "4. What is 2^(2^(2^2)) / ((2^2)^2)^2?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 5",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2072,7 +2072,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "5. In terms of C (degrees Celsius), what is the error in using F=2C+30 instead of F=(9/5)C+32?\n(A) C/5\n(B) 15C-2\n(C) 2C+2\n(D) C/2-5/6",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 28",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2080,7 +2080,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "6. Alice runs 6.666...% faster than Bob. Alice runs in outer lane (radius 76m), Bob in inner lane (radius 57m). In the time Bob runs 5 laps, how many laps can Alice run?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 12345",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2088,7 +2088,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "7. For what temperature in Celsius does the estimation formula F=2C+30 give the correct temperature? (Accurate: F=(9/5)C+32)",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 2320",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2096,7 +2096,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "8. In Wonderland, a stolen cup case was under investigation. The Hare stated that the Hatter stole the cup. Alice and the Hatter also testified. Only one defendant stole the cup, and only that person gave truthful testimony. Who stole the cup?\n(A) The Hare\n(B) Alice\n(C) The Hatter",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (C)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2104,7 +2104,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "9. Given distances: House 1 to House 4 = 75m, House 1 to House 5 = 73m, House 4 to House 5 = 34m, distance between Houses 2 and 3 is 7 longer than between Houses 1 and 2. What is the distance between House 3 and House 5?\nIMAGE: https://dailyimg.poshenloh.com/20200321-houses-question2.png",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 50",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2112,7 +2112,7 @@
       "source": "Workout 1B - Week 1 Challenge",
       "text": "10. The reproduction rate for measles is at least 12. Starting with 1 infected person on Day 1, each contagious person is contagious for 1 day. Different people don't infect the same person. How many people will have ever been infected by Day 4?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 88",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2200,7 +2200,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "In the sequence which starts with the terms 1, 3, 6, 10, 15, 21, ..., the nth term is equal to what?\n(A) The sum of the first n cubes\n(B) The sum of the first n squares\n(C) The sum of the first n even numbers\n(D) The sum of the first n odd numbers\n(E) The sum of the numbers from 1 to n",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (A)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2208,7 +2208,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "Suppose we have a set with elements {0, -1, -2, -2, -3, -3, -3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 7}. Which of the following will change if we replace each element x in the set with |x|? Choose all that apply.\n(A) Mean\n(B) Median\n(C) Mode\n(D) Range",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: mean",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2216,7 +2216,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "Which of the following is closest to the value of log_10(pi)?\n(A) 2\n(B) 1/2\n(C) 2/3\n(D) 1/7\n(E) 4",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: (B)",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2224,7 +2224,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "What is the biggest prime factor of (22206)^2 - (5822)^2?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 13",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2232,7 +2232,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "What is the 1.2th root of 64?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 32",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2240,7 +2240,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "Two planets are orbiting a star, with orbit lengths of 154 years and 126 years. Right now, the planets are lined up to the right of the star. After how many years will the two planets be lined up at this position again?\nIMAGE: https://dailyimg.poshenloh.com/20200516-orbits-question2.png\n[Image shows two planets orbiting a star, with orbit lengths labeled 154 years and 126 years]",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 462",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2248,7 +2248,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "Alan lives on the odd-numbered side of his street. Let a equal the number of houses to the left, in the increasing direction, next to Alan's house, and let x equal the number of Alan's house. In terms of a and x, what is the sum of the house numbers to the left of Alan's house, not including Alan's house?\n(A) 2(x + 1 + a)a\n(B) b(b + 1) + a(a + 1)\n(C) a - b\n(D) 2x + 2 + 2a\n(E) 2(1 + a)a\n(F) ax + 2a\n(G) a(x + 1 + a)",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 13",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2256,7 +2256,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "Elena is standing in the middle between two houses, on one side of a street full of houses. The house numbers on any side are either all even or all odd. If she totals the numbers of the houses on either side of her, the total is the same. What is the smallest possible average of the two house numbers on either side of Elena?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 21",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2264,7 +2264,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "What number comes next in this sequence: 3, 8, 24, 48, 120, 168, ?",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 720",
       "dateAdded": "2026-04-11"
     },
     {
@@ -2272,7 +2272,7 @@
       "source": "Workout 1B - Week 2 Challenge",
       "text": "Three planets are orbiting a star, with orbit lengths of 105 years, 42 years, and 15 years. Right now, the planets are all lined up in a perfect eclipse. After how many years will the planets and star be collinear again, in the sense that there is a straight line that goes through all of them?\nIMAGE: https://dailyimg.poshenloh.com/20200516-orbits-question.png\n[Image shows three planets orbiting a star, with orbit lengths labeled 105, 42, and 15 years]",
       "status": "untriaged",
-      "note": "",
+      "note": "Answer: 30030",
       "dateAdded": "2026-04-11"
     },
     {
