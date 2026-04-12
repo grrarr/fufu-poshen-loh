@@ -70,6 +70,7 @@ Most updates are done in the browser. If you need to manually edit data:
   - `christopher-psl-v1` (primary)
   - `christopher-psl-v1-backup` (backup)
 - **On load**: App tries primary storage → backup → merges with `DEFAULT_DATA` (keeps newer values)
+- **No emoji or unicode in data** — Source names, problem text, and notes must be plain ASCII/standard characters only. Never include progress bars (█), emoji, or other unicode decoration in source names or problem fields. This previously bloated the JSON from 0.2 MB to 1.04 MB and broke GitHub sync.
 
 ---
 
