@@ -1350,10 +1350,11 @@
     {
       "id": 1775890574444,
       "source": "Module 1 - Week 1 Challenge",
-      "text": "15. What fraction of the rectangle above is colored white? Your answer should be a fraction without spaces, e.g. 1/2.\nIMAGE: https://dailyimg.poshenloh.com/M1W1-exam-rectangle-16-81.png",
+      "text": "15. What fraction of the rectangle above is colored white? Your answer should be a fraction without spaces, e.g. 1/2.",
       "status": "untriaged",
       "note": "",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/M1W1-exam-rectangle-16-81.png"
     },
     {
       "id": 1775890574445,
@@ -1966,10 +1967,11 @@
     {
       "id": 1775892324360,
       "source": "Module 1 - Final Challenge",
-      "text": "12. A conveyor belt has 100 teeth, propelled by wheels with 20 teeth. Another belt has 200 teeth with wheels of 15 teeth. Each belt has one bucket dumped once per belt rotation, wheels rotate at same speed. If first dumps 32 gallons/hour, how many gallons/hour does the second dump?\nIMAGE: https://dailyimg.poshenloh.com/M1-tread2.png",
+      "text": "12. A conveyor belt has 100 teeth, propelled by wheels with 20 teeth. Another belt has 200 teeth with wheels of 15 teeth. Each belt has one bucket dumped once per belt rotation, wheels rotate at same speed. If first dumps 32 gallons/hour, how many gallons/hour does the second dump?",
       "status": "untriaged",
       "note": "",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/M1-tread2.png"
     },
     {
       "id": 1775892324361,
@@ -2022,10 +2024,11 @@
     {
       "id": 1775892324367,
       "source": "Module 1 - Final Challenge",
-      "text": "19. A car is driving at 40 mph when it passes a train station. Fifteen minutes later, a train passes through the station at 60 mph. How many minutes will it take for the car to be passed by the train, if both vehicles stay at a constant speed? Your answer should be the number only, without units.\nIMAGE: https://dailyimg.poshenloh.com/M1-final-train-car.png",
+      "text": "19. A car is driving at 40 mph when it passes a train station. Fifteen minutes later, a train passes through the station at 60 mph. How many minutes will it take for the car to be passed by the train, if both vehicles stay at a constant speed? Your answer should be the number only, without units.",
       "status": "untriaged",
       "note": "",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/M1-final-train-car.png"
     },
     {
       "id": 1775892324368,
@@ -2046,18 +2049,20 @@
     {
       "id": 1775893119895,
       "source": "Workout 1B - Week 1 Challenge",
-      "text": "2. Prof. Loh spilled water on his notes, so he can't see the first digit of the number he was squaring. It ended with a 5 and its square was a four-digit number starting with 4. If the number has digits x5, what is x?\nIMAGE: https://dailyimg.poshenloh.com/m1b-week1-65-squared-smudge.png",
+      "text": "2. Prof. Loh spilled water on his notes, so he can't see the first digit of the number he was squaring. It ended with a 5 and its square was a four-digit number starting with 4. If the number has digits x5, what is x?",
       "status": "untriaged",
       "note": "Answer: (C)",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/m1b-week1-65-squared-smudge.png"
     },
     {
       "id": 1775893119896,
       "source": "Workout 1B - Week 1 Challenge",
-      "text": "3. Two horses are hooked up to a thresher, at distances of 57 feet and 133 feet from the center. If the outer horse is going at 11.666... mph, how many mph is the inner horse going?\nIMAGE: https://dailyimg.poshenloh.com/M1b-week1-horses2.png",
+      "text": "3. Two horses are hooked up to a thresher, at distances of 57 feet and 133 feet from the center. If the outer horse is going at 11.666... mph, how many mph is the inner horse going?",
       "status": "untriaged",
       "note": "Answer: 9801",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-horses2.png"
     },
     {
       "id": 1775893119897,
@@ -2102,10 +2107,11 @@
     {
       "id": 1775893119902,
       "source": "Workout 1B - Week 1 Challenge",
-      "text": "9. Given distances: House 1 to House 4 = 75m, House 1 to House 5 = 73m, House 4 to House 5 = 34m, distance between Houses 2 and 3 is 7 longer than between Houses 1 and 2. What is the distance between House 3 and House 5?\nIMAGE: https://dailyimg.poshenloh.com/20200321-houses-question2.png",
+      "text": "9. Given distances: House 1 to House 4 = 75m, House 1 to House 5 = 73m, House 4 to House 5 = 34m, distance between Houses 2 and 3 is 7 longer than between Houses 1 and 2. What is the distance between House 3 and House 5?",
       "status": "untriaged",
       "note": "Answer: 50",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/20200321-houses-question2.png"
     },
     {
       "id": 1775893119903,
@@ -2118,18 +2124,20 @@
     {
       "id": 1775893119905,
       "source": "Workout 1B - Week 1 Challenge",
-      "text": "11. Using the same house distance facts as Q9, what is the distance between House 1 and House 2?\nIMAGE: https://dailyimg.poshenloh.com/20200321-houses-question3.png",
+      "text": "11. Using the same house distance facts as Q9, what is the distance between House 1 and House 2?",
       "status": "untriaged",
       "note": "",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/20200321-houses-question3.png"
     },
     {
       "id": 1775893119906,
       "source": "Workout 1B - Week 1 Challenge",
-      "text": "12. In the figure, numbers 1-9 fill the circles, each once. Every line of three numbers has the same sum. If a+b=3, what is c+d?\nIMAGE: https://dailyimg.poshenloh.com/M1b-week1-quad-vertex-numbers1a.png",
+      "text": "12. In the figure, numbers 1-9 fill the circles, each once. Every line of three numbers has the same sum. If a+b=3, what is c+d?",
       "status": "untriaged",
       "note": "",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-quad-vertex-numbers1a.png"
     },
     {
       "id": 1775893119907,
@@ -2142,10 +2150,11 @@
     {
       "id": 1775893119908,
       "source": "Workout 1B - Week 1 Challenge",
-      "text": "14. In this nonagon, integers 1-18 fill circles, each once. Vertex numbers a-i are 1-9. Three numbers on each side sum to S. What is S?\nIMAGE: https://dailyimg.poshenloh.com/M1b-week1-nonagon-variables.png",
+      "text": "14. In this nonagon, integers 1-18 fill circles, each once. Vertex numbers a-i are 1-9. Three numbers on each side sum to S. What is S?",
       "status": "untriaged",
       "note": "",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-nonagon-variables.png"
     },
     {
       "id": 1775893119909,
@@ -2158,10 +2167,11 @@
     {
       "id": 1775893119910,
       "source": "Workout 1B - Week 1 Challenge",
-      "text": "16. Same nonagon setup as Q14. What is the value of the number marked X?\nIMAGE: https://dailyimg.poshenloh.com/M1b-week1-nonagon-find-x.png",
+      "text": "16. Same nonagon setup as Q14. What is the value of the number marked X?",
       "status": "untriaged",
       "note": "",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-nonagon-find-x.png"
     },
     {
       "id": 1775893119911,
@@ -2182,10 +2192,11 @@
     {
       "id": 1775893119914,
       "source": "Workout 1B - Week 1 Challenge",
-      "text": "19. In squiggly paths, every time you pass a mine (A-F) you get gold. Red path circuit = 180 gold, green = 92 gold, yellow = 22 gold. How much gold does one circuit of the black circle path give?\nIMAGE: https://dailyimg.poshenloh.com/M1b-week1-squiggly-paths.png",
+      "text": "19. In squiggly paths, every time you pass a mine (A-F) you get gold. Red path circuit = 180 gold, green = 92 gold, yellow = 22 gold. How much gold does one circuit of the black circle path give?",
       "status": "untriaged",
       "note": "",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-squiggly-paths.png"
     },
     {
       "id": 1775893119915,
@@ -2238,10 +2249,11 @@
     {
       "id": 1775893579875,
       "source": "Workout 1B - Week 2 Challenge",
-      "text": "Two planets are orbiting a star, with orbit lengths of 154 years and 126 years. Right now, the planets are lined up to the right of the star. After how many years will the two planets be lined up at this position again?\nIMAGE: https://dailyimg.poshenloh.com/20200516-orbits-question2.png\n[Image shows two planets orbiting a star, with orbit lengths labeled 154 years and 126 years]",
+      "text": "Two planets are orbiting a star, with orbit lengths of 154 years and 126 years. Right now, the planets are lined up to the right of the star. After how many years will the two planets be lined up at this position again?\n[Image shows two planets orbiting a star, with orbit lengths labeled 154 years and 126 years]",
       "status": "untriaged",
       "note": "Answer: 462",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/20200516-orbits-question2.png"
     },
     {
       "id": 1775893579876,
@@ -2270,10 +2282,11 @@
     {
       "id": 1775893579879,
       "source": "Workout 1B - Week 2 Challenge",
-      "text": "Three planets are orbiting a star, with orbit lengths of 105 years, 42 years, and 15 years. Right now, the planets are all lined up in a perfect eclipse. After how many years will the planets and star be collinear again, in the sense that there is a straight line that goes through all of them?\nIMAGE: https://dailyimg.poshenloh.com/20200516-orbits-question.png\n[Image shows three planets orbiting a star, with orbit lengths labeled 105, 42, and 15 years]",
+      "text": "Three planets are orbiting a star, with orbit lengths of 105 years, 42 years, and 15 years. Right now, the planets are all lined up in a perfect eclipse. After how many years will the planets and star be collinear again, in the sense that there is a straight line that goes through all of them?\n[Image shows three planets orbiting a star, with orbit lengths labeled 105, 42, and 15 years]",
       "status": "untriaged",
       "note": "Answer: 30030",
-      "dateAdded": "2026-04-11"
+      "dateAdded": "2026-04-11",
+      "imageUrl": "https://dailyimg.poshenloh.com/20200516-orbits-question.png"
     },
     {
       "id": 1775893579880,
