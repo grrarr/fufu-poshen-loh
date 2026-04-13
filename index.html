@@ -364,6 +364,100 @@
       border-radius: 50%;
       display: inline-block;
     }
+    .bank-filters-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+    .bank-filters-row select,
+    .bank-filters-row input[type="text"] {
+      padding: 5px 10px;
+      background: #141926;
+      border: 1px solid #333;
+      color: #e0e0e0;
+      border-radius: 4px;
+      font-size: 0.85em;
+      cursor: pointer;
+    }
+    .bank-filters-row input[type="text"] {
+      flex: 1;
+      min-width: 140px;
+      cursor: text;
+    }
+    .bank-filters-row input[type="text"]:focus,
+    .bank-filters-row select:focus {
+      outline: none;
+      border-color: #66d9ff;
+    }
+    .filter-count {
+      color: #666;
+      font-size: 0.8em;
+      white-space: nowrap;
+    }
+    .expand-collapse-btns button {
+      padding: 3px 10px;
+      font-size: 0.75em;
+      border-radius: 4px;
+      color: #888;
+      border-color: #444;
+    }
+    .expand-collapse-btns button:hover {
+      color: #e0e0e0;
+      border-color: #666;
+    }
+    .answer-toggle {
+      display: inline-block;
+      padding: 3px 10px;
+      font-size: 0.75em;
+      border-radius: 4px;
+      cursor: pointer;
+      color: #4dff88;
+      border: 1px solid #2a5a3a;
+      background: transparent;
+      margin-top: 6px;
+    }
+    .answer-toggle:hover {
+      background: #1a3a2a;
+    }
+    .answer-box {
+      margin-top: 8px;
+      padding: 10px 12px;
+      background: #0f1a14;
+      border: 1px solid #2a5a3a;
+      border-radius: 6px;
+    }
+    .answer-box .answer-label {
+      font-size: 0.7em;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #4dff88;
+      margin-bottom: 4px;
+      font-weight: bold;
+    }
+    .answer-box .answer-text {
+      font-size: 0.9em;
+      color: #c0e8c0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      line-height: 1.5;
+    }
+    .answer-box .explanation-label {
+      font-size: 0.7em;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #888;
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+    .answer-box .explanation-text {
+      font-size: 0.85em;
+      color: #999;
+      white-space: pre-wrap;
+      word-break: break-word;
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -675,6 +769,9 @@
           text: text.trim(),
           status: 'untriaged', // untriaged | trivial | needs-review | promoted | needs-formula
           note: '',
+          answer: '',
+          explanation: '',
+          answerImageUrl: '',
           dateAdded: TODAY,
         }));
         const newData = {
@@ -1013,19 +1110,52 @@
       'needs-formula':{ label: 'Needs Formula',   color: '#d97706' },
     };
 
+    // Parse source name into category (Module 0, Workout 1A, etc.) and type (Week 1, Final, etc.)
+    function parseSource(source) {
+      // "Module 0 - Week 1 Challenge" -> { category: "Module 0", type: "Week 1" }
+      // "Module 3 - Mini Test 1" -> { category: "Module 3", type: "Mini Test 1" }
+      // "Module 3 - Final Exam" -> { category: "Module 3", type: "Final" }
+      // "Workout 1A - Week 2 Challenge" -> { category: "Workout 1A", type: "Week 2" }
+      const m = source.match(/^((?:Module|Workout)\s+\S+)\s+-\s+(.+)$/);
+      if (!m) return { category: source, type: '' };
+      let type = m[2];
+      // Normalize: "Week 1 Challenge" -> "Week 1", "Final Challenge" -> "Final", "Final Exam" -> "Final"
+      type = type.replace(/\s+Challenge$/, '').replace(/\s+Exam$/, '');
+      return { category: m[1], type };
+    }
+
     function ExamProblemBank({ problems, counts, onAdd, onUpdate, onDelete }) {
       const [filter, setFilter] = useState('all');
-      const [sourceFilter, setSourceFilter] = useState('all');
+      const [categoryFilter, setCategoryFilter] = useState('all');
+      const [typeFilter, setTypeFilter] = useState('all');
+      const [searchText, setSearchText] = useState('');
+      const [answerFilter, setAnswerFilter] = useState('all');
       const [showBulkAdd, setShowBulkAdd] = useState(false);
       const [bulkSource, setBulkSource] = useState('');
       const [bulkText, setBulkText] = useState('');
       const [showTrivial, setShowTrivial] = useState(false);
+      const [expandedIds, setExpandedIds] = useState(new Set());
+      const [showAnswerIds, setShowAnswerIds] = useState(new Set());
 
-      const sources = [...new Set(problems.map(p => p.source))].sort();
+      // Derive unique categories and types from sources
+      const parsed = problems.map(p => ({ ...parseSource(p.source), source: p.source }));
+      const categories = [...new Set(parsed.map(p => p.category))].sort();
+      const types = [...new Set(parsed.map(p => p.type))].sort();
 
+      // Multi-step filtering
       let filtered = problems;
       if (filter !== 'all') filtered = filtered.filter(p => p.status === filter);
-      if (sourceFilter !== 'all') filtered = filtered.filter(p => p.source === sourceFilter);
+      if (categoryFilter !== 'all') filtered = filtered.filter(p => parseSource(p.source).category === categoryFilter);
+      if (typeFilter !== 'all') filtered = filtered.filter(p => parseSource(p.source).type === typeFilter);
+      if (answerFilter === 'yes') filtered = filtered.filter(p => p.answer && p.answer.trim());
+      if (answerFilter === 'no') filtered = filtered.filter(p => !p.answer || !p.answer.trim());
+      if (searchText) {
+        const s = searchText.toLowerCase();
+        filtered = filtered.filter(p => {
+          const hay = `${p.text} ${p.answer || ''} ${p.note || ''} ${p.source}`.toLowerCase();
+          return hay.includes(s);
+        });
+      }
       // Hide trivial by default unless filter is set to trivial or showTrivial is on
       if (filter !== 'trivial' && !showTrivial) filtered = filtered.filter(p => p.status !== 'trivial');
 
@@ -1054,7 +1184,7 @@
             })}
           </div>
 
-          {/* Filter bar */}
+          {/* Status filter bar */}
           <div className="problem-filters">
             {[
               ['all', `All (${counts.total})`],
@@ -1076,31 +1206,61 @@
                 {label}
               </button>
             ))}
-            {/* Source filter */}
-            {sources.length > 1 && (
-              <select
-                value={sourceFilter}
-                onChange={(e) => setSourceFilter(e.target.value)}
-                style={{
-                  background: '#141926', color: '#e0e0e0', border: '1px solid #333',
-                  borderRadius: '20px', padding: '5px 12px', fontSize: '0.8em', cursor: 'pointer',
-                }}
-              >
-                <option value="all">All sources</option>
-                {sources.map(s => <option key={s} value={s}>{s}</option>)}
-              </select>
-            )}
           </div>
 
-          {/* Show/hide trivial toggle (when viewing All) */}
-          {filter === 'all' && counts.trivial > 0 && (
-            <div style={{marginBottom: '10px'}}>
-              <label style={{fontSize: '0.8em', color: '#666', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px'}}>
-                <input type="checkbox" checked={showTrivial} onChange={(e) => setShowTrivial(e.target.checked)} />
-                Show trivial ({counts.trivial})
-              </label>
+          {/* Dropdown filters row */}
+          <div className="bank-filters-row">
+            <select value={categoryFilter} onChange={e => setCategoryFilter(e.target.value)}>
+              <option value="all">All Modules/Workouts</option>
+              {categories.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+
+            <select value={typeFilter} onChange={e => setTypeFilter(e.target.value)}>
+              <option value="all">All Challenges</option>
+              {types.map(t => <option key={t} value={t}>{t}</option>)}
+            </select>
+
+            <select value={answerFilter} onChange={e => setAnswerFilter(e.target.value)}>
+              <option value="all">All (answer)</option>
+              <option value="yes">Has Answer</option>
+              <option value="no">No Answer</option>
+            </select>
+
+            <input
+              type="text"
+              placeholder="Search problems..."
+              value={searchText}
+              onChange={e => setSearchText(e.target.value)}
+            />
+
+            <span className="filter-count">{filtered.length} / {problems.length}</span>
+          </div>
+
+          {/* Trivial toggle + Expand/Collapse All */}
+          <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px', flexWrap: 'wrap', gap: '8px'}}>
+            <div>
+              {filter === 'all' && counts.trivial > 0 && (
+                <label style={{fontSize: '0.8em', color: '#666', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px'}}>
+                  <input type="checkbox" checked={showTrivial} onChange={(e) => setShowTrivial(e.target.checked)} />
+                  Show trivial ({counts.trivial})
+                </label>
+              )}
             </div>
-          )}
+            <div className="expand-collapse-btns" style={{display: 'flex', gap: '6px'}}>
+              <button onClick={() => setExpandedIds(new Set(filtered.map(p => p.id)))}>
+                Expand All
+              </button>
+              <button onClick={() => { setExpandedIds(new Set()); setShowAnswerIds(new Set()); }}>
+                Collapse All
+              </button>
+              <button onClick={() => setShowAnswerIds(new Set(filtered.map(p => p.id)))}>
+                Show All Answers
+              </button>
+              <button onClick={() => setShowAnswerIds(new Set())}>
+                Hide All Answers
+              </button>
+            </div>
+          </div>
 
           {/* Problem list */}
           {filtered.length === 0 && problems.length > 0 && (
@@ -1114,7 +1274,24 @@
             </div>
           )}
           {filtered.map(p => (
-            <ProblemCard key={p.id} problem={p} onUpdate={onUpdate} onDelete={onDelete} />
+            <ProblemCard
+              key={p.id}
+              problem={p}
+              onUpdate={onUpdate}
+              onDelete={onDelete}
+              expanded={expandedIds.has(p.id)}
+              onToggleExpand={() => setExpandedIds(prev => {
+                const s = new Set(prev);
+                if (s.has(p.id)) s.delete(p.id); else s.add(p.id);
+                return s;
+              })}
+              showAnswer={showAnswerIds.has(p.id)}
+              onToggleAnswer={() => setShowAnswerIds(prev => {
+                const s = new Set(prev);
+                if (s.has(p.id)) s.delete(p.id); else s.add(p.id);
+                return s;
+              })}
+            />
           ))}
 
           {/* Bulk add */}
@@ -1154,26 +1331,79 @@
       );
     }
 
-    function ProblemCard({ problem, onUpdate, onDelete }) {
-      const [expanded, setExpanded] = useState(false);
+    function ProblemCard({ problem, onUpdate, onDelete, expanded, onToggleExpand, showAnswer, onToggleAnswer }) {
       const [editingNote, setEditingNote] = useState(false);
       const [editingImage, setEditingImage] = useState(false);
+      const [editingAnswer, setEditingAnswer] = useState(false);
       const [confirmDelete, setConfirmDelete] = useState(false);
       const [imgError, setImgError] = useState(false);
       const meta = STATUS_META[problem.status] || STATUS_META.untriaged;
       const hasImage = !!(problem.imageUrl && problem.imageUrl.trim());
+      const [editingAnswerImage, setEditingAnswerImage] = useState(false);
+      const [ansImgError, setAnsImgError] = useState(false);
+      const hasAnswer = !!(problem.answer && problem.answer.trim());
+      const hasExplanation = !!(problem.explanation && problem.explanation.trim());
+      const hasAnswerImage = !!(problem.answerImageUrl && problem.answerImageUrl.trim());
 
       return (
         <div className="problem-card" data-status={problem.status}>
-          <div className="problem-header" onClick={() => setExpanded(!expanded)}>
+          <div className="problem-header" onClick={onToggleExpand}>
             <div className={`problem-text ${expanded ? '' : 'collapsed'}`}>
               {problem.text}
             </div>
             <div className="problem-meta">
-              {hasImage && <span style={{fontSize: '0.8em', color: '#666'}} title="Has image">IMG</span>}
+              {hasAnswer && <span style={{fontSize: '0.7em', color: '#4dff88'}} title="Has answer">ANS</span>}
+              {hasImage && <span style={{fontSize: '0.7em', color: '#666'}} title="Has image">IMG</span>}
               <span className="status-badge" data-status={problem.status}>{meta.label}</span>
             </div>
           </div>
+
+          {/* Collapsible answer section (independent of full expand) */}
+          {(hasAnswer || hasExplanation) && (
+            <div style={{padding: '0 12px'}}>
+              <button className="answer-toggle" onClick={(e) => { e.stopPropagation(); onToggleAnswer(); }}>
+                {showAnswer ? 'Hide Answer' : 'Show Answer'}
+              </button>
+              {showAnswer && (
+                <div className="answer-box">
+                  {hasAnswer && (
+                    <>
+                      <div className="answer-label">Answer</div>
+                      <div className="answer-text">{problem.answer}</div>
+                    </>
+                  )}
+                  {hasAnswerImage && !ansImgError && (
+                    <div style={{marginTop: '8px'}}>
+                      <img
+                        src={problem.answerImageUrl}
+                        alt="Answer diagram"
+                        onError={() => setAnsImgError(true)}
+                        style={{
+                          maxWidth: '100%',
+                          maxHeight: '400px',
+                          borderRadius: '4px',
+                          border: '1px solid #2a5a3a',
+                          background: '#fff',
+                        }}
+                      />
+                    </div>
+                  )}
+                  {hasAnswerImage && ansImgError && (
+                    <div style={{marginTop: '8px', fontSize: '0.8em', color: '#ff6b6b'}}>
+                      Answer image failed to load: {problem.answerImageUrl}
+                    </div>
+                  )}
+                  {hasExplanation && (
+                    <>
+                      <div className="explanation-label">Explanation</div>
+                      <div className="explanation-text">{problem.explanation}</div>
+                    </>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
+
           {expanded && (
             <div className="problem-detail">
               <div className="source-badge">{problem.source} &middot; Added {problem.dateAdded}</div>
@@ -1219,6 +1449,12 @@
                 >
                   {hasImage ? 'Edit Image' : '+ Image'}
                 </button>
+                <button
+                  onClick={(e) => { e.stopPropagation(); setEditingAnswer(!editingAnswer); }}
+                  style={{padding: '4px 10px', fontSize: '0.8em', color: hasAnswer ? '#4dff88' : '#d97706', borderColor: hasAnswer ? '#4dff88' : '#d97706'}}
+                >
+                  {hasAnswer ? 'Edit Answer' : '+ Answer'}
+                </button>
                 {!confirmDelete ? (
                   <button className="danger" onClick={() => setConfirmDelete(true)} style={{padding: '4px 10px', fontSize: '0.8em'}}>Delete</button>
                 ) : (
@@ -1258,6 +1494,62 @@
                       </button>
                     )}
                   </div>
+                </div>
+              )}
+
+              {/* Answer/Explanation edit */}
+              {editingAnswer && (
+                <div style={{marginTop: '8px'}}>
+                  <div style={{fontSize: '0.8em', color: '#4dff88', marginBottom: '4px'}}>Answer</div>
+                  <textarea
+                    value={problem.answer || ''}
+                    onChange={(e) => onUpdate(problem.id, { answer: e.target.value })}
+                    onClick={(e) => e.stopPropagation()}
+                    placeholder="Correct answer..."
+                    style={{minHeight: '40px', marginBottom: '6px'}}
+                  />
+                  <div style={{fontSize: '0.8em', color: '#4dff88', marginBottom: '4px'}}>
+                    Answer Image
+                    <button
+                      onClick={(e) => { e.stopPropagation(); setEditingAnswerImage(!editingAnswerImage); }}
+                      style={{marginLeft: '8px', padding: '2px 8px', fontSize: '0.85em', color: hasAnswerImage ? '#4dff88' : '#d97706', borderColor: hasAnswerImage ? '#4dff88' : '#d97706'}}
+                    >
+                      {hasAnswerImage ? 'Edit' : '+ Add'}
+                    </button>
+                  </div>
+                  {editingAnswerImage && (
+                    <div style={{display: 'flex', gap: '6px', marginBottom: '6px'}}>
+                      <input
+                        type="text"
+                        value={problem.answerImageUrl || ''}
+                        onChange={(e) => { onUpdate(problem.id, { answerImageUrl: e.target.value }); setAnsImgError(false); }}
+                        onClick={(e) => e.stopPropagation()}
+                        placeholder="Paste answer image URL..."
+                        style={{
+                          flex: 1, background: '#141926', color: '#e0e0e0',
+                          border: '1px solid #333', borderRadius: '4px',
+                          padding: '6px 8px', fontSize: '0.85em',
+                        }}
+                      />
+                      {hasAnswerImage && (
+                        <button
+                          className="danger"
+                          onClick={(e) => { e.stopPropagation(); onUpdate(problem.id, { answerImageUrl: '' }); setAnsImgError(false); }}
+                          style={{padding: '4px 10px', fontSize: '0.8em'}}
+                        >
+                          Remove
+                        </button>
+                      )}
+                    </div>
+                  )}
+                  <div style={{fontSize: '0.8em', color: '#888', marginBottom: '4px'}}>Explanation</div>
+                  <textarea
+                    value={problem.explanation || ''}
+                    onChange={(e) => onUpdate(problem.id, { explanation: e.target.value })}
+                    onClick={(e) => e.stopPropagation()}
+                    placeholder="Explanation / solution steps..."
+                    style={{minHeight: '60px'}}
+                  />
                 </div>
               )}
 
