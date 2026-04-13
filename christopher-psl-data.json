@@ -535,7 +535,7 @@
       "dateAdded": "2026-04-11",
       "answer": "The 6 × 5 × 4 corresponds to picking 3 people in order, and we divide by the number\nof ways we count each combination, which is the number of ways to rearrange the 3\npeople who were picked.",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w2-q18-answer.png"
     },
     {
       "id": 1775886267082,
@@ -1874,7 +1874,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod1-w1-q18-answer.png"
     },
     {
       "id": 1775890574449,
@@ -2293,7 +2294,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "18/25",
-      "explanation": "It might be easier to calculate the inverse fraction, the fraction of the amount of orange\njuice that Brand \n offers, as compared to the amount of orange juice that Brand \n offers.\nThen, at the end, we can flip the fraction to get its reciprocal, which means the fraction that\nBrand \n's orange juice costs, compared to Brand \nBrand \n offered \n more orange juice than Brand \n for the same cost. Then, the volume\nof Brand \n's orange juice box would be \n times the volume of Brand \n's orange\njuice box. However, since Brand \n is cheaper, since its orange juice costs \n of Brand \nwe should multiply this ratio by \nThus, the amount of orange juice that Brand \n offers for \n of the cost that Brand \noffers for one unit of orange juice is\nTherefore, the fraction that we want, which means the fraction of Brand \n's cost that is\nBrand \n's unit cost, is the reciprocal, which is\nCheck that this is in simplest form, and we are done!\nA\n25%\nB\n90%\nB\nA\nA\nB\nA\nB.\nA\n25%\nB\nA\n(1 + 0.25)\nB\nA\n90%\nB,\n10\n9 .\nA\n100%\nB\n10\n9 × 5\n4 = 25\n18\nB\nA\n18\n25"
+      "explanation": "It might be easier to calculate the inverse fraction, the fraction of the amount of orange\njuice that Brand \n offers, as compared to the amount of orange juice that Brand \n offers.\nThen, at the end, we can flip the fraction to get its reciprocal, which means the fraction that\nBrand \n's orange juice costs, compared to Brand \nBrand \n offered \n more orange juice than Brand \n for the same cost. Then, the volume\nof Brand \n's orange juice box would be \n times the volume of Brand \n's orange\njuice box. However, since Brand \n is cheaper, since its orange juice costs \n of Brand \nwe should multiply this ratio by \nThus, the amount of orange juice that Brand \n offers for \n of the cost that Brand \noffers for one unit of orange juice is\nTherefore, the fraction that we want, which means the fraction of Brand \n's cost that is\nBrand \n's unit cost, is the reciprocal, which is\nCheck that this is in simplest form, and we are done!\nA\n25%\nB\n90%\nB\nA\nA\nB\nA\nB.\nA\n25%\nB\nA\n(1 + 0.25)\nB\nA\n90%\nB,\n10\n9 .\nA\n100%\nB\n10\n9 × 5\n4 = 25\n18\nB\nA\n18\n25",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod1-w3-q18-answer.png"
     },
     {
       "id": 1775891321933,
@@ -2512,7 +2514,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod1-w4-q18-answer.png"
     },
     {
       "id": 1775891748507,
@@ -3398,7 +3401,7 @@
       "dateAdded": "2026-04-11",
       "answer": "",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt1-q18-answer.png"
     },
     {
       "id": 1775898523327,
