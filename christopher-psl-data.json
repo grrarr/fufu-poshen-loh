@@ -182,7 +182,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W1-exam-inner-square.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w1-exam-inner-square.png",
       "answer": "40",
       "explanation": "Explanation:\nSolution 1. Each right triangle has legs (short sides) of length  and \n Therefore,\neach of the four triangles has an area of \n Then, the area of the inner square\nis equal to the area of the big square minus the area of the four triangles. This gives an\nanswer of:\nSolution 2. Each right triangle has legs of length  and \n so by the Pythagorean Theorem, if\nc is the length of the hypotenuse (longest side) of the right triangle, then:\nSince c is also the side length of the inner square, the area of the inner square is also c2,\nwhich is \n2\n8 −2 = 6.\n(2×6)/2 = 6.\n8×8 −4×6 = 64 −24 = 40.\n2\n6,\nc2 = 22 + 62 = 4 + 36 = 40.\n40."
     },
@@ -223,7 +223,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W1-exam-pentagon.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w1-exam-pentagon.png",
       "answer": "49",
       "explanation": "Sketch. Repeatedly use the Pythagorean Theorem starting from the triangle with legs  and\n and calculate all of the legs of all  right triangles. Then add up the areas of the triangles.\nSolution. The total area is the sum of the areas of the  triangles. The smallest triangle has\nlegs  and \n and so by the Pythagorean Theorem, its hypotenuse (longest side) is \n Using\nthe formula \n for the area of a triangle, this smallest triangle has area:\nBonus Challenge Questions\n3\n4,\n3\n3\n3\n4,\n5.\n1\n2 × base× height\n1\n2 ×3×4 = 6.\nEarned 4 of 7 points. 57%"
     },
@@ -254,7 +254,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W1-exam-pythagorean.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w1-exam-pythagorean.png",
       "answer": "",
       "explanation": ""
     },
@@ -416,7 +416,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "14",
-      "explanation": "Adding the numbers by hand is painful, and it's easy to make mistakes. From the previous question, we know that the\naverage of all these numbers is the same as the average of the first and last number, which is \n So, their total sum is\njust:\n10+91\n2\n.\n10 × ( 10 + 91\n2\n) = 5 × 101 = 505"
+      "explanation": "Adding the numbers by hand is painful, and it's easy to make mistakes. From the previous question, we know that the\naverage of all these numbers is the same as the average of the first and last number, which is \n So, their total sum is\njust:\n10+91\n2\n.\n10 × ( 10 + 91\n2\n) = 5 × 101 = 505",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w2-q10.png"
     },
     {
       "id": 1775886267073,
@@ -526,7 +527,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(C)",
-      "explanation": "Recall that \n so \n So, the answer is just\n An easy way to check this is to see that the units work out to hours:\n180\n60\n18060\n180 ÷ 60\ndistance = rate × time,\ntime = distance ÷ rate.\n180 ÷ 60.\n180 miles\n60  miles\n hour\n= 180\n60  miles ×  hour\n miles = 3 hours."
+      "explanation": "Recall that \n so \n So, the answer is just\n An easy way to check this is to see that the units work out to hours:\n180\n60\n18060\n180 ÷ 60\ndistance = rate × time,\ntime = distance ÷ rate.\n180 ÷ 60.\n180 miles\n60  miles\n hour\n= 180\n60  miles ×  hour\n miles = 3 hours.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q1.png"
     },
     {
       "id": 1775886909655,
@@ -536,7 +538,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "Since \n  is a factor of \n The next three choices are all multiples of \n because\n \n and \n And, lastly, the fifth choice, \n wouldn't\nmake sense, as it isn't a whole number.\n12?\n6\n6\n12 = 6 × 2, 6\n12.\n12\n24 = 12 × 2, 36 = 12 × 3,\n120 = 12 × 10.\nπ,"
+      "explanation": "Since \n  is a factor of \n The next three choices are all multiples of \n because\n \n and \n And, lastly, the fifth choice, \n wouldn't\nmake sense, as it isn't a whole number.\n12?\n6\n6\n12 = 6 × 2, 6\n12.\n12\n24 = 12 × 2, 36 = 12 × 3,\n120 = 12 × 10.\nπ,",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q2.png"
     },
     {
       "id": 1775886909656,
@@ -576,7 +579,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "Recall that the area of a circle is \n so if the area of the circle is \n then\n and since the radius must be positive, we have that it is \n not \n Then the\ndiameter is just double the radius, which means the diameter is \n9π,\n6\n6\nπ × radius2,\n9π,\nradius2 = 9,\n3,\n−3.\n2 × 3 = 6."
+      "explanation": "Recall that the area of a circle is \n so if the area of the circle is \n then\n and since the radius must be positive, we have that it is \n not \n Then the\ndiameter is just double the radius, which means the diameter is \n9π,\n6\n6\nπ × radius2,\n9π,\nradius2 = 9,\n3,\n−3.\n2 × 3 = 6.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q6.png"
     },
     {
       "id": 1775886909660,
@@ -655,7 +659,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W3-exam-chain-loop.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w3-exam-chain-loop.png",
       "answer": "136",
       "explanation": "Each long straight segment is \n inches long, so their combined chain length is \n inches.\nThe combined length of two short straight segments in the same column is \nbecause the gap between the short straight segments has the same length as the distance\nbetween the middle gears. So, the total length of all four short straight segments is\n inches. Each gear has circumference \n and the chain covers half the gear, so\nthe total length of the round segments is \n inches. Altogether, the chain is\n inches long.\n6\n2\n35\n5\n35\n70\n35 −5 = 30,\n30 × 2 = 60\n2,\n6×2\n2\n= 6\n70 + 60 + 6 = 136"
     },
@@ -676,7 +680,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W3-exam-running-track.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q16.png",
       "answer": "",
       "explanation": "This problem is more laborious if you try to write out the two distances and then subtract! If\nwe instead write out the difference directly, there are a few neat things to notice. The\nlength of the straightaways doesn't change based on the lane used, so we can ignore them\nwhen thinking about the difference. The only thing that changes from lane to lane is the\nradius of the semicircle corresponding to the path through the center of the lane, and the\ntwo semicircles add up to one full circle.\nIt's easy to get tripped up here and assume that there are  lane widths between them, but\nnote that there is only  lane width between the center of lane  and the center of lane \nWith a difference of  lane widths between lane  and lane \n the difference between the\nradii of the semicircles corresponding to the centers of the innermost and outermost lanes\nis \nRemember from the lesson that an increase of  in the radius of a circle translates to an\nincrease of \n in the circumference. Since our two semicircles add up to a full a circle, our\nfinal difference will be \n2\nr,\nm.\n4\nw.\n2π × 3w + 2m\n2π × 3w\n4\n1\n1\n2.\n3\n1\n4,\n3w.\nx\n2πx\n2π × 3w."
     },
@@ -717,7 +721,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W3-exam-museum.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w3-exam-museum.png",
       "answer": "66",
       "explanation": "The ratio of your current diameter to the normal diameter is \n Circumference scales\nlinearly with diameter, which is a fancy way of saying that if you double your diameter, your\ncircumference will also double. This means the distance you travel with every rotation is \ntimes what your speedometer expects. Therefore, your actual speed was \nmiles per hour.\n60\n60\n30\n33\n30\n30\n1.1.\n1.1\n60 × 1.1 = 66"
     },
@@ -738,7 +742,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W4-exam-InscribedQuadrilateral.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q2.png",
       "answer": "19",
       "explanation": "Solution. As we saw in the lesson, if we connect a pair of opposite vertices (corners), the\nquadrilateral can be cut into two triangles. Then the sum of the interior angles is\n degrees. The angle that we want is then\nA shortcut for the subtraction is to recognize that \n and if we subtract\nthat from the \n first, we get\nMath Note 1. This is actually a very special quadrilateral known as a cyclic quadrilateral,\nand it gets its name from the fact that all of its corners lie on a circle:\n180∘+ 180∘= 360∘\n360∘−60∘−45∘−120∘.\n60∘+ 120∘= 180∘,\n360∘\n360∘−60∘−45∘−120∘\n= 180∘−45∘\n= 135∘."
     },
@@ -749,7 +753,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W4-exam-Golden.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q3.png",
       "answer": "2",
       "explanation": "Solution 1. Remember from the lesson that the interior angles of a triangle add up to \ndegrees. We then know that the triangle has interior angles of \n \n and\n degrees. This third interior angle, \n makes a line with the angle\nwe want, so the angle that we are looking for is\nSolution 2. You can sidestep some of the arithmetic above by remembering that an exterior\nangle of one corner of a triangle is equal to the sum of the two other angles of the triangle\nopposite to it. This is a neat fact, and we can trace it to the fact that angles on a line add up\nto \n and the angles of a triangle also happen to sum to \n Well, then, the angle that\nwe want is simply\nMath Note. This triangle is known as the golden triangle! We'll see it again later on.\n180∘\n36∘, 72∘,\n180∘−72∘−36∘= 72∘\n72∘\n180∘−72∘= 108∘.\n180∘\n180∘.\n36∘+ 72∘= 180∘."
     },
@@ -790,7 +794,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W4-exam-4x2Beehive.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w4-exam-4x2beehive.png",
       "answer": "-50",
       "explanation": "Solution 1. Since you can't move sideways, the only way to get to \n is to have first come to\none of the two hexagons that touch \n's top corner. We can start from the top row and\nlabel each hexagon with the number of ways to reach it, like in the diagram below: must\ncontain a factor of 7. The smallest integer containing a factor of 7 is 7. This satisfies the\ncondition on b, that it has a remainer of 1 when divided by 3, so the answer is 7.\nActually, a neat simplification is to only fill out the right-most two hexagons in any row.\nSolution 2. Another nice way to think about this problem is to \"look at it a different way,\" in\nparticular, by tilting your head to the right until the right edge looks horizontal. Then, to get\nto \n from \n we just move  steps to the right and  step down, not necessarily in that\norder. We just need to make  steps, and there are  ways to choose which of those steps\nis the \"down\" step, so there are  ways in total to reach \nA\nB\n4\n4\nB\nB\nB\nA,\n3\n1\n4\n4\n4\nB."
     },
@@ -831,7 +835,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W4-exam-pentagon.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w4-exam-pentagon.png",
       "answer": "108",
       "explanation": "Let's use the interesting fact that the exterior angles of the pentagon (angles that you get\nby extending each side out past its corner) all add up to \n (Remember the example of\nthe ant crawling along the sides, turning at each corner, with his turns adding up to a full\nrevolution?) Since there are five of these exterior angles, we can find the measure of each\none: \n We want the measure of just one interior angle, which is\nBonus Challenge Questions\n360∘.\n360∘\n5\n= 72∘.\n180∘−72∘= 108∘.\nEarned 0 of 7 points. 0%"
     },
@@ -852,7 +856,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W4-exam-Bisectors-all-colored.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w4-exam-bisectors-all-colored.png",
       "answer": "45",
       "explanation": "Solution 1. When a questions asks for an angle, a great idea is to start hunting for a triangle\nthat contains that angle, and it's even better if we already know the measures of its other\nangles. Let's look at \n in the diagram above. We actually already know \nbecause \n is an angle bisector of \n (which we know is \n since the large triangle\nhas equal legs), so that means that \n One trick is to keep our angles in terms\nof \n rather than calculating them out as decimals, because we will find that some of our\nnumbers will cancel out nicely!\nWe don't yet know \n though, so we need to start being creative. Let's look for more\ntriangles that can give us \n There are two triangles that we can use, \n and\n△BGD\n∠DBG,\nBE\n–\n∠ABD\n45∘,\n∠DBG = 45∘\n2 .\n45∘\n∠BDG,\n∠BDG.\n△ABD\n△ACD."
     },
@@ -883,7 +887,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W4-exam-PascalSum.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w4-exam-pascalsum.png",
       "answer": "64",
       "explanation": "Solution 1. Label each hexagon with the number of ways to get to it from \n The number\nof ways to reach a given hexagon is the number of ways to get to the hexagon that is\nabove-and-right plus the number of ways to get to the hexagon that is above-and-left.\nWorking from the top to the bottom, we can fill out the numbers as shown and add the last\nrow of numbers to get the answer, \nSolution 2. Let's look at the total number of paths from \n to any row; let's call it the \nrow. For every path to the \n row right above it, there are two ways to continue on\nto the \n row. In this way, every additional row has double the total number of paths to it\ncompared to the previous row. The bottom row is  rows down, and we start with  path in\nthe first row, so the total number of paths is \nA\nA.\n64.\nA\nnth\n(n −1)th\nnth\n6\n1\n26 = 64."
     },
@@ -914,7 +918,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W4-exam-Star.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q19.png",
       "answer": "102",
       "explanation": "This star has a regular pentagon at its center and five triangles attached to each edge of the\npentagon. Let's look at all of the angles that, together with the angle that we want,\nsurround one of the corners of the pentagon:\n triangle \ninterior \n of pentagon \nWe can get the internal angle of the triangle using the given \n angle.\n2 × (\n∠) + (\n∠\n) = 360∘.\n30∘"
     },
@@ -925,7 +929,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W4-exam-CutGridPaths-smaller.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w4-exam-cutgridpaths-smaller.png",
       "answer": "14",
       "explanation": "Solution 1. In order to get to any intersection point, we must have come from either above\nor from left. Then the number of ways to get to any intersection is simply the number of\npaths to the intersection directly above plus the number of paths to the intersection\ndirectly to the left. Let's fill out the grid as shown from the top left to the bottom right. Start\nfrom \n and fill in the intersections points that are nearest to \n working your way towards\n As you can see, the number of ways to get to \n is \nSolution 2. Since there are no vertical segments down the middle, each path must pass\nthrough exactly one of \n or \n Let's look at these four cases separately and then\nadd up all of their ways at the end.\n# ways from \n to \n = \n# paths from \n to \n # paths from # \n to \nA\nB\nA,\nA,\nB.\nB\n14.\nC, D, E,\nF.\nA\nB\n(\nA\nC) × (\nC\nB)"
     },
@@ -966,7 +970,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M0-final-right-triangles.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m0-final-right-triangles.png",
       "answer": "34",
       "explanation": "It's nice that we have two right triangles, because we know that we can apply the Pythagorean Theorem to relate their side\nlengths. Which triangle should we start with, the yellow or the purple one? The purple one has two given side lengths, so it's\nmore promising. However, there's an easier way besides using the Pythagorean Theorem. Notice that the lengths \n and \nare both four times  and \n which gives us a \n right triangle!\nThe long leg is then the corresponding leg to the  leg of a \n right triangle, so its length is \nNow we have found two of the lengths of the upper triangle, which means it's easy to solve for the hypotenuse that we want.\nThe legs of \n and \n are double  and \n which match with the legs of a \n right triangle.\n20\n12\n3\n5,\n3 −4 −5\n4\n3 −4 −5\n4 × 4 = 16.\n16\n30\n8\n15,\n8 −15 −17"
     },
@@ -977,7 +981,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M0-paths.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m0-paths.png",
       "answer": "8",
       "explanation": "As we saw in the Day 15 Beehive lesson, we can label the number of ways to arrive at each point on this tree, by adding up\nthe ways to reach the points that feed into that particular point.\nThe middle point can be reached via the two points marked with a \n below it, so it has \n ways to reach it.\nLikewise, the middle points on the top can be reached via a  point and a  point, so it has  ways to reach it. On the other\nhand, the points on the very edge have only way to reach them, since any step that diverges into the center will never be able\nto return to the edge.\nWe just need to add up the ways to reach each of the four points on the top, and this is the answer:\n′′1′′\n1 + 1 = 2\n1\n2\n3\n1 + 3 + 3 + 1 = 8"
     },
@@ -1078,7 +1082,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M0-count-triangles.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m0-count-triangles.png",
       "answer": "24",
       "explanation": "The lines are arranged in three sets of parallel lines. We are choosing three lines to serve as sides of a triangle; if at least two\nof these come from the same set, then we can't form a triangle. We want to choose no more than one from each set, which\nmeans that to make a triangle we must choose exactly one line from each set.\nThe middle set has  lines, the downward-sloping set has  lines, and the upward-sloping set has  lines, so the number of\nways to choose three lines to make a triangle is\n2\n3\n4\n2 × 3 × 4 =\n.\n24"
     },
@@ -1089,7 +1093,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M0-placement-pegs.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m0-placement-pegs.png",
       "answer": "36.",
       "explanation": "Let's start by connecting the centers of the circles, so that we get a regular hexagon in the middle of the diagram:\nThe flat sides of the string are parallel to the sides of this inner hexagon. Why is this? By symmetry of the tangent points on\ntwo neighboring circles. If we connect the tangent points to the centers of the circles, we see that we get a right angle\nbetween the string and the radius, and also a right angle between the radius and the line connecting the centers. This forms a\nrectangle. By symmetry, we can draw all the rectangles across the whole diagram:\n7\n2"
     },
@@ -1120,7 +1124,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M0-placement-venn-diagram.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-final-q19.png",
       "answer": "50",
       "explanation": "Let the sum of the numbers on each circle be \n. Exactly two circles pass through each blank spot. So, \n sums\nevery number from \n through \n twice.\nNote. It is also actually possible to achieve this. Just put \n, \n, and \n in the top row, \n and \n in the second row, and \n as\nthe bottom number.\n7\n10, 11, 12, 13, 14,\n15.\nC\nC + C + C\n10\n15\n10 + 11 + 12 + 13 + 14 + 15 = 10 × 6 + (1 + 2 + 3 + 4 + 5)\n= 60 + 5 × 6\n2\n= 60 + 15\n= 75\nC + C + C = 2 × 75\n3C = 150\n⟹C = 150\n3\n= 50\nC = 50\n13 10\n14\n11\n12\n15"
     },
@@ -1681,7 +1685,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1W1-exam-rectangle-16-81.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w1-exam-rectangle-16-81.png",
       "answer": "",
       "explanation": ""
     },
@@ -2452,7 +2456,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1-tread2.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1-tread2.png",
       "answer": "12",
       "explanation": "Let's first try to figure out the ratio of the speeds of the two vehicles, so let's not worry\nabout the speed, \n mph, for now. If we pretend for a moment that both wheels of the\nvehicles have \n teeth, then the only difference between the vehicles is the length of the\ntread. The second vehicle has twice as much tread as the first.\n100\n20\n200\n15\n32  gallons\nhour\n32\n20"
     },
@@ -2523,7 +2527,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1-final-train-car.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1-final-train-car.png",
       "answer": "30",
       "explanation": "40\n60"
     },
@@ -2554,7 +2558,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/m1b-week1-65-squared-smudge.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-65-squared-smudge.png",
       "answer": "(C)",
       "explanation": "The trick for squaring numbers ending in \n which we saw in the Day 3 lesson, was that the first digits of \n are the\nproduct \n and the last two digits are \n Thus we want the product of two consecutive integers, \n which\nequals a number in the \ns. From \n we know that \n5\n4.\nx5,\nx?\n5,\n(a5)2\na(a + 1),\n25.\na(a + 1),\n40\n6 × 7 = 42,\na =\n.\n6"
     },
@@ -2565,7 +2569,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-horses2.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-horses2.png",
       "answer": "9801",
       "explanation": "The ratio of the horses' speeds is the ratio of the radii of their paths. The outer circumference path is \n feet,\nand the inner circumference path is \n feet. The ratio of the smaller radius to the larger radius is \nThus the small horse's speed is \n times the outer horse's speed. Now we just have to do some number crunching.\n \n57\n133\n11.666\n–\n133 = 19 × 7\n57 = 19 × 3\n19×3\n19×7 = 3\n7 .\n3\n7"
     },
@@ -2626,7 +2630,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/20200321-houses-question2.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/20200321-houses-question2.png",
       "answer": "50",
       "explanation": "Let  equal the distance between House  and House \n equal the distance between House  and House \n equal the\ndistance between House  and House \n and  equal the distance between House  and House \n Now, let's translate the given information into equations. First, the distance between House  and House  is \n meters.\nAlso, the distance between House  and House  is \n meters.\nSubtract these two equations to find the difference between  and \n3\n5?\n1\n4\n75\n1\n5\n73\n4\n5\n34\n2\n3\n7\n1\n2\na\n1\n2, b\n2\n3, c\n3\n5,\nd\n3\n4.\n1\n4\n75\na + b + d = 75.\n1\n5\n73\na + b + c = 73.\nd\nc."
     },
@@ -2647,7 +2651,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/20200321-houses-question3.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/20200321-houses-question3.png",
       "answer": "25",
       "explanation": "As before, let's set our variables \n and  to be the distances between houses as shown.\nBonus Challenge Questions\n1\n2?\n1\n4\n75\n1\n5\n73\n4\n5\n34\n2\n3\n7\n1\n2\na, b, c,\nd\nEarned 0 of 7 points. 0%"
     },
@@ -2658,7 +2662,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-quad-vertex-numbers1a.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-quad-vertex-numbers1a.png",
       "answer": "9",
       "explanation": "We want to express the sum of the numbers \n in two different ways and equate them to solve for\n the sum of the left and right missing vertex number. The sum is equal to the average of the numbers times the\nnumber of numbers. We saw earlier that \n The other\nway to express this \n is to add up the sums of the  lines.\n1\n9\na + b = 3,\nc + d?\n1 + 2 + 3 + … + 9\nc + d,\n1 + 2 + 3 + … + 9 = ( # of numbers) (average) = 9 × 5 = 45.\n45\n5"
     },
@@ -2679,7 +2683,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-nonagon-variables.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-nonagon-variables.png",
       "answer": "24",
       "explanation": "Guess-and-check can be really cumbersome here; instead, use variables! Let  equal the sum of the three numbers on any\nside of the nonagon. The goal is to express the sum of the numbers  through \n in two ways, and equate them. The first\nway to express the numbers  through \n is to multiply the average by the number of numbers:\nWe'll leave this as \n because it's more convenient to simplify the calculation later. The other way to express the sum\nof the \n numbers is to add up the  sides, which is \n and subtract the corner numbers, since those are double-counted.\nThe diagram below shows the  lines of sum \n colored in \n1\n18\na, b, c, d, e, f, g, h,\ni,\n1\n9.\nS.\nS?\nS\n1\n18\n1\n18\n1 + 2 + 3 + … + 18 = ( # of numbers) × ( average)\n= 18 × ( 19\n2 )\n= 9 × 19.\n9 × 19,\n18\n9\n9S,\n9\nS,\nyellow."
     },
@@ -2700,7 +2704,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-nonagon-find-x.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-nonagon-find-x.png",
       "answer": "10",
       "explanation": "In an earlier question, we saw that the sum of the three numbers on each side is \n Let's start by looking at the bubble\nbetween \n and \n labeled  Since it is common to both sides, write out the ways to make \n using \n or \nNumbers that could be at the corner in the middle of \n and \n are those which are in both the \n and \n sums, which are\n and \n If we put \n in that corner, then \n but  already appears at the\nbottom left corner, so \n If we put \n in that corner between \n and \n then\n and it follows that the left-hand side with  and  would have to have another  in\nthe center, which isn't allowed, since we already used the \n Therefore \n and \n1\n18\nX?\n24.\n17\n18,\ni.\n24\n18\n17.\nWays using 18\nWays using 17\n18 + 1 + 5\n17 + 1 + 6\n18 + 2 + 4\n17 + 2 + 5\n18 + 3 + 3\n17 + 3 + 4\n17\n18\n18\n17\n1, 2,\n5.\ni = 2\na = 24 −18 −i = 24 −18 −2 = 4,\n4\ni ≠2.\ni = 1\n17\n18,\nh = 24 −17 −i = 24 −17 −1 = 6\n6\n9\n9\n9.\ni ≠1\ni = 5."
     },
@@ -2731,7 +2735,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M1b-week1-squiggly-paths.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-squiggly-paths.png",
       "answer": "64",
       "explanation": "The intersection of a \"squiggle\" and a mine provides two shares of gold, so one revolution around the red loop goes\nthrough \n and \n twice. One revolution around the green loop goes through \n and \n once and \n and \n twice, and\none revolution around the yellow loop goes around \n and \n once.\nTry adding and subtracting the gold totals for only the red, green and yellow loops, resisting the temptation to use the\nvariables \n and \n It may not seem possible at first to get the circle (which is equal to \nsimply by doing operations on the the red, green and yellow loops, but it really is!\nIf we start with a red loop, this gives us \n each of \n and \n which we will label on the diagram below.\nA, B, C, D, E\nF\n180\n92\n22\nB, A, D,\nC\nA\nC\nE\nF\nE\nF\nA, B, C, D, E,\nF.\nB + D + E + F\n+2\nB, A, D,\nC,"
     },
@@ -2802,7 +2806,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/20200516-orbits-question2.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/20200516-orbits-question2.png",
       "answer": "462",
       "explanation": ""
     },
@@ -2843,7 +2847,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/20200516-orbits-question.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/20200516-orbits-question.png",
       "answer": "30030",
       "explanation": ""
     },
@@ -2965,7 +2969,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "The product of the two numbers is\nThis is the Difference of Squares of two numbers, which as we can see can be nicely\nfactored!\na,\na + c\na −c.\na2 −c2\na2 −c2\n(a + c)(a −c) = a2 −c2."
+      "explanation": "The product of the two numbers is\nThis is the Difference of Squares of two numbers, which as we can see can be nicely\nfactored!\na,\na + c\na −c.\na2 −c2\na2 −c2\n(a + c)(a −c) = a2 −c2.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt1-q3.png"
     },
     {
       "id": 1775898523312,
@@ -2995,7 +3000,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "Let's start by calculating the innermost parentheses:\n@\na@b = a −b\n((10@9)@(8@7))@(6@5)@((4@3)@(2@1))\n−1\n−1\n((10@9)@(8@7))@(6@5)@((4@3)@(2@1)) =\n= (1@1)@1@(1@1)\n= 0@1@0\n= 0 −1 −0\n= −1"
+      "explanation": "Let's start by calculating the innermost parentheses:\n@\na@b = a −b\n((10@9)@(8@7))@(6@5)@((4@3)@(2@1))\n−1\n−1\n((10@9)@(8@7))@(6@5)@((4@3)@(2@1)) =\n= (1@1)@1@(1@1)\n= 0@1@0\n= 0 −1 −0\n= −1",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt1-q6.png"
     },
     {
       "id": 1775898523315,
@@ -3005,7 +3011,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(C)",
-      "explanation": "Plugging in  to \n we get \nPlugging this into \n again, we get \nPlugging this into \n again, we get \nf(x) = 3x + 6,\nx < 5\nf(x) = 7x −20,\nx ≥5\nf(f(f(2)))\n428\n428\n2\nf(x),\nf(2) = 12.\nf(x)\nf(f(2)) = f(12) = 64.\nf(x)\nf(f(f(2))) = f(64) = 428."
+      "explanation": "Plugging in  to \n we get \nPlugging this into \n again, we get \nPlugging this into \n again, we get \nf(x) = 3x + 6,\nx < 5\nf(x) = 7x −20,\nx ≥5\nf(f(f(2)))\n428\n428\n2\nf(x),\nf(2) = 12.\nf(x)\nf(f(2)) = f(12) = 64.\nf(x)\nf(f(f(2))) = f(64) = 428.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt1-q7.png"
     },
     {
       "id": 1775898523316,
@@ -3015,7 +3022,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "3",
-      "explanation": "Using Difference of Squares,\nso  times this equals\nTherefore, the number of terms is \n2(4x −4)(4x + 4)\n(4x −4)(4x + 4) = 16x2 −16,\n2\n32x2 −32.\n2."
+      "explanation": "Using Difference of Squares,\nso  times this equals\nTherefore, the number of terms is \n2(4x −4)(4x + 4)\n(4x −4)(4x + 4) = 16x2 −16,\n2\n32x2 −32.\n2.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt1-q8.png"
     },
     {
       "id": 1775898523317,
@@ -3064,7 +3072,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://expii.onlinetests.app/day-images/M4W1-exam-p13-latex.png",
+      "imageUrl": "",
       "answer": "4",
       "explanation": "Let's do operations to both sides of the equation until it looks better. First, let's get rid of\nthe fraction by multiplying both sides by \n Then we can multiply everything out\n(expand) and combine the terms to get  on one side, and numbers on the other side.\nx\n13x+11\nx+5\n= 7.\nx + 5.\nx\n13x + 11\nx + 5\n= 7\n13x + 11 = 7(x + 5)\n13x + 11 = 7x + 35\n6x = 24\nx = 4"
     },
@@ -3156,7 +3164,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(D)",
-      "explanation": "We take \n of  away from , which leaves us with\nand we add \n of  to the number \n which means  turns into\nThe sum of these is \n answer choice number four.\na\n20%\nb\n10%\na\nb\n0.8a + 1.1b\n0.8a + 1.1b\n20%\na\na\na −0.20a = (1 −0.20)a = 0.80a\n10%\nb\nb,\nb\nb + 0.10b = 1.1b\n0.8a + 1.1b,"
+      "explanation": "We take \n of  away from , which leaves us with\nand we add \n of  to the number \n which means  turns into\nThe sum of these is \n answer choice number four.\na\n20%\nb\n10%\na\nb\n0.8a + 1.1b\n0.8a + 1.1b\n20%\na\na\na −0.20a = (1 −0.20)a = 0.80a\n10%\nb\nb,\nb\nb + 0.10b = 1.1b\n0.8a + 1.1b,",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q2.png"
     },
     {
       "id": 1775898642001,
@@ -3176,7 +3185,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(D)",
-      "explanation": "The first term of the arithmetic sequence is \n and the difference between neighboring terms is \n so the next few terms of the sequence look\nlike this:\nIf we combine the 's, we see that\nIf we think about how the numbers in an arithmetic sequence grow, they grow based on the value of \n so as  grows bigger and bigger, if you\ndouble \n then the value of the term will approximately double as well. This is not exactly true because if the value of  is large compared to \nthen for small \n it isn't true that the sequence grows proportional to \n This is the reason why the choices that contain \n or \n are incorrect,\nbecause those choices grow much faster with \n You can also think of arithmetic sequences as growing similar to the points on a line.\na\nn\nr\nn\n= a + (n −1)r\nn\n= a + (n −1)r\na,\nr,\n2nd : a + r\n3rd : a + r + r\n4th : a + r + r + r\n5th : a + r + r + r + r\nr\n2nd : a + 1r\n3rd : a + 2r\n4th : a + 3r\n5th : a + 4r\nn,\nn\nn,\na\nr,\nr,\nn.\nan\nrn\nn."
+      "explanation": "The first term of the arithmetic sequence is \n and the difference between neighboring terms is \n so the next few terms of the sequence look\nlike this:\nIf we combine the 's, we see that\nIf we think about how the numbers in an arithmetic sequence grow, they grow based on the value of \n so as  grows bigger and bigger, if you\ndouble \n then the value of the term will approximately double as well. This is not exactly true because if the value of  is large compared to \nthen for small \n it isn't true that the sequence grows proportional to \n This is the reason why the choices that contain \n or \n are incorrect,\nbecause those choices grow much faster with \n You can also think of arithmetic sequences as growing similar to the points on a line.\na\nn\nr\nn\n= a + (n −1)r\nn\n= a + (n −1)r\na,\nr,\n2nd : a + r\n3rd : a + r + r\n4th : a + r + r + r\n5th : a + r + r + r + r\nr\n2nd : a + 1r\n3rd : a + 2r\n4th : a + 3r\n5th : a + 4r\nn,\nn\nn,\na\nr,\nr,\nn.\nan\nrn\nn.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q4.png"
     },
     {
       "id": 1775898642003,
@@ -3236,7 +3246,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(B)",
-      "explanation": "The geometric mean of  and  is equal to \n The arithmetic mean of  and  is the simple average, or \n Suppose that the geometric\nand arithmetic means were equal. Then\nHowever, this can't be true, because the problem says that \n There is no other way for \n to equal \n so it's not possible for the\ngeometric mean to equal the arithmetic mean. We can say that the left side of the above equation must be positive, since \n being a\nsquare, must be positive. The left side of the equation is always larger, which means we can write\nThen the geometric mean is always smaller than the arithmetic mean, so the correct answer is the second choice.\na\nb,\na ≠b,\na\nb\na\nb\n√a × b.\na\nb\na+b\n2 .\na + b\n2\n= √a × b\n( a + b\n2\n)\n2\n= a × b\n(a + b)2 = 4ab\na2 + 2ab + b2 = 4ab\na2 −2ab + b2 = 0\n(a −b)2 = 0\n⟹a = b\na ≠b.\n(a −b)2\n0,\n(a −b)2,\na + b\n2\n> √a × b"
+      "explanation": "The geometric mean of  and  is equal to \n The arithmetic mean of  and  is the simple average, or \n Suppose that the geometric\nand arithmetic means were equal. Then\nHowever, this can't be true, because the problem says that \n There is no other way for \n to equal \n so it's not possible for the\ngeometric mean to equal the arithmetic mean. We can say that the left side of the above equation must be positive, since \n being a\nsquare, must be positive. The left side of the equation is always larger, which means we can write\nThen the geometric mean is always smaller than the arithmetic mean, so the correct answer is the second choice.\na\nb,\na ≠b,\na\nb\na\nb\n√a × b.\na\nb\na+b\n2 .\na + b\n2\n= √a × b\n( a + b\n2\n)\n2\n= a × b\n(a + b)2 = 4ab\na2 + 2ab + b2 = 4ab\na2 −2ab + b2 = 0\n(a −b)2 = 0\n⟹a = b\na ≠b.\n(a −b)2\n0,\n(a −b)2,\na + b\n2\n> √a × b",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q10.png"
     },
     {
       "id": 1775898642009,
@@ -3246,7 +3257,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "156",
-      "explanation": "Let's try to find the common difference between the terms in this sequence. We start from the \n term and go to the \n term, so that means\nthe common difference is added \n times. Now, let's see how the term itself changes, from \n to \n which is a change of\n Divide this total change over the number of times to get \n which is how much you add to a term to get the next term.\nThe \n term would be \n steps away from the \n term, which is 21, so we should add \n to \n which gives us \nBonus Challenge Questions\n−51\n21,\n3rd\n27th\n27 −3 = 24\n−51\n21,\n21 −(−51) = 72.\n72\n24 = 3,\n72nd\n72 −27 = 45\n27th\n45 × 3 = 135\n21,\n156.\nEarned 0 of 7 points. 0%"
+      "explanation": "Let's try to find the common difference between the terms in this sequence. We start from the \n term and go to the \n term, so that means\nthe common difference is added \n times. Now, let's see how the term itself changes, from \n to \n which is a change of\n Divide this total change over the number of times to get \n which is how much you add to a term to get the next term.\nThe \n term would be \n steps away from the \n term, which is 21, so we should add \n to \n which gives us \nBonus Challenge Questions\n−51\n21,\n3rd\n27th\n27 −3 = 24\n−51\n21,\n21 −(−51) = 72.\n72\n24 = 3,\n72nd\n72 −27 = 45\n27th\n45 × 3 = 135\n21,\n156.\nEarned 0 of 7 points. 0%",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q11.png"
     },
     {
       "id": 1775898642010,
@@ -3316,7 +3328,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "From the video lesson, we saw that we can guess that the answer is in the form of an integer plus a term with a square root of \n Then, we can\nwrite \n for the value that we want to figure out.\nLooking at this, we can see that the \n term is found from the cross terms that we get from expanding the left side, in other words, \n so\nwe can guess that the values of  and  might be  and \n√12 + 6√3\n3 + √3\n3 + √3\n3.\na + b√3\na + b√3 = √12 + 6√3\n(a + b√3)2 = √12 + 6√3\n6√3\n2ab√3,\na\nb\n3\n1.\n√12 + 6√3 = √9 + 2 × 3 × √3 + (√3)2\n= √(3 + √3)2\n= 3 + √3"
+      "explanation": "From the video lesson, we saw that we can guess that the answer is in the form of an integer plus a term with a square root of \n Then, we can\nwrite \n for the value that we want to figure out.\nLooking at this, we can see that the \n term is found from the cross terms that we get from expanding the left side, in other words, \n so\nwe can guess that the values of  and  might be  and \n√12 + 6√3\n3 + √3\n3 + √3\n3.\na + b√3\na + b√3 = √12 + 6√3\n(a + b√3)2 = √12 + 6√3\n6√3\n2ab√3,\na\nb\n3\n1.\n√12 + 6√3 = √9 + 2 × 3 × √3 + (√3)2\n= √(3 + √3)2\n= 3 + √3",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q18.png"
     },
     {
       "id": 1775898642017,
@@ -3376,7 +3389,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "Let's use what we know about the roots of quadratic functions to help us write the\nequations out. We know that the roots are the values of  that make the quadratic\nThere can't be more than two roots, either. We know that we can then factor the quadratic\nas\nwhere \n and \n are the two roots of \n You can check that it works by seeing that the left\nfactor, \n becomes  when \n and the right factor, \n becomes  when\n Since the factors are multiplied together, if either of them equals \n the whole\nquadratic equals \nExpanding the factored equation out, we can see the values of  and \nThen,  equals \n times the sum of the roots, and  equals the product of the roots, which\ngives us choice \nx2 + ax + b = 0,\na\nb\na\nb\nx2 + ax + b = 0\na = (−1) × (sum of the roots)\nb = product of the roots\na = (−1) × (sum of the roots)\nb = product of the roots\nx\nx2 + ax + b = 0.\nx2 + ax + b = (x −r1)(x −r2)\nr1\nr2\nx.\nx −r1,\n0\nx = r1,\nx −r2,\n0\nx = r2.\n0,\n0.\na\nb :\nx2 + ax + b = (x −r1)(x −r2)\n= x2 −r1x −r2x + (−r1)(−r2)\n= x2 + ( −1 × (r1 + r2)) + r1r2\na\n−1\nb\n1."
+      "explanation": "Let's use what we know about the roots of quadratic functions to help us write the\nequations out. We know that the roots are the values of  that make the quadratic\nThere can't be more than two roots, either. We know that we can then factor the quadratic\nas\nwhere \n and \n are the two roots of \n You can check that it works by seeing that the left\nfactor, \n becomes  when \n and the right factor, \n becomes  when\n Since the factors are multiplied together, if either of them equals \n the whole\nquadratic equals \nExpanding the factored equation out, we can see the values of  and \nThen,  equals \n times the sum of the roots, and  equals the product of the roots, which\ngives us choice \nx2 + ax + b = 0,\na\nb\na\nb\nx2 + ax + b = 0\na = (−1) × (sum of the roots)\nb = product of the roots\na = (−1) × (sum of the roots)\nb = product of the roots\nx\nx2 + ax + b = 0.\nx2 + ax + b = (x −r1)(x −r2)\nr1\nr2\nx.\nx −r1,\n0\nx = r1,\nx −r2,\n0\nx = r2.\n0,\n0.\na\nb :\nx2 + ax + b = (x −r1)(x −r2)\n= x2 −r1x −r2x + (−r1)(−r2)\n= x2 + ( −1 × (r1 + r2)) + r1r2\na\n−1\nb\n1.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q4.png"
     },
     {
       "id": 1775898718489,
@@ -3406,7 +3420,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "Hopefully you didn't try to solve for \n \n and ! You can eyeball this one. Use the fact that\nwe can solve a set of equations if the number of variables is the same as the number of\nequations. If we have more variables than equations, we can still determine a relationship\nbetween the variables, but we could choose any value for one of them, say  for example,\nand then get many different answers. If we have more equations than variables, this could\nalso be solvable; however, there might be no solution, for example if we have \n and\nNotice that every set of choices has three variables, \n \n and \n However, only the fourth\nchoice has three equations; every other choice has fewer than three.\n3x + 4y + z = 20\ny −z + 2x = 3\n1\n2 z + 3\n4 y = 10 −x\n \nx, y,\nz\nx\nx = 0\nx = 3.\nx, y,\nz."
+      "explanation": "Hopefully you didn't try to solve for \n \n and ! You can eyeball this one. Use the fact that\nwe can solve a set of equations if the number of variables is the same as the number of\nequations. If we have more variables than equations, we can still determine a relationship\nbetween the variables, but we could choose any value for one of them, say  for example,\nand then get many different answers. If we have more equations than variables, this could\nalso be solvable; however, there might be no solution, for example if we have \n and\nNotice that every set of choices has three variables, \n \n and \n However, only the fourth\nchoice has three equations; every other choice has fewer than three.\n3x + 4y + z = 20\ny −z + 2x = 3\n1\n2 z + 3\n4 y = 10 −x\n \nx, y,\nz\nx\nx = 0\nx = 3.\nx, y,\nz.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q7.png"
     },
     {
       "id": 1775898718493,
@@ -3426,7 +3441,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(D)",
-      "explanation": "A root of a quadratic equation is the value of  which makes the expression\nx2 + ax + b\nx,\n0\nx\nx2 + ax + b = 0."
+      "explanation": "A root of a quadratic equation is the value of  which makes the expression\nx2 + ax + b\nx,\n0\nx\nx2 + ax + b = 0.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q9.png"
     },
     {
       "id": 1775898718495,
@@ -3446,7 +3462,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "32",
-      "explanation": "If we call the integers  and \n then \n and \nTherefore,\nSquare-rooting both sides of the equation, we get\nBonus Challenge Questions\n800.\n112.\nx\ny,\nx2 + y2 = 800\nxy = 112.\nx2 + 2xy + y2 = 800 + 2(112) = 800 + 224 = 1024.\nx + y = √1024 = √210 = 25 = 32.\nEarned 0 of 7 points. 0%"
+      "explanation": "If we call the integers  and \n then \n and \nTherefore,\nSquare-rooting both sides of the equation, we get\nBonus Challenge Questions\n800.\n112.\nx\ny,\nx2 + y2 = 800\nxy = 112.\nx2 + 2xy + y2 = 800 + 2(112) = 800 + 224 = 1024.\nx + y = √1024 = √210 = 25 = 32.\nEarned 0 of 7 points. 0%",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q11.png"
     },
     {
       "id": 1775898718497,
@@ -3456,7 +3473,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "4",
-      "explanation": "Let's translate the information from the problem into math:\nWe can factor this equation:\nSo there are two possible values for \n  and \n The value of \n wouldn't work because\nthen the number of miles James swims would be \n which is negative. Then,\nour answer is \n2x −4\n5x −6\n10 −2x\nx + 3\nx.\nJames' speed = John's speed\nJames' distance\nJames' time\n= John'sdistance\nJohn's time\n2x −4\n5x −6 = −2x + 10\nx + 3\n(2x −4)(x + 3) = (−2x + 10)(5x −6)\n2x2 + 6x −4x −12 = −10x2 + 12x + 50x −60\n12x2 −60x + 48 = 0\nx2 −5x + 4 = 0\nx2 −5x + 4 = (x −1)(x −4)\nx, 1\n4.\nx = 1\n2 × 1 −4 = −4,\nx = 4."
+      "explanation": "Let's translate the information from the problem into math:\nWe can factor this equation:\nSo there are two possible values for \n  and \n The value of \n wouldn't work because\nthen the number of miles James swims would be \n which is negative. Then,\nour answer is \n2x −4\n5x −6\n10 −2x\nx + 3\nx.\nJames' speed = John's speed\nJames' distance\nJames' time\n= John'sdistance\nJohn's time\n2x −4\n5x −6 = −2x + 10\nx + 3\n(2x −4)(x + 3) = (−2x + 10)(5x −6)\n2x2 + 6x −4x −12 = −10x2 + 12x + 50x −60\n12x2 −60x + 48 = 0\nx2 −5x + 4 = 0\nx2 −5x + 4 = (x −1)(x −4)\nx, 1\n4.\nx = 1\n2 × 1 −4 = −4,\nx = 4.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q12.png"
     },
     {
       "id": 1775898718498,
@@ -3476,7 +3494,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "-17",
-      "explanation": "If \n, then \n, therefore \n. The\nsum of all roots of this polynomial is then just \nf(x) = x2 + 17x −39\ng(x) = 4x + 1\nx\ng(f(x)) = 0\ng(f(x)) = 0\n4(x2 + 17x −39) + 1 = 0\n4x2 + 68x −155 = 0\n−68/4 = −17."
+      "explanation": "If \n, then \n, therefore \n. The\nsum of all roots of this polynomial is then just \nf(x) = x2 + 17x −39\ng(x) = 4x + 1\nx\ng(f(x)) = 0\ng(f(x)) = 0\n4(x2 + 17x −39) + 1 = 0\n4x2 + 68x −155 = 0\n−68/4 = −17.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q14.png"
     },
     {
       "id": 1775898718500,
@@ -3486,7 +3505,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "0",
-      "explanation": "The sum of the roots,  and , equals \n, and the product of  and  equals \n. Since \nand  are integers, they both have to be factors of \n, whether negative or positive.\n has  factors, meaning  unordered factor pairs that multiply to \n including\nnegative numbers. These pairs are:\nIt actually doesn’t matter exactly what they are, because  is the negative sum of the two\nnumbers inside the parentheses. And when we add up the sums of the pairs of numbers in\nevery of the  factor pairs, the negative factor pairs’ sums cancel out with those of the\npositive factor pairs. Therefore the total sum of all possible values of  is just .\np\nx2 + px + 20\n(x −a)(x −b)\na\nb\na\nb\n−p\na\nb\n20\na\nb\n20\n20 = 22 ⋅5\n6\n6\n20\n(20, 1), (−20, −1), (10, 2), (−10, −2), (5, 4), (−5, −4).\np\n6\np\n0"
+      "explanation": "The sum of the roots,  and , equals \n, and the product of  and  equals \n. Since \nand  are integers, they both have to be factors of \n, whether negative or positive.\n has  factors, meaning  unordered factor pairs that multiply to \n including\nnegative numbers. These pairs are:\nIt actually doesn’t matter exactly what they are, because  is the negative sum of the two\nnumbers inside the parentheses. And when we add up the sums of the pairs of numbers in\nevery of the  factor pairs, the negative factor pairs’ sums cancel out with those of the\npositive factor pairs. Therefore the total sum of all possible values of  is just .\np\nx2 + px + 20\n(x −a)(x −b)\na\nb\na\nb\n−p\na\nb\n20\na\nb\n20\n20 = 22 ⋅5\n6\n6\n20\n(20, 1), (−20, −1), (10, 2), (−10, −2), (5, 4), (−5, −4).\np\n6\np\n0",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q15.png"
     },
     {
       "id": 1775898718501,
@@ -3496,7 +3516,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "325",
-      "explanation": "Using the Quadratic Formula, the difference in the two roots is equal to\nTherefore, the square of this quantity is \np\nq\nx2 + 13x −39,\n(p −q)2\n2√132 + 4 ∗39\n2\n= √169 + 156\n= √325.\n325."
+      "explanation": "Using the Quadratic Formula, the difference in the two roots is equal to\nTherefore, the square of this quantity is \np\nq\nx2 + 13x −39,\n(p −q)2\n2√132 + 4 ∗39\n2\n= √169 + 156\n= √325.\n325.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q16.png"
     },
     {
       "id": 1775898718502,
@@ -3506,7 +3527,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1",
-      "explanation": "Notice that what we have isn't an equation, but just an expression. You might wonder, what\nis there to solve with just an expression? Actually, the roots of an expression will make that\nexpression equal to \n so our equation is implicit in this problem. Since we have a variable\nfor one of the roots of the expression, it makes sense to make a variable for the other root,\n Then\nLooking at the coefficients in our original expressions, we can see that\nand\nThen from the second equation, we get\nand, plugging that into the first equation, we get\nThen the two values of  are \n and \n The question asks for the larger value, so the\nanswer is \nx −c\nx2 + 2cx −3.\nc.\n0,\nd.\nx2 + 2cx −3 = (x −c)(x −d)\n= x2 + x(−c + d) −cd\ncd = 3\n2c = −c + d\nd = 3c,\nc × 3c = 3\nc2 = 1\nc\n−1\n1.\n1."
+      "explanation": "Notice that what we have isn't an equation, but just an expression. You might wonder, what\nis there to solve with just an expression? Actually, the roots of an expression will make that\nexpression equal to \n so our equation is implicit in this problem. Since we have a variable\nfor one of the roots of the expression, it makes sense to make a variable for the other root,\n Then\nLooking at the coefficients in our original expressions, we can see that\nand\nThen from the second equation, we get\nand, plugging that into the first equation, we get\nThen the two values of  are \n and \n The question asks for the larger value, so the\nanswer is \nx −c\nx2 + 2cx −3.\nc.\n0,\nd.\nx2 + 2cx −3 = (x −c)(x −d)\n= x2 + x(−c + d) −cd\ncd = 3\n2c = −c + d\nd = 3c,\nc × 3c = 3\nc2 = 1\nc\n−1\n1.\n1.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q17.png"
     },
     {
       "id": 1775898718503,
@@ -3516,7 +3538,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "5.5",
-      "explanation": "We can notice that the numbers in the numerator are counting up, as are the numbers in\nthe denominator. Let's parametrize the expressions so that the numbers look smaller, by\ncreating a variable called \n If we let \n then this will make our fractions look\na little bit better, and it's nice, because this means we can solve for a general form of this\nexpression.\nThe equation is\nThis means that\nCanceling the \n \n and \n from both sides, we get\nWe actually solved for the general case where  can be anything, but in our case, since the\nfirst fraction has \n in the numerator, we actually want \n Plugging in this, we get\nx\n( 5 −x\n4 −x ) −( 6 −x\n5 −x ) = ( 7 −x\n6 −x ) −( 8 −x\n7 −x )\na.\n4 −x = a −x,\n( 5 −x\n4 −x ) −( 6 −x\n5 −x ) = ( 7 −x\n6 −x ) −( 8 −x\n7 −x )\n( a + 1 −x\na −x\n) −( a + 2 −x\na + 1 −x ) =  ( a + 3 −x\na + 2 −x ) −( a + 4 −x\na + 3 −x )\n(\n1\n(a −x)(a + 1 −x) ) = (\n1\n(a + 2 −x)(a + 3 −x) )\n(a −x)(a + 1 −x) = (a + 2 −x)(a + 3 −x)\na2 + a −ax −ax −x + x2 = a2 + 3a −ax + 2a + 6 −2x −ax −3x + x2\na2 −2ax + a −x + x2 = a2 −2ax + 5a + 6 −5x + x2\na2, x2,\n−2ax\na −x = 5a + 6 −5x\n0 = 4a −4x + 6\n4x = 4a + 6\nx = a + 3\n2\na\n5 −x\na = 4.\n3"
+      "explanation": "We can notice that the numbers in the numerator are counting up, as are the numbers in\nthe denominator. Let's parametrize the expressions so that the numbers look smaller, by\ncreating a variable called \n If we let \n then this will make our fractions look\na little bit better, and it's nice, because this means we can solve for a general form of this\nexpression.\nThe equation is\nThis means that\nCanceling the \n \n and \n from both sides, we get\nWe actually solved for the general case where  can be anything, but in our case, since the\nfirst fraction has \n in the numerator, we actually want \n Plugging in this, we get\nx\n( 5 −x\n4 −x ) −( 6 −x\n5 −x ) = ( 7 −x\n6 −x ) −( 8 −x\n7 −x )\na.\n4 −x = a −x,\n( 5 −x\n4 −x ) −( 6 −x\n5 −x ) = ( 7 −x\n6 −x ) −( 8 −x\n7 −x )\n( a + 1 −x\na −x\n) −( a + 2 −x\na + 1 −x ) =  ( a + 3 −x\na + 2 −x ) −( a + 4 −x\na + 3 −x )\n(\n1\n(a −x)(a + 1 −x) ) = (\n1\n(a + 2 −x)(a + 3 −x) )\n(a −x)(a + 1 −x) = (a + 2 −x)(a + 3 −x)\na2 + a −ax −ax −x + x2 = a2 + 3a −ax + 2a + 6 −2x −ax −3x + x2\na2 −2ax + a −x + x2 = a2 −2ax + 5a + 6 −5x + x2\na2, x2,\n−2ax\na −x = 5a + 6 −5x\n0 = 4a −4x + 6\n4x = 4a + 6\nx = a + 3\n2\na\n5 −x\na = 4.\n3",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q18.png"
     },
     {
       "id": 1775898718504,
@@ -3526,7 +3549,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1010/1009",
-      "explanation": "Let's start with finding \n For this, we just need to substitute \n in for \nWow! This means that we get  back again after running the function once, so running the\nfunction again will give us\nThe value of the function \n then flip-flops between  and \n with all the odd-numbered\n corresponding to  equaling \n and all the even-numbered  corresponding to \nequaling \n All we have to do is look at the parity of  (whether it is even or odd). Since\n is odd, then\nf1 = x+1\nx−1 .\nf2\nx+1\nx−1\nx\nf1, f3\nx+1\nx−1\nx\nf2\nfx\nx = 2019.\nf2.\nx+1\nx−1\nx :\nf2 =\nx+1\nx−1 + 1\nx+1\nx−1 −1\n= x + 1 + x −1\nx + 1 −x + 1\n= 2x\n2\n= x\nx\nf3 = x + 1\nx −1\nfn\nx\nx+1\nx−1 ,\nn\nf\nx+1\nx−1 ,\nn\nf\nx.\nn\n2019\nf2019 = x + 1\nx −1\n= 2019 + 1\n2019 −1\n= 2020\n2018\n= 1010\n1009"
+      "explanation": "Let's start with finding \n For this, we just need to substitute \n in for \nWow! This means that we get  back again after running the function once, so running the\nfunction again will give us\nThe value of the function \n then flip-flops between  and \n with all the odd-numbered\n corresponding to  equaling \n and all the even-numbered  corresponding to \nequaling \n All we have to do is look at the parity of  (whether it is even or odd). Since\n is odd, then\nf1 = x+1\nx−1 .\nf2\nx+1\nx−1\nx\nf1, f3\nx+1\nx−1\nx\nf2\nfx\nx = 2019.\nf2.\nx+1\nx−1\nx :\nf2 =\nx+1\nx−1 + 1\nx+1\nx−1 −1\n= x + 1 + x −1\nx + 1 −x + 1\n= 2x\n2\n= x\nx\nf3 = x + 1\nx −1\nfn\nx\nx+1\nx−1 ,\nn\nf\nx+1\nx−1 ,\nn\nf\nx.\nn\n2019\nf2019 = x + 1\nx −1\n= 2019 + 1\n2019 −1\n= 2020\n2018\n= 1010\n1009",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q19.png"
     },
     {
       "id": 1775898802316,
@@ -3536,7 +3560,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "We don't have to draw these graphs, or find the points that they intersect in. Take a look at\nthe slopes of the four lines. If you forget which coefficient corresponds to the slope, just\nremember that it makes sense that it should be multiplied to \n as you can think of  as the\nnumber of steps you take to the right, and the slope tells you how much you climb vertically\nfor each step. The first two slopes are both \n so the first two lines are parallel. The last two\nlines both have slope \n so they are also parallel. We should check to make sure that all\nfour lines aren't parallel, and they're not, so that's good. Parallel lines should never cross.\nEach line should intersect with two other lines, so we have \n intersection points.\n(We had to divide by \n since we counted each intersection twice.) The four points\nconnected by two pairs of parallel lines mean that the shape that is formed is a\nparallelogram. Note that it is not a square, however, since none of the pairs of lines are\nperpendicular.\ny = 3x + 2\ny = 3x + 5\ny = −x + 10\ny = −x + 15\nx,\nx\n3,\n−1,\n4 × 2 × 1\n2\n2,"
+      "explanation": "We don't have to draw these graphs, or find the points that they intersect in. Take a look at\nthe slopes of the four lines. If you forget which coefficient corresponds to the slope, just\nremember that it makes sense that it should be multiplied to \n as you can think of  as the\nnumber of steps you take to the right, and the slope tells you how much you climb vertically\nfor each step. The first two slopes are both \n so the first two lines are parallel. The last two\nlines both have slope \n so they are also parallel. We should check to make sure that all\nfour lines aren't parallel, and they're not, so that's good. Parallel lines should never cross.\nEach line should intersect with two other lines, so we have \n intersection points.\n(We had to divide by \n since we counted each intersection twice.) The four points\nconnected by two pairs of parallel lines mean that the shape that is formed is a\nparallelogram. Note that it is not a square, however, since none of the pairs of lines are\nperpendicular.\ny = 3x + 2\ny = 3x + 5\ny = −x + 10\ny = −x + 15\nx,\nx\n3,\n−1,\n4 × 2 × 1\n2\n2,",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q1.png"
     },
     {
       "id": 1775898802317,
@@ -3555,7 +3580,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M4W4-exam-point-x-3.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m4w4-exam-point-x-3.png",
       "answer": "(B)",
       "explanation": "Since we know that the ant walks along the parabola \n we can get the -coordinate\nof his ending position by plugging in \n into our equation for \nThe correct answer is choice number two.\ny(x) = x2,\nx = 3.\nx = 3 + a,\na\ny\n9 + 6a + a2\n9 + 6a + a2\ny = x2,\ny\nx = 3\ny :\ny(x) = (3 + a)2 = 9 + 6a + a2"
     },
@@ -3566,7 +3591,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M4W4-exam-line-ab-slope.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m4w4-exam-line-ab-slope.png",
       "answer": "(D)",
       "explanation": "The coordinates of point \n are \n The coordinates of point \n are\nTo get the slope of the line, we want\nThe correct answer is the fourth choice. If the point \n were to be made closer to \n the\nvalue of  would shrink, and the value of the slope would get closer and closer to \n The\ny = x2,\nA,\nx = 3,\nB,\nx = 3 + a,\na\nAB.\n–\n6 + a\n6 + a\nA\n(3, 32) = (3, 9).\nB\n(3 + a, (3 + a)2) = (3 + a, 9 + 6a + a2).\nchange in y\nchange in x =\n(9 + 6a + a2) −(9)\n(3 + a) −3\n= 6a + a2\na\n= 6 + a\nB\nA,\na\n6."
     },
@@ -3578,7 +3603,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "-7",
-      "explanation": "Since these lines don’t cross, they must be parallel, and therefore they have the same slope,\ni.e. \n.\ny = ax + b\ny = −7x + 49\na\n−7"
+      "explanation": "Since these lines don’t cross, they must be parallel, and therefore they have the same slope,\ni.e. \n.\ny = ax + b\ny = −7x + 49\na\n−7",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q5.png"
     },
     {
       "id": 1775898802321,
@@ -3598,7 +3624,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "30",
-      "explanation": "Explanation:\nLet's find the points of intersection of this line with the coordinate axes.\nWith the x-axis (at \n): \n which means \nWith the y-axis (at \n): \n which means \nOur line and coordinate axes bound the right triangle \n Point \n has coordinates\n point \n has coordinates \n and \n Then \n By\nthe Pythagorean theorem, we can find \n:\nThe perimeter of triangle \n will be equal to \n5x + 12y = −60\ny = 0 5x = −60,\nx = −12\nx = 0 12y = −60,\ny = −5\nAOB.\nA\n(−12, 0),\nB\n(0, −5)\nO −(0, 0).\nOA = 12, OB = 5.\nAB\nAB = √AO2 + BO2 = √122 + 52 = √169 = 13\nAOB\nOA + OB + AB = 12 + 5 + 13 = 30."
+      "explanation": "Explanation:\nLet's find the points of intersection of this line with the coordinate axes.\nWith the x-axis (at \n): \n which means \nWith the y-axis (at \n): \n which means \nOur line and coordinate axes bound the right triangle \n Point \n has coordinates\n point \n has coordinates \n and \n Then \n By\nthe Pythagorean theorem, we can find \n:\nThe perimeter of triangle \n will be equal to \n5x + 12y = −60\ny = 0 5x = −60,\nx = −12\nx = 0 12y = −60,\ny = −5\nAOB.\nA\n(−12, 0),\nB\n(0, −5)\nO −(0, 0).\nOA = 12, OB = 5.\nAB\nAB = √AO2 + BO2 = √122 + 52 = √169 = 13\nAOB\nOA + OB + AB = 12 + 5 + 13 = 30.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q7.png"
     },
     {
       "id": 1775898802323,
@@ -3648,7 +3675,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "10/3",
-      "explanation": "The midpoint of \n and \n is \n The midpoint of \n and \n is\n The slope of the line is then just\n(0, 3)\n(7, 8)\n(−3, −19)\n(4, 10).\n(0, 3)\n(7, 8)\n( 7\n2 , 11\n2 .\n(−3, −19)\n(4, 10)\n( 1\n2 , −9\n2 .\n11\n2 −( −9\n2 )\n7\n2 −1\n2\n= 20\n6 = 10\n3 ."
+      "explanation": "The midpoint of \n and \n is \n The midpoint of \n and \n is\n The slope of the line is then just\n(0, 3)\n(7, 8)\n(−3, −19)\n(4, 10).\n(0, 3)\n(7, 8)\n( 7\n2 , 11\n2 .\n(−3, −19)\n(4, 10)\n( 1\n2 , −9\n2 .\n11\n2 −( −9\n2 )\n7\n2 −1\n2\n= 20\n6 = 10\n3 .",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q12.png"
     },
     {
       "id": 1775898802328,
@@ -3687,7 +3715,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "imageUrl": "https://dailyimg.poshenloh.com/M4W4-exam-lattice-square.png",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m4w4-exam-lattice-square.png",
       "answer": "14",
       "explanation": "Explanation: We can write this equation in a form that shows us the slope, by dividing the\nwhole thing by \n Then we get\nHere we can see that when \n then \n This means that our line crosses the -axis\nat \n From here, our line will cross through any points that you can get to by moving\nright by  steps, and going up by  steps. In order for  to be an integer,  needs to be a\nmultiple of \n The largest possible value of  which could be inside the shaded region\nwould be the largest multiple of  less than \n so \n This corresponds to \n steps,\nwhich means we would go up by \n units. The -coordinate of our last lattice\npoint would be \n and the -coordinate of our last lattice point would be\n which means our last lattice point is \nHowever, you have to count the original point, \n so there are \n total lattice points\nthat the line crosses.\n(x, y)\nx\ny\n3y = 2x + 15\n3.\ny = 2\n3 x + 5.\nx = 0,\ny = 5.\ny\n(0, 5).\n3\n2\ny\nx\n3.\nx\n3\n40,\nx = 39.\n13\n13 × 2 = 26\nx\n0 + 39 = 39,\ny\n5 + 26 = 31,\n(39, 31).\n(0, 5),\n14"
     },
@@ -3699,7 +3727,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "205",
-      "explanation": "Don't let the words in this question confuse you! This question is a good example of how\nwriting equations and variables can really make things simpler. Attempting to draw each\nline and solve for each -intercept is a lot more clunky and error-prone than abstracting\nwhat we want into a general form which will eventually give us just one calculation instead\nof lots of little ones.\nLet's start with the standard form of an equation,\nand use what we know about the line passing through \n to write\nWe are asked for the sum of the -intercepts, and we know that a -intercept is the point\nwhere our line crosses the -axis, so let's set \n Then \n is the -intercept.\nHowever, we can use our second equation, and since we are given the slopes \n the value\nof  is solvable.\nSumming all these -intercepts will give\nwhich equals\n(3, 4)\n−1, −2, −3, −4, −5, −6, −7, −8\n−9\n−10.\ny\ny\ny = mx + c\n(3, 4)\n4 = m × 3 + c.\ny\ny\ny\nx = 0.\ny = c\ny\nm,\nc\nc = 4 −3m\ny\n(4 −(3(−1))) + (4 −(3(−2))) + (4 −(3(−3))) + (4 −(3(−4)))+\n(4 −(3(−5))) + (4 −(3(−6))) + (4 −(3(−7))) + (4 −(3(−8)))+\n(4 −(3(−9))) + (4 −(3(−10)))"
+      "explanation": "Don't let the words in this question confuse you! This question is a good example of how\nwriting equations and variables can really make things simpler. Attempting to draw each\nline and solve for each -intercept is a lot more clunky and error-prone than abstracting\nwhat we want into a general form which will eventually give us just one calculation instead\nof lots of little ones.\nLet's start with the standard form of an equation,\nand use what we know about the line passing through \n to write\nWe are asked for the sum of the -intercepts, and we know that a -intercept is the point\nwhere our line crosses the -axis, so let's set \n Then \n is the -intercept.\nHowever, we can use our second equation, and since we are given the slopes \n the value\nof  is solvable.\nSumming all these -intercepts will give\nwhich equals\n(3, 4)\n−1, −2, −3, −4, −5, −6, −7, −8\n−9\n−10.\ny\ny\ny = mx + c\n(3, 4)\n4 = m × 3 + c.\ny\ny\ny\nx = 0.\ny = c\ny\nm,\nc\nc = 4 −3m\ny\n(4 −(3(−1))) + (4 −(3(−2))) + (4 −(3(−3))) + (4 −(3(−4)))+\n(4 −(3(−5))) + (4 −(3(−6))) + (4 −(3(−7))) + (4 −(3(−8)))+\n(4 −(3(−9))) + (4 −(3(−10)))",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q17.png"
     },
     {
       "id": 1775898802333,
@@ -3709,7 +3738,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q18.png"
     },
     {
       "id": 1775898802334,
@@ -3739,7 +3769,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "17",
-      "explanation": "Since these two lines are parallel, you can think of one equation as being a shifted-up version of\nthe other line. The distance between these two lines is equal to this vertical shift. Look at the -axis\nto see the amount of this shift:\ny(x) = 5x −11\ng(x) = 5x + 6\ny"
+      "explanation": "Since these two lines are parallel, you can think of one equation as being a shifted-up version of\nthe other line. The distance between these two lines is equal to this vertical shift. Look at the -axis\nto see the amount of this shift:\ny(x) = 5x −11\ng(x) = 5x + 6\ny",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-final-q1.png"
     },
     {
       "id": 1775898873314,
@@ -3889,7 +3920,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "13",
-      "explanation": "The distance between \n and \n is the hypotenuse of the right triangle with one\nleg equal to the  difference between the points, and the other leg equal to the  difference\nbetween the points.\nWe are given that this distance equals \n so\nSquaring both sides and combining the  terms, we get\n(4, 6)\n(x + 1, 4x −2)\n√151x.\nx?\n(4, 6)\n(x + 1, 4x −2)\ny\nx\n distance  = √(4x −2 −6)2 + (x + 1 −4)2\n= √(4x −8)2 + (x −3)2\n= √16x2 −64x + 64 + x2 −6x + 9\n= √17x2 −70x + 73\n√151x,\n distance  = √17x2 −70x + 73 = √151x\nx\n17x2 −221x + 73 = 0."
+      "explanation": "The distance between \n and \n is the hypotenuse of the right triangle with one\nleg equal to the  difference between the points, and the other leg equal to the  difference\nbetween the points.\nWe are given that this distance equals \n so\nSquaring both sides and combining the  terms, we get\n(4, 6)\n(x + 1, 4x −2)\n√151x.\nx?\n(4, 6)\n(x + 1, 4x −2)\ny\nx\n distance  = √(4x −2 −6)2 + (x + 1 −4)2\n= √(4x −8)2 + (x −3)2\n= √16x2 −64x + 64 + x2 −6x + 9\n= √17x2 −70x + 73\n√151x,\n distance  = √17x2 −70x + 73 = √151x\nx\n17x2 −221x + 73 = 0.",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-final-q16.png"
     },
     {
       "id": 1775898873329,
@@ -3899,7 +3931,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "-4",
-      "explanation": "The midpoint between \n and \n is \n The slope of the line\nthat passes through these two points is\nSo the other line, being perpendicular to this one, has slope of \n Since it passes through the\nmidpoint, which is \n we can solve the equation\nThe x-intercept is the value of the function when \n so the x-intercept is equal to\n(−10, 1\n3 )\n(−2, 17\n3 ).\n(−10, 1\n3 )\n(−2, 17\n3 )?\n(−10, 1\n3 )\n(−2, 17\n3 )\n( −10−2\n2\n,\n1\n3 + 17\n3\n2\n) = (−6, 3).\n17\n3 −1\n3\n−2 −(−10) = 16\n3 × 1\n8 = 2\n3 .\n−3\n2 .\n(−6, 3),\ny = −3\n2 x + c,\n3 = −3\n2 (−6) + c\n3 = 9 + c ⟹c = −6.\ny = 0,\n0 = −3\n2 x −6 ⟹x = −12\n3 =\n.\n−4"
+      "explanation": "The midpoint between \n and \n is \n The slope of the line\nthat passes through these two points is\nSo the other line, being perpendicular to this one, has slope of \n Since it passes through the\nmidpoint, which is \n we can solve the equation\nThe x-intercept is the value of the function when \n so the x-intercept is equal to\n(−10, 1\n3 )\n(−2, 17\n3 ).\n(−10, 1\n3 )\n(−2, 17\n3 )?\n(−10, 1\n3 )\n(−2, 17\n3 )\n( −10−2\n2\n,\n1\n3 + 17\n3\n2\n) = (−6, 3).\n17\n3 −1\n3\n−2 −(−10) = 16\n3 × 1\n8 = 2\n3 .\n−3\n2 .\n(−6, 3),\ny = −3\n2 x + c,\n3 = −3\n2 (−6) + c\n3 = 9 + c ⟹c = −6.\ny = 0,\n0 = −3\n2 x −6 ⟹x = −12\n3 =\n.\n−4",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-final-q17.png"
     },
     {
       "id": 1775898873330,
@@ -3909,7 +3942,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-final-q18.png"
     },
     {
       "id": 1775898873331,

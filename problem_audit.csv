@@ -1,0 +1,70 @@
+source,question,issue_type,detail,problem_id
+Module 0 - Final Challenge,Q19,encoding_corruption,Mojibake detected: ...ith 7 blank spots ÃÂÃÂÃÂÃÂÃÂÃÂ...,1775887616014
+Module 0 - Final Challenge,Q19,long_unstructured,Text is 1833 chars with only 1 lines,1775887616014
+Module 0 - Final Challenge,Q19,internal_duplication,"Text chunk repeated at positions 80 and 1360: ""ÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃ...""",1775887616014
+Module 0 - Week 1 Challenge,Q6,too_short,Only 26 chars: 6. Evaluate 29*29 - 33*25.,1775885601806
+Module 0 - Week 2 Challenge,Q10,encoding_corruption,Mojibake detected: ... formula is wrong ÃÂÃÂÃÂÃÂÃÂÃÂ...,1775886267071
+Module 0 - Week 2 Challenge,Q10,wall_of_text,Text is 12829 chars (likely contains embedded explanation or duplicated content),1775886267071
+Module 0 - Week 2 Challenge,Q10,internal_duplication,"Text chunk repeated at positions 1120 and 1760: ""ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ...""",1775886267071
+Module 0 - Week 2 Challenge,Q16,incomplete_choices,"Has choices ['A', 'B', 'C'] but missing ['D']",1775886267078
+Module 0 - Week 3 Challenge,Q1,encoding_corruption,Mojibake detected: ... (C) 60 - 180 (D) ÃÂÃÂÃÂÃÂÃÂÃÂ...,1775886909654
+Module 0 - Week 3 Challenge,Q1,wall_of_text,Text is 4227 chars (likely contains embedded explanation or duplicated content),1775886909654
+Module 0 - Week 3 Challenge,Q1,internal_duplication,"Text chunk repeated at positions 720 and 1360: ""ÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃ...""",1775886909654
+Module 0 - Week 3 Challenge,Q16,encoding_corruption,Mojibake detected: ...ermost lane? (A) 2ÃÂÃÂÃÂÃÂÃÂÃÂ...,1775886909670
+Module 0 - Week 3 Challenge,Q16,wall_of_text,Text is 20749 chars (likely contains embedded explanation or duplicated content),1775886909670
+Module 0 - Week 3 Challenge,Q16,internal_duplication,"Text chunk repeated at positions 800 and 1440: ""ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ...""",1775886909670
+Module 0 - Week 3 Challenge,Q2,encoding_corruption,Mojibake detected: ...C) 36 (D) 120 (E) ÃÂÃÂÃÂÃÂÃÂÃÂ...,1775886909655
+Module 0 - Week 3 Challenge,Q2,wall_of_text,Text is 4177 chars (likely contains embedded explanation or duplicated content),1775886909655
+Module 0 - Week 3 Challenge,Q2,internal_duplication,"Text chunk repeated at positions 560 and 1200: ""ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ...""",1775886909655
+Module 0 - Week 3 Challenge,Q3,incomplete_choices,"Has choices ['A', 'B'] but missing ['C', 'D']",1775886909656
+Module 0 - Week 3 Challenge,Q6,encoding_corruption,Mojibake detected: ...a of a circle is 9ÃÂÃÂÃÂÃÂÃÂÃÂ...,1775886909659
+Module 0 - Week 3 Challenge,Q6,wall_of_text,Text is 12375 chars (likely contains embedded explanation or duplicated content),1775886909659
+Module 0 - Week 3 Challenge,Q6,internal_duplication,"Text chunk repeated at positions 480 and 1120: ""ÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃ...""",1775886909659
+Module 0 - Week 4 Challenge,Q19,encoding_corruption,Mojibake detected: ...top tip labeled 30ÃÂÃÂÃÂÃÂÃÂÃÂ...,1775887263938
+Module 0 - Week 4 Challenge,Q19,wall_of_text,Text is 2200 chars (likely contains embedded explanation or duplicated content),1775887263938
+Module 0 - Week 4 Challenge,Q19,internal_duplication,"Text chunk repeated at positions 400 and 1040: ""ÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃ...""",1775887263938
+Module 0 - Week 4 Challenge,Q2,encoding_corruption,Mojibake detected: ...al with angles 120ÃÂÃÂÃÂÃÂÃÂÃÂ...,1775887263919
+Module 0 - Week 4 Challenge,Q2,wall_of_text,Text is 6287 chars (likely contains embedded explanation or duplicated content),1775887263919
+Module 0 - Week 4 Challenge,Q2,internal_duplication,"Text chunk repeated at positions 400 and 1040: ""ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ...""",1775887263919
+Module 0 - Week 4 Challenge,Q3,encoding_corruption,Mojibake detected: ...gle with angles 36ÃÂÃÂÃÂÃÂÃÂÃÂ...,1775887263920
+Module 0 - Week 4 Challenge,Q3,wall_of_text,Text is 4323 chars (likely contains embedded explanation or duplicated content),1775887263920
+Module 0 - Week 4 Challenge,Q3,internal_duplication,"Text chunk repeated at positions 400 and 1040: ""ÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃ...""",1775887263920
+Module 0 - Week 4 Challenge,Q6,too_short,Only 28 chars: 6. What is 5/14 - 1/2 + 1/7?,1775887263923
+Module 1 - Final Challenge,Q10,incomplete_choices,"Has choices ['A', 'B', 'C'] but missing ['D']",1775892324357
+Module 1 - Week 1 Challenge,Q18,incomplete_choices,"Has choices ['A', 'B', 'C'] but missing ['D']",1775890574448
+Module 1 - Week 1 Challenge,Q7,too_short,Only 28 chars: 7. What is 1.125 * 2.666...?,1775890574435
+Module 1 - Week 4 Challenge,Q10,incomplete_choices,"Has choices ['A', 'B', 'C'] but missing ['D']",1775891748496
+Module 3 - Final Exam,Q1,encoding_corruption,Mojibake detected: ...quations: y(x) = 5x â 11; g(x) = 5x + 6...,1775898873313
+Module 3 - Final Exam,Q16,encoding_corruption,"Mojibake detected: ...n (4,6) and (x+1, 4xâ2) is sqrt(151x). Wh...",1775898873328
+Module 3 - Final Exam,Q17,encoding_corruption,"Mojibake detected: ...through the points (â10, 1/3) and (â2, ...",1775898873329
+Module 3 - Final Exam,Q18,encoding_corruption,Mojibake detected: ...ger n such that n^2 â 20n + 64 is a posit...,1775898873330
+Module 3 - Mini Test 1,Q3,encoding_corruption,"Mojibake detected: ...written as a+c and aâc. Then, the product...",1775898523311
+Module 3 - Mini Test 1,Q6,encoding_corruption,Mojibake detected: ...ike this: a @ b = a â b. Find the value o...,1775898523314
+Module 3 - Mini Test 1,Q7,encoding_corruption,"Mojibake detected: ...if x < 5; f(x) = 7x â 20, if x >= 5. Find...",1775898523315
+Module 3 - Mini Test 1,Q8,encoding_corruption,Mojibake detected: ...e expansion of 2(4x â 4)(4x + 4) when it ...,1775898523316
+Module 3 - Mini Test 2,Q10,encoding_corruption,"Mojibake detected: ...rs a and b, where a â  b, what is true ab...",1775898642008
+Module 3 - Mini Test 2,Q11,encoding_corruption,"Mojibake detected: ...hmetic sequence are â51 and 21, respectiv...",1775898642009
+Module 3 - Mini Test 2,Q18,encoding_corruption,Mojibake detected: ...ssion: sqrt(sqrt(5) â sqrt(3 â sqrt(29 ...,1775898642016
+Module 3 - Mini Test 2,Q2,encoding_corruption,Mojibake detected: ...have changed? (A) a â 20% + b + 10% (B) 0...,1775898642000
+Module 3 - Mini Test 2,Q4,encoding_corruption,Mojibake detected: ...D) nth term = a + (nâ1)r (E) nth term = a...,1775898642002
+Module 3 - Mini Test 3,Q11,encoding_corruption,Mojibake detected: ...ing. James swims 2x â 4 miles in 5x â 6...,1775898718496
+Module 3 - Mini Test 3,Q12,encoding_corruption,"Mojibake detected: ...utions to x^2 + 13x â 39, find (p â q)^...",1775898718497
+Module 3 - Mini Test 3,Q14,encoding_corruption,Mojibake detected: ...se f(x) = x^2 + 17x â 39 and g(x) = 4x + ...,1775898718499
+Module 3 - Mini Test 3,Q15,encoding_corruption,Mojibake detected: ...be factored into (x â a)(x â b) where a...,1775898718500
+Module 3 - Mini Test 3,Q16,encoding_corruption,Mojibake detected: ...16. Suppose that x â c is a factor of x^...,1775898718501
+Module 3 - Mini Test 3,Q17,encoding_corruption,"Mojibake detected: .... When there are 7x â 5 owls, there are 4...",1775898718502
+Module 3 - Mini Test 3,Q18,encoding_corruption,Mojibake detected: ...x in the equation (5âx)/(4âx) â (6â...,1775898718503
+Module 3 - Mini Test 3,Q19,encoding_corruption,Mojibake detected: .... Let f_1 = (x+1)/(xâ1). Let f_2 be forme...,1775898718504
+Module 3 - Mini Test 3,Q4,encoding_corruption,Mojibake detected: ...x + b = 0? (A) a = (â1)*(sum of the roots...,1775898718488
+Module 3 - Mini Test 3,Q7,encoding_corruption,Mojibake detected: ...x+2y+(1/3)z=3+y/2; zâx=4 (B) x+y=4; y+z=3...,1775898718492
+Module 3 - Mini Test 3,Q9,encoding_corruption,Mojibake detected: ...ression becomes (A) â1 (B) 1 (C) a + b (D...,1775898718494
+Module 3 - Mini Test 4,Q1,encoding_corruption,Mojibake detected: ... 2; y = 3x + 5; y = âx + 10; y = âx + 1...,1775898802316
+Module 3 - Mini Test 4,Q12,encoding_corruption,"Mojibake detected: ...nd the midpoint of (â3,â19) and (4,10)....",1775898802327
+Module 3 - Mini Test 4,Q17,encoding_corruption,"Mojibake detected: ...ing from a slope of â1, â2, â3, â4,...",1775898802332
+Module 3 - Mini Test 4,Q18,encoding_corruption,"Mojibake detected: ...tween (3,7) and (5x â 6, 6x â 5) is sqr...",1775898802333
+Module 3 - Mini Test 4,Q5,encoding_corruption,Mojibake detected: ... y = ax + b and y = â7x + 49 never inters...,1775898802320
+Module 3 - Mini Test 4,Q7,encoding_corruption,Mojibake detected: ...ght line 5x + 12y = â60 and coordinate ax...,1775898802322
+Workout 1A - Week 1 Challenge,Q12,incomplete_choices,"Has choices ['A', 'B', 'C'] but missing ['D']",1775892648212
+Workout 1B - Week 1 Challenge,Q18,incomplete_choices,"Has choices ['A', 'B', 'C'] but missing ['D']",1775893119913
+Workout 1B - Week 1 Challenge,Q8,incomplete_choices,"Has choices ['A', 'B', 'C'] but missing ['D']",1775893119901
+Workout 1B - Week 2 Challenge,id:1775893579874,too_short,Only 29 chars: What is the 1.2th root of 64?,1775893579874
