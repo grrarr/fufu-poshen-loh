@@ -236,7 +236,7 @@
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w1-exam-pentagon.png",
       "answer": "49",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w1-q11-answer.png"
     },
     {
       "id": 1775885601813,
@@ -313,7 +313,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w1-q18-answer.png"
     },
     {
       "id": 1775885601821,
@@ -753,7 +754,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1/2",
-      "explanation": "A, B,\nC,"
+      "explanation": "A, B,\nC,",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q18-answer.png"
     },
     {
       "id": 1775886909674,
@@ -977,7 +979,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q18-answer.png"
     },
     {
       "id": 1775887263938,
@@ -1421,7 +1424,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1a-w1-q18-answer.png"
     },
     {
       "id": 1775892648220,
@@ -1442,7 +1446,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "343",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1a-w1-q20-answer.png"
     },
     {
       "id": 1775892871121,
@@ -1607,7 +1612,7 @@
       "dateAdded": "2026-04-11",
       "answer": "11",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1a-w2-q15-answer.png"
     },
     {
       "id": 1775892871137,
@@ -1639,7 +1644,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1a-w2-q18-answer.png"
     },
     {
       "id": 1775892871141,
@@ -2643,7 +2649,7 @@
       "dateAdded": "2026-04-11",
       "answer": "42",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod1-final-q13-answer.png"
     },
     {
       "id": 1775892324362,
@@ -2903,7 +2909,8 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-nonagon-find-x.png",
       "answer": "10",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w1-q16-answer.png"
     },
     {
       "id": 1775893119911,
@@ -2948,7 +2955,7 @@
       "dateAdded": "2026-04-11",
       "answer": "75",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w1-q20-answer.png"
     },
     {
       "id": 1775893579870,
@@ -2959,7 +2966,7 @@
       "dateAdded": "2026-04-11",
       "answer": "(A)",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q1-answer.png"
     },
     {
       "id": 1775893579871,
@@ -2970,7 +2977,7 @@
       "dateAdded": "2026-04-11",
       "answer": "mean",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q2-answer.png"
     },
     {
       "id": 1775893579872,
@@ -2981,7 +2988,7 @@
       "dateAdded": "2026-04-11",
       "answer": "(B)",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q3-answer.png"
     },
     {
       "id": 1775893579873,
@@ -2992,7 +2999,7 @@
       "dateAdded": "2026-04-11",
       "answer": "13",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q4-answer.png"
     },
     {
       "id": 1775893579874,
@@ -3002,7 +3009,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "32",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q5-answer.png"
     },
     {
       "id": 1775893579875,
@@ -3014,7 +3022,7 @@
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/20200516-orbits-question2.png",
       "answer": "462",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q6-answer.png"
     },
     {
       "id": 1775893579876,
@@ -3025,7 +3033,7 @@
       "dateAdded": "2026-04-11",
       "answer": "13",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q7-answer.png"
     },
     {
       "id": 1775893579877,
@@ -3036,7 +3044,7 @@
       "dateAdded": "2026-04-11",
       "answer": "21",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q8-answer.png"
     },
     {
       "id": 1775893579878,
@@ -3047,7 +3055,7 @@
       "dateAdded": "2026-04-11",
       "answer": "720",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q9-answer.png"
     },
     {
       "id": 1775893579879,
@@ -3059,7 +3067,7 @@
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/20200516-orbits-question.png",
       "answer": "30030",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q10-answer.png"
     },
     {
       "id": 1775893579880,
@@ -3070,7 +3078,7 @@
       "dateAdded": "2026-04-11",
       "answer": "",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q11-answer.png"
     },
     {
       "id": 1775893579881,
@@ -3081,7 +3089,7 @@
       "dateAdded": "2026-04-11",
       "answer": "",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q0-answer.png"
     },
     {
       "id": 1775893579882,
@@ -3092,7 +3100,7 @@
       "dateAdded": "2026-04-11",
       "answer": "",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q13-answer.png"
     },
     {
       "id": 1775893579883,
@@ -3102,7 +3110,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q14-answer.png"
     },
     {
       "id": 1775893579885,
@@ -3113,7 +3122,7 @@
       "dateAdded": "2026-04-11",
       "answer": "",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q15-answer.png"
     },
     {
       "id": 1775893579886,
@@ -3124,7 +3133,7 @@
       "dateAdded": "2026-04-11",
       "answer": "",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q16-answer.png"
     },
     {
       "id": 1775893579887,
@@ -3134,7 +3143,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q0-answer.png"
     },
     {
       "id": 1775893579888,
@@ -3144,7 +3154,8 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q18-answer.png"
     },
     {
       "id": 1775893579889,
@@ -3155,7 +3166,7 @@
       "dateAdded": "2026-04-11",
       "answer": "",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/w1b-w2-q0-answer.png"
     },
     {
       "id": 1775898523309,
@@ -3603,7 +3614,7 @@
       "dateAdded": "2026-04-11",
       "answer": "59510",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q20-answer.png"
     },
     {
       "id": 1775898718485,
@@ -3786,7 +3797,7 @@
       "answer": "325",
       "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q16.png",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q16-answer.png"
     },
     {
       "id": 1775898718502,
@@ -3980,7 +3991,7 @@
       "dateAdded": "2026-04-11",
       "answer": "26",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q14-answer.png"
     },
     {
       "id": 1775898802330,
@@ -4215,7 +4226,7 @@
       "dateAdded": "2026-04-11",
       "answer": "4",
       "explanation": "",
-      "answerImageUrl": ""
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-final-q15-answer.png"
     },
     {
       "id": 1775898873328,
