@@ -446,7 +446,8 @@
       "dateAdded": "2026-04-11",
       "answer": "14",
       "explanation": "",
-      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w2-q10.png"
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w2-q10.png",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w2-q10-answer.png"
     },
     {
       "id": 1775886267073,
@@ -567,7 +568,8 @@
       "dateAdded": "2026-04-11",
       "answer": "(C)",
       "explanation": "",
-      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q1.png"
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q1.png",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q1-answer.png"
     },
     {
       "id": 1775886909655,
@@ -578,7 +580,8 @@
       "dateAdded": "2026-04-11",
       "answer": "(A)",
       "explanation": "",
-      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q2.png"
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q2.png",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q2-answer.png"
     },
     {
       "id": 1775886909656,
@@ -622,7 +625,8 @@
       "dateAdded": "2026-04-11",
       "answer": "",
       "explanation": "",
-      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q6.png"
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q6.png",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q6-answer.png"
     },
     {
       "id": 1775886909660,
@@ -733,7 +737,8 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q16.png",
       "answer": "",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q16-answer.png"
     },
     {
       "id": 1775886909671,
@@ -800,7 +805,8 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q2.png",
       "answer": "19",
-      "explanation": "Solution. As we saw in the lesson, if we connect a pair of opposite vertices (corners), the\nquadrilateral can be cut into two triangles. Then the sum of the interior angles is\n degrees. The angle that we want is then\nA shortcut for the subtraction is to recognize that \n and if we subtract\nthat from the \n first, we get\nMath Note 1. This is actually a very special quadrilateral known as a cyclic quadrilateral,\nand it gets its name from the fact that all of its corners lie on a circle:\n180∘+ 180∘= 360∘\n360∘−60∘−45∘−120∘.\n60∘+ 120∘= 180∘,\n360∘\n360∘−60∘−45∘−120∘\n= 180∘−45∘\n= 135∘."
+      "explanation": "Solution. As we saw in the lesson, if we connect a pair of opposite vertices (corners), the\nquadrilateral can be cut into two triangles. Then the sum of the interior angles is\n degrees. The angle that we want is then\nA shortcut for the subtraction is to recognize that \n and if we subtract\nthat from the \n first, we get\nMath Note 1. This is actually a very special quadrilateral known as a cyclic quadrilateral,\nand it gets its name from the fact that all of its corners lie on a circle:\n180∘+ 180∘= 360∘\n360∘−60∘−45∘−120∘.\n60∘+ 120∘= 180∘,\n360∘\n360∘−60∘−45∘−120∘\n= 180∘−45∘\n= 135∘.",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q2-answer.png"
     },
     {
       "id": 1775887263920,
@@ -811,7 +817,8 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q3.png",
       "answer": "2",
-      "explanation": "Solution 1. Remember from the lesson that the interior angles of a triangle add up to \ndegrees. We then know that the triangle has interior angles of \n \n and\n degrees. This third interior angle, \n makes a line with the angle\nwe want, so the angle that we are looking for is\nSolution 2. You can sidestep some of the arithmetic above by remembering that an exterior\nangle of one corner of a triangle is equal to the sum of the two other angles of the triangle\nopposite to it. This is a neat fact, and we can trace it to the fact that angles on a line add up\nto \n and the angles of a triangle also happen to sum to \n Well, then, the angle that\nwe want is simply\nMath Note. This triangle is known as the golden triangle! We'll see it again later on.\n180∘\n36∘, 72∘,\n180∘−72∘−36∘= 72∘\n72∘\n180∘−72∘= 108∘.\n180∘\n180∘.\n36∘+ 72∘= 180∘."
+      "explanation": "Solution 1. Remember from the lesson that the interior angles of a triangle add up to \ndegrees. We then know that the triangle has interior angles of \n \n and\n degrees. This third interior angle, \n makes a line with the angle\nwe want, so the angle that we are looking for is\nSolution 2. You can sidestep some of the arithmetic above by remembering that an exterior\nangle of one corner of a triangle is equal to the sum of the two other angles of the triangle\nopposite to it. This is a neat fact, and we can trace it to the fact that angles on a line add up\nto \n and the angles of a triangle also happen to sum to \n Well, then, the angle that\nwe want is simply\nMath Note. This triangle is known as the golden triangle! We'll see it again later on.\n180∘\n36∘, 72∘,\n180∘−72∘−36∘= 72∘\n72∘\n180∘−72∘= 108∘.\n180∘\n180∘.\n36∘+ 72∘= 180∘.",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q3-answer.png"
     },
     {
       "id": 1775887263921,
@@ -991,7 +998,8 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q19.png",
       "answer": "102",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q19-answer.png"
     },
     {
       "id": 1775887263939,
@@ -1216,7 +1224,8 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-final-q19.png",
       "answer": "50",
-      "explanation": ""
+      "explanation": "",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-final-q19-answer.png"
     },
     {
       "id": 1775887616015,
@@ -3502,7 +3511,8 @@
       "dateAdded": "2026-04-11",
       "answer": "(B)",
       "explanation": "",
-      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q10.png"
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q10.png",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q10-answer.png"
     },
     {
       "id": 1775898642009,
@@ -3658,7 +3668,8 @@
       "dateAdded": "2026-04-11",
       "answer": "(A)",
       "explanation": "Let's use what we know about the roots of quadratic functions to help us write the\nequations out. We know that the roots are the values of  that make the quadratic\nThere can't be more than two roots, either. We know that we can then factor the quadratic\nas\nwhere \n and \n are the two roots of \n You can check that it works by seeing that the left\nfactor, \n becomes  when \n and the right factor, \n becomes  when\n Since the factors are multiplied together, if either of them equals \n the whole\nquadratic equals \nExpanding the factored equation out, we can see the values of  and \nThen,  equals \n times the sum of the roots, and  equals the product of the roots, which\ngives us choice \nx2 + ax + b = 0,\na\nb\na\nb\nx2 + ax + b = 0\na = (−1) × (sum of the roots)\nb = product of the roots\na = (−1) × (sum of the roots)\nb = product of the roots\nx\nx2 + ax + b = 0.\nx2 + ax + b = (x −r1)(x −r2)\nr1\nr2\nx.\nx −r1,\n0\nx = r1,\nx −r2,\n0\nx = r2.\n0,\n0.\na\nb :\nx2 + ax + b = (x −r1)(x −r2)\n= x2 −r1x −r2x + (−r1)(−r2)\n= x2 + ( −1 × (r1 + r2)) + r1r2\na\n−1\nb\n1.",
-      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q4.png"
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q4.png",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q4-answer.png"
     },
     {
       "id": 1775898718489,
@@ -3808,7 +3819,8 @@
       "dateAdded": "2026-04-11",
       "answer": "1",
       "explanation": "Notice that what we have isn't an equation, but just an expression. You might wonder, what\nis there to solve with just an expression? Actually, the roots of an expression will make that\nexpression equal to \n so our equation is implicit in this problem. Since we have a variable\nfor one of the roots of the expression, it makes sense to make a variable for the other root,\n Then\nLooking at the coefficients in our original expressions, we can see that\nand\nThen from the second equation, we get\nand, plugging that into the first equation, we get\nThen the two values of  are \n and \n The question asks for the larger value, so the\nanswer is \nx −c\nx2 + 2cx −3.\nc.\n0,\nd.\nx2 + 2cx −3 = (x −c)(x −d)\n= x2 + x(−c + d) −cd\ncd = 3\n2c = −c + d\nd = 3c,\nc × 3c = 3\nc2 = 1\nc\n−1\n1.\n1.",
-      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q17.png"
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q17.png",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q17-answer.png"
     },
     {
       "id": 1775898718503,
@@ -3843,7 +3855,8 @@
       "dateAdded": "2026-04-11",
       "answer": "(A)",
       "explanation": "We don't have to draw these graphs, or find the points that they intersect in. Take a look at\nthe slopes of the four lines. If you forget which coefficient corresponds to the slope, just\nremember that it makes sense that it should be multiplied to \n as you can think of  as the\nnumber of steps you take to the right, and the slope tells you how much you climb vertically\nfor each step. The first two slopes are both \n so the first two lines are parallel. The last two\nlines both have slope \n so they are also parallel. We should check to make sure that all\nfour lines aren't parallel, and they're not, so that's good. Parallel lines should never cross.\nEach line should intersect with two other lines, so we have \n intersection points.\n(We had to divide by \n since we counted each intersection twice.) The four points\nconnected by two pairs of parallel lines mean that the shape that is formed is a\nparallelogram. Note that it is not a square, however, since none of the pairs of lines are\nperpendicular.\ny = 3x + 2\ny = 3x + 5\ny = −x + 10\ny = −x + 15\nx,\nx\n3,\n−1,\n4 × 2 × 1\n2\n2,",
-      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q1.png"
+      "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q1.png",
+      "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q1-answer.png"
     },
     {
       "id": 1775898802317,
