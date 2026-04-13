@@ -1358,6 +1358,29 @@
             </div>
           </div>
 
+          {/* Question image — always visible (not hidden behind expand) */}
+          {hasImage && !imgError && (
+            <div style={{padding: '4px 12px 8px'}}>
+              <img
+                src={problem.imageUrl}
+                alt="Problem diagram"
+                onError={() => setImgError(true)}
+                style={{
+                  maxWidth: '100%',
+                  maxHeight: '400px',
+                  borderRadius: '4px',
+                  border: '1px solid #333',
+                  background: '#fff',
+                }}
+              />
+            </div>
+          )}
+          {hasImage && imgError && (
+            <div style={{padding: '4px 12px', fontSize: '0.8em', color: '#ff6b6b'}}>
+              Image failed to load: {problem.imageUrl}
+            </div>
+          )}
+
           {/* Collapsible answer section (independent of full expand) */}
           {(hasAnswer || hasExplanation) && (
             <div style={{padding: '0 12px'}}>
@@ -1407,29 +1430,6 @@
           {expanded && (
             <div className="problem-detail">
               <div className="source-badge">{problem.source} &middot; Added {problem.dateAdded}</div>
-
-              {/* Image display */}
-              {hasImage && !imgError && (
-                <div style={{marginTop: '10px'}}>
-                  <img
-                    src={problem.imageUrl}
-                    alt="Problem diagram"
-                    onError={() => setImgError(true)}
-                    style={{
-                      maxWidth: '100%',
-                      maxHeight: '400px',
-                      borderRadius: '4px',
-                      border: '1px solid #333',
-                      background: '#fff',
-                    }}
-                  />
-                </div>
-              )}
-              {hasImage && imgError && (
-                <div style={{marginTop: '10px', fontSize: '0.8em', color: '#ff6b6b'}}>
-                  Image failed to load: {problem.imageUrl}
-                </div>
-              )}
 
               <div className="problem-actions">
                 <select

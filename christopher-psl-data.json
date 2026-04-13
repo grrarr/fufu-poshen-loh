@@ -123,7 +123,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(C)",
-      "explanation": "Did you notice a pattern? There’s a nice trick here. Do you see that the answer is always \ndivided by the product of the denominators? That’s because the numerators are , and the\ndenominators differ by exactly .\nTo see why this is true: When you subtract two fractions of the form \n, you can\nmake a common denominator of \n. The fractions become \n, which is \n.\nAnd, since the denominators differ by , with the second denominator  as the larger one,\nthis is just \n. The denominator is the product of the denominators!\n1 −1\n2\n1\n2 −1\n3\n1\n3 −1\n4\n1\n2 ; 1\n6 ; 1\n12\n1\n2 ; 1\n6 ; 1\n12\n1\n1\n1\n( 1\na −1\nb )\nab\nb\nab −\na\nab\nb−a\nab\n1\nb\n1\nab"
+      "explanation": ""
     },
     {
       "id": 1775885601802,
@@ -133,7 +133,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(D)",
-      "explanation": "This looks like a standard set of multiplication and subtraction problems. Do you notice a\npattern? Here’s a hint as to why it is so nice:\nYou can rewrite \n as \n and expand the brackets to:\nNow you can see why \n is exactly \n less than \n.\n7 × 7 −8 × 6\n7 × 7 −9 × 5\n7 × 7 −10 × 4\n1; 4; 9\n1; 4; 9\n10 × 4\n(7 + 3) × (7 −3)\n7 × 7 −7 × 3 + 3 × 7 −3 × 3\n10 × 4\n32\n7 × 7"
+      "explanation": ""
     },
     {
       "id": 1775885601803,
@@ -153,7 +153,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "6",
-      "explanation": "The only two possible pairs of even positive integers are \n and \n The first pair\ndoes not have two distinct positive integers.\n8.\n(4, 4)\n(2, 6)."
+      "explanation": ""
     },
     {
       "id": 1775885601805,
@@ -194,7 +194,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "24",
-      "explanation": "There are  choices for who sits in the first seat in the row, always  remaining choices for\nwho sits in the second seat, always  remaining choices for who is in the third seat, and\nalways  remaining choice for who is in the last seat, so the answer is \n4\n4\n3\n2\n1\n4×3×2×1 = 24."
+      "explanation": ""
     },
     {
       "id": 1775885601809,
@@ -204,7 +204,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "120",
-      "explanation": "Sketch. Find the prime factorization of \n and calculate its square root.\nSolution. One way to solve this problem is through guess and check, but there are many\npossibilities to check because all of \n and \n have many factors. The class video\nshowed another trick, which was that if the three side lengths were \n and \n then \nand \n were (in some order) \n and \n So, if you multiply them all together, you would\nget exactly\nwhich is exactly the volume squared!\nThe prime factorizations are:\nTherefore, the product \n is exactly:\nThe square root of this is equal to: \n24, 20,\n30.\n24×20×30,\n24, 20,\n30\na, b,\nc,\n24, 20,\n30\nab, bc,\nac.\n24×20×30 = ab×bc×ac = (abc)2,\n24 = 2×2×2×3\n20 = 2×2×5\n30 = 2×3×5\n24×20×30\n24×20×30\n= 2×2×2×2×2×2×3×3×5×5\n= (2×2×2×3×5)2.\n2×2×2×3×5 = 120."
+      "explanation": ""
     },
     {
       "id": 1775885601810,
@@ -214,7 +214,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "26",
-      "explanation": "Sketch. While considering all pairs of integers that multiply to \n observe that the\nperimeter is larger when the numbers are farther apart.\nSolution. Since the area is \n and side lengths are integers, we only need to consider pairs\nof positive integers that multiply to \n One way to list these out is to go through the\nnumbers \nin order, and find out what they need to multiply with to make \n Our\nfirst few are:\nObserve that when we start off, the second number \n is bigger than the first number \nbut the second number becomes smaller than the first number at \n That is how we\nknow we can stop: we’ve already seen \n in the list, and everything else we’d find would\nbe a repeat of a previous product, but reversed.\nThe perimeter would be exactly twice the sum of length and width. Looking at the list, the\nlargest sum of factors is \n corresponding to a perimeter of \n which\nis the answer.\nIt turns out that in general, if the product of two positive numbers is a fixed number (like \n), their sum gets larger when they move farther apart. You can see that in our problem too:\nSo, another way to do the problem if you knew that in advance would be to jump straight to\nthe case where they are the farthest apart:  and \n correspond to a perimeter of\n12.\n12,\n12\n12.\n1, 2, 3, …\n12.\n1×12,\n2×6,\n3×4,  and\n4×3.\n12\n1,\n4×3.\n3×4\n1 + 12 = 13,\n13×2 = 26,\n12\n3 + 4 < 2 + 6 < 1 + 12\n1\n12\n2×(1 + 12) = 26."
+      "explanation": ""
     },
     {
       "id": 1775885601812,
@@ -225,7 +225,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w1-exam-pentagon.png",
       "answer": "49",
-      "explanation": "Sketch. Repeatedly use the Pythagorean Theorem starting from the triangle with legs  and\n and calculate all of the legs of all  right triangles. Then add up the areas of the triangles.\nSolution. The total area is the sum of the areas of the  triangles. The smallest triangle has\nlegs  and \n and so by the Pythagorean Theorem, its hypotenuse (longest side) is \n Using\nthe formula \n for the area of a triangle, this smallest triangle has area:\nBonus Challenge Questions\n3\n4,\n3\n3\n3\n4,\n5.\n1\n2 × base× height\n1\n2 ×3×4 = 6.\nEarned 4 of 7 points. 57%"
+      "explanation": ""
     },
     {
       "id": 1775885601813,
@@ -235,7 +235,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "We need to count how many multiples of  are also prime numbers. At first, it seems like\nnone of them can be prime because they are all  times something. The only strange cases\nare \n and \n, since everything from \n onward clearly is not prime.\nRemember that  is not a prime number, and so  is the only prime number that is divisible\nby .\nAn easy way to remember that  and  are not prime numbers is to see that prime\nnumbers are those integers that are useful in giving every positive integer a unique prime\nfactorization. So,  would be useless for this purpose because you can never write a\npositive integer as  times anything. Similarly,  is useless for this purpose because you can\nmultiply by as many more ’s as you want, and still get the same answer.\n2\n1\n1\n2\n2\n2 × 0 = 0\n2 × 1 = 2\n2 × 2\n0\n2\n2\n0\n1\n0\n0\n1\n1"
+      "explanation": ""
     },
     {
       "id": 1775885601814,
@@ -245,7 +245,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "12",
-      "explanation": "Sketch. Have them choose seats in alphabetical order. Albert has  choices in the middle.\nBeth always has  choices left, Carl then always has  choices left, and Denise then always\nhas  choice left. Multiply: \nSolution. We can count the number of arrangements by supposing that Albert comes to\npick his seat first, and then Beth, Carl, and Denise pick their seats in that order. Since Albert\nmust avoid the two seats at the ends, Albert has  choices. Regardless of where Albert\nchooses to sit, Beth always has  choices (the other  seats). It is very important that this is\n“regardless” of Albert’s choice, because that lets us multiply the numbers of choices\ntogether (if we were to draw a tree diagram, each of the  branches corresponding to\nAlbert’s choices would branch into exactly  choices for Beth). Still regardless of the first\ntwo choices, Carl always has  choices, because there are  seats left. Denise then always\nhas  choice (the last remaining seat). Each set of choices corresponds to a distinct seating\narrangement, and so the answer is \n4\n2\n3\n2\n1\n2×3×2×1 = 12.\n2\n3\n3\n2\n3\n2\n2\n1\n2×3×2×1 = 12."
+      "explanation": ""
     },
     {
       "id": 1775885601815,
@@ -266,7 +266,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "72",
-      "explanation": "Sketch. There are  choices for the tens digit and  choices for the ones digit. Multiply!\nSolution 1. The tens digit can be anything from  through  inclusive (  choices), because a\n-digit number cannot have  in the tens digit. Always be careful to treat the leftmost digit\ncarefully, and remember to avoid  if the number of digits is specified in the problem.\nRegardless of what is placed in the tens digit, the ones digit can be any of the \n digits\nexcept for \n so it always has  choices. Multiplying, the answer is \nSolution 2. It is also possible to use complementary counting. The total number of -digit\nnumbers (from \n through \n) is \n The -digit numbers that contain the\ndigit  in the tens place are:\nThere are \n of them, which makes sense because the units digit can go from  through \nThe remaining 2-digit numbers that contain the digit 1 in the ones place are:\nThere are  of them, because the tens digit can range from  through \n So, there is a total\nof \n of the numbers that contain the digit \n Subtracting from the total, we get\n2\n1\n8\n9\n2\n9\n8\n2\n0\n0\n10\n0,\n9\n8×9 = 72.\n2\n10\n99\n99 −10 + 1 = 90.\n2\n1\n10, 11, 12, 13, 14, 15, 16, 17, 18, 19.\n10\n0\n9.\n21, 31, 41, 51, 61, 71, 81, 91.\n8\n2\n9.\n10 + 8 = 18\n1.\n90 −18 = 72."
+      "explanation": ""
     },
     {
       "id": 1775885601817,
@@ -276,7 +276,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "36",
-      "explanation": "Sketch. Every choice of  distinct digits from  through  corresponds to a -digit number\nthat works. Alternatively, look for a pattern based on how many numbers work for each\nvalue of the tens digit.\nSolution 1. Since the tens digit is strictly less than the ones digit, each such -digit number\ncorresponds to a way of choosing  digits from  through \n without thinking about order.\nFor example, \n corresponds to choosing the digits  and  in any order. Since there are \ndigits to choose from, we have learned that this is called “  choose \n” Recall that this is\ncalculated by taking \n and dividing by \n because there are  ways to choose the first\nitem, and then  ways to choose the second item, but there are \n ways to rearrange the\norder in which we chose the  items (since order does not matter). So, the answer is\nSolution 2. If you don’t see a clever trick, you can always start by systematically listing cases\nand looking for a pattern. If the tens digit is \n then the ones digit can be anything from \nthrough \n which gives  options:\nIf the tens digit is \n then the ones digit can be anything from  through \n which gives \noptions:\nFollowing the pattern, if the tens digit is \n then there are  options. Always check the last\nterm in the pattern: if the tens digit is \n then there is  option (the number \n). So, the\nanswer is:\nYou can add up this sequence by seeing that there are  terms, and with average term\nequal to the average \n of the first and last term because they are equally spaced. So, the\n2\n2\n12\n36\n11\n31\n2\n1\n9\n2\n2\n2\n1\n9,\n36\n3\n6\n9\n9\n2.\n9×8\n2×1,\n9\n8\n2×1\n2\n9×8\n2×1 = 36.\n1,\n2\n9,\n8\n12, 13, 14, 15, 16, 17, 18, 19.\n2,\n3\n9,\n7\n23, 24, 25, 26, 27, 28, 29.\n3,\n6\n8,\n1\n89\n8 + 7 + 6 + 5 + 4 + 3 + 2 + 1.\n8\n8+1\n2"
+      "explanation": ""
     },
     {
       "id": 1775885601818,
@@ -286,7 +286,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "The number of -digit numbers which don’t contain the digit \n; the total number of -digit numbers",
-      "explanation": "Make sure to read the question carefully! The idea of complementary counting is to\nsubtract the set of numbers that we do not want from some “total” set of numbers. In this\ncase, we don’t want the numbers that don’t contain 9, and our total set is all of the -digit\nnumbers.\n3\n9\n3\n3\n9\n3\n9\n3\n3"
+      "explanation": ""
     },
     {
       "id": 1775885601820,
@@ -306,7 +306,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "50",
-      "explanation": "Sketch. Either use brute force to list all \n outcomes and count how many are good, or\nobserve that regardless of the outcomes of the first two flips, Alina always has a \nchance of exactly reversing the evenness/oddness (called “parity”) with her third flip.\nSolution 1. Since  times is not too many, brute force is actually possible. There will be\nexactly \n outcomes in total because there are  choices for the outcome of the\nfirst coin,  choices for the second coin, and  choices for the third coin. The  outcomes\ncan be systematically listed as:\nSince  of the outcomes are favorable (even number of heads), and there are  total\noutcomes, the probability is \nSolution 2. An amazingly clever solution is to notice that no matter what happens in the\nfirst two flips, the last flip will either be tails (keeping the parity of the total number of\nheads) or heads (changing the parity of the total number of heads). The “parity” of a\nnumber is its evenness or oddness.\nConsider the two possible cases before the last flip: if there was an odd number of heads\nbefore the last flip, then there is a \n chance that the last flip changes the parity (to let\nAlina win); on the other hand, if there was an even number of heads before the last flip,\nthen there is also a \n chance that the last flip keeps the parity (to let Alina win). In both\ncases, there is a \n chance that Alina wins, and so that is the answer.\n3\n31.4\n31.\n23\n50%\n3\n2×2×2 = 8\n2\n2\n2\n8\nHHH: odd number of heads\nHHT: even number of heads\nHTH: even\nHTT: odd\nTHH: even\nTHT: odd\nTTH: odd\nTTT: even\n4\n8\n4\n8 = 50%.\n50%\n50%\n50%"
+      "explanation": ""
     },
     {
       "id": 1775885601822,
@@ -316,7 +316,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "10",
-      "explanation": "Explanation:\nSketch. Either use the multiplication principle to count and divide possibilities, or observe\nthat the first person’s seat doesn’t matter by symmetry, but once the first person sits down,\nthere are exactly  seats that the other two people must sit in.\nSolution 1. The only possible way that three people can sit down in six seats without being\nnext to each other is by sitting every other seat.\nThe total number of outcomes is \n because the first person has  choices of\nwhere to sit, the second person has  choices left, and the third person has  choices left.\nNow, in order to count the number of favorable outcomes, note that the first person has \nchoices of seats, all of which can become acceptable seating arrangements. Since the other\ntwo people must then sit every other seat, once the first person sits down, there are two\nspecific seats which the other two people must sit in. There are always  ways for them to\narrange themselves in those two seats, and so the number of favorable outcomes is\n Therefore, the probability is equal to \nSolution 2. Another way to think about this is to observe that no matter where the first\nperson sits down, there are now  specific seats which must attract the other two people.\nWhen the second person comes, he sees  seats (since  is already occupied), and he must\nsit in one of the  seats that have been identified, which has a probability of \nWhen the third person comes, she sees  seats (since  are already occupied), and she\nmust sit in the other of the  seats that have been identified, which has a probability of \nMultiplying the probabilities, the answer is \n6\n31.4%,\n31.\n2\n6×5×4 = 120\n6\n5\n4\n6\n2\n6×2 = 12.\n12\n120 = 10%.\n2\n5\n1\n2\n2\n5 .\n4\n2\n2\n1\n4 .\n2\n5 × 1\n4 = 10%."
+      "explanation": ""
     },
     {
       "id": 1775886267062,
@@ -326,7 +326,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "7",
-      "explanation": "The  sides can be perfectly partitioned into  pairs of opposite sides. Since each of those pairs has the same sum, that sum is\nexactly \n of the total sum of all  sides. The total sum is \n and so each pair of opposite sides has\nsum \n1\n6\n6\n3\n1\n3\n6\n1 + 2 + 3 + 4 + 5 + 6 = 21,\n21\n3 = 7."
+      "explanation": ""
     },
     {
       "id": 1775886267063,
@@ -366,7 +366,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "505",
-      "explanation": "Looking for a pattern, we can see that the numbers are always exactly  apart. So, the sum is just the number of them,\nmultiplied by their average. There are \n of them because there is one per row in the \n grid. Since they are equally\nspaced, their average is the same as the average of the first and last number, which is \n9\n10\n10 × 10\n10+91\n2\n= 50.5."
+      "explanation": ""
     },
     {
       "id": 1775886267067,
@@ -376,7 +376,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "256",
-      "explanation": "All of these numbers are successive powers of \n So, the only prime in the prime factorization of the least common multiple is\n The largest power of  that appears in any of the prime factorizations of any of these numbers is \n Since any of\nthe powers of  should divide \n the least common multiple is \nMath Note. This question intentionally used many powers of  to help you familiarize yourself with this sequence, which is\nimportant not only in math, but also in computer science. Computers use powers of  everywhere.\nLife Note. Speaking of computers, that is why some old projector resolutions are \n The \n is a power of \n and\nthe \n is exactly \n of \n making a \n “aspect ratio” screen. We chose the numbers for this problem so that you would\nsee the number \n pop up, as it does appear frequently in real life.\nn\nn.\n1, 2, 4, 8, 16, 32, 64, 128,\n256?\n1, 2, 4, 8, 16, 32, 64, 128,\n256\n2.\n2.\n2\n28 = 256.\n2\n256,\n256.\n2\n2\n1024 × 768.\n1024\n2,\n768\n3\n4\n1024,\n4 : 3\n768"
+      "explanation": ""
     },
     {
       "id": 1775886267068,
@@ -386,7 +386,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "9",
-      "explanation": "Sketch. Magic squares numbered  through  have magic sum \n and with middle box \n Use the diagonal with 6 to solve\nfor the bottom left box, and then use the first column to solve for the answer.\nSolution. As described in the lesson, the sum of the  rows equals the sum of all  numbers. So,  times the magic sum\nequals \n and the magic sum is \n Also as described in the lesson, the sum of the four lines through the\nmiddle box (middle row, middle column, and two diagonals) equals the sum of all  boxes, plus triple the middle box. So,\ntriple the middle box equals \n and the middle box is \nUsing the diagonal with the \n we see that the bottom left box is \n Then, using the left column, we see that the\nmiddle left box equals \n which is the answer.\nNote. It is possible to continue on and fill out the entire magic square, which will look like this:\n1\n9\n1\n9\n15,\n5.\n3\n9\n3\n1 + 2 + … + 9 = 45,\n15.\n9\n4 × 15 −45 = 15,\n5.\n6,\n15 −6 −5 = 4.\n15 −4 −2 =\n,\n9"
+      "explanation": ""
     },
     {
       "id": 1775886267069,
@@ -396,7 +396,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "33",
-      "explanation": "Solution 1. Consecutive terms have the same difference, and so the sum is equal to the total number of terms, multiplied by\nthe average value. There are many ways to figure out how many terms there are, and one nice way is to see that there are \nnegative numbers,  zero, and \n positive numbers, so there are\nterms in total. The average value is\nSo, the answer is\nSolution 2. We’ll get a ton of cancellation because the \n will cancel the \n So, the\nanswer is just \n Again, we get \n−9 + −8 + −7 + −6 + −5 + −4 + −3 + −2 + −1 + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12.\n9\n1\n16\n9 + 1 + 12 = 22\n12 −9\n2\n22 × 12 −9\n2\n= 11 × 3 = 33.\n(−9) + (−8) + … + (−1)\n1 + 2 + … + 9.\n10 + 11 + 12.\n33."
+      "explanation": ""
     },
     {
       "id": 1775886267070,
@@ -406,7 +406,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(B)",
-      "explanation": "If we sum the first \n integers, we get \nHowever, we must also subtract  from \n because we're no longer including  in our square.\nThis should equal three times the row sum.\n Let's divide by \n and we see that our row sum is now \n and our central number is \nIt's actually possible to make a magic square out of any  consectutive integers, even if some (or all) of them are negatives! If\nyou have time, try creating a few. See if you can find any interesting patterns in the row sum, the central number, and the\noverall sum as you change the integers you use.\n2, 3, 4, 5, 6, 7, 8, 9, 10\n10\n55,\n1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10\n=  average  × 10\n= 5.5 × 10\n= 55\n1\n55,\n1\n55 −1 = 54.\n3,\n18\n6.\n9"
+      "explanation": ""
     },
     {
       "id": 1775886267071,
@@ -416,7 +416,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "14",
-      "explanation": "Adding the numbers by hand is painful, and it's easy to make mistakes. From the previous question, we know that the\naverage of all these numbers is the same as the average of the first and last number, which is \n So, their total sum is\njust:\n10+91\n2\n.\n10 × ( 10 + 91\n2\n) = 5 × 101 = 505",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w2-q10.png"
     },
     {
@@ -427,7 +427,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "6",
-      "explanation": "This is a least common multiple problem, with decimals, but we can clear out the decimals by measuring time in tenth-\nseconds. Then, one blinker flashes every \n tenth-seconds, and the other flashes every \n tenth-seconds. They will flash\nagain simultaneously after a number of tenth-seconds which equals the least common multiple of \n and \n Prime\nfactorizing \n and \n we see that the least common multiple is\nConverting from tenth-seconds back to seconds, we find the answer to be  seconds.\nBonus Challenge Questions\n1.2\n1\n12\n10\n12\n10.\n12 = 22 × 3\n10 = 2 × 5,\n22 × 3 × 5 = 60.\n6\nEarned 0 of 7 points. 0%"
+      "explanation": ""
     },
     {
       "id": 1775886267074,
@@ -437,7 +437,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2002",
-      "explanation": "Solution 1. The first step is to prime-factorize the numbers. These numbers were specially chosen to review some useful\nfacts. Although \n looks prime, it is not:\nAlso, \n has a beautiful prime factorization:\nIf you eyeball the final number, you see that it is\nCollecting together all of the primes involved, since no prime is raised to any power higher than  in any of the prime\nfactorizations, the least common multiple is just\nwhich you can calculate to be \n91, 1001\n26\n91\n91 = 7 × 13.\n1001\n1001 = 7 × 11 × 13.\n26 = 2 × 13.\n1\n7 × 11 × 13 × 2,\n2002."
+      "explanation": ""
     },
     {
       "id": 1775886267075,
@@ -447,7 +447,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "45",
-      "explanation": "Solution 1. To calculate \n choose \n we could multiply\nwhich equals the number of ways to put eight people in a line, and then divide by\nwhich is the number of ways to mix up the  chosen people, because it really doesn't matter what order they are in.\nThere is a ton of cancellation:  cancels, as do \n all the way to the  at the end of the numerator. All that's left is\nThat works out to \nSolution 2. The number of ways to choose  people from \n people is also equal to the number of ways to choose  people\nto leave out, from the same \n people. So, \n choose  is equal to \n choose \n which is just\nwhich is exactly the same calculation we got with the previous solution! This still works out to \nThis approach shows that “n choose k” always equals “n choose n − k”. When solving problems, it is often convenient to use\nthis to flip around a “choose” whenever it gives you smaller numbers to work with.\n8\n10\n10\n8,\n10 × 9 × 8 × 7 × 6 × 5 × 4 × 3\n8 × 7 × 6 × 5 × 4 × 3 × 2 × 1.\n8\n8\n7, 6, 5, 4,\n3\n10 × 9\n2 × 1 .\n45.\n8\n10\n2\n10\n10\n8\n10\n2,\n10 × 9\n2 × 1 ,\n45."
+      "explanation": ""
     },
     {
       "id": 1775886267076,
@@ -457,7 +457,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 1\n2. 9",
-      "explanation": "There is only one shape a regular hexagon can have, and so the two regular hexagons are just scaled versions of each other.\nPerimeter is 1-dimensional, so since the smaller hexagon has \n the perimeter of the larger hexagon, the smaller hexagon is\nwhat you get if you scale the larger hexagon by \n in every direction. Area is 2-dimensional, so the area scales by \n which\nis \nMath Note. \n We chose these numbers on purpose to introduce the fact that if you take a one-digit-number\nand divide it by \n you get a decimal which has that digit repeating forever. We'll learn why that is true in a later lesson.\n60.\n180.\n1\n3\n1\n3\n( 1\n3 )\n2,\n1\n9 .\n1\n9 = 0.111 …\n9,"
+      "explanation": ""
     },
     {
       "id": 1775886267077,
@@ -467,7 +467,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "30",
-      "explanation": "Observe that every pair of circles intersects in exactly  points.\nYou can see at a glance that there are  circles, because they are arranged like a hexagon. (It’s useful to learn how to count\nthings by looking at their geometrical arrangement.) The number of pairs of circles is “6 choose 2”, which is\nSo, the answer is\n2\n6\n6 × 5\n2 × 1 .\n15 × 2 = 30."
+      "explanation": ""
     },
     {
       "id": 1775886267078,
@@ -477,7 +477,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1 billion",
-      "explanation": "Solution 1: Estimate. Sometimes you don't have to be accurate with your calculations, especially if the answer choices are this\nfar apart. The nice thing is that the number of unit centimeter cubes that fit in one square foot, which is a -dimensional\nsquare of side length  foot, is \n which is very close to \n Let's call it \n because the error in doing so\nwon't affect the answer much.\nThe footprint of the house has area of \n square feet, which is \n square unit centimeters. The trick here is\nto wait until the end before multiplying everything out.\nThe height of each floor is \n feet, and each foot is \n centimeters, so since there are  floors (or \n if you include the\nbasement, but it doesn't matter, because the answer is large enough even with just  floors), the total volume is\nSolution 2. Sketch. It’s easier to estimate in meters. Each floor is 1000 ft2, or approximately 100 m2, and the total height is\naround 10 meters. So, the total volume is around 1000 m3. Divide that by 1 cm2.\nEach of the 2 floors is 1000 ft2. One meter is slightly more than 3 feet, and so 1 m2 is around 10 ft2. So, each floor is around\n100 m2 in area. Each story is 10 feet high, so the 3 stories together (including the basement) are around 30 feet high, or\naround 10 meters high. The whole volume is one floor area (100 square meters) multiplied by the total height (10 meters),\nwhich works out to 1000 m3. Since there are 100 cm in a meter, there are 1003 cubic centimeters in a cubic meter. Therefore,\nthe answer is 1000 × 1003 = 109, which is 1 billion!\n1\n2000\n2\n10\n30\n2\n1\n302 = 900,\n1, 000.\n1, 000,\n2, 000\n1, 000 × 2, 000\n10\n30\n2\n3,\n2\n1000 cm2\nft2 × 2000 ft2\nfloor × 10 ft × 30 cm\n ft × 3 floors\n= 18 × 1000 × 1000 × 10 × 10\n= 18 × 108\n= 1.8 × 109\n= 1, 800, 000, 000"
+      "explanation": ""
     },
     {
       "id": 1775886267079,
@@ -497,7 +497,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "The 6 × 5 × 4 corresponds to picking 3 people in order, and we divide by the number\nof ways we count each combination, which is the number of ways to rearrange the 3\npeople who were picked.",
-      "explanation": "Remember that the formula comes from choosing the first person (  ways), then choosing the second person (  ways\nbecause  of the people is no longer available), and choosing the third person (  ways because  of the people are no longer\navailable). The number of ways to do this is \n However, we are not asking to choose  people in order, but just to\nchoose  people. For example, if Alice, Charlie, and Frank got picked in that order, that is the same set of  people as Charlie,\nFrank, and Alice. So, the same set of  people is counted this many times:\nThat number of times a combination like Alice, Charlie, Frank is counted is equal to the number of ways there are to arrange \nthings in order, which is \n because there are  ways to choose the first thing in the order,  ways to choose the\nsecond thing, and  way to choose the last thing.\n6\n5\n1\n4\n2\n6 × 5 × 4.\n3\n3\n3\n3\n Alice, Charlie, Frank\n Alice, Frank, Charlie\n Charlie, Alice, Frank\n Charlie, Frank, Alice\n Frank, Alice, Charlie\n Frank, Charlie, Alice\n3\n3 × 2 × 1\n3\n2\n1"
+      "explanation": ""
     },
     {
       "id": 1775886267082,
@@ -507,7 +507,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "78",
-      "explanation": "Pizzas are flat, with the same topping height whether they are \n inches in diameter or \n inches in diameter. Since the\nheights are the same, the ratio between the volumes of food (which is what we notice in our stomach) is exactly the same as\nthe ratio between the areas of the pizzas. Area is 2-dimensional, so that ratio is\nThis works out to \n and so the answer is \nMath Note. \n is equal to \n and whenever you have a one-digit number divided by \n the decimal representation just\nhas that digit repeating forever. We’ll learn why in a later class.\nLife Note 1. In pizza stores, it is typical that the larger pizzas give you a better deal, in part because people do not intuitively\nrecognize that area grows much faster than diameter (it grows with the square of the diameter).\nLife Note 2. The ratio \n is important in filmmaking, because that is the ratio between the length and width of HD video (such\nas what we use in this course). We chose to use these numbers for this problem so that you can familiarize yourself with\nthem.\n12\n16\n16\n12\n16\n( 16\n12 )\n2\n= 4\n3\n2\n= 16\n9 .\n1.777 … ,\n78%.\n16\n9\n1 + 7\n9 ,\n9,\n16\n9"
+      "explanation": ""
     },
     {
       "id": 1775886267083,
@@ -517,7 +517,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "256",
-      "explanation": "It is nearly impossible to count all of the triangles by hand. However, there is a nice pattern: there are  sets of  parallel lines.\nThe only way to make a triangle is to choose  of the  sets of parallel lines to use, and then to choose one line from each of\nthose  sets.\nThere are exactly  ways to choose  of the  sets of parallel lines. We multiply that by the number of ways to choose one line\nfrom each of those  sets.\nGiven  sets of  lines each, the number of ways to choose  line from each set is \n because we have  ways to\nchoose a line from the first set,  ways to choose a line from the second set, and  ways to choose a line from the third set.\nMultiplying, the answer is \n4\n4\n3\n4\n3\n4\n3\n4\n3\n3\n4\n1\n4 × 4 × 4,\n4\n4\n4\n4 × 4 × 4 × 4 = 256."
+      "explanation": ""
     },
     {
       "id": 1775886909654,
@@ -527,7 +527,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(C)",
-      "explanation": "Recall that \n so \n So, the answer is just\n An easy way to check this is to see that the units work out to hours:\n180\n60\n18060\n180 ÷ 60\ndistance = rate × time,\ntime = distance ÷ rate.\n180 ÷ 60.\n180 miles\n60  miles\n hour\n= 180\n60  miles ×  hour\n miles = 3 hours.",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q1.png"
     },
     {
@@ -538,7 +538,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "Since \n  is a factor of \n The next three choices are all multiples of \n because\n \n and \n And, lastly, the fifth choice, \n wouldn't\nmake sense, as it isn't a whole number.\n12?\n6\n6\n12 = 6 × 2, 6\n12.\n12\n24 = 12 × 2, 36 = 12 × 3,\n120 = 12 × 10.\nπ,",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q2.png"
     },
     {
@@ -559,7 +559,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "6",
-      "explanation": "Solution 1. The initial total of \n at \n per ticket means that \n kids initially\nbought a ticket. The final total of \n means that \n kids ultimately bought a ticket.\nSubtracting, \n so  additional kids bought tickets.\nSolution 2. This question is solvable without calculating the total number of people at all.\nThe total cost difference is \n which, at \n per ticket, means that\n additional kids bought tickets.\nMath Note. Even though \n looks prime, it is actually \n Also, we chose to use the\nimportant number \n in this problem. You'll see \n a lot, because it is \n$7\n$301.\n$7\n$343.\n$301\n$7\n301\n7\n= 43\n$343\n343\n7\n= 49\n49 −43 = 6,\n6\n$343 −$301 = $42,\n$7\n42\n7 = 6\n301\n7 × 43.\n343\n343\n7 × 7 × 7."
+      "explanation": ""
     },
     {
       "id": 1775886909658,
@@ -569,7 +569,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "20",
-      "explanation": "Solution 1. In one hour, you move  miles closer, and your friend moves \n miles closer, so\nthe two of you are \n miles closer.\nSolution 2. The above method suggests that instead of thinking about the different speeds\nyou and your friend each travel at, we can instead think about the combined speed. Since\nyou are moving in opposite directions, the relative velocity of your friend compared to you\nis  miles per hour plus \n miles per hour, which is \n miles per hour. So, in  hour, your\nfriend moves \n miles relative to you, and that is the answer.\n5\n15\n1\n5\n15\n5 + 15 = 20\n5\n15\n20\n1\n20"
+      "explanation": ""
     },
     {
       "id": 1775886909659,
@@ -579,7 +579,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "Recall that the area of a circle is \n so if the area of the circle is \n then\n and since the radius must be positive, we have that it is \n not \n Then the\ndiameter is just double the radius, which means the diameter is \n9π,\n6\n6\nπ × radius2,\n9π,\nradius2 = 9,\n3,\n−3.\n2 × 3 = 6.",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q6.png"
     },
     {
@@ -590,7 +590,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "Since \n people will vote for Candidate \n, and there are \n voters, then \n people will\nvote for Candidate \n Hence, the probability that a person will vote for Candidate \n is just\nA\nB\n100\n30\nA,\nB,\n0.7\n0.7\n30\nA\n100\n70\nB.\nB\n70\n100 = 0.7."
+      "explanation": ""
     },
     {
       "id": 1775886909661,
@@ -600,7 +600,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(D)",
-      "explanation": "Remember learning in the lesson about how to find the number of factors of a number? We\ndiscovered that each factor must be some portion of the prime factorization of \n Any of\n \n \n \n or \n divide \n but not \n or higher, so there are  choices for which power\nof  to use. Similarly, only \n and \n divide \n, so there are  choices for which power of \nto use. This gives us a total of \n factors.\n24 × 3 = 48\n4\n1\n4 × 1 = 4\n4\n1\n48\n(4 + 1) × (1 + 1) = 10\n48.\n20, 21, 22, 23,\n24\n48,\n25\n5\n2\n30\n31\n48\n2\n3\n(4 + 1) × (1 + 1) = 10"
+      "explanation": ""
     },
     {
       "id": 1775886909662,
@@ -610,7 +610,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "12",
-      "explanation": "When picking a random car, the chance of picking a sedan is \n Of the sedans, \n are\nnot blue, and so \n of the sedans are blue. So, the final probability of selecting a blue\nsedan is:\n30%\n60%\n31.4%,\n31.)\n30%.\n60%\n40%\n30% × 40% = 0.3 × 0.4 = 0.12 = 12%."
+      "explanation": ""
     },
     {
       "id": 1775886909663,
@@ -620,7 +620,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "110",
-      "explanation": "Solution 1. It takes  hours to drive to the next town at \n miles per hour, so the next town\nis \n miles away. Today's speed is  miles per hour faster than \n miles per hour, which is\n miles per hour, or one mile per minute. The next town is \n miles away, so it will take\n minutes to drive there.\nSolution 2. This question is actually solvable without calculating the distance to the next\ntown! Calculating that the new speed is \n miles per hour, the ratio between the old speed\nand the new speed is \n Time has an inverse relationship with speed — the faster\nyou go, the less time you take. So, the ratio between the old time and the new time will be\nthe reciprocal of this ratio. This means the new time is \n.\nThe most important idea here is that the ratio of the times is either the same or the\nreciprocal of the ratio of the speeds. So, you can often use common sense to decide\nwhether to multiply or divide the old time of \n minutes by \n. Since you are going faster\nthis time, you should multiply because \n is less than .\n2\n55\n5\n2\n55\n110\n5\n55\n60\n110\n110\n60\n55\n60 = 11\n12 .\n120 minutes × 11\n12 = 110 minutes\n120\n11\n12\n11\n12\n1"
+      "explanation": ""
     },
     {
       "id": 1775886909665,
@@ -630,7 +630,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "The number of perfect squares from \n to",
-      "explanation": "All switches from  to \n are off, so we should only consider switches from \n to \nAmong those, a switch is on in the end if and only if it is flipped an odd number of times. As\nthe \n person flips only switches which are multiples of  and there are as many people as\nswitches, each switch  is flipped exactly by those people who are factors of \n Thus the\nanswer is the number of numbers from \n to \n which have an odd number of factors.\nAs we saw in the lesson, a number has an odd number of factors precisely when it is a\nperfect square, and so the answer is the number of perfect squares from \n to \n To\nrefresh your memory: you can pair up the factors of a number like  into \n and \n,\nwhere each pair is of two factors that multiply to \n However, if a number is a perfect\nsquare like , its square root ( ) doesn't have another factor to pair with, and so there is an\nodd number of factors.\nAlternatively, we can use the formula for the number of factors found in the lesson. As\nexplained in the solution to an earlier problem in this set, the number of factors is the\nproduct of one more than the power of each prime factor. This is because from each prime\nfactor we can choose a number to include from  to the power of the factor. Thus the\nnumber of factors is odd if and only if the power of each prime is even. This is true if and\nonly if the number is a perfect square as we can find the square root by dividing all the\nBonus Challenge Questions\n1000\n1\n2\n2nd\n3\n3rd\n1000\n1000th\n100\n101\n1000\n101\n1000\n1\n100\n101\n1000.\nnth\nn\ns\ns.\n101\n1000\n101\n1000.\n6\n{1, 6}\n{2, 3}\n6.\n9\n3\n0\nEarned 5 of 7 points. 71%"
+      "explanation": ""
     },
     {
       "id": 1775886909666,
@@ -640,7 +640,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "75",
-      "explanation": "The train approaches you at \n miles per hour while you approach the train at \n miles per\nhour, so from your perspective on the bike, the relative speed of the train is \nmiles per hour towards you.\n60\n15\n60\n15\n60 + 15 = 75"
+      "explanation": ""
     },
     {
       "id": 1775886909667,
@@ -661,7 +661,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w3-exam-chain-loop.png",
       "answer": "136",
-      "explanation": "Each long straight segment is \n inches long, so their combined chain length is \n inches.\nThe combined length of two short straight segments in the same column is \nbecause the gap between the short straight segments has the same length as the distance\nbetween the middle gears. So, the total length of all four short straight segments is\n inches. Each gear has circumference \n and the chain covers half the gear, so\nthe total length of the round segments is \n inches. Altogether, the chain is\n inches long.\n6\n2\n35\n5\n35\n70\n35 −5 = 30,\n30 × 2 = 60\n2,\n6×2\n2\n= 6\n70 + 60 + 6 = 136"
+      "explanation": ""
     },
     {
       "id": 1775886909669,
@@ -671,7 +671,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1/2",
-      "explanation": "Alice goes at  miles per hour and Bob goes at \n miles per hour, so Bob goes  miles per\nhour faster than Alice. This is Bob's relative speed. Since Alice's actual speed is  miles per\nhour, the ratio is \n8\n15\n12\n8\n12\n4\n8\n4\n8 = 1\n2 ."
+      "explanation": ""
     },
     {
       "id": 1775886909670,
@@ -682,7 +682,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q16.png",
       "answer": "",
-      "explanation": "This problem is more laborious if you try to write out the two distances and then subtract! If\nwe instead write out the difference directly, there are a few neat things to notice. The\nlength of the straightaways doesn't change based on the lane used, so we can ignore them\nwhen thinking about the difference. The only thing that changes from lane to lane is the\nradius of the semicircle corresponding to the path through the center of the lane, and the\ntwo semicircles add up to one full circle.\nIt's easy to get tripped up here and assume that there are  lane widths between them, but\nnote that there is only  lane width between the center of lane  and the center of lane \nWith a difference of  lane widths between lane  and lane \n the difference between the\nradii of the semicircles corresponding to the centers of the innermost and outermost lanes\nis \nRemember from the lesson that an increase of  in the radius of a circle translates to an\nincrease of \n in the circumference. Since our two semicircles add up to a full a circle, our\nfinal difference will be \n2\nr,\nm.\n4\nw.\n2π × 3w + 2m\n2π × 3w\n4\n1\n1\n2.\n3\n1\n4,\n3w.\nx\n2πx\n2π × 3w."
+      "explanation": ""
     },
     {
       "id": 1775886909671,
@@ -692,7 +692,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "48",
-      "explanation": "Solution 1. When you are standing still and a train passes by, the next train is \n miles\naway because it will take another hour to reach your current point on the ground, and it is\ngoing at \n miles per hour. So, successive trains are \n miles apart. Once you start biking,\nthe previous question shows that the trains are moving towards you at a relative velocity of\n miles per hour. Since all that matters is the distance and speed in this case, you can\nimagine that this is equivalent to just one object moving at \n mph toward a stationary\nobject. By the rate equation \n, we can solve for the time :\nDividing by \n on top and bottom to simplify the fraction, we get\nhours. Converting to minutes by multiplying by \n, we get our answer of\nminutes.\nSolution 2. Using the idea of relative speed, your speed relative to the trains changes from\n miles per hour (when you are still) to \n miles per hour (when you are biking). So, the\ntime between trains changes by the factor \n Since the time between trains passing used\nto be \n minutes, it now becomes\nminutes.\n60\n15\n60\n60\n60\n75\n75\nd = r × t\nt\nt = d\nr = 60\n75 .\n15\nt = 4\n5\n60\n4\n5 × 60 = 48\n60\n75\n60\n75 .\n60\n4\n5 × 60 = 48"
+      "explanation": ""
     },
     {
       "id": 1775886909673,
@@ -723,7 +723,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w3-exam-museum.png",
       "answer": "66",
-      "explanation": "The ratio of your current diameter to the normal diameter is \n Circumference scales\nlinearly with diameter, which is a fancy way of saying that if you double your diameter, your\ncircumference will also double. This means the distance you travel with every rotation is \ntimes what your speedometer expects. Therefore, your actual speed was \nmiles per hour.\n60\n60\n30\n33\n30\n30\n1.1.\n1.1\n60 × 1.1 = 66"
+      "explanation": ""
     },
     {
       "id": 1775887263918,
@@ -733,7 +733,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(C)",
-      "explanation": "Solution. This question is very similar to the one we saw in the lesson! The last digit of a\nnumber is the only thing that determines the last digit of the square of the number. For\nexample, if we wanted to know \n this would be the same as finding \nand we know that the term \n multiplied by anything will end in a zero, so we can just\nignore that term and look only at \nSince all that matters is the last digit, that means if we check the first ten positive perfect\nsquares, we'll get all the possible last digits. Listing them out:\nThen the possible last digits are \n and \nMath Note. We saw back in the lesson that if a number ends in \n or \n it can't be a\nperfect square. This eliminates a lot of the answers for us!\n1, 4, 9, 6, 5, 0\n1, 4, 9, 6, 5, 0\n6872,\n(68 × 10 + 7)2,\n68 × 10\n72.\n12 = 1\n22 = 4\n32 = 9\n42 = 16\n52 = 25\n62 = 36\n72 = 49\n82 = 64\n92 = 81\n102 = 100\n1, 4, 9, 6, 5, 6, 9, 4, 1,\n0.\n2, 3, 7,\n8,"
+      "explanation": ""
     },
     {
       "id": 1775887263919,
@@ -775,7 +775,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2520",
-      "explanation": "Eyeball it. The numbers \n \n and \n look suspicious, don't they? They don't seem like\nthey will easily multiply with other numbers to get \"nice\" numbers ending in \n and this is\nbecause \n \n and \n are all prime, so they likely don't have prime factors in common\nwith the number that is the sum of the interior angles of a polygon. Now, we can busy\nourselves with looking at just \n and \n The question is talking about polygons, which\nmeans any shape with three or more sides, and this includes triangles. Sometimes, one way\nof looking at a problem and testing a solution is to consider the extreme case. So if we\nconsider a triangle with three sides, we know that its angles sum to \n which isn't a\nmultiple of \n Our answer is \nGeneral polygons. In the lesson, we found that we can cut any polygon into triangles by\nchoosing one corner to draw diagonal lines from, and drawing \n lines to the \nother corners of the polygon. (You could also draw triangles which all come out of the\ncenter of the polygon, but you then have to be careful to subtract the sum of all the central\nangles, which conveniently is \n)\nNote: This works even if the polygon's sides are of different length, and even if the triangles\nformed are of different shapes, which is nice!\nWe know that the sum of the interior angles of the polygon will be some multiple, then, of a\ntriangle's interior angle sum, in particular,\nOur answer, then, is \nNote: It's interesting to notice that when \n the number of sides of the polygon, is odd, then\nthe interior angle sum of the polygon is a multiple of \n101, 53,\n107\n0,\n101, 53,\n107\n180∘\n360∘.\n180∘,\n360∘.\n180∘.\nn −3\nn −3\n360∘.\n180∘× (n −3).\n180∘.\nn,\n360∘."
+      "explanation": ""
     },
     {
       "id": 1775887263923,
@@ -806,7 +806,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "12345678987654321",
-      "explanation": "The number \n can be written as\nso\nwhich has the same last two digits as \n so our answer is \n2019122\n201912\n100 × 2019 + 12,\n2019122 = (100 × 2019 + 12)\n2\n= 20192 × 1002 + 12 × 100 × 2 + 122\n= 100 × stuff + 122\n122 = 144,\n44."
+      "explanation": ""
     },
     {
       "id": 1775887263926,
@@ -816,7 +816,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "Solution. When calculating the final digit of a large power, we only need to look at the final\ndigit of our original number! So, the last digit of \n is the same as the last digit of \nInstead of fully calculating out \n we can just look at the final digit of each step of our\ncalculation. Let's use the fact that \n Then \n whose last digit\nis the same as the last digit of \n which ends in \n That was only \n so we need\nto square our digit  again to get the last digit of \n which will be \nMath Note 1. Did you notice that the last digit of powers of  follow a cycle, and they go\nthrough \n and ? This is actually true for the powers of any digit, and it can be used to\nsave time on questions like this one!\nMath Note 2. Does \n look familiar to you? You may remember from the lesson that\n is the first six digits of a very important mathematical constant, \nFun aside. Find out the fun connection between the mathematical constant, \n and expii!\n2718286\n2718286\n86.\n86,\n86 = (83)2.\n83 = 8 × 82 = 8 × 64,\n8 × 4 = 32,\n2.\n83,\n2\n86,\n22 = 4.\n8\n8, 4, 2\n6\n271828\n2.71828\ne.\ne,"
+      "explanation": ""
     },
     {
       "id": 1775887263927,
@@ -826,7 +826,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "20",
-      "explanation": "Solution 1. Brute force it. Multiply the numerators on top to get\nMultiply the denominators on the bottom to get\nSimplifying, \n reduces to \n.\nSolution 2. In the same way that we've rearranged sums to make them easier to calculate,\nwe can rearrange the numerators and denominators of the fractions in this product.\nRewriting gives us\nNow it is easier to see that each numerator cancels the denominator before it, simplifying\nto \n.\n6\n17 × 7\n5 × 8\n3 × 5\n6 × 3\n7\n6 × 7 × 8 × 5 × 3 = 5040.\n17 × 5 × 3 × 6 × 7 = 10710.\n5040\n10710\n8\n17\n8\n3 × 3\n7 × 7\n5 × 5\n6 × 6\n17 .\n8\n17"
+      "explanation": ""
     },
     {
       "id": 1775887263929,
@@ -847,7 +847,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "5",
-      "explanation": "It's helpful to imagine that there are multiples of  inside \n which we can remove at each\nstep of our calculation, so we can just think about the remainders that are left behind. Let's\nthink of \n as \n, so\nwhere  is an integer whose value doesn't matter. The remainder after dividing by  will be\nthe same as the remainder after dividing \n by \n which is \n divided by \n which is \nWe just found the remainder of \n but we really want the remainder of \n so we can\nwrite\nwhich has the same remainder as\nwhich has the same remainder as\nSo,  is our answer.\n133\n8\n8\n133\n13\n8 + 5\n(8 + 5)\n2\n= 8 × stuff + 52,\na\n8\n52\n8,\n25\n8,\n1.\n132,\n133,\n133 = 132 × 13\n1 × 13\n1 × (8 + 5)\n= 5.\n5"
+      "explanation": ""
     },
     {
       "id": 1775887263931,
@@ -858,7 +858,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1w4-exam-bisectors-all-colored.png",
       "answer": "45",
-      "explanation": "Solution 1. When a questions asks for an angle, a great idea is to start hunting for a triangle\nthat contains that angle, and it's even better if we already know the measures of its other\nangles. Let's look at \n in the diagram above. We actually already know \nbecause \n is an angle bisector of \n (which we know is \n since the large triangle\nhas equal legs), so that means that \n One trick is to keep our angles in terms\nof \n rather than calculating them out as decimals, because we will find that some of our\nnumbers will cancel out nicely!\nWe don't yet know \n though, so we need to start being creative. Let's look for more\ntriangles that can give us \n There are two triangles that we can use, \n and\n△BGD\n∠DBG,\nBE\n–\n∠ABD\n45∘,\n∠DBG = 45∘\n2 .\n45∘\n∠BDG,\n∠BDG.\n△ABD\n△ACD."
+      "explanation": ""
     },
     {
       "id": 1775887263932,
@@ -868,7 +868,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "7",
-      "explanation": "Solution 1.Since  is a positive integer that has remainder  when divided by \n it is one\nmore than a multiple of \n and looks like\nwhere the exact value of the integer  doesn't matter. In the same way,  is one more than\na multiple of \n and looks like\nwhere we don't yet know the value of \n If we multiply  and  together, we get:\nThe first two terms are multiples of \n so the whole thing will be a multiple of  if \n is\nalso a multiple of \n The smallest positive multiple of  is \n so let's check to see if  is an\ninteger when \n To do this, just solve for \nRemember, we're looking for the value of \n not \n so\nIt's interesting to see that none of this depends on the value of  or \na\n1\n7,\nb\n1\n3.\nb\na × b\n7\na\n1\n7,\n7,\n7 × c + 1,\nc\nb\n3,\n3 × d + 1,\nd.\na\nb\na × b =\n(7c + 1) × (3d + 1) =\n21 × cd + 7c + 3d + 1.\n7,\n7\n3d + 1\n7.\n7\n7,\nd\n3d + 1 = 7.\nd :\n3d + 1 = 7\n3d = 7 −1\n3d = 6\nd = 2.\nb,\nd,\nb = 3d + 1,\nb = 7.\nc\na."
+      "explanation": ""
     },
     {
       "id": 1775887263933,
@@ -878,7 +878,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "We can write \n as \n which lets us cancel factors from the top and bottom:\n6√6 −5√5\n30√30\n1\n5√5 −\n1\n6√6\n√30\n√5 × √6,\n6√6 −5√5\n30√6√5\n=\n6√6\n30√6√5\n−\n5√5\n30√6√5\n=\n6\n30√5\n−\n5\n30√6\n=\n1\n5√5\n−\n1\n6√6"
+      "explanation": ""
     },
     {
       "id": 1775887263934,
@@ -899,7 +899,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "3/7 | 3 / 7",
-      "explanation": "This question is a lot like the telescoping sum question that we saw in the videos. Let's\nrewrite each fraction as the difference of two other fractions and hope the sum telescopes!\nand\nThen, our sum becomes\n5\n14 +\n4\n77 −\n5\n66 +\n7\n78 +\n1\n182\n5\n14 = 1\n2 −1\n7\n4\n77 = 1\n7 −1\n11\n5\n66 = 1\n6 −1\n11\n7\n78 = 1\n6 −1\n13\n1\n182 = 1\n13 −1\n14 .\n1\n2 −1\n7 + 1\n7 −1\n11 −1\n6 + 1\n11 + 1\n6 −1\n13 + 1\n13 −1\n14\n= 1\n2 −1\n14\n= 7\n14 −1\n14\n= 6\n14\n= 3\n7 ."
+      "explanation": ""
     },
     {
       "id": 1775887263937,
@@ -920,7 +920,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w4-q19.png",
       "answer": "102",
-      "explanation": "This star has a regular pentagon at its center and five triangles attached to each edge of the\npentagon. Let's look at all of the angles that, together with the angle that we want,\nsurround one of the corners of the pentagon:\n triangle \ninterior \n of pentagon \nWe can get the internal angle of the triangle using the given \n angle.\n2 × (\n∠) + (\n∠\n) = 360∘.\n30∘"
+      "explanation": ""
     },
     {
       "id": 1775887263939,
@@ -941,7 +941,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "12745506813",
-      "explanation": "We saw from the Day 16 lesson that perfect squares end in \n or \n Since the last digit of a product comes from the\nlast digits of its constituent factors multiplied together, we just need to square each of \n and  to get a list of\npossible last digits of a fourth power.\nThe only possible last digits for a fourth power are \n and \n so the incorrect fourth power is choice number three,\nn4,\nn\n0, 1, 4, 5, 6,\n9.\n0, 1, 4, 5, 6,\n9\n02 ⟹0\n12 ⟹1\n42 ⟹16 ⟹6\n52 ⟹25 ⟹5\n0, 1, 5,\n6,\n.\n12745506813"
+      "explanation": ""
     },
     {
       "id": 1775887615996,
@@ -951,7 +951,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1/42",
-      "explanation": "A common denominator for these fractions is \n since \n and \n are all factors of \n Then we can write\n5\n6 −6\n7 + 1\n21 ?\n3\n2 ,\n3\n2\n42,\n6, 7,\n21\n42.\n5\n6 −6\n7 + 1\n21 = 35\n42 −36\n42 + 2\n42\n= −1\n42 + 2\n42\n=\n1\n42"
+      "explanation": ""
     },
     {
       "id": 1775887615997,
@@ -961,7 +961,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "6",
-      "explanation": "As in the Day 9 lesson, it might be helpful to draw a diagram of where the various fish are at different locations on the stream.\nLet's segment off the distance by  mile increments. Two hours after a sardine has crossed a given point, the next sardine\ncrosses that same point. In that time, the first sardine, which travels at  mph, went  miles downstream.\nThus the sardines are spaced every \n miles.\n3\n3\n3\n6\n6"
+      "explanation": ""
     },
     {
       "id": 1775887615998,
@@ -972,7 +972,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m0-final-right-triangles.png",
       "answer": "34",
-      "explanation": "It's nice that we have two right triangles, because we know that we can apply the Pythagorean Theorem to relate their side\nlengths. Which triangle should we start with, the yellow or the purple one? The purple one has two given side lengths, so it's\nmore promising. However, there's an easier way besides using the Pythagorean Theorem. Notice that the lengths \n and \nare both four times  and \n which gives us a \n right triangle!\nThe long leg is then the corresponding leg to the  leg of a \n right triangle, so its length is \nNow we have found two of the lengths of the upper triangle, which means it's easy to solve for the hypotenuse that we want.\nThe legs of \n and \n are double  and \n which match with the legs of a \n right triangle.\n20\n12\n3\n5,\n3 −4 −5\n4\n3 −4 −5\n4 × 4 = 16.\n16\n30\n8\n15,\n8 −15 −17"
+      "explanation": ""
     },
     {
       "id": 1775887615999,
@@ -983,7 +983,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m0-paths.png",
       "answer": "8",
-      "explanation": "As we saw in the Day 15 Beehive lesson, we can label the number of ways to arrive at each point on this tree, by adding up\nthe ways to reach the points that feed into that particular point.\nThe middle point can be reached via the two points marked with a \n below it, so it has \n ways to reach it.\nLikewise, the middle points on the top can be reached via a  point and a  point, so it has  ways to reach it. On the other\nhand, the points on the very edge have only way to reach them, since any step that diverges into the center will never be able\nto return to the edge.\nWe just need to add up the ways to reach each of the four points on the top, and this is the answer:\n′′1′′\n1 + 1 = 2\n1\n2\n3\n1 + 3 + 3 + 1 = 8"
+      "explanation": ""
     },
     {
       "id": 1775887616000,
@@ -1003,7 +1003,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "81",
-      "explanation": "As we saw in the Day 12: Multiplying Switches lesson, a number will have an odd number of factors if it is of the form\n where \n are prime numbers.\nIn choosing a factor, we will choose certain numbers of each prime, and there is also the option of not having the prime at all,\nso there are \n choices for each prime, where \n equals the power of the prime. For example, if our number had \nin its factorization, we would have  choices for the number of 's to take (\n or \n) Since every power is even, the\nnumber of choices for each will be an odd number.\nSince the power of each prime is even, we can write each as \n where  is an integer (not necessarily even). That\nmeans that our number is a square of the form\nwhere \n are integers.\nWe thus want the largest -digit square, and that is \n2\npeven\n1\n× peven\n2\n× peven\n3\n… ,\np1, p2, p3,\neven + 1\neven\n24\n5\n2\n0, 1, 2, 3,\n4.\nnumber of choices for p1 × number of choices for p2 × number of choices for p3 × …\n= odd  ×  odd  ×  odd  × …\n=  odd number \n even  = 2 × n\nn\npeven\n1\n× peven\n2\n× peven\n3\n…\n= p2a\n1 × p2b\n2 × p2c\n3 …\n= (pa\n1 × pb\n2 × pc\n3 × …)\n2\na, b, c, …\n2\n.\n81"
+      "explanation": ""
     },
     {
       "id": 1775887616002,
@@ -1013,7 +1013,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "9",
-      "explanation": "Let's start by writing out \n as a product of prime factors. Any square has an even number of each prime factor in its prime\nfactorization.\nIn order to choose factors of \n we can look at each prime separately, keeping in mind that we only want even numbers of\neach prime.\nWe can take no 's or two 's (  choices), and no 's, two 's, or four 's (three choices). Multiplying these choices together,\nwe get \n different square factors.\n784\n784\n784 = 72 × 24\n784,\n7\n7\n2\n2\n2\n2\n2 × 3 = 6"
+      "explanation": ""
     },
     {
       "id": 1775887616003,
@@ -1023,7 +1023,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "100",
-      "explanation": "There are  even digits: \n and \n We have to be a little careful with the \n because we know a number can't start with\n Nevertheless, it's easier to count the zero as a possible digit and then subtract the ways that don't work (where the zero is\nin front).\nThere are five choices for the first digit, five choices for the second digit, and five choices for the third digit, so there are\n ways to get a line of three even digits.\nNow, let's see how many ways are \"bad,\" i.e. that start with zero. Since the first digit is fixed to be zero, we only have choices\nfor the second and third digits, so there are \n ways to have a line of three digits starting with zero.\nSubtracting the \"bad\" ways from the total ways, we get\n3\n5\n0, 2, 4, 6,\n8.\n0,\n0.\n5 × 5 × 5 = 125\n5 × 5 = 25\n125 −25 =\n ways.\n100"
+      "explanation": ""
     },
     {
       "id": 1775887616004,
@@ -1033,7 +1033,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "196",
-      "explanation": "The Day 2: Box Calculations lesson showed us that we can multiply all of the equations together to get\nWe want \n which is equal to \na b\nc\na2b = 2\nb2c = 28\nc2a = 49,\n(abc)2\n(a2b) (b2c) (c2a) = 2 × 28 × 49\na3b3c3 = 2 × 22 × 7 × 72\n(abc)3 = 23 × 73\nabc =\n3√23 × 73\n= 2 × 7\n= 14\n(abc)2,\n142 =\n.\n196"
+      "explanation": ""
     },
     {
       "id": 1775887616006,
@@ -1043,7 +1043,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "30",
-      "explanation": "Assume there are  students who like both dogs and apples. This is the size of one colored square in the figure below. Since\n of the students who like apples also like dogs, we know that among the students who like apples, there are twice as many\nwho like cats than dogs.\nSo \n students like both cats and apples. Since \n of the cat-loving students like apples, that means that \n of the cat-loving\nstudents like bananas; in other words, there are twice as cat-lovers who like bananas as like apples. Then \n students like\nboth cats and bananas.\nSince \n of the dog-lovers like apples, \n of the dog-lovers like bananas, so there are three times as many dog-lovers who like\nbananas as like apples, and that means that \n students like both dogs and bananas.\nBonus\n1\n3\n1\n3\n3\n4\nx\n1\n3\n2x\n1\n3\n2\n3\n4x\n1\n4\n3\n4\n3x\nEarned 0 of 10 points. 0%"
+      "explanation": ""
     },
     {
       "id": 1775887616007,
@@ -1063,7 +1063,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "12.25",
-      "explanation": "As we saw in the Day 6: Geometric Scaling lesson, if the ratio of the dimensions (length and width) of two similar shapes is \nthen the ratio of their areas is \n We call this areal scaling. In this problem, the ratio of the dimensions of the lenses is\nso the ratio of their areas is\n200\n200\n700\n200\na\nb ,\na2\nb2 .\n700\n200 = 7\n2 ,\n72\n22 = 49\n4 =\n.\n12.25"
+      "explanation": ""
     },
     {
       "id": 1775887616009,
@@ -1073,7 +1073,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 1\n2. 15",
-      "explanation": "The probability that the three cars are parked side-by-side is equal to\nTo find the number of ways that the three cars can be parked side-by-side, we can start by parking them in the first three\nspots, as shown below:\nIf we shift them down the row, the last car will end up in spot \n so the number of arrangements here is \nFor the number of ways to park the three cars without any constraint:\n10\n3\n3\n2 ,\n3\n2\nnumber of ways to be side-by-side\nnumber of ways to parkthree cars in any arrangement\n10,\n10 −3 + 1 = 8."
+      "explanation": ""
     },
     {
       "id": 1775887616010,
@@ -1084,7 +1084,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m0-count-triangles.png",
       "answer": "24",
-      "explanation": "The lines are arranged in three sets of parallel lines. We are choosing three lines to serve as sides of a triangle; if at least two\nof these come from the same set, then we can't form a triangle. We want to choose no more than one from each set, which\nmeans that to make a triangle we must choose exactly one line from each set.\nThe middle set has  lines, the downward-sloping set has  lines, and the upward-sloping set has  lines, so the number of\nways to choose three lines to make a triangle is\n2\n3\n4\n2 × 3 × 4 =\n.\n24"
+      "explanation": ""
     },
     {
       "id": 1775887616011,
@@ -1105,7 +1105,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "21",
-      "explanation": "Let's draw a diagram showing the four categories of people: 1.) Those who have the virus and test correctly as positive; 2.)\nThose who have the virus and who test incorrectly as negative; 3.) Those who don't have the virus and test correctly as\nnegative; 4.) Those who don't have the virus and test incorrectly as positive.\nWithout loss of generality (without ruining the problem), we can suppose that \n people were tested. Then \n of them\ntested positive even though they were actually negative, and  of them tested negative even though they were positive.\nSince the \n people are \n of the total people who are actually positive, we know that\nDividing  from the top and bottom of \n we get\nThus\nand\n12%\n8%\n48%\n100\n12\n8\n12\n48%\nnumber of incorrect positive results\nnumber of incorrectpositive results +  number of correct positive results\n= percentof positive results which are incorrect\n12\n12 + number of correct positive results = 48\n100 .\n4\n48\n100 ,\n12\n12 + number of correct positive results = 12\n25\n12 +  number of correct positive results = 25\nnumber of correct positive results = 13."
+      "explanation": ""
     },
     {
       "id": 1775887616013,
@@ -1115,7 +1115,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "22",
-      "explanation": "Connecting each vertex of an -sided polygon to the center will create \n triangles. Since a regular polygon has equal\nlength sides, its symmetry implies that these radial lines to the center are all the same length, so these triangles are isosceles.\nThat shows us that the two angles not touching the center are equal.\nAdditionally, each of the central angles of the triangles is equal to \n of the total degrees going around the center:\nEach purple angle is equal to half of the polygon's interior angle, so\nand, by the sum of the angles of a triangle,\nThe interior angle is an integer if \n is an integer, which is true if  is a factor of \n To find the number of factors of \nwrite its prime factorization, which is\nThere are four choices for number of 's in our factor (\n) or \n three choices for the number of 's in our factor (\n or\n) and two choices for the number of 's in our factor (  or \n)\nThus the number of factors of \n is \n Before we write this as the answer, don't forget that \n and \naren't valid polygons, so we must subtract two of these factors, giving us \n different polygons.\nn\nn −2\n1\nn\nyellow angle  = 360∘\nn\ninterior angle = 2 × purple angle\ninterior angle = 180∘−2 yellow angle\n= 180∘−360∘\nn\n360∘\nn\nn\n360.\n360,\n23 × 32 × 5.\n2\n0, 1, 2,\n3,\n3\n0, 1,\n2,\n5\n0\n1.\n360\n4 × 3 × 2 = 24.\nn = 1\nn = 2\n24 −2 = 22"
+      "explanation": ""
     },
     {
       "id": 1775887616014,
@@ -1126,7 +1126,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-final-q19.png",
       "answer": "50",
-      "explanation": "Let the sum of the numbers on each circle be \n. Exactly two circles pass through each blank spot. So, \n sums\nevery number from \n through \n twice.\nNote. It is also actually possible to achieve this. Just put \n, \n, and \n in the top row, \n and \n in the second row, and \n as\nthe bottom number.\n7\n10, 11, 12, 13, 14,\n15.\nC\nC + C + C\n10\n15\n10 + 11 + 12 + 13 + 14 + 15 = 10 × 6 + (1 + 2 + 3 + 4 + 5)\n= 60 + 5 × 6\n2\n= 60 + 15\n= 75\nC + C + C = 2 × 75\n3C = 150\n⟹C = 150\n3\n= 50\nC = 50\n13 10\n14\n11\n12\n15"
+      "explanation": ""
     },
     {
       "id": 1775887616015,
@@ -1136,7 +1136,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "16",
-      "explanation": "As in the Day 9 lesson, it might be helpful to draw a diagram of where the various fish are at different locations on the stream.\nLet's segment off the distance by  mile increments. Two hours after a sardine has crossed a given point, the next sardine\ncrosses that same point. In that time, the first sardine, which travels at  mph, went  miles downstream.\nWe know now that the sardines are spaced every  miles.\nThe salmon starts at the same place as the first sardine, colored in grey (which it gulps down), and from here the second\nsardine is  miles away.\n6\n3\n2\n60\n3\n3\n6\n6\n6"
+      "explanation": ""
     },
     {
       "id": 1775892648200,
@@ -1156,7 +1156,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "100",
-      "explanation": "The curious pattern to the sum of the first  odd numbers is this:\nThis question is asking the same thing as, \"What is the sum of the numbers \n\", except\nwe're even better off, since we don't even have to figure out what  equals -- we are given that  equals \n In\nfact, you don't even have to know that the \n odd is equal to \n The sum of the first \n odds is equal to \nMath note:  It's quite easy to see why this formula works. It's because in order to go from one square, \n to the\nnext consecutive square, \n you simply add \n which is always an odd number. We start from \nwhich is a square, and adding consecutive squares will always result in another square number.\n2\n1 + 3 = 4.\n3\n1 + 3 + 5 = 9.\n4\n1 + 3 + 5 + 7 = 16.\n10\n102\n102\nn\n(1st odd) + (2nd odd ) + (3rd odd ) + … + (nth odd ) = n2.\n1 + 3 + 5 + 7 + … + 19?\nn\nn\n10.\n10th\n19.\n10\n.\n102\nn2,\n(n + 1)2,\nn + n + 1,\n1,"
+      "explanation": ""
     },
     {
       "id": 1775892648202,
@@ -1166,7 +1166,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "w=m+1.5",
-      "explanation": "Let's look at a sample point. An \n-size women's shoe is equivalent to a -size men's shoe. The woman's shoe\nsize is \n larger than the men's shoe size. Checking the other points confirms this pattern, so the answer is\nw\nm\nw\nm?\nWomen's Sizing\n7.5\n8\n8.5\n9\n9.5\nMen's Sizing\n6\n6.5\n7\n7.5\n8\nw = 1.5 + m\nw = 1.5 + m\n8.5\n7\n1.5\n.\n choice i.), w = 1.5 + m"
+      "explanation": ""
     },
     {
       "id": 1775892648203,
@@ -1176,7 +1176,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "94.4%",
-      "explanation": "The ratio of width of the size-\n shoe compared with the size-  shoe is \n which, multiplying by top and\nbottom, is equal to \n The length ratio and height ratio are similarly also \n Since volume multiplies by product\nof the width, length and height factors, the volume of the size-\n shoe will be\n Since we want to find the closest answer, and our answer choices are each\ndifferent by at least \n we can round off this answer to the third digit, which only causes an error of at most\n Conveniently, the denominator of \n lends itself to being multiplied by  to give a \n in the bottom,\nwhich will allow us to calculate the percent easily. Thus the fraction becomes\n1\n8.5\n9\n25\n94.4%\n94.4%\n8.5\n9\n24.5\n25 ,\n49\n50 .\n49\n50 .\n8.5\n( 49\n50 )\n3 =\n493\n125000 =\n117649\n1250000 ≈118\n125 .\n1%,\n1%.\n118\n125\n8\n1000\n( 118\n125 ) ( 8\n8 ) =\n944\n1000 = 0.944 →\n.\n94.4%"
+      "explanation": ""
     },
     {
       "id": 1775892648204,
@@ -1186,7 +1186,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "168",
-      "explanation": "Each pumpkin cookie has area \n compared to the area of a skeleton cookie, \n so intuitively we should be able to fit more skeleton cookies than pumpkin cookies on one sheet. We want to\nthink about the proportion of space taken up by a skeleton cookie compared with a pumpkin cookie. The\nproportion of skeleton cookies is this same ratio, but flipped.\nThe skeleton cookies are  inches long, compared with the pumpkin cookies, which are  inches long, so in one\nsheet, we can only fit \n the number of rows of skeleton cookies as pumpkin cookies. height space of the\npumpkin cookies. The skeleton cookies are \n inches wide compared with the pumpkin cookies, which are \ninches wide, so we can fit \n as many vertical columns of skeleton cookies as pumpkin cookies. Multiplying\nthese together, we get \n as many skeleton cookies as pumpkin cookies. We had \n pumpkin cookies,\nso we should be able to fit \n skeleton cookie.\n3\n3.5\n4\n1.5\n96\n3 × 3.5 = 10.5 in2\n4 × 1.5 = 6 in2,\n4\n3\n3\n4\n1.5\n3.5\n3.5\n1.5 = 7\n3\n3\n4 × 7\n3 = 7\n4\n96\n96 ( 7\n4 ) = 24 × 7 = 168"
+      "explanation": ""
     },
     {
       "id": 1775892648205,
@@ -1196,7 +1196,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "18",
-      "explanation": "Compare the dimensions of one letter in -point and also in \n-point. The \n-point letter will have \n the width\nand \n the height of the same letter in -point. The overall space the \n-point font takes up will be \ntimes the space. Making the report double-spaced will multiply the space used by \n so the overall space\nmultiplies by \n Thus the  pages will turn into \n pages.\n6\n8\n12\n8\n12\n12\n3\n2\n3\n2\n8\n12\n( 3\n2 )\n2 = 9\n4\n2,\n2 ( 9\n4 ) = 9\n2 .\n6\n6 ( 9\n2 ) = 27"
+      "explanation": ""
     },
     {
       "id": 1775892648206,
@@ -1206,7 +1206,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "86",
-      "explanation": "The average of his scores is \n so we could pretend that each exam score is \n We now want to adjust the\nscores by moving points around, without creating a net difference in the total points. For example, we can add \npoints to the top two scores to make them \n but we'd have to remove them from somewhere else. Removing \neach from the two low scores makes each low score \n However, the two low scores are supposed to have an\naverage of \n so we must steal  points from the middle score, one for each of the two lower exam scores. Now\nthe middle score is \n and this is the answer.\n88\n92,\n85.\n88,\n88.\n4\n92,\n4\n84.\n85,\n2\n88 −2 =\n,\n86"
+      "explanation": ""
     },
     {
       "id": 1775892648207,
@@ -1216,7 +1216,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "480",
-      "explanation": "Suppose there were one -legged alien and two -legged aliens on the planet. Combined, they would have\n legs. This comprises one subgroup of the creatures on this planet. We just need to scale the\nsubgroup in order to get \n legs. We recognize \n as being \n so the planet has \n of these groups of \naliens, giving \n total aliens.\n2560\n4\n6\n4 + 2(6) = 16\n2560\n256\n162,\n160\n3\n3 × 160 = 480"
+      "explanation": ""
     },
     {
       "id": 1775892648208,
@@ -1226,7 +1226,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "162",
-      "explanation": "Let's create a variable for the number of gummy bears that Vishanth eats and relate the other people's gummy\nbear amounts to Vishanth's amount. Since Sam eats one-third Pei's amount, Pei eats three times as much as Sam\neats.\nThe difference in the number of gummy bears Vishanth ate and Pei ate is equal to \n which is given to equal \ngummy bears. Thus \n The total number of gummy bears eaten equals\n90\nx = (Number of gummy bears Vishanth eats)\n2x = (Number of gummy bears Sam eats)\n3(2x) = 6x = (Number of gummy bears Pei eats)\n5x,\n90\nx = 90\n5 = 18.\nx + 2x + 6x = 9x = 9(18) =\n.\n162"
+      "explanation": ""
     },
     {
       "id": 1775892648209,
@@ -1246,7 +1246,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "11",
-      "explanation": "The average of the four numbers is \n Thus the middle two numbers average to \n also, so they must be\n and \n Since the numbers are consecutive odds, we then know that the four numbers are \n and \nso the smallest number is \nBonus Challenge Questions\n4\n56.\n56\n4 = 14.\n14\n13\n15.\n11, 13, 15,\n17,\n.\n11\nEarned 0 of 7 points. 0%"
+      "explanation": ""
     },
     {
       "id": 1775892648212,
@@ -1256,7 +1256,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "First, simplify the fractions by removing square factors from inside the square root.\nNow let's estimate \n Since  is larger than \n and smaller than \n \n is between  and \n closer to \n We'll\nhave to esimate more precisely. Squaring both numbers gives:\nThus \n is larger.\n√24\n√5\n√75\n√18 .\n√24\n√5\n√24\n√5\n vs.  √75\n√18\n2√6\n√5\n vs.  5√3\n3√2\n2√2\n√5\n vs. \n5\n3√2\n (Divide both sides by√3)\n  2√2\n√5\n( 3√2\n3√2\n) vs. \n5\n3√2\n( √5\n√5\n)\n (Make common denominator\n2√2 × 3√2 vs. 5√5\n12 vs. 5√5.\n√5.\n5\n22\n32, √5\n2\n3,\n2.\n122 vs. (5√5)2\n144 vs. 125\n√24\n√5"
+      "explanation": ""
     },
     {
       "id": 1775892648213,
@@ -1266,7 +1266,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 40",
-      "explanation": "Use the fact that \n Then \n We can write:\nThis number equals \n followed by \n zeroes, so it has \n digits.\n777\n537 ?\n72 = 49 ≈50 = 5 × 10.\n72n ≈5n × 10n.\n777\n537 = 7(776)\n537\n≈7(5381038)\n537\n= 7(5)1038\n= 35 × 1038.\n35\n38\n40"
+      "explanation": ""
     },
     {
       "id": 1775892648214,
@@ -1276,7 +1276,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "104",
-      "explanation": "First find the flag-capture rate for one experienced kid and also for one inexperienced kid. The following shows\nthe computation for one experienced kid, using the idea that the time and number of kids is inversely related, but\nthe number of flags is directly related to the number of kids as well as the number of minutes. In other words, if\nthe number of flags multiplies by \n the number of minutes multiplies by  or the number of kids needed\nmultiplies by \n but if the number of kids multiplies by \n the number of minutes decreases by a factor of \nSimilarly, we can do the same thing to find the unit \"rate\" for one inexperienced kid.\nThe speed at which one experienced kid can capture flags is \n flag per minute, and the speed for one\ninexperienced kid is \n flag per minute. If we have  experienced kids and  experienced kids, their combined\nrate of working will be equal to the following:\nConveniently, the problem asks us to capture \n flags, so it will take \n minutes to do this.\n4\n6\n3\n13\n4\n2\n3\n55\nx,\nx\nx,\nx,\n1\nx .\n6 experienced kids\n capture 3 flags \nin 4 minutes\n1 experienced kid\n captures 3 flags \nin 24 minutes\n1 experienced kid\n captures 1 flag \nin 8 minutes\n13 inexperienced kids\n capture 4 flags \nin 4 minutes\n1 inexperienced kid\n captures 4 flags \nin 52 minutes\n1 inexperienced kid\n captures 1 flag \nin 13 minutes\n1\n8\n1\n13\n3\n2\nCombined rate = 3\n8 + 2\n13\n= ( 3\n8 ) ( 13\n13 ) + ( 2\n13 ) ( 8\n8 )\n= 39 + 16\n8 × 13\n= 55\n104  flags per minute .\n55\n104"
+      "explanation": ""
     },
     {
       "id": 1775892648215,
@@ -1286,7 +1286,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1",
-      "explanation": "The number  is even, so since if \n is greater than \n is even as well. On the other hand, \n is always odd. The\nonly possible value for \n is \n which makes \n as well, giving us \n The answer is \n(m, n)\n2m = 9n\nm\nn?\n2\nm\n0, 2m\n9n\nm\n0,\nn = 0\n20 = 1 = 90.\n.\n1"
+      "explanation": ""
     },
     {
       "id": 1775892648216,
@@ -1296,7 +1296,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "247",
-      "explanation": "Notice that we can create this sum by adding  sub-sequences, each progressively shorter and shorter.\nAdding the right-hand sides, we see that we get another sum of powers of \n7(20) + 6(21) + 5(22) + 4(23) + 3(24) + 2(25) + 26?\n7\n26 + 25 + 24 + 23 + 22 + 21 + 20\n= 27 −1\n+25 + 24 + 23 + 22 + 21 + 20\n= 26 −1\n+24 + 23 + 22 + 21 + 20\n= 25 −1\n+23 + 22 + 21 + 20\n= 24 −1\n+22 + 21 + 20\n= 23 −1\n+21 + 20\n= 22 −1\n+20\n= 21 −1\n2.\n(21 −1) + (22 −1) + (23 −1) + (24 −1) + (25 −1) + (26 −1) + (27 −1) = (20 + 21 + 22 + … + 27) −7 −20\n= 28 −1 −7 −1\n= 256 −9\n=\n.\n247"
+      "explanation": ""
     },
     {
       "id": 1775892648217,
@@ -1306,7 +1306,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2013",
-      "explanation": "In the Day 1 Simple Simplification lesson, recall we were asked to simplify \n The numbers were nice:\n and \n were equal, so using difference of squares \n we\nwere able to cancel terms to make this reduce down to \nSolution 1.  Use the same idea as in the Day 1 lesson, but in reverse. Difference of squares will give us\nWe hope to make some of these factors cancel, by perhaps setting \n equal to \nIf  and  are too small, then \n will not be an integer, so we want  and  to be large. Since we cancel\n then we know \n must equal \nFor \n then \n The largest possible value of  which makes \n non-zero is\n which would make the largest possible value of  equal to \n Plugging these values in, we get\nSolution 2. \n20202 −a2\n20172 −b2 = 7\na\na?\n20202−20122\n20172−20152 .\n2020 + 2012\n2017 + 2015\n(a2 −b2 = (a + b)(a −b)),\n2020−2012\n2017−2015 = 8\n2 = 4.\n20202 −a2\n20172 −b2 = (2020 + a)(2020 −a)\n(2017 + b)(2017 −b)\n.\n2020 + a\n2017 + b.\na\nb\n2020−a\n2017−b\na\nb\n2020+a\n2017+b ,\n2020−a\n2017−b\n7.\n2020 + a = 2017 + b,\nb = a + 3.\nb\n2017 −b\nb = 2016,\na\n2013.\n(2020 + 2013)(2020 −2013)\n(2017 + 2016)(2017 −2016) = (4033)(7)\n(4033)(1)\n= 7."
+      "explanation": ""
     },
     {
       "id": 1775892648219,
@@ -1326,7 +1326,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "3969",
-      "explanation": "First, imagine splitting up the powers of  and spreading them out. For example, in the term \n split this into\n Next, line up the same powers of  in columns; the resulting shape will be a\nparallelogram, since there are more of the middle powers like \n and fewer and fewer as we go towards smaller\npowers like \n and \n which each occur only once.\nEach row has six terms, and each row has a common factor that makes it equal to \nmultiplied to another power of 2. Thus we can do a little trick to factor this expression as the following:\n20 + 2(21) + 3(22) + 4(23) + 5(24) + 6(25) + 5(26) + 4(27) + 3(28) + 2(29) + 210?\n2\n5(24),\n24 + 24 + 24 + 24 + 24.\n2\n25\n20\n210,\n20 + 21 + 22 + 23 + 24 + 25\n20 + 2(21) + 3(22) + 4(23) + 5(24) + 6(25) + 5(26) + 4(27) + 3(28) + 2(29) + 210\n= (20 + 21 + 22 + 23 + 24 + 25)(20 + 21 + 22 + 23 + 24 + 25)\n= (26 −1)(26 −1)\n(Using formula for sum of powers of 2)\n= 212 −2(26) + 1\n= 4096 −128 + 1\n=\n.\n3969"
+      "explanation": ""
     },
     {
       "id": 1775892648221,
@@ -1336,7 +1336,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "343",
-      "explanation": "One sure-fire approach is to calculate each term and add the terms up. A neat trick, however, is to see that this\ncan be factored in the following way:\n20 + 3(21) + 6(22) + 7(23) + 6(24) + 3(25) + 26?\n20 + 3(21) + 6(22) + 7(23) + 6(24) + 3(25) + 26\n= (20 + 21 + 22)(20 + 21 + 22)(20 + 21 + 22)\n= (23 −1)3\n= 73\n=\n.\n343"
+      "explanation": ""
     },
     {
       "id": 1775892871121,
@@ -1346,7 +1346,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "23",
-      "explanation": "First combine the two fractions into one fraction, and then peel off successive 's from the fraction to create a nested\nfraction.\n8\n9 + 10\n11 = 1 +\n1\n1 +\n1\na +\n1\nb + 1\nc\n,\na, b,\nc\na, b,\nc?\n1"
+      "explanation": ""
     },
     {
       "id": 1775892871122,
@@ -1356,7 +1356,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "6",
-      "explanation": "When \n the formula should give \n so this eliminates all except for the first and last choices. When \n the sum\nof the first  squares equals \n so this eliminates the first choice. By process of elimination, the correct answer\nis \nn\nn = 1?\nn(n + 1)(2n + 1)\n6\nn(n + 1)(2n + 1)\n6\nn = 1,\n1,\nn = 2,\n2\n1 + 4 = 5,\n.\nn(n + 1)(2n + 1)\n6"
+      "explanation": ""
     },
     {
       "id": 1775892871123,
@@ -1366,7 +1366,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1/6",
-      "explanation": "Every time the pastry is folded, the number of layers doubles. Thus after  folds, there will be \n layers of pastry.\n6\n6\n26 = 64"
+      "explanation": ""
     },
     {
       "id": 1775892871124,
@@ -1376,7 +1376,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "35",
-      "explanation": "We could do a straightforward division, but it might be more fun to find some clever simplifications. Let  be an integer\nsuch that \n Multiplying by \n is the same as shifting the digits of a number to the left by three\nplaces, and then adding it to itself. The resulting sum is three digits longer than the original number. Since \n is \ndigits long, the original number is  digits long. Supposing its digits are \n the sum will be like so:\nThe first  digits and the last  digits of \n can be read off as \n and \n since they are unaffected by\ncarries. Thus \n and \n The original number is then \n23564541\n1001?\nn\n1001n = 23564541.\n1001\n23564541\n8\n5\nABCDE,\nABCDE\nABCDE\n2 3 5 6 4 5 4 1\n2\n3\n23564541\nA, B, C, D,\nE,\nA = 2, B = 3, C = 4, D = 4,\nE = 1.\n.\n23541"
+      "explanation": ""
     },
     {
       "id": 1775892871125,
@@ -1396,7 +1396,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1",
-      "explanation": "Let  equal the number of games Arnav won. Then \n equals the number of games he lost. He wins \n from each\nwin and loses \n from each loss, so his net money equals \n Setting this equal to the \n he nets in total,\nwe get \n so \n and \n games.\n30\n$1\n$1\n$15,\na\n30 −a\n$2\n$1\n$2a −(30 −a).\n$15\n3a −30 = 15,\n3a = 45\na = 15"
+      "explanation": ""
     },
     {
       "id": 1775892871127,
@@ -1406,7 +1406,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "8",
-      "explanation": "We know the value of \n is \n If we take the difference between these two fractions, we get\nThis is much smaller than 1. Since the tenths digit of \n is \n there is no way this difference will have any affect\nover the first  digits. Therefore, the first  digits will still be \n in our original fraction.\n123456789\n1000001 ?\n123456789\n1000000\n123.456789.\n123456789\n1000000\n−123456789\n1000001\n= 123456789 × 1000001 −123456789 × 1000000\n1000000 × 1000001\n=\n123456789\n1000001000000\n123456789\n1000000\n4,\n3\n3\n123"
+      "explanation": ""
     },
     {
       "id": 1775892871128,
@@ -1426,7 +1426,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "36",
-      "explanation": "Let  equal the number of games win by Arnav,  equal the number of games won by Bing, and  equal the number of\ngames won by Chirag. For Arnav, we saw earlier that he earns \n from his won games and loses \n dollars from his\nlost games, giving him a net \n dollars. We can write similar equations for Bing and Chirag.\nBing loses \n more than Chirag, so Chirag won more games. The difference in their winnings can be written as:\nThis tells us that Chirag won  more games than Bing. We found from a previous question that Arnav won \n games,\nsince \n There are \n games won by either Chirag or Bing, so we can write:\nThus Chirag won \n games.\n30\n$1\n$1\n$15\n$9\na\nb\nc\n2a\n30 −a\n2a −(30 −a) = 3a −30\nArnav's net money = 3a −30\nBing's net money = 3b −30\nChirag's net money = 3c −30\n$9\nChirag's winnings − Bing's winnings = 3c −30 −(3b −30)\n9 = 3c −3b\n9 = 3(c −b)\n3 = c −b\n3\n15\n3a −30 = 15 ⟹a = 15.\n15\n15 games  = (c −3) + c\n15 = 2c −3\n18 = 2c\n9 = c.\n9"
+      "explanation": ""
     },
     {
       "id": 1775892871130,
@@ -1436,7 +1436,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "3",
-      "explanation": "Solution 1.  Use the formula for the sum of the first  odds. We saw in the Week 1 Challenge that the sum of the first \nodds equals \n We can write the \n term as \n so \n is the \n odd. Thus\n We must subtract \n which is the first \nodds, which sums to \n Subtracting this from \n we get \nSolution 2.  Use the average.\n \n We can pair up the numbers to create sums equal to \n There are  pairs, with a \n left over. The total sum is then\n15 + 17 + 19 + 21 + 23 + 25 + 27 + 29 + 31 + 33 + 35?\nn\nn\nn2.\nnth\n1 + 2(n −1),\n35 = 2 + 2(18 −1)\n18th\n1 + 3 + 5 + 7 + … + 33 + 35 = 182 = 324.\n1 + 3 + 5 + 7 + 9 + 11 + 13,\n7\n72 = 49.\n324,\n.\n275\n sum  = (average) × (number of numbers)\n50.\n5\n25\n50 × 5 + 25 = 250 + 25 =\n.\n275"
+      "explanation": ""
     },
     {
       "id": 1775892871132,
@@ -1446,7 +1446,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "10",
-      "explanation": "We can use symmetry as a shortcut in this problem! Bing is the average money winner, since Arnav wins \n more and\nChirag wins \n less than Bing. Thus he wins the average number of games, which is equal to \n games.\nBonus Challenge Questions\n30\n$1\n$1\n$6\n$6\n$6\n$6\n30\n3 = 10\nEarned 0 of 7 points. 0%"
+      "explanation": ""
     },
     {
       "id": 1775892871133,
@@ -1466,7 +1466,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "495000",
-      "explanation": "Pair them up. We have \n numbers, and we can make \n pairs where each pair sums to \n For example,\n and \n Thus the answer is \n \n1001 + 1111 + 1221 + 1331 + 1441 + 1551 + 1661 + 1771 + 1881 + 1991+\n2002 + 2112 + 2222 + 2332 + 2442 + 2552 + 2662 + 2772 + 2882 + 2992+\n3003 + 3113 + 3223 + 3333 + 3443 + 3553 + 3663 + 3773 + 3883 + 3993+\n4004 + 4114 + 4224 + 4334 + 4444 + 4554 + 4664 + 4774 + 4884 + 4994+\n…\n9009 + 9119 + 9229 + 9339 + 9449 + 9559 + 9669 + 9779 + 9889 + 9999.\n90\n45\n11000.\n1771 + 9229 = 11000\n1001 + 9999 = 11000.\n11000 × 45 =\n.\n495000"
+      "explanation": ""
     },
     {
       "id": 1775892871135,
@@ -1476,7 +1476,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "86520",
-      "explanation": "The numbers in the \n's happen to be \n the numbers in the \n's are\n and the numbers in the \n's are \n Let's use this fact to group\nthe numbers based on what multiple they contain.\nThis is already simpler than before, but we can do a little better by separating out the fourteen sets of\n and then grouping the other numbers by multiple of \n multiple of \n multiple of \n etc., up to\nmultiple of \nHere let's employ the trick for adding the terms of a consecutive arithmetic series, which saw in Day 7. Then we have\n and the entire sum becomes the following:\nUsing difference of squares on \n we can see that this equals \nIt might be easier to make the product into \n which equals \n (Or, it might not! It's up to you.) Finally, the\ntotal sum equals \n(1007 + 2008 + 3009),\n(1014 + 2016 + 3018),\n(1021 + 2024 + 3027).\n14\n1000\n1000 + (a multiple of 7),\n2000\n2000 + (a multiple of 8),\n3000\n3000 + (a multiple of 9).\n(1007 + 1014 + 1021 + … + 1000 + 7(14))\n+ (2008 + 2016 + 2024 + … + 2000 + 8(14))\n+ (3009 + 3018 + 3027 + … + 3000 + 9(14)).\n1000 + 2000 + 3000\n1,\n2,\n3,\n14.\nsum = 14(1000) + 7(1 + 2 + 3 + … + 14) + 14(2000) + 8(1 + 2 + 3 + … + 14) + 14(3000) + 9(1 + 2 + 3 + … + 14)\n= 14(1000 + 2000 + 3000) + (7 + 8 + 9)(1 + 2 + 3 + … + 14)\n= 14(6000) + 24(1 + 2 + 3 + … + 14)\n1 + 2 + 3 + … + 14 = 14×15\n2\nsum  = 14(6000) + 24 ( 14 × 15\n2\n)\n= 84000 + 12 × 14 × 15\n12 × 14,\n(13 + 1)(13 −1) = 132 −1 = 169 −1 = 168.\n84000 + 168 × 15.\n168 × 30\n2 ,\n2520.\n84000 + 2520 =\n.\n86520"
+      "explanation": ""
     },
     {
       "id": 1775892871136,
@@ -1486,7 +1486,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "11",
-      "explanation": "Let  equal the number of games win by Arnav,  equal the number of games won by Bing, and  equal the number of\ngames won by Chirag. We saw in a previous question that we can write equations for the net total money Arnav, Bing,\nand Chirag get.\nThese equations tell us that the difference in net total money between any two people equals  times the difference in\nthe number of games that they won. For example, the net money difference between Arnav and Bing is\n Using the given information, Bing makes \n more than Chirag, so he wins \nmore games than Bing. We can write \nSimilarly, Arnav makes \n more than Chirag, so he wins \n more games than Chirag. We can write \nThere are \n games total, so we can write the following:\nArnav wins  more games than Chirag, so he wins \n games.\n30\n$1\n$1\n$21\n$15\na\nb\nc\nArnav's net money = 3a −30\nBing's net money = 3b −30\nChirag's net money = 3c −30\n3\n3a −30 −(3b −30) = 3(a −b).\n$21\n21\n3 = 7\nb = 7 + c.\n$15\n15\n3 = 5\na = 5 + c. .\n30\na + b + c = 30\n(5 + c) + (7 + c) + c = 30\n12 + 3c = 30\n3c = 18\nc = 6.\n5\n6 + 5 = 11"
+      "explanation": ""
     },
     {
       "id": 1775892871137,
@@ -1496,7 +1496,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2400",
-      "explanation": "We can set up equations for each name to solve for specific variables and batches of variables.\nTherefore, the group should tell the elder that Sylbia is \n years old.\nThe Group of Expiidians\n Name: Bill, Age: 10\n Name: Lila, Age: 20\n Name: Sally, Age: 30\n Name: Ali, Age: 40\nl =  lila\nali\n= 20\n40\n= 1\n2\nsay = sally\nll\n= 30\n1\n4\n= 120\nbi = bill\nll\n= 10\n1\n4\n= 40\nsylbia = say  ×  bi  × l = 120 × 40 × 1\n2\n= 2400\n2400"
+      "explanation": ""
     },
     {
       "id": 1775892871138,
@@ -1506,7 +1506,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 12\n2. 5",
-      "explanation": "The clue here is that the honey produced in both of the hives is the same. Recall we learned that we could apply the idea\nof harmonic mean to a situation where equals quantities are created at different rates. We can make analogous\nquantities to the quantities of distance, speed and time from the lesson example.\nIf this analogy is a little confusing, try to imagine that the more bees you have, the more honey they make. Some bees\nare more efficient at making honey, and some are less efficient (analogous to different speeds). Using this analogy, the\ntwo speeds are \n and \n Recall that the harmonic mean of two speeds  and  was the reciprocal of\nthe average of the reciprocals of the rates, which can be simplified like so:\nThus the average honey production rate is:\na\nb ,\na\nb\n Distance (km) →Honey (teaspoons)\n Speed  ( km\nhr ) →Honey Rate ( teaspoons\nbee\n)\n Time (hours)  →Bees\n2 teaspoons\nbee\n3 teaspoons\nbee\n.\nx\ny\n1\n1\nx + 1\ny\n2\n=\n2xy\nx + y\n2xy\nx + y = 2(2)(3)\n2 + 3   tsp\nbee\n=\n.\n12\n5"
+      "explanation": ""
     },
     {
       "id": 1775892871140,
@@ -1526,7 +1526,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "10",
-      "explanation": "There is a neat pattern with the digits that make up a power of \n they relate to the digits of the powers of \n Use the fact\nthat negative exponents are the reciprocals of their positive counterparts (\n, to write the following:\nThe final expression is just \n with its decimal point shifted  places to the left. Thus \n and the\nsum of the digits of the number is \n5−6?\n5;\n2.\nx−n =\n1\nxn )\n5−6 = 1\n56\n= ( 106\n106 ) 1\n56\n= ( 1\n106 ) 106\n56\n= ( 1\n106 )26\n26\n6\n5−6 =\n64\n106 = 0.000064,\n4 + 6 =\n.\n10"
+      "explanation": ""
     },
     {
       "id": 1775892871142,
@@ -1947,7 +1947,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "Silver is \n of the alloy, so it is \ngrams.\n20%\n80\n16\n16\n20%\n0.2 ×  total alloy weight = 0.2 × 80 grams = 16"
+      "explanation": ""
     },
     {
       "id": 1775891321914,
@@ -1957,7 +1957,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(B)",
-      "explanation": "We saw in the lesson that if you look at two consecutive years, a \n change followed by\na \n change will result in an overall loss in price. This is because after the initial price\nincrease of \n the current price will be higher than the original price that you\npurchased the stock at. Then, the amount that the stock drops by after the \n change\nis actually bigger than what you added in the first year. The price graph would look like a\nstaircase, going up at first and then down, with an overall downward trajectory. The correct\nanswer is the second choice.\n10%\n10%\n20\n20\n20\n+10%\n−10%\n+10%,\n−10%"
+      "explanation": ""
     },
     {
       "id": 1775891321915,
@@ -1967,7 +1967,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1331",
-      "explanation": "The second choice is incorrect because it doesn't take into account that Alice and Bob\nalready paid money, so they shouldn't have to pay \n again.\nThe third choice is wrong because in this situation, Bob will be paying for everyone's tickets,\nand Bob and Alice will end up getting money rather than paying money -- furthermore, Bob\nwill receive more net money than Alice.\nThe fourth choice is wrong because Charlie is paying more than the cost of a single ticket,\n, to Alice.\nThe first choice is correct because it takes into account how much money each person\nalready paid, and the fact that in the end, each should have paid \n$15\n$6\n$6+$15\n3\n= $21\n3\n= $7,\n$7\n$1\n$6\n$6+$15\n3\n= $21\n3\n= $7,\n$7\n$1\n$6\n$7\n$7\n$7."
+      "explanation": ""
     },
     {
       "id": 1775891321916,
@@ -1977,7 +1977,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "28.80",
-      "explanation": "Using the ratio of the cats, dogs, and pigs, we can say that there are \n cats, \n dogs and\n pigs. Then there are \n more pigs than cats. Setting this equal to \nmeans that \n The total number of animals is \n so the\nnumber of total animals is \n12 : 13 : 15,\n24\n320\n320\n12n\n13n\n15n\n15n −12n = 3n\n24\nn = 8.\n12n + 13n + 15n = 40n,\n8 × 40 = 320."
+      "explanation": ""
     },
     {
       "id": 1775891321917,
@@ -1987,7 +1987,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "8000",
-      "explanation": "Explanation:\nIn \n minutes, the koala will have slipped down \n inches. Since this is halfway,\nthe hill is twice this length, or \n3\n18\n18\n3 × 18 = 54\n2 × 54 = 108."
+      "explanation": ""
     },
     {
       "id": 1775891321918,
@@ -1997,7 +1997,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "5%",
-      "explanation": "Gears spin as their teeth are gripped by some corresponding chain or gear that meshes\nwith them. We can think of the number of teeth that are moved per unit time, and that\ntranslates to the revolutions per minute rotational speed of the gear. The number of teeth\nthat need to be moved per minute for the gear with only \n teeth is low, so that gear\nmoves the fastest.\n10\n10\n10"
+      "explanation": ""
     },
     {
       "id": 1775891321919,
@@ -2007,7 +2007,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "13.60",
-      "explanation": "Do you remember the rules for scientific notation? This number has \n digits, so we know\nthat we will be multiplying by \n The number we multiply by will need to be between \nand \n, so we get \n2946573833993\n2.9 × 1012\n2.9 × 1012\n13\n1012.\n1\n10\n2.9 × 1012."
+      "explanation": ""
     },
     {
       "id": 1775891321920,
@@ -2017,7 +2017,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "66",
-      "explanation": "According to Alex's dimensions, the Empire State Building's width to height ratio is \nTherefore, its width is\n4\n10\n1250\n2\n5 .\n2\n5 × 1250 = 2 × 250\n= 500"
+      "explanation": ""
     },
     {
       "id": 1775891321921,
@@ -2027,7 +2027,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "0%",
-      "explanation": "The total number of trips that need to be made in order to transport all the goods is\nAfter increasing the number of trips by a third, the number of trips that one vans takes will\nbe equal to\nSo, the number of vans that will be needed in order to transport the same amount of cargo\nis equal to\n16\n12\n1\n3\n16 × 12 = 192 trips\n12 + 1\n3 × 12 = 16 trips\n192\n16 = 12 vans"
+      "explanation": ""
     },
     {
       "id": 1775891321922,
@@ -2047,7 +2047,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "8",
-      "explanation": "The key observation to make here is that you are doubling your money every payment, and\nif your bank becomes full on the ninth payment, it must have been half full on the eigth\npayment.\nBonus Challenge Questions\n1\n2\n4\n8\nEarned 0 of 7 points. 0%"
+      "explanation": ""
     },
     {
       "id": 1775891321925,
@@ -2057,7 +2057,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1",
-      "explanation": "We are given a ratio of \n pears to \n apples, which simplifies to  pears being equivalent\nto  apples. Let's find the number of dollars that  pears costs, since finding the cost of \npear would give us intermediate fractions. The number  makes sense because it is just \nof what we want, which is \n pears.\nThe ratio of apples to bananas is \n which simplifies to \n or \n We can look at\nthis ratio and see that it matches well with the number of apples, which is \n Choosing\nnumbers that make the calculations simple is a neat way to do this problem! Then it's easy\nto see that the  apples are equivalent to the  bananas. The  bananas are \n of the cost\nof the \n bananas, which is \n so we can divide this by  to get the cost of the original \npears:\nDon't forget that we actually want the cost of \n pears, so we should multiply by , to get\n20\n25\n35\n63\n$3.\n12\n16\n20\n4\n5\n4\n1\n4\n1\n3\n12\n25 : 35,\n5 : 7,\n1 : 7\n5 .\n5.\n5\n7\n7\n1\n9\nth\n63\n$3,\n9\n4\n$3\n9 = $ 1\n3\n$12\n3\n$ 1\n3 × 3 = $1."
+      "explanation": ""
     },
     {
       "id": 1775891321926,
@@ -2067,7 +2067,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "9",
-      "explanation": "The surface area of a box is related to the side length of the box squared, so the ratio of the\nlarger box's surface area to the smaller box's surface area would be\nWe don't even have to calculate the cost per unit surface area; we can just use this ratio to\nfigure out how much the cost changes when we go from using the smaller box to the bigger\nbox:\nNotice that you can divide \n nicely by \n which you can see from adding up the digits of\n and seeing that they add up to a multiple of \n So we can take the shortcut of doing\nEvery group of four \n's gives us a \n so \n and since we have \ninstead of \n divide by \n to get \n as our answer.\n3 × 3 × 3\n$3.24.\n5 × 5 × 5\n52\n32 = 25\n9 .\n$3.24 × 25\n9\n$3.24\n9,\n$3.24\n9.\n$3.24\n9\n× 25 = $0.36 × 25\n25\n100,\n36 × 25 = 9 × 100,\n$0.36\n$36,\n100\n$9"
+      "explanation": ""
     },
     {
       "id": 1775891321927,
@@ -2077,7 +2077,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "27/8",
-      "explanation": "The amount that Bill usually makes, for four people, is\nbecause this is the amount that Bill usually makes for four people. Then, the amount that\nhe makes for himself is\n7\n3\n2.5\n1\nc\ns\nv\nb\nc + s + v + b\n4c + 4s + 4v + 4b = 7 + 3 + 2.5 + 1\n= 13.5\nc + s + v + b = 13.5\n4\n= 27\n2 × 1\n4\n= 27\n8"
+      "explanation": ""
     },
     {
       "id": 1775891321928,
@@ -2107,7 +2107,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "100",
-      "explanation": "Alice should obtain \n of the growth , Bob should obtain \n of the growth, and Charlie\nshould obtain \n of the growth. The growth is \n so Bob obtains\n.\n$100, $200\n$300\n$600\n$900\n1\n6\n2\n6 = 1\n3\n3\n6 = 1\n2\n900 −600 = 300\n300\n3\n= 100"
+      "explanation": ""
     },
     {
       "id": 1775891321932,
@@ -2127,7 +2127,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "11/18",
-      "explanation": "This problem doesn't give the exact costs of each color of paint, and since the answer we\nwant is a fraction of costs, this answer should be the same no matter what price we\narbitrarily decide for the cost of the white paint.\nLet's suppose that white paint costs \n per unit of paint. Then, since the red paint and pink\npaint are both twice as much as the white paint, they are \n per unit paint.\nTo make  units of Jamal's pink paint, it will cost\ndollars, since Jamal uses  units of red paint and  units of white paint.\nSince pink paint is twice as expensive as white paint, in order to buy  units of the store's\npink paint, this will cost \n We want the ratio of Jamal's cost to the store's cost,\nso this is \n2 : 7,\n$1\n$2\n9\n2($2) + 1($7) = $11\n2\n7\n9\n$2 × 9 = $18.\n11\n18 ."
+      "explanation": ""
     },
     {
       "id": 1775891321934,
@@ -2137,7 +2137,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "100/27",
-      "explanation": "Imagine that the printers are outputting stacked squares to create the cubes. The fast\nprinter has to output squares of area \n to create the cube with side length , and the\nslow printer has to output squares of area \n to create the cube with side length . As\nthe cubes are being formed, their height changes based on the number of squares added.\nWe know the faster printer outputs squares \n faster than the slower printer, so the desired\nheight-growth ratio should be the speed ratio times the square area ratio, or\n3\n3\n4\n5,\n3.\n3\n5\n32 = 9\n3\n52 = 25\n5\n4\n3\n4\n3 × 25\n9 = 100\n27 ."
+      "explanation": ""
     },
     {
       "id": 1775891748487,
@@ -2147,7 +2147,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(C)",
-      "explanation": "The \n people are twice as numerous as the  people, but their work rate is half that of the\n people. Then, their work rate would be \n the rate of the  people, which simplifies\nto  \n Therefore, they work at the same rate, and choice three is the correct answer.\n2x\n1\n2\njob\nhour ,\nx\n1 job\nhour\n2x\nx\nx\n2 × 1\n2\nx\n1\njob\nhour ."
+      "explanation": ""
     },
     {
       "id": 1775891748488,
@@ -2157,7 +2157,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1 hour",
-      "explanation": "We know that \n pounds of fresh cherries turns into \n pounds of dried cherries, and we\nwant to know how many pounds of dried cherries we can get from \n fresh cherries.\nThe ratio of fresh cherry to dried cherry is \n Since \n the amount of\ndried cherries we can get will be \n times \n or \n pounds.\n140\n21\n160\n24\n24\n140\n21\n160 lb\n140\n21 = 20\n3 .\n160 = 20 × 8,\n20\n3,\n24"
+      "explanation": ""
     },
     {
       "id": 1775891748489,
@@ -2167,7 +2167,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2 hours",
-      "explanation": "We aren't given any information regarding the number of gallons that the pipe intakes for a\ngiven unit of time. Therefore, the answer must involve only the pool and the  hour. The\nrate would give the relationship between the pool and the amount of time to fill it. A larger\nrate indicates a faster amount of work done per unit time, so the third choice wouldn't\nwork. If the third choice were larger in size, that would mean it takes more time to fill the\npool, which would actually mean a smaller rate. The second choice agrees with this,\nhowever, since if this fraction is larger, that means more pool gets filled with each unit time.\nThe second choice is the correct answer.\n3\n1\n3   pool\nhour\n1\n3   pool\nhour\n1"
+      "explanation": ""
     },
     {
       "id": 1775891748490,
@@ -2187,7 +2187,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "30 hours",
-      "explanation": "The company wants \n protractors an hour, where each worker can make \n each hour,\nso we need \n workers making protractors. Similarly, in order to make \ncalculators per hour, they will need \n workers, as each person can make four\ncalculators in a given hour. Add the two numbers, and we get \n workers.\n250\n60\n10\n4\n250\n10\n250\n10 = 25\n60\n60\n4 = 15\n25 + 15 = 40"
+      "explanation": ""
     },
     {
       "id": 1775891748492,
@@ -2197,7 +2197,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "20",
-      "explanation": "Let \n be the volume of the tank. The large inlet pipe has a flow rate of \n, the small inlet\npipe has a flow rate of \n, and the outlet pipe has a flow rate of \n. Thus, the total flow\nrate with all three open is \n. We can clearly see that the fraction of \nthat will be filled is \n.\n2\n5\n7\n1\nV\nV\n2\nV\n5\n−V\n7\nV\n2 + V\n5 −V\n7 = 39V\n70\nV\n39\n70"
+      "explanation": ""
     },
     {
       "id": 1775891748493,
@@ -2207,7 +2207,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "15",
-      "explanation": "Alice covers more distance than Bob does, because she is faster, but since when she passes\nBob they are at the same point on the track, that means that the extra distance she has\ngone compared to him is an integer multiple of track lengths. Since this is the first time that\nshe passes Bob, this must equal  track length, so the third choice is the correct answer.\n4\n3\n1"
+      "explanation": ""
     },
     {
       "id": 1775891748494,
@@ -2217,7 +2217,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(C)",
-      "explanation": "To get your swimming speed, we need the distance you swam, and also the time it took to\nswim that distance. We are given the distance, but not the time. Since biking took  hour,\nyou know that the running and swimming combined also took you  hour. You ran at a\nspeed of  miles per hour for  miles, so that took \n hours, or \n minutes. That\nmeans you swam for \n minutes, or \n hours, so computing distance over time, we get a\nswimming rate of \n miles per hour.\n2\n1\n12\n3\n1\n5\n1\n1\n5\n3\n3\n5 = 0.6\n36\n24\n0.4\n1\n0.4 = 2.5"
+      "explanation": ""
     },
     {
       "id": 1775891748495,
@@ -2247,7 +2247,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2/3",
-      "explanation": "When the front of the train has been in the tunnel for  seconds, the back of the train\nenters the tunnel. This means it takes  seconds from the time the front of the train passes\na certain point, to when the back of the train does so. Therefore the length of the train is\n meters.\nFrom the point when the back of the train enters the tunnel to the point when the back of\nthe train exits the tunnel, the time that has elapsed is  seconds. This means the tunnel\ntakes  seconds to completely go through, which means the tunnel is \nmeters long.\nTherefore, the ratio of the train’s length to the tunnel’s length is\nBonus Challenge Questions\n120\n3\n2\n2\n120 × 2 = 240\n3\n3\n120 × 3 = 360\n240\n360 = 2\n3 ."
+      "explanation": ""
     },
     {
       "id": 1775891748499,
@@ -2257,7 +2257,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "3",
-      "explanation": "Let that the distance that the cyclist travels in  hours be \n Then his new distance will be\n The cyclist goes at a constant speed which is equal to\nNow, let's find the trip time for the new distance.\nThe difference in trip times is then \n hours.\n6\nd.\n50%\n6\nd.\n1.5 × d.\ntotal distance\ntotal time\n= d\n6 .\nnew trip time = newdistance\nspeed\n= 1.5 × S\nS\n6\n= 1.5 × 6 = 9.\n9 −6 = 3"
+      "explanation": ""
     },
     {
       "id": 1775891748500,
@@ -2267,7 +2267,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "6:33 p.m.",
-      "explanation": "Each hour, the small and long hand will overlap once, so they will overlap at \n p.m.,\n p.m., etc. The \n overlap then will be at \n p.m. At \n p.m., the small hand\nwill be pointing down to  o'clock, while the long hand will be pointing up to \n o'clock. We\ncan now convert this to a linear equation. Let the small hand move at a rate of \n then the\nlong hand will move at a rate of \n as it takes \n hours to make one rotation. The long\nhand also starts pointing down, which also can be interpreted as \n minutes, so we get the\nfollowing equation \n as we want to find out when they are pointing to the\nsame value. Solving the equation gives us \n so the closest minute value to that is\n so we get \n p.m.\n60\n12\n2 : 00\n5th\n2 : xx\n3 : xx\n5th\n6 : xx\n6 : 00\n6\n12\nx,\nx\n12 ,\n12\n30\nx =\nx\n12 + 30\nx = 32.73\n33,\n6 : 33"
+      "explanation": ""
     },
     {
       "id": 1775891748501,
@@ -2277,7 +2277,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "24",
-      "explanation": "Average speed is just \n, so we can just add up our total distance and total time.\nWe can use the fact that \n15\n4\n30\n20\n144\n36\n12\n30\ntotal distance\ntotal time\ntime = distance\nspeed .\ntotal distance = 15 km\nhr × 4hours + 30km + 144km + 12 kph × 1\n2  hour\n= 60 + 30 + 144 + 6 km\n= 240 km\ntotal time = 4hours + 30 km\n20 kph + 144 km\n36 hours + 1\n2  hours\n= 4 + 1 1\n2 + 4 + 1\n2\n= 10 hours \naverage speed = 240 km\n10 hours\n= 24 km\nhr ."
+      "explanation": ""
     },
     {
       "id": 1775891748502,
@@ -2287,7 +2287,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "30",
-      "explanation": "Fifteen minutes after the car passes the train station, the car is \n miles away\nfrom the station. The train is going at \n miles per hour. To get the time it takes the train to\ncatch up to the car, we can say that the train is going at \n miles per hour relative to the\ncar, so if the car is \n miles ahead, it takes \n minutes to catch up to the car. In that time,\nthe distance from the station is \n away from the station.\n40\n60\n40×15\n60\n= 10\n60\n20\n10\n30\n10 miles + 40×30\n60\n= 30 miles"
+      "explanation": ""
     },
     {
       "id": 1775891748503,
@@ -2297,7 +2297,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "95",
-      "explanation": "When Robert leaves the house, Elizabeth has gone  miles, and since her speed is  miles\nper hour, she can go  mile in \n of an hour. This means she had been gone for \nhour, which is  hour and \n minutes. When Robert leaves, then, the time is \n plus \nhour and \n minutes, which is \n p.m. Every hour, Robert catches up by \n miles,\nbecause his speed is faster by \n miles per hour. Therefore, it will take him \n hour, or\n minutes, after \n p.m., to catch up. Then the time it takes for him to catch up is \nhour and \n minutes plus \n minutes, which is \n minutes.\n7 : 30\n3\n4\n19\n7 : 30\n4\n3\n1\n1\n3\n1 + 1\n3\n1\n20\n7 : 30\n1\n20\n8 : 50\n16\n16 −3\n1\n4\n15\n8 : 50\n1\n20\n15\n95"
+      "explanation": ""
     },
     {
       "id": 1775891748504,
@@ -2307,7 +2307,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "5.7",
-      "explanation": "Let's start by calculating the rate of gas used going uphill and downhill. You went uphill for\n miles, which used \n of your tank, which is  gallons, so you traveled \n miles per \ngallons, or in other words, \n miles per gallon. Going downhill \n miles also took you \n of\nyour tank, which is  gallons, so you went \n miles per  gallons, or \n miles per gallon. For\nthe trip back, you went \n miles uphill, which used \n gallons, and \n miles downhill,\nwhich used \n gallons. Add them together, and the total amount of gas used to go\nback is \n gallons. Counting in the full tank of \n gallons we had at the beginning, the two\ngallons we added in the middle, and the wo trips, we get\nwhich is closest to \n40\n1\n6\n60\n1\n6\n2\n12\n40\n1\n6\n2\n40\n2\n20\n60\n1\n6\n2\n60\n2\n30\n60\n60\n20 = 3\n40\n40\n30 = 4\n3\n4 1\n3\n12\n12 −4 + 2 −4 1\n3 = 5 2\n3 ,\n5.7."
+      "explanation": ""
     },
     {
       "id": 1775891748506,
@@ -2337,7 +2337,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "164",
-      "explanation": "Solution 1. One step at a time. For one notebook, we need \n sheets of paper and \ncovers, which would cost\nSince \n the expression becomes\nWe want the cost of \n notebooks, so we want\nThis is equal to \nSolution 2. String all the calculations together. From the video lessons, we saw it can be\ncleaner to delay calculating until the very last step, after you have combined all of the\noperations that you need. In this case, we should multiply the cost of one notebook,\nby the number of notebooks, \nand then divide by \n to convert from cents to dollars:\nThe \n cancel out, leaving you with\n$0.0025\n$0.20\n168\n200\n168\n2\n168 × 0.25 + 2 × 20  cents\n0.25 = 1\n4 ,\n168 × 1\n4 + 2 × 20 = 42 + 2 × 20\n= 82  cents \n200\n200 × 82 = 100 × 2 × 82 = 16400 cents\n$164.\n168 × 0.25 + 2 × 20  cents,\n200 :\n200 × (168 × 0.25 + 2 × 20)  cents,\n100\n1\n100 × 200 × (168 × 0.25 + 2 × 20)  dollars\n100s\n2 (168 × 0.25 + 2 × 20)  dollars"
+      "explanation": ""
     },
     {
       "id": 1775892324348,
@@ -2347,7 +2347,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "5000",
-      "explanation": "A drop of \n in a price is the same as taking \n times that initial price. The\namount that remains is \n times the initial price.\nSince the ending price is \n we can write\nwhere  equals the initial price of the house.\nIt's easy to see that we just need to move the decimal over by  spots, which happens if we\nmultiply by \n Thus the initial house price is \n0.5%,\n$995, 000.\n0.5%\n0.5\n100 = 0.005\n1 −0.005 = 0.995\n$995, 000,\n0.995x = $995, 000,\nx\n6\n1, 000, 000.\n.\n$1000000"
+      "explanation": ""
     },
     {
       "id": 1775892324349,
@@ -2357,7 +2357,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1",
-      "explanation": "Let's start by simplifying the inner-most fraction, and working our way outwards.\nOne way to simplify \n is to multiply  to the top and bottom. This cancels the  in the\ndenominator, and gives us \n Continuing on, we get\n1 +\n1\n2 +\n1\n3+ 1\n4\n1 +\n1\n2 +\n1\n3+ 1\n4\n= 1 +\n1\n2 +\n1\n12\n4 + 1\n4\n= 1 +\n1\n2 +\n1\n13\n4\n1\n13\n4\n4\n4\n1\n13\n4 × 4\n4 =\n4\n13 ."
+      "explanation": ""
     },
     {
       "id": 1775892324350,
@@ -2367,7 +2367,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "41",
-      "explanation": "There are  dishes total, and seven people, and since all the dishes are eaten up, each\nperson eats one dish of food. Agatha brings  dishes, but since she eats one dish, the\namount she contributes to the others is  dishes. Bertha brings  dishes, but since she eats\none dish, her contribution to the others is  dishes. The number of dishes contributed to\nthe five friends is  dishes, and Bertha contributed  out of them, or \n of them.\nThus she should receive \n of the money.\n3\n2\n7\n4\n3\n3\n2\n5\n2\n2\n5\n2\n5"
+      "explanation": ""
     },
     {
       "id": 1775892324351,
@@ -2377,7 +2377,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1024",
-      "explanation": "Let's use variables! It seems like the least amount of time was spent doing jumping jacks, so\nit makes sense to let our variable, \n be equal to the minutes spent doing jumping jacks.\nThen every other variable will be some multiple of \n The minutes spent jogging is \n times\nthe minute spent doing jumping jacks, so it is \n The time spent jogging is  times the\ntime spent stretching, so, inverting this, the time spent stretching is \n of the time spent\njogging, which means the time spent stretching is \nAltogether, our time spent exercising is \n which equals one hour, or\n minutes. Then \n which means that the minutes spent doing jumping jacks is\n1\n12\n6\nx,\nx.\n12\n12x.\n6\n1\n6\n1\n6 × 12 = 2x.\nx + 2x + 12x = 15x,\n60\n15x = 60,\nx =\n.\n4"
+      "explanation": ""
     },
     {
       "id": 1775892324352,
@@ -2387,7 +2387,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "67",
-      "explanation": "Converting to fractions, this is equal to\n0.625 × 4.5 × 3.–6 × 3.2?\n     5\n8 × 9\n2 × 11\n3 × 16\n5\n= 1\n1 × 9\n2 × 11\n3 × 2\n1\n= 3\n2 × 11\n1 × 2\n= 3 × 11\n= 33"
+      "explanation": ""
     },
     {
       "id": 1775892324353,
@@ -2397,7 +2397,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "5050",
-      "explanation": "These times are given in two different kinds of units: minutes and hours. We know it's\nprobably a good idea to convert all the numbers to either all minutes or all hours, but\nwhich unit is best to use?\nThankfully, it's not hard to see that \n minutes converts quite nicely to hours:\nThis means our numbers in terms of hours are quite nice, because both \n and \n are\nmultiples of \n So, let's use hours as our unit of time!\nMoe's speed at cutting grass is \n and Fynn's speed is \n so their combined\nspeed is\n3.5\n84\n84\n84 minutes  =\n= 60 + 24 minutes \n= 1 hour  + 24\n60  hour \n= 1 + 12 × 2\n12 × 5  hour \n= 1 2\n5  hour \n= 1.4 hours.\n14\n3.5\n7.\n1\n3.5   lawn\nhour ,\n1\n1.4   lawn\nhour ,\n1\n3.5 +\n1\n1.4 = 2\n7 + 5\n7\n= 2 + 5\n7\n= 7\n7\n= 1  lawn\nhour"
+      "explanation": ""
     },
     {
       "id": 1775892324354,
@@ -2407,7 +2407,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "31",
-      "explanation": "The time it takes the faster runner to catch up is \n minutes. Multiplying by \n to get\nseconds, we get that the faster runner will have covered one extra lap after\n seconds. The prime factorization of \n is \n Since \n equals\n We want two factors of \n that are  apart, since these\nwill correspond to the number of laps that each went. The only factors that work to give lap\ntimes of less than 1 minute for each runner are  and \n so the slower person takes\n seconds to travel one lap, and the faster person takes \n seconds to go\none lap. The slower person takes \n more seconds to go one lap.\n4 2\n3\n1\n4 + 2\n3\n60\n240 + 40 = 280\n280\n23 × 5 × 7.\n280\nnumber of laps × time per lap,\n280\n1\n7\n8,\n280\n7\n= 40\n280\n8\n= 35\n40 −35 = 5"
+      "explanation": ""
     },
     {
       "id": 1775892324355,
@@ -2417,7 +2417,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "96",
-      "explanation": "Using decimal notation, the total change in her score is\n10%\n1\n1\n20%\n2\n2\n30%\n3\n3\n40%\n4\n4\n50%\n5\n5.\n1\n5?\n8\n3\n6\n5"
+      "explanation": ""
     },
     {
       "id": 1775892324356,
@@ -2437,7 +2437,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1/4",
-      "explanation": "An acceleration of \n means that the increase in speed is \n times the increase in time\n(in seconds). Likewise for an acceleration of \nThe total time is  minutes, which is \n seconds, so in this time, the blue car's speed\nincreases by \n and the red car's speed increases by\n So after  minutes, the blue car is going \n and\nthe red car is going \nLet's draw graphs for the cars' speeds over time, like this:\n40\n30\n1\n3   mph\nsec\n1\n6   mph\nsec .\n1\n3   mph\nsec\n1\n3\n1\n6   mph\nsec .\n2\n120\n1\n3 × 120 = 40 mph \n1\n6 × 120 = 20 mph .\n2\n30 + 40 = 70 mph \n40 + 20 = 60 mph ."
+      "explanation": ""
     },
     {
       "id": 1775892324359,
@@ -2447,7 +2447,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "14",
-      "explanation": "Solution 1. After adding the dirty socks, the percentage of clean socks went from \n to\n which tells us that the number of total socks doubled. Since \n socks were added,\nthat means that there were \n socks previously, and the number of clean socks at this time\nwas \n of \n which is \nBonus Challenge Questions\n80%\n70\n90%\n20%\n10%,\n70\n70\n20%\n70,\n20\n100 × 70 = 1\n5 × 70 =\n.\n14\nEarned 0 of 10 points. 0%"
+      "explanation": ""
     },
     {
       "id": 1775892324360,
@@ -2458,7 +2458,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1-tread2.png",
       "answer": "12",
-      "explanation": "Let's first try to figure out the ratio of the speeds of the two vehicles, so let's not worry\nabout the speed, \n mph, for now. If we pretend for a moment that both wheels of the\nvehicles have \n teeth, then the only difference between the vehicles is the length of the\ntread. The second vehicle has twice as much tread as the first.\n100\n20\n200\n15\n32  gallons\nhour\n32\n20"
+      "explanation": ""
     },
     {
       "id": 1775892324361,
@@ -2468,7 +2468,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "42",
-      "explanation": "18\n5\n35\n3\n9\n18\n5  horses eat 1 stack of hay in 35 days.\n18 × 3\n5\n horses eat 3 stacks of hay in 35 days.\n18 × 3 × 35\n5\n horses eat 3 stacks ofhay in 1 day.\n18 × 3 × 35\n5 × 9\n horses eat 3 stacks ofhay in 9 days.\n= 2 × 3 × 7\n= 42"
+      "explanation": ""
     },
     {
       "id": 1775892324362,
@@ -2478,7 +2478,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "6",
-      "explanation": "Approximate \n as \n Then cube this to get \nwhich is close to \n0.5487 × 0.5492 × 0.5502\n1\nn ,\nn\nn\n0.5487, 0.5492,  and 0.5503\n5\n9 = 0.555.. ..\n–\n125\n729 ,\n125\n750 = 1\n6 ."
+      "explanation": ""
     },
     {
       "id": 1775892324363,
@@ -2488,7 +2488,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "20",
-      "explanation": "Each of the original kids received a total of \n from the late kids. So, the effect of the late\nkids coming was to reduce the cost per person by exactly \n. Let  be the number of kids in\nthe beginning. Then\nCombining the two fractions by making a common denominator of \n we get\nThe  terms in the numerator cancel out, and we are left with\nBy solving the quadratic equation, or by guessing and checking, we see that \n works,\nsince \n The answer is \n$120.\n$0.25\n$1\n$1\nn\n120\nn\n−\n120\nn + 4 = 1\nn(n + 4),\n120(n + 4)\nn(n + 4)\n−\n120n\nn(n + 4) = 1\n120n + 480 −120n\nn(n + 4)\n= 1\nn\n320\nn(n + 4) = 1\nn(n + 4) = 480\nn = 20\n20 × (20 + 4) = 480.\nn =\n.\n20"
+      "explanation": ""
     },
     {
       "id": 1775892324364,
@@ -2498,7 +2498,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 49\n2. 99",
-      "explanation": "The fraction cannot be equal to \n so if the denominator is even, the biggest possible\nnumerator is one less than half the denominator. So, the possible choices would be\n When compared against \n, these fractions are smaller by exactly\n Of these, \n is the smallest, and so the last option \n is the closest to \n(and hence the largest of these even-denominator options).\nSimilarly, if the denominator is odd, then the options are \n and of these odd-\ndenominator options, \n is the largest.\nWhen comparing \n and \n both have the same numerator, and so the result is larger if\nyou divide by a smaller denominator. So, the answer is \n1\n2\n100?\n1\n2 ,\n1\n4 , 2\n6 , … , 49\n100 .\n1\n2\n1\n4 , 1\n6 , … ,\n1\n100 .\n1\n100\n49\n100\n1\n2\n1\n3 , 2\n5 , … , 49\n99 ,\n49\n99\n49\n100\n49\n99 ,\n.\n49\n99"
+      "explanation": ""
     },
     {
       "id": 1775892324365,
@@ -2508,7 +2508,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "13326",
-      "explanation": "The change in density for a change in temperature of one degree is\nA temperature of \n is equal to an increase of \n beyond \n The density decrease\nwould be equal to \n which is equal to \n The new density would be\n50∘\n13472  kg\nm3 .\n20∘\n13545  kg\nm3 .\n( kg\nm3 )\n110∘\nchange in density\nchange in temperature = 13472 −13545\n50∘−20∘\n= 73\n30\n110∘\n60∘\n50∘.\n73\n30 × 60,\n73 × 2 = 146.\n13472 −146 =\n.\n13326"
+      "explanation": ""
     },
     {
       "id": 1775892324366,
@@ -2518,7 +2518,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 5\n2. 12",
-      "explanation": "It takes her \n of the class period to do \n of her project. She needs to complete \n of her\nproject, which is  times this, so she needs to spend \n of the period more to\nfinish it. Adding the amounts of time spent on the project, we get \n so she will\nhave \n left.\n1\n3\n4\n7\n1\n12\n1\n7\n3\n7\n3\n3 ×\n1\n12 = 1\n4\n1\n3 + 1\n4 =\n7\n12 ,\n1 −\n7\n12 =\n5\n12"
+      "explanation": ""
     },
     {
       "id": 1775892324367,
@@ -2529,7 +2529,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1-final-train-car.png",
       "answer": "30",
-      "explanation": "40\n60"
+      "explanation": ""
     },
     {
       "id": 1775892324368,
@@ -2539,7 +2539,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "19.5",
-      "explanation": "Let's call the distance that you drive up the mountain . Average speed is equal to\nSo we just need to find the total distance and the total time of our trip. The total distance is\neasy; that's just \n In order to find the time, let's use the fact that \n (distance equals\nrate multiplied by time). Then, dividing by  to both sides, we get\nThe average speed is then\nDividing by  from the top and bottom, we get\n13\n39\nd\naverage speed = total distance\ntotal time\n2d.\nd = vt\nv\nt = d\nv .\n total time  =  time uphill +  time downhill\n=\nd\n13 miles\nhour\n+\nd\n39  miles\nhour\ntotal distance\ntotal time\n=\n=\n2d\nd\n13 +\nd\n39\n=\n2d\n39d\n13×39 +\n13d\n13×39\nd\n2"
+      "explanation": ""
     },
     {
       "id": 1775893119894,
@@ -2549,7 +2549,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "301",
-      "explanation": "Using difference of squares, we can write\nThus \n602 −172 = 11X.\nX?\n602 −172 = (60 + 17)(60 −17)\n= 77 × 43\n= 11(7 × 43)\n= 11(301)\nX =\n.\n301"
+      "explanation": ""
     },
     {
       "id": 1775893119895,
@@ -2560,7 +2560,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-65-squared-smudge.png",
       "answer": "(C)",
-      "explanation": "The trick for squaring numbers ending in \n which we saw in the Day 3 lesson, was that the first digits of \n are the\nproduct \n and the last two digits are \n Thus we want the product of two consecutive integers, \n which\nequals a number in the \ns. From \n we know that \n5\n4.\nx5,\nx?\n5,\n(a5)2\na(a + 1),\n25.\na(a + 1),\n40\n6 × 7 = 42,\na =\n.\n6"
+      "explanation": ""
     },
     {
       "id": 1775893119896,
@@ -2571,7 +2571,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-horses2.png",
       "answer": "9801",
-      "explanation": "The ratio of the horses' speeds is the ratio of the radii of their paths. The outer circumference path is \n feet,\nand the inner circumference path is \n feet. The ratio of the smaller radius to the larger radius is \nThus the small horse's speed is \n times the outer horse's speed. Now we just have to do some number crunching.\n \n57\n133\n11.666\n–\n133 = 19 × 7\n57 = 19 × 3\n19×3\n19×7 = 3\n7 .\n3\n7"
+      "explanation": ""
     },
     {
       "id": 1775893119897,
@@ -2591,7 +2591,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "28",
-      "explanation": "Let \n equal the value of the temperature calculated using \n and let \n equal the temperature\ncalculated using the accurate formula. The error in the estimate is\nThus the error is dependent on the value of \n so if the temperature is very high, the estimate is much less accurate.\nC,\nF = 2C + 30\nF = 9\n5 C + 32?\nC\n5\n1\n5 C −2\nFestimate\nF = 2C + 30,\nFaccurate\nFestimate −Faccurate = 2C + 30 −( 9\n5 C + 32)\n= 2C −9\n5 C −2\n= 10\n5 C −9\n5 C −2\n=\n.\n1\n5 C −2\nC,"
+      "explanation": ""
     },
     {
       "id": 1775893119899,
@@ -2601,7 +2601,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "12345",
-      "explanation": "Alice runs at \n times the speed of Bob, which, converted to a fraction, equals \n (You might first guess that this\ndecimal has something to do with \n since it resembles \n and, indeed, if you divide that fraction by \n you\nget \n which simplifies to \n Add the \n and we get \n )\nNow, let's find the ratio of Alice's lap distance to Bob's lap distance. Here we don't need to calculate the circumference\nusing the formula \n since the factors of \n will cancel out after dividing the circumferences. The ratio of their distances\nis just the ratio of their lap radii. Fortunately their lap radii are both multiples of \n so we can simplify the ratio of their\nradii as \nIf Alice's speed were the same as Bob's, she would go just \n as many laps as he would in the same time period. However,\nshe runs faster, at \n of Bob's speed, so she goes \n as many laps as he does. Thus if he can run  laps in a\ngiven time period, she can run \n laps in that same time.\n6.666 … %\n–\n76\n57\n5\n1.0666 …\n–\n16\n15 .\n2\n3 ,\n0.666 … = 2\n3 ,\n–\n10,\n0.0666 … =\n2\n30 ,\n–\n1\n15 .\n1,\n16\n15 .\n2πr,\n2π\n19,\nAlice's distance\nBob's' distance = 76\n57 = 4\n3 .\n3\n4\n16\n15\n( 3\n4 ) ( 16\n15 ) = 4\n5\n5\n4"
+      "explanation": ""
     },
     {
       "id": 1775893119900,
@@ -2611,7 +2611,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2320",
-      "explanation": "To find the temperature in celsius, set the two equations equal to each other. They are conveniently already set to be equal\nto \n which makes this job easy: we don't need to move any terms around.\nThus \n in celsius equals the same temperature as \n degrees in fahrenheit.\nF = 2C + 30,\nC\nF\nF = 9\n5 C + 32.\nF,\nF = 2C + 30 = 9\n5 C + 32\n2C −9\n5 C = 2\n10\n5 C −9\n5 C = 2\n1\n5 C = 2\nC = 2 × 5\n=\n.\n10\n10∘\n10∘"
+      "explanation": ""
     },
     {
       "id": 1775893119901,
@@ -2632,7 +2632,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/20200321-houses-question2.png",
       "answer": "50",
-      "explanation": "Let  equal the distance between House  and House \n equal the distance between House  and House \n equal the\ndistance between House  and House \n and  equal the distance between House  and House \n Now, let's translate the given information into equations. First, the distance between House  and House  is \n meters.\nAlso, the distance between House  and House  is \n meters.\nSubtract these two equations to find the difference between  and \n3\n5?\n1\n4\n75\n1\n5\n73\n4\n5\n34\n2\n3\n7\n1\n2\na\n1\n2, b\n2\n3, c\n3\n5,\nd\n3\n4.\n1\n4\n75\na + b + d = 75.\n1\n5\n73\na + b + c = 73.\nd\nc."
+      "explanation": ""
     },
     {
       "id": 1775893119903,
@@ -2642,7 +2642,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "88",
-      "explanation": "Let's make a table to lay out the information we have, indicating the number of people currently infected on a given day as\nwell as the running total of people ever infected. On the first Day, we have  person infected, with  total person ever\ninfected.\nThis person infects \n other people, but is no longer contagious the next day, so on Day \n there are \n contagious people\nand \n people ever infected.\nOn Day \n the \n people from Day  each infected \n different people, so there are \n newly contagious people and\n people ever infected.\nBy Day \n only the \n newly infected people are still contagious, so they infect \n new people, and the running total of\npeople ever infected is equal to \nMath note.  We can see a pattern to the number of people ever infected for a disease with a given reproduction rate of \nIt is equal to \n This is a geometric series, which grows exponentially (as in, it blows up!) The graph\nbelow illustrates the number of people ever infected after six days (y-axis) based on the reproduction number (x-axis). Up\nuntil \n the curve increases very slowly, but then takes off after \n \n12.\n4?\n1\n1\nDay\nNumber Contagious\nEver Infected\n1\n1\n1\n12\n2,\n12\n1 + 12\nDay\nNumber Contagious\nEver Infected\n1\n1\n1\n2\n12\n13\n3,\n12\n2\n12\n122\n1 + 12 + 122\nDay\nNumber Contagious\nEver Infected\n1\n1\n1\n2\n12\n1 + 12\n3\n122\n1 + 12 + 122\n4,\n122\n123\n1 + 12 + 122 + 123 = 1 + 12 + 144 + 1728 =\n.\n1885\nDay\nNumber Contagious\nEver Infected\n1\n1\n1\n2\n12\n1 + 12\n3\n122\n1 + 12 + 122\n4\n123\n1 + 12 + 122 + 123.\nr :\n1 + r + r2 + r3 + … .\nR0 = 1,\nR0 = 1."
+      "explanation": ""
     },
     {
       "id": 1775893119905,
@@ -2653,7 +2653,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/20200321-houses-question3.png",
       "answer": "25",
-      "explanation": "As before, let's set our variables \n and  to be the distances between houses as shown.\nBonus Challenge Questions\n1\n2?\n1\n4\n75\n1\n5\n73\n4\n5\n34\n2\n3\n7\n1\n2\na, b, c,\nd\nEarned 0 of 7 points. 0%"
+      "explanation": ""
     },
     {
       "id": 1775893119906,
@@ -2674,7 +2674,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "Let's set up a table to illustrate the information for number of newly infected people and total infected people over time,\nwith  as the Day number. On the first day, there is  person infected.\nWe can see the pattern: on Day \n there are \n newly infected people; on Day \n there are \n newly infected people, etc.\nThus the number of people newly infected on Day  is equal to \nR0\nr.\nr\n1\nr,\nn?\nrn−1\nn\n1\nDay\nInfected this day \nEver Infected\n1\n1\n1\n2\n(1)(r)\n1 + r\n3\n(r)(r)\n1 + r + r2\n4\n(r2)(r)\n1 + r + r2 + r3\n1,\nr1\n2,\nr2\nn\n.\nrn−1"
+      "explanation": ""
     },
     {
       "id": 1775893119908,
@@ -2685,7 +2685,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-nonagon-variables.png",
       "answer": "24",
-      "explanation": "Guess-and-check can be really cumbersome here; instead, use variables! Let  equal the sum of the three numbers on any\nside of the nonagon. The goal is to express the sum of the numbers  through \n in two ways, and equate them. The first\nway to express the numbers  through \n is to multiply the average by the number of numbers:\nWe'll leave this as \n because it's more convenient to simplify the calculation later. The other way to express the sum\nof the \n numbers is to add up the  sides, which is \n and subtract the corner numbers, since those are double-counted.\nThe diagram below shows the  lines of sum \n colored in \n1\n18\na, b, c, d, e, f, g, h,\ni,\n1\n9.\nS.\nS?\nS\n1\n18\n1\n18\n1 + 2 + 3 + … + 18 = ( # of numbers) × ( average)\n= 18 × ( 19\n2 )\n= 9 × 19.\n9 × 19,\n18\n9\n9S,\n9\nS,\nyellow."
+      "explanation": ""
     },
     {
       "id": 1775893119909,
@@ -2695,7 +2695,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "81",
-      "explanation": "We can summarize the information in a table like the one below. Now we will include the additional columns for number of\npeople infected on Day \n Day \n and Day \n Instead of only  people newly contagious on Day \n there are \npeople, since the  people infected on Day  along with the  person infected on Day  each infect  new people.\nThus there are \n people who have ever been infected by Day \n By comparison, recall that we saw in the video lesson\nthat the number of people ever infected on Day  for \n where people are contagious for only  day, was equal to\n for \n this would have given \n people infected by Day \n only half of the number that we have\nnow.\nR0\n2,\n4\n1\n4\nn −1,\nn −2,\nn −3.\n4\n3,\n6\n2\n2\n1\n1\n2\nDay\nInfected this day \n Infected Day n −1\nInfected Day n −2\n Infected Day n −3\nEver Infected\n1\n1\n0\n0\n0\n1\n2\n(1)(2)\n1\n0\n0\n3\n3\n(2 + 1)(2)\n2\n1\n0\n9\n4\n(6 + 2 + 1)(2)\n6\n2\n1\n27\n5\n(18 + 6 + 2 + 1)(2)\n18\n6\n2\n81\nDay\nInfected this day \n Infected Day n −1\nInfected Day n −2\n Infected Day n −3\nEver Infected\n1\n1\n0\n0\n0\n1\n2\n2\n1\n0\n0\n3\n3\n6\n2\n1\n0\n9\n4\n18\n6\n2\n1\n27\n5\n54\n18\n6\n2\n81\n81\n5.\nn\nR0 = 2,\n1\n2n −1,\nn = 5,\n25 −1 = 31\n5,"
+      "explanation": ""
     },
     {
       "id": 1775893119910,
@@ -2706,7 +2706,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m1b-week1-nonagon-find-x.png",
       "answer": "10",
-      "explanation": "In an earlier question, we saw that the sum of the three numbers on each side is \n Let's start by looking at the bubble\nbetween \n and \n labeled  Since it is common to both sides, write out the ways to make \n using \n or \nNumbers that could be at the corner in the middle of \n and \n are those which are in both the \n and \n sums, which are\n and \n If we put \n in that corner, then \n but  already appears at the\nbottom left corner, so \n If we put \n in that corner between \n and \n then\n and it follows that the left-hand side with  and  would have to have another  in\nthe center, which isn't allowed, since we already used the \n Therefore \n and \n1\n18\nX?\n24.\n17\n18,\ni.\n24\n18\n17.\nWays using 18\nWays using 17\n18 + 1 + 5\n17 + 1 + 6\n18 + 2 + 4\n17 + 2 + 5\n18 + 3 + 3\n17 + 3 + 4\n17\n18\n18\n17\n1, 2,\n5.\ni = 2\na = 24 −18 −i = 24 −18 −2 = 4,\n4\ni ≠2.\ni = 1\n17\n18,\nh = 24 −17 −i = 24 −17 −1 = 6\n6\n9\n9\n9.\ni ≠1\ni = 5."
+      "explanation": ""
     },
     {
       "id": 1775893119911,
@@ -2716,7 +2716,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "Rubella",
-      "explanation": "We saw in the lesson that for the case where people are contagious for only one day, there is a nice formula for the\nnumber of people ever infected by Day \n It is equal to \n Using \n and equating this to\n we get:\nFrom our answer choices, the possible \n are \n and \n Since \n is greater than \n and \n is greater\nthan \n those are too big. Also, \n is less than \n which equals \n which is too small. The only possibilities\nare \n and \nLet's do a little shortcut with calculating \n and \n Prof. Loh showed us a trick for squaring numbers ending in \n For\n we take the \n add  to it, multiply the two together, and that is the prefix of the answer. Append to the end the digits\n\"\n\" and that is the answer. In this way, \n To get \n use the idea that the consecutive square after \n is just\n bigger. We add \n which gives us \n To find \n start with \n which\nwe know is \n Then do the reverse: subtract \n which gives us \nAlready we see that \n exceeds the total of \n so \n must be the reproduction rate, and the answer is choice\nthree, \n1\n5\n1, 555\n(R0 = 7)\nn.\n1 + n + n2 + n3 + … nn−1.\nn = 5\n1, 555,\n1 + n + n2 + n3 + n4 = 1555\nR0\n12, 10, 7, 6, 3.5,\n1.8.\n124\n104\n104\n10, 000,\n3.54\n44,\n28 = 256,\nR0 = 6\nR0 = 7.\n1 + 6 + 62 + 63 + 64 = 1 + 6 + 36 + 216 + 362\n1 + 7 + 72 + 73 + 74 = 1 + 7 + 49 + 343 + 492\n362\n492.\n5.\n352,\n3,\n1\n25,\n352 = 1225.\n362,\na2\na + (a + 1)\n35 + (35 + 1) = 71,\n1225 + 71 = 1296.\n492,\n502,\n2500.\n50 + (50 −1)) = 99,\n2401.\n1 + 6 + 62 + 63 + 64 = 1 + 6 + 36 + 216 + 1296\n= 1555\n1 + 7 + 72 + 73 + 74 = 1 + 7 + 49 + 343 + 2401\n→ (too large)\n2401\n1555,\nR0 = 7\n.\nRubella"
+      "explanation": ""
     },
     {
       "id": 1775893119913,
@@ -2747,7 +2747,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "75",
-      "explanation": "Imagine that Alice and Bob play with a basket with \n (a multiple of four) oranges. The first player can take \n or \noranges. If the second player takes  minus the first player's number, the first player now has their turn with \noranges in the basket. After each player takes  turns, there will be \n oranges in the basket, and the second\nplayer will have taken the last orange and won. Therefore, the second player has a winning strategy if the starting number\nof oranges in a multiple of four.\nIf the starting number of oranges is not a multiple of \n then the first player can take a number of oranges to reduce the\ntotal to a multiple of four. Now the first player has a winning strategy, as the second player must be the first to take from\nthe basket with a multiple of four. Therefore, the first player has a winning strategy if the number of oranges in the basket\nis not a multiple of four. Therefore, Alice will win if \n or \n (  is not a multiple of four). There\nare a total of \n such values from  to \nx\n1, 2,\n3\nx\n[100]\n1\n100\n4x\n1, 2\n3\n4\n4(x −1)\nx\n4(x −x) = 0\n4,\nx = 1, 2, 3, 5, 6, 7, . . .97, 98,\n99 x\n75\n1\n100."
+      "explanation": ""
     },
     {
       "id": 1775893579870,
@@ -2949,7 +2949,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(C)",
-      "explanation": "This is the Fibonacci sequence that you saw in the Day  video! We can write the value of\nthe \n term as \n Then the next term in the sequence will be\n1, 1, 2, 3, 5, 8, 13, 21, ?\n34\n34\n4\nnth\nf(n) = f(n −1) + f(n −2).\n21 + 13 = 34."
+      "explanation": ""
     },
     {
       "id": 1775898523310,
@@ -2959,7 +2959,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(C)",
-      "explanation": "You could multiply all of these numbers out, but remember what the video lesson from Day\n showed us? Let's take a look at choice three, \nWe can write this as\nThe terms that could normally contribute to the last two digits would be the \nterm and the \n term, since the \n term ends in \n However, since \n adds to \nand the \n is naturally a multiple of \n since it is the first part of the number, the first\nterm is a multiple of \n This means our last two digits come entirely from the \nNow, if the hundreds and tens digits weren't the same (like in our example, with the \n in\n and \n) then we wouldn't be able to factor out \n from the cross term. So, in\norder for this trick to work, the digits of the number before the units digit must be the\nsame, and the units digits must add to ten.\nOur answer is choice number three.\n314 × 316\n24\n314 × 316\n24\n2\n314 × 316.\n(310 + 4)(310 + 6) = 3102 + (4 + 6)310 + 4 × 6\n(4 + 6)310\n4 × 6\n3102\n00.\n4 + 6\n10,\n310\n10,\n100.\n4 × 6.\n31\n314\n316,\n4 + 6"
+      "explanation": ""
     },
     {
       "id": 1775898523311,
@@ -2990,7 +2990,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "Did you notice the symmetry in this problem? The \n rise equals the \n drop in price.\nThis is setting us up for a difference of squares problem!\nAfter the price rose by \n the price of the donut became \n After the price fell\nby \n the price of the donut became \n times the temporary increased price, so the\ntotal price after both changes is\nAre you thinking that \n is a square, which makes this really nice? Yes! The final price is\n$1,\nx%.\nx%.\n36%\n$1.\nx\n60%\n60%\nx%\nx%\nx%,\n$1(1 + x%).\nx%,\n1 −x%\n$1(1 + x%)(1 −x%)\n= $1(1 −x% + x% −(x%)2)\n= $1(1 −(x%)2)\n36\n$1(1 −(x%)2) = $1(1 −36\n100 )\n(x%)2 = 36\n100\nx% = √36\n100\nx% = 6\n10\nx% = 60\n100\nx = 60"
+      "explanation": ""
     },
     {
       "id": 1775898523314,
@@ -3000,7 +3000,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(A)",
-      "explanation": "Let's start by calculating the innermost parentheses:\n@\na@b = a −b\n((10@9)@(8@7))@(6@5)@((4@3)@(2@1))\n−1\n−1\n((10@9)@(8@7))@(6@5)@((4@3)@(2@1)) =\n= (1@1)@1@(1@1)\n= 0@1@0\n= 0 −1 −0\n= −1",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt1-q6.png"
     },
     {
@@ -3022,7 +3022,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "3",
-      "explanation": "Using Difference of Squares,\nso  times this equals\nTherefore, the number of terms is \n2(4x −4)(4x + 4)\n(4x −4)(4x + 4) = 16x2 −16,\n2\n32x2 −32.\n2.",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt1-q8.png"
     },
     {
@@ -3033,7 +3033,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "0",
-      "explanation": "Since the terms are all put to the same power of \n we can combine them into one term by\ndividing:\nThe only way for an exponent to equal  is for the power to equal \n so \nx\n8x × 9x = 19x\nx,\n8x × 9x = 19x\n8x × 9x\n19x\n= 1\n( 8 × 9\n19\n)\nx\n= 1\n1\n0,\nx = 0."
+      "explanation": ""
     },
     {
       "id": 1775898523318,
@@ -3043,7 +3043,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "6",
-      "explanation": "We need a variable, so how about letting the number of correct questions equal ? Then\nwe also know the number of incorrect questions you answered, since that is just the total\nminus the number correct, or \n The money you earn from the correct questions is\n and the money your teacher subtracts from that amount is \n These two have\nto be equal to each other, so we have\nThe number of questions that you answered correctly, then, is , which of course isn't this\nexam that you are currently taking, since you are aceing this one!\n20\n7\n3\nx\n20 −x.\n7x\n3(20 −x).\n7x = 3(20 −x).\n7x = 60 −3x\n10x = 60\nx = 6\n6"
+      "explanation": ""
     },
     {
       "id": 1775898523319,
@@ -3053,7 +3053,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "36",
-      "explanation": "The total fraction of students who take both languages is\nSince \n of the students in the class equals  students, the total number of students in the\nclass is \n students.\nBonus Challenge Questions\n2\n3\n1\n2\n6\n2\n3 + 1\n2 −1 = 1\n6\n1\n6\n6\n6 × 6 = 36\nEarned 0 of 7 points. 0%"
+      "explanation": ""
     },
     {
       "id": 1775898523320,
@@ -3063,7 +3063,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "625",
-      "explanation": "We can write our three-digit number as \n where  is an integer. Then removing\nthe first digit gives  remaining, and since  is \n times smaller than the original number,\nthen\nwhich means that our number is\n3\n6\n25\n6 × 102 + a,\na\na\na\n25\n6 × 102 + a\n25\n= a\n6 × 102 + a = 25a\n6 × 102 = 24a\na = 600\n24\n= 25\n6 × 102 + 25 = 625."
+      "explanation": ""
     },
     {
       "id": 1775898523321,
@@ -3094,7 +3094,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "9",
-      "explanation": "This problem is similar to the Day  video problem that showed an arithmetic sum made up\nof powers of \n \n In this problem, we\nare approximating the terms based on powers of  as well, and we want to know how many\nterms, so that is like figuring out which \n is closest to our starting number, \nThe closest power of  to \n is \n which equals \n Since \n is smaller than \nwe have one less term than \n so the answer is \n1000,\n2\n1.\n5\n2. (512 + 256 + 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1).\n2\n2n\n1000.\n2\n1000\n210,\n1024.\n1000\n1024,\n10,\n9."
+      "explanation": ""
     },
     {
       "id": 1775898523324,
@@ -3134,7 +3134,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "142857",
-      "explanation": "Let's try to quantify the meaning of the relationship between the two numbers, using math.\nSince the  at the beginning of a number represents a power of \n then our first number\ncan be written as\nwhere  is the number that we get after deleting the  in front, without adding it to the end.\nWe don't know how many digits this number has yet, but that's okay; here it has \ndigits.\nOur second number has the same digits as \n but shifted to the left by one spot, which\nmeans that they all are multiplied by \n Appending  to the end means that the ones digit\nof our larger number is \n Using the information that these two numbers are in the ratio\n, we know the larger is three times as big as the smaller, and we can write\nWe know that  is an integer, so \n must be a multiple of \n These numbers have\nthe form \n, and we can try dividing by  to look for the smallest number that\nworks. This happens to be \n Then \n and that means that our smaller\nnumber is\n1 : 3.\n1,\n1\n1\n1\n10,\n10n + a\na\n1\nn + 1\na,\n10.\n1\n1.\n1 : 3\n(10n + a)3 = 10a + 1\n3 × 10n + 3a = 10a + 1\n3 × 10n −1 = 7a\na = 3 × 10n −1\n7\na\n3 × 10n −1\n7.\n299999.. .999\n7\n299, 999.\na = 42, 857,\n105 + 42, 857\n42 85"
+      "explanation": ""
     },
     {
       "id": 1775898523328,
@@ -3144,7 +3144,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2",
-      "explanation": "Let's make a variable for the quantity that we want to find, and call it \n Now, let's divide \nby :\nThis looks like \n except that we are missing the \n and the numerators are off by \n If we\nsubtract the expression we got from \n we get\nWe did this because it's possible to find the value of this series, since it is a normal\ngeometric series. To avoid confusion, let's call this series by a difference name, like \nRemember what we're trying to find? It's not \n but \n where\n1\n2 + 2\n22 + 3\n23 + 4\n24 + 5\n25 +. . .\nx.\nx\n2\nx\n2 = 1\n2 ( 1\n2 ) + 1\n2 ( 2\n22 ) + 1\n2 ( 3\n23 ) + 1\n2 ( 4\n24 ) + 1\n2 ( 5\n25 )+. . .\n= 1\n22 + 2\n23 + 3\n24 + 4\n25 + 5\n26 +. . .\nx,\n1\n2 ,\n1.\nx,\n1\n2 + 2\n22 + 3\n23 + 4\n24 + 5\n25 + −( 1\n22 + 2\n23 + 3\n24 + 4\n25 + 5\n26 +. . . )\n= 1\n2 + 1\n22 + 1\n23 + 1\n24 +. . .\n= x −x\n2\n= x\n2 .\ng :\ng = 1\n2 + 1\n22 + 1\n23 +. . .\ng −1\n2 = 1\n22 + 1\n23 +. . .\ng −1\n2 = g\n2\ng\n2 = 1\n2\ng = 1\ng,\nx,"
+      "explanation": ""
     },
     {
       "id": 1775898641999,
@@ -3154,7 +3154,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "95",
-      "explanation": "What can we find out about Jenny's past scores, given her average score? That's right, we can figure out the total number of points she earned.\nShe took  tests and her average was a \n so she must have had \n points in total. She is taking one more test, and she wants an \naverage, so she wants a total of \n points. The difference, \n is the score Jenny needs on the next test.\n5\n83.\n85,\n5\n83,\n5 × 83 = 415\n85\n6 × 85 = 510\n510 −415 = 95,"
+      "explanation": ""
     },
     {
       "id": 1775898642000,
@@ -3175,7 +3175,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "33",
-      "explanation": "For the sake of generality, you could suppose that Andrew, Beatrice, and Carl are all \n years old. It doesn't affect the average if we arbitrarily set\ntheir ages in this way. Then, in  years, each of them will be \n years old, which is the same as their average, since they are all the\nsame age.\n29.\n4\n29\n4\n29 + 4 = 33"
+      "explanation": ""
     },
     {
       "id": 1775898642002,
@@ -3196,7 +3196,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "343",
-      "explanation": "The important thing to remember is that when you take an exponent and put it to another power, the two powers multiply together. One way to\ndo this is to think of \n as the square root of \n. Then\nAnother way to do this is to use fractional exponents.\n√(√7)3\n4.\n(√7)3\n(√7)6\n(√(√7)3)\n4\n= ((√7)3)\n2\n= √7\n6\n= 73\n= 343\n(((√7)3)\n1\n2 )\n4\n= (√7\n3)2\n= 343"
+      "explanation": ""
     },
     {
       "id": 1775898642004,
@@ -3226,7 +3226,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "9",
-      "explanation": "Since we are averaging two whole numbers, we know that their average has to have \n at the end of it. Since the digits of the average are the\ndigits of the two numbers, then the second number must be \n This means that the other number must be either a  or , since the two\nnumbers are consecutive. We can simply check the average that you get from the two possibilities: \n or \n The first case\ndoesn't work, so the two numbers must be  and \n We want their sum, so that is \n.5\n5.\n4\n6\n6+5\n2\n= 5.5\n4+5\n2\n= 4.5.\n4\n5.\n4 + 5 = 9."
+      "explanation": ""
     },
     {
       "id": 1775898642007,
@@ -3246,7 +3246,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(B)",
-      "explanation": "The geometric mean of  and  is equal to \n The arithmetic mean of  and  is the simple average, or \n Suppose that the geometric\nand arithmetic means were equal. Then\nHowever, this can't be true, because the problem says that \n There is no other way for \n to equal \n so it's not possible for the\ngeometric mean to equal the arithmetic mean. We can say that the left side of the above equation must be positive, since \n being a\nsquare, must be positive. The left side of the equation is always larger, which means we can write\nThen the geometric mean is always smaller than the arithmetic mean, so the correct answer is the second choice.\na\nb,\na ≠b,\na\nb\na\nb\n√a × b.\na\nb\na+b\n2 .\na + b\n2\n= √a × b\n( a + b\n2\n)\n2\n= a × b\n(a + b)2 = 4ab\na2 + 2ab + b2 = 4ab\na2 −2ab + b2 = 0\n(a −b)2 = 0\n⟹a = b\na ≠b.\n(a −b)2\n0,\n(a −b)2,\na + b\n2\n> √a × b",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q10.png"
     },
     {
@@ -3257,7 +3257,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "156",
-      "explanation": "Let's try to find the common difference between the terms in this sequence. We start from the \n term and go to the \n term, so that means\nthe common difference is added \n times. Now, let's see how the term itself changes, from \n to \n which is a change of\n Divide this total change over the number of times to get \n which is how much you add to a term to get the next term.\nThe \n term would be \n steps away from the \n term, which is 21, so we should add \n to \n which gives us \nBonus Challenge Questions\n−51\n21,\n3rd\n27th\n27 −3 = 24\n−51\n21,\n21 −(−51) = 72.\n72\n24 = 3,\n72nd\n72 −27 = 45\n27th\n45 × 3 = 135\n21,\n156.\nEarned 0 of 7 points. 0%",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q11.png"
     },
     {
@@ -3278,7 +3278,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "-8",
-      "explanation": "Since \n equals \n we can write\n( 1\n4 )4 = 2x,\nx.\n1\n4\n2−2,\n1\n4\n4\n= (2−2)4\n= 2−2×4\n= 2−8"
+      "explanation": ""
     },
     {
       "id": 1775898642012,
@@ -3288,7 +3288,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "If you use your intuition, you might guess that the second power tower is bigger, because the size is accumulating in the power of \n In the first\npower tower, the sizes are growing in the base, which is then put to the \n power.\nThe first should be calculated from the inside out:\nThe second should be calculated from the top of the power to the base number:\n(((22)2)\n2)\n2\n22222\n22222\n2.\n2nd\n= (((22)2)\n2)\n2\n= (((4)2)\n2)\n2\n= ((16)2)\n2\n= 2562\n= 65536\n22222\n= 2224\n= 2216\n= 265536"
+      "explanation": ""
     },
     {
       "id": 1775898642013,
@@ -3298,7 +3298,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "5/18",
-      "explanation": "If you look at this for a very long time, you might notice that \n is similar to \n It is\nand the decimal \n is equal to \n Also, \n is like\nThis means that we have\nCheck that this doesn't simplify, and this is our answer.\n0.2777.\n–\n0.2777\n–\n0.1666.\n–\n0.111 + 0.1666\n–\n–\n0.1666\n–\n1\n6 .\n0.111\n–\n0.333\n3\n= 1\n3 × 1\n3\n= 1\n9\n–\n1\n9 + 1\n6 = 2\n18 + 3\n18 = 5\n18 ."
+      "explanation": ""
     },
     {
       "id": 1775898642014,
@@ -3318,7 +3318,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "312",
-      "explanation": "Did you notice that there is a pattern in the repeating part of these decimals? We've seen this before! Yes, these are the decimal expansions of\nfractions of the form \n again!\nThis means our sequence is really just\nWhenever we have a \n in our multiplication, it's nice to go hunting for  to times with it. Aha, we have one!\n1.142857142857. . . +2.285714285714. . . +3.428571428571. . . +4.571428571428. . . +5.714285714285. . . +6.857142857142. . . +\n7.142857142857. . . +8.285714285714. . . +9.428571428571. . . +10.571428571428. . . +11.714285714285. . . +12.857142857142. . . +\n13.142857142857. . . +14.285714285714. . . +15.428571428571. . . +16.571428571428. . . +17.714285714285. . . +18.857142857142. . . +\n19.142857142857. . . +20.285714285714. . . +21.428571428571. . . +22.571428571428. . . +23.714285714285. . . +24.857142857142. . .\nn\n7\n.142857142857. . . +.285714285714. . . +.428571428571. . . +.571428571428. . . +.714285714285. . . +.857142857142. . .\n= 1\n7 + 2\n7 + 3\n7 + 4\n7 + 5\n7 + 6\n7\n= 1 + 2 + 3 + 4 + 5 + 6\n7\n= 21\n7\n= 3.\n1 + 2 + 3 + 4 + 5+. . . +22 + 23 + 24 + 4 × 3\n= 24 × 25\n2\n+ 4 × 3\n= 12 × 25 + 12\n25\n4\n3 × 4 × 25 + 12\n= 3 × 100 + 12\n= 312."
+      "explanation": ""
     },
     {
       "id": 1775898642016,
@@ -3328,7 +3328,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "From the video lesson, we saw that we can guess that the answer is in the form of an integer plus a term with a square root of \n Then, we can\nwrite \n for the value that we want to figure out.\nLooking at this, we can see that the \n term is found from the cross terms that we get from expanding the left side, in other words, \n so\nwe can guess that the values of  and  might be  and \n√12 + 6√3\n3 + √3\n3 + √3\n3.\na + b√3\na + b√3 = √12 + 6√3\n(a + b√3)2 = √12 + 6√3\n6√3\n2ab√3,\na\nb\n3\n1.\n√12 + 6√3 = √9 + 2 × 3 × √3 + (√3)2\n= √(3 + √3)2\n= 3 + √3",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt2-q18.png"
     },
     {
@@ -3339,7 +3339,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "13/4",
-      "explanation": "Let's call the first term  and the common difference between two terms \n Then, the sum of the first  terms is\nWe could write the sum of the first  terms by adding up all  terms, or we could use the fact that we already have the sum of the first  terms:\nLet's double the first equation so that we get two equations with \n which will allow us to cancel out the \nand\nSubtracting the equations, we get\nIn order to get the value of the first term, \n we can use \n which will give us \n so the first term is \n4\n58.\n8\n236.\nf\nd.\n4\nf + (f + d) + (f + 2d) + (f + 3d) = 58\n4f + 6d = 58\n8\n8\n4\nsum of first 8 terms = 236\n sum of first 4 terms + (f + 4d) + (f + 5d) + (f + 6d) + (f + 7d) = 236\n4f + 6d + 4f + 4d + 5d + 6d + 7d = 236\n8f + 28d = 236\n8f,\n8f.\n4f + 6d = 58\n8f + 12d = 116.\n16d = 120\n= 120\n16\n= 15\n2\nf,\n4f + 45 = 58,\n4f = 13,\n13\n4 ."
+      "explanation": ""
     },
     {
       "id": 1775898642018,
@@ -3349,7 +3349,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "59510",
-      "explanation": "Before you run away from this question, try sitting down and writing down a few of the terms, looking for a pattern. Up until \n which is the\nsquare of \n the square roots of our numbers will round down to \n From  up until \n which is the square of \n the square roots of our numbers\nwill round down to \n And so on and so forth:\nDo you see a neat pattern here? There are three numbers in the first row, five numbers in the second row, seven numbers in the third row, etc.\nWe get the numbers in the second-to-last row because \n so it is the first number whose square root rounds down to \n The next\nsquare is \n so all of the rest of the numbers up until our last number, \n will have their square root round down to \n However, we\ndon't get to include all the numbers from \n up until right before \n since we end at \n instead of \n so the last line will not match the\npattern that you see in the earlier rows.\nAlready, we can write a pattern for the numbers up until right before \n We have 3 ones, 5 twos, 7 threes, 9 fours, ... up until some number\nof \n's. But how do we find how many \n's? (Remember, we are not counting the \n s right now, since the last row is incomplete and doesn't\nmatch the pattern.)\nOur pattern looks like this:\nwhere each term is \n starting from \n and going until \n This is the same as the sum of a \n sequence added to a \nsequence:\nTo find the sum of the first \n squares, we are going to do something a bit strange that doesn't seem connected to what we're doing, but it gives\na relation for the sum of the first \n squares. Let's suppose that we expand the following polynomial, and try to get the cubic terms on the same\nside:\nSuppose we start with \n and make a new equation for every  counting up from  until \n If we add up all these equations, we get a\ntelescoping sum on the left side!\nOn the right side, we have the sum of the right-hand sides of the equation:\n1\n2019,\n4,\n2,\n1.\n4\n9,\n3,\n2.\n1, 2, 3 ⟹1\n4, 5, 6, 7, 8 ⟹2\n9, 10, 11, 12, 13, 14, 15 ⟹3\n16, 17, 18, 19, 20, 21, 22, 23, 24 ⟹4\n. . .\n. . .\n1936, 1937, 1938, . . . , 2015, 2016, 2017, 2018, 2019 ⟹44\nn2, n2 + 1, n2 + 2, n2 + 3, . . . , (n + 1)2 −1 ⟹n\n1936 = 442,\n44.\n2025,\n2019,\n44.\n442\n452,\n2019\n2025,\n1936.\n43\n43\n44\n(3 × 1) + (5 × 2) + (7 × 3) + (9 × 4)+. . . +(? × 43)\n(1 × 2 + 1) × 1 + (2 × 2 + 1) × 2 + (3 × 2 + 1) × 3+. . . (43 × 2 + 1) × 43\n(2n + 1) × n\nn = 1\nn = 43.\n2n2\nn\n2 × 12 + 2 × 22 + 2 × 32+. . .2 × 432 + 1 + 2 + 3 + 4+. . . 43\n2(12 + 22 + 32 + 42 + 52 + 62+. . . + 432) + (1 + 2 + 3 + 4+. . . +43)\n43\n43\n(x −1)3 =\n= x3 −3x2 + 3x −1\nx3 −(x −1)3 = 3x2 −3x + 1\nx = 1\nx\n1\n43.\n(13 −(1 −1)3) + (23 −(2 −1)3)+. . . (433 −(43 −1)3)\n= (13 −0 + 23 −13 + 33 −23 + 43 −33+. . . 433)\n= 433"
+      "explanation": ""
     },
     {
       "id": 1775898718485,
@@ -3359,7 +3359,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(B)",
-      "explanation": "Choice : \n doesn't make sense because it says that all the people,\nadults and kids combined, paid \n each for their tickets, whereas \n is really the cost of\ntwo tickets, one adult and one child.\nChoice : The first equation, \n has its first term meaning the cost of all\nadult tickets, and the second term the cost of all kid tickets, which does add up to the total\ncost of all tickets, \n The second equation, \n says that the number of all\npeople (adults plus kids) is equal to \n which is true.\nChoice : The first equation, \n has the  and  swapped, so it is\nincorrect. The second equation, \n plainly differs from the correct one as well,\nChoice : The units of the left side in \n come out to\n However, this assumes that all the money was spent by\nthe kids, and that same amount was also spent by the adults once again, which isn't\ncorrect, because they share the \n expenditure.\nChoice : The equation \n tells us that all the \n was spent by the kids,\nand then the total \n was also spent one more time by the adults. In reality, the \nshould be split over the  and the \n$7\n$5\n50\n$320\nx\ny\n7x + 5y = 320\nx + y = 50\n \n7x + 5y = 320\nx + y = 50\n \n1 $12 × (x + y) = $320\n$12\n$12\n2\n$7x + $5y = $320,\n$320.\nx + y = 50,\n50,\n3\n$7y + $5x = $320,\nx\ny\nxy = 50,\nx + y = 50.\n4\n$320\n$7 + $320\n$5\n= 50\ntotal dollars\ndollarsper kid = number of kids.\n$320\n5\n$320\nx\n+ $320\ny\n= $12\n$320\n$320\n$320\nx\ny."
+      "explanation": ""
     },
     {
       "id": 1775898718486,
@@ -3369,7 +3369,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "(D)",
-      "explanation": "Plug and chug! If \n then \n, so plugging this into the first equation gives us\n and so \n. Then we have \n and so\n3x + 7y = 420\nx = 7\n3 y,\nx + y\n100\n100\nx = 7\n3 y,\n3x = 7y\n6x = 420\nx = 70\ny = 3\n7 x = 3\n7 × 70 = 30\nx + y = 70 + 30 = 100."
+      "explanation": ""
     },
     {
       "id": 1775898718487,
@@ -3379,7 +3379,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "",
-      "explanation": "Moving the decimal point  places to the right makes the number \n times larger.\nIf we call the number , we now have the equation \n.\nx\n2\n9\n100x = 9\nx\n100x = 9\nx\n2\n102 = 100\nx\n100x = 9/x"
+      "explanation": ""
     },
     {
       "id": 1775898718488,
@@ -3400,7 +3400,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2",
-      "explanation": "Let us call the number of fish , the number of chickens , and the number of dogs .\nEach animal has  eyes, so since there are \n total eyes, there must be \n animals.\nThen,\nBut\nSo\nThe number of legs is \n. Then,\nThen if \n, and \n,\nSo , the number of dogs, is .\n28\n16\nf\nc\nd\nf = 2 × c\n2\n28\n28\n2 = 14\nf + c + d = 14\nf = 2 × c\n3 × c + d = 14.\n4 × d + 2 × c\n4 × d + 2 × c = 16\n2 × d + c = 8\n6 × d + 3 × c = 24\n3 × c + d = 14\n6 × d + 3 × c = 24\n5 × d + d + 3 × c = 14 + 10\n5 × d = 10\nd\n2"
+      "explanation": ""
     },
     {
       "id": 1775898718491,
@@ -3410,7 +3410,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "40",
-      "explanation": "Let  be the amount of Ann's money (not including her grandma's money). Then the price\nof a skirt is \n of , which equals \n The same is true for a blouse: its price equals\n After Ann's grandma gives her \n Ann will have \n On the other hand, she will\nbe able to buy the skirt and blouse together, so we can write these equations:\n80%\n60%\n$16,\n$\nx\n80%\nx\n0.8x.\n0.6x.\n$16,\nx + 16.\nx + 16 = 0.8x + 0.6x\nx + 16 = 1.4x\n16 = 0.4x\n0.4x = 16\nx = 40"
+      "explanation": ""
     },
     {
       "id": 1775898718492,
@@ -3431,7 +3431,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "36",
-      "explanation": "Let's call the two numbers  and . We know that \n, and \n of  plus \n of \nequals \n from which it follows that \n So we have obtained a system\nof two equations and two unknown variables:\nLet's solve it!\nWe know how to solve equations with one unknown variable, so let's transform our system\nof two equations to just one equation with one variable, which we know how to solve.\nWe know that \n, so let's multiply by  so that the coefficient of  becomes \nNow we can cancel variable  by subtracting the lower equation from the upper equation:\nWhich is the same as:\nFrom the first equation, we can find \n When we find one of the two variables,\nwe can put the number we just found into the same equation to find the remaining\nvariable. The most easy way to do this is to put \n into equation \nNow we found that \n and \n, so the difference between these two numbers is\n76,\n25%\n15%\n14.\na\nb\na + b = 76\n25%\na\n15%\nb\n14,\n0.25a + 0.15b = 14.\na + b = 76\n0.25a + 0.15b = 14\n0.25 = 1\n4\n4\na\n1 :\na + b = 76\na + 0.60b = 56.\na\n(a −a) + (b −0.60b) = 76 −56\na + 0.60b = 56.\n0.40b = 20\na + 0.60b = 56.\nb =\n20\n0.4 = 50.\nb = 50\na + b = 76 :\na + 50 = 76 ⟹a = 76 −50 = 26\na = 26\nb = 50\n(b −a) = 50 −26 = 24."
+      "explanation": ""
     },
     {
       "id": 1775898718494,
@@ -3452,7 +3452,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "3/10",
-      "explanation": "Using the equation from the previous question, \n we can multiply  to both sides\nto get \n which means that \n Square-rooting both sides, we get that\n and knowing that  has to be positive, \nx\n2\n9\nx.\n100x = 9\nx ,\nx\n100x2 = 9,\nx2 =\n9\n100 .\nx = ± 3\n10 ,\nx\nx = 3/10."
+      "explanation": ""
     },
     {
       "id": 1775898718496,
@@ -3494,7 +3494,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "-17",
-      "explanation": "If \n, then \n, therefore \n. The\nsum of all roots of this polynomial is then just \nf(x) = x2 + 17x −39\ng(x) = 4x + 1\nx\ng(f(x)) = 0\ng(f(x)) = 0\n4(x2 + 17x −39) + 1 = 0\n4x2 + 68x −155 = 0\n−68/4 = −17.",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q14.png"
     },
     {
@@ -3505,7 +3505,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "0",
-      "explanation": "The sum of the roots,  and , equals \n, and the product of  and  equals \n. Since \nand  are integers, they both have to be factors of \n, whether negative or positive.\n has  factors, meaning  unordered factor pairs that multiply to \n including\nnegative numbers. These pairs are:\nIt actually doesn’t matter exactly what they are, because  is the negative sum of the two\nnumbers inside the parentheses. And when we add up the sums of the pairs of numbers in\nevery of the  factor pairs, the negative factor pairs’ sums cancel out with those of the\npositive factor pairs. Therefore the total sum of all possible values of  is just .\np\nx2 + px + 20\n(x −a)(x −b)\na\nb\na\nb\n−p\na\nb\n20\na\nb\n20\n20 = 22 ⋅5\n6\n6\n20\n(20, 1), (−20, −1), (10, 2), (−10, −2), (5, 4), (−5, −4).\np\n6\np\n0",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q15.png"
     },
     {
@@ -3516,7 +3516,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "325",
-      "explanation": "Using the Quadratic Formula, the difference in the two roots is equal to\nTherefore, the square of this quantity is \np\nq\nx2 + 13x −39,\n(p −q)2\n2√132 + 4 ∗39\n2\n= √169 + 156\n= √325.\n325.",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q16.png"
     },
     {
@@ -3538,7 +3538,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "5.5",
-      "explanation": "We can notice that the numbers in the numerator are counting up, as are the numbers in\nthe denominator. Let's parametrize the expressions so that the numbers look smaller, by\ncreating a variable called \n If we let \n then this will make our fractions look\na little bit better, and it's nice, because this means we can solve for a general form of this\nexpression.\nThe equation is\nThis means that\nCanceling the \n \n and \n from both sides, we get\nWe actually solved for the general case where  can be anything, but in our case, since the\nfirst fraction has \n in the numerator, we actually want \n Plugging in this, we get\nx\n( 5 −x\n4 −x ) −( 6 −x\n5 −x ) = ( 7 −x\n6 −x ) −( 8 −x\n7 −x )\na.\n4 −x = a −x,\n( 5 −x\n4 −x ) −( 6 −x\n5 −x ) = ( 7 −x\n6 −x ) −( 8 −x\n7 −x )\n( a + 1 −x\na −x\n) −( a + 2 −x\na + 1 −x ) =  ( a + 3 −x\na + 2 −x ) −( a + 4 −x\na + 3 −x )\n(\n1\n(a −x)(a + 1 −x) ) = (\n1\n(a + 2 −x)(a + 3 −x) )\n(a −x)(a + 1 −x) = (a + 2 −x)(a + 3 −x)\na2 + a −ax −ax −x + x2 = a2 + 3a −ax + 2a + 6 −2x −ax −3x + x2\na2 −2ax + a −x + x2 = a2 −2ax + 5a + 6 −5x + x2\na2, x2,\n−2ax\na −x = 5a + 6 −5x\n0 = 4a −4x + 6\n4x = 4a + 6\nx = a + 3\n2\na\n5 −x\na = 4.\n3",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt3-q18.png"
     },
     {
@@ -3635,7 +3635,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "25",
-      "explanation": "First, let's convert these phone plans into equations. We will let  be the number of calls\nyou make in a month.\nThen we have Pi-Phone's cost as \n and Euler-Mobile's cost as \n.\nWe know the slope of the equation for the cost of Euler-Mobile is greater than that of Pi-\nPhone, so we just need to find out when they cost the same, then we will know that for all\nnumbers of calls greater than that, Pi-Phone will be cheaper! To find out when they cost the\nsame, we can set the equations equal to each other:\nWe can subtract \n and  from both sides to get \nYou might not want to divide by a decimal number, so let's go ahead and multiply both\nsides by \n to get \n and then divide \n by \n, which is roughly \n We\nwant Pi-Phone to be cheaper, so we need the closest whole number bigger than \n,\nwhich is \n$30\n5\n$3\n16\nx\n30 + 0.05x\n3 + 0.16x\n30 + 0.05x = 3 + 0.16x\n0.05x\n3\n27 = 0.11x.\n100\n2700 = 11x,\n2700\n11\n245.45.\n245.45\n246."
+      "explanation": ""
     },
     {
       "id": 1775898802324,
@@ -3675,7 +3675,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "10/3",
-      "explanation": "The midpoint of \n and \n is \n The midpoint of \n and \n is\n The slope of the line is then just\n(0, 3)\n(7, 8)\n(−3, −19)\n(4, 10).\n(0, 3)\n(7, 8)\n( 7\n2 , 11\n2 .\n(−3, −19)\n(4, 10)\n( 1\n2 , −9\n2 .\n11\n2 −( −9\n2 )\n7\n2 −1\n2\n= 20\n6 = 10\n3 .",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q12.png"
     },
     {
@@ -3686,7 +3686,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "71",
-      "explanation": "If the three x-coordinates were \n then the midpoints of the sides of the triangle\nwould be \n since the -coordinates of the midpoints of the sides are the\naverages of the -coordinates of the two vertices bordering this side.\nThe sum of the -coordinates of the midpoints is\nThen, we want the square of this, which is \n√71\n(a, b, c),\na+b\n2 , b+c\n2 , a+c\n2 ,\nx\nx\nx\na + b\n2\n+ b + c\n2\n+ a + c\n2\n)\n= 2a + 2b + 2c\n2\n= (a + b + c)\n= √71\n71."
+      "explanation": ""
     },
     {
       "id": 1775898802329,
@@ -3696,7 +3696,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "26",
-      "explanation": "The average of the -coordinates of the two corners given is \n The center of the\nsquare is at the midpoint of the line connecting corners at \n and \n which is\n which is the point \n Then, the average of the -coordinates of the\nother two points is also \n and the sum of the other two -coordinates is then \n(11, 2)\n(15, 10).\nx\nx\n11+15\n2\n= 13.\n(11, 2)\n(15, 10),\n( 11+15\n2\n, 2+10\n2\n),\n(13, 6).\nx\n13,\nx\n26."
+      "explanation": ""
     },
     {
       "id": 1775898802330,
@@ -3706,7 +3706,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "12",
-      "explanation": "We have to draw the perpendicular line from \n to \n because at the point\nwhere these two lines cross, the monkey is the closest possible to the banana. When the\nmonkey passes this point, it has passed the closest point and is slowly getting farther away.\nTherefore, the equation of this perpendicular line is \n. We know the slope will be\n because this is the negative reciprocal of \n and hence the perpendicular slope. \nWe know the perpendicular line will cross \n, so it is easy to see that this gives \n.\nThen we just have to solve the simultaneous system of equations \n and \n;\nplugging the first equation into the second yields \n, so that \n and \n. Hence\n.\n(0, 0)\nx + 2y = 20\n(a, b)\na + b\n(0, 0)\nx + 2y = 20\ny = 2x + b\n2\n−1\n2 ,\n(0, 0)\nb = 0\nb = 2a\na + 2b = 20\n5a = 20\na = 4\nb = 8\na + b = 12"
+      "explanation": ""
     },
     {
       "id": 1775898802331,
@@ -3717,7 +3717,7 @@
       "dateAdded": "2026-04-11",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/m4w4-exam-lattice-square.png",
       "answer": "14",
-      "explanation": "Explanation: We can write this equation in a form that shows us the slope, by dividing the\nwhole thing by \n Then we get\nHere we can see that when \n then \n This means that our line crosses the -axis\nat \n From here, our line will cross through any points that you can get to by moving\nright by  steps, and going up by  steps. In order for  to be an integer,  needs to be a\nmultiple of \n The largest possible value of  which could be inside the shaded region\nwould be the largest multiple of  less than \n so \n This corresponds to \n steps,\nwhich means we would go up by \n units. The -coordinate of our last lattice\npoint would be \n and the -coordinate of our last lattice point would be\n which means our last lattice point is \nHowever, you have to count the original point, \n so there are \n total lattice points\nthat the line crosses.\n(x, y)\nx\ny\n3y = 2x + 15\n3.\ny = 2\n3 x + 5.\nx = 0,\ny = 5.\ny\n(0, 5).\n3\n2\ny\nx\n3.\nx\n3\n40,\nx = 39.\n13\n13 × 2 = 26\nx\n0 + 39 = 39,\ny\n5 + 26 = 31,\n(39, 31).\n(0, 5),\n14"
+      "explanation": ""
     },
     {
       "id": 1775898802332,
@@ -3759,7 +3759,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 24\n2. 10",
-      "explanation": "Let's first start by drawing an accurate diagram so that we can get a sense of the pattern in\nthe helicopter's path. It first travels  km north and  km west, going a distance of \n km.\n(This distance can be found using the Pythagorean Theorem).\nAfter the first turn, it goes the same distance as before, plus half of the initial leg, so it\ntravels \n before turning the second time. This path is the hypotenuse of a right\ntriangle with legs of \n and \n This triangle is similar to the previous smaller right triangle,\nwith legs  and \n In fact, you can imagine rotating the smaller triangle by \n to get the\nlarger triangle, as we saw in the Day 13 and 14 lessons.\n2\n1\n90∘\n1\n2\n96\na√b,\nb\n2\n1\n√5\n√5 + 1\n2 √5\n1 1\n2\n3.\n1\n2.\n90∘"
+      "explanation": ""
     },
     {
       "id": 1775898873313,
@@ -3780,7 +3780,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "63",
-      "explanation": "Let \n the number of bicycles and \n the number of tricycles. Then \n and\n Substitute \n for \n to eliminate \n and we get \nwhich simplifies to \nAlternatively, suppose that all \n were bicycles. Then there would be \n wheels.\nSwitching a bicycle into a tricycle gains 1 wheel. We need to gain \n wheels, so we\nshould have \n tricycles and therefore \n bicycles.\n100\n2\n3\n237\nB =\nT =\n2B + 3T = 237\nB + T = 100.\n100 −T\nB\nB,\n2 (100 −T) + 3T = 237,\n200 −2T + 3T = 237 ⟹T = 37 ⟹B = 100 −37 =\n.\n63\n100\n100 × 2 = 200\n237 −200 = 37\n37\n63"
+      "explanation": ""
     },
     {
       "id": 1775898873315,
@@ -3790,7 +3790,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1",
-      "explanation": "We must have\nx @ y\n1\nx + 1\ny .\n3 @ (2 @ x) = 1,\nx?\n1\n3 +\n1\n2 @ x = 1\n1\n2 @ x = 2\n3\n(2 @ x) = 3\n2\n1\n2 + 1\nx = 3\n2\n1\nx = 1\nx = 1"
+      "explanation": ""
     },
     {
       "id": 1775898873316,
@@ -3800,7 +3800,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "192",
-      "explanation": "Let the original number be \n Then, the condition is equivalent to:\nThe three choices that work for \n and \n are single digit numbers in the ratio of \n The\npossibilties are:\nEach number is equal to \n so the three numbers are \n and \n and their sum is\n3\n10T + U.\n(10T + U) −3T = 10U + T\n6T = 9U.\nT\nU\n3 : 2.\nT = 9 and U = 6\nT = 6 and U = 4,  and \nT = 3 and U = 2.\n10T + U,\n96, 64\n32,\n96 + 64 + 32 =\n.\n192"
+      "explanation": ""
     },
     {
       "id": 1775898873317,
@@ -3810,7 +3810,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "2430",
-      "explanation": "The number of -digit numbers is \n and half of them are even. They form an arithmetic\nprogression with first term \n and last term \nThe number of numbers is \n Their average is \n So, their sum is\n2\n2\n90,\n10\n98.\nSum  = 10 + 12 + 14 + 16 + 18 + 20 + 22 + … + 94 + 96 + 98\n= 2 × 5 + 2 × 6 + 2 × 7 + 2 × 8 + 2 × 9 + 2 × 10 + 2 × 11 + … + 2 × 47 + 2 × 48 + 2 × 49\n49 −5 + 1 = 45.\n10+98\n2\n= 108\n2\n= 54.\n45 × 54 =\n.\n2430"
+      "explanation": ""
     },
     {
       "id": 1775898873318,
@@ -3830,7 +3830,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "6",
-      "explanation": "We can write\nwhere is  is the total distance the ball travels. Then \n1\n2\n3\n2 ⋅(1 + 2\n3 + ( 2\n3 )\n2\n+ ( 2\n3 )\n3\n+ …) = x,\nx\nx −2 = 2\n3 x ⟹x =\n.\n6"
+      "explanation": ""
     },
     {
       "id": 1775898873320,
@@ -3850,7 +3850,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "40/3",
-      "explanation": "Converting their speeds from hours into minutes, we get\nLet's let \n Using the distance equation, we know\nSetting these equal to each other, we can solve for \n15\n12\n13\n2\nBrian's faster speed  = 15 miles\nhour = 15\n60\nmiles\nmin = 1\n4\nmiles\nmin\nBrian's slower speed  = 12 miles\nhour = 12\n60\nmiles\nmin = 1\n5\nmiles\nmin\n \nt =  time it takes if Brian is on time.\n distance  =  speed  ×  time \n= 1\n4\nmiles\nmin (t −2) (Faster speed)\n= 1\n5\nmiles\nmin (t + 2) (Slower speed)\nt :\n1\n4 (t −2) = 1\n5 (t + 2)\n1\n4 t −1\n2 = 1\n5 t + 2\n5\n1\n20 t = 2\n5 + 1\n2\n1\n20 t = 9\n10\nt = 9\n10 × 20\n= 18 minutes"
+      "explanation": ""
     },
     {
       "id": 1775898873322,
@@ -3870,7 +3870,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "55",
-      "explanation": "Cubing \n we get the expression\nPlugging in our values of \n and \n we get\nBonus Challenge Questions\n16\n1456.\nx + y,\n(x + y)3 = x3 + 3x2y + 3xy2 + y3\n= x3 + 3xy(x + y) + y3\n= (x3 + y3) + 3 (xy)(x + y)\nx3 + y3 = 1456\nx + y = 16,\n1456 + 3xy × 16 = 163\nxy = 163 −1456\n48\n= 162 −91\n3\n= 256 −91\n3\n= 165\n3\n= 55\nEarned 0 of 7 points. 0%"
+      "explanation": ""
     },
     {
       "id": 1775898873324,
@@ -3880,7 +3880,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 53\n2. 7",
-      "explanation": "4\n7\n1\n2\nx + y\n2\n= √xy + 7\nx + y = 2√xy + 14\nx + y −14 = 2√xy\n(x + y −14)2 = (2√xy)2\nx2 + xy −14x + xy + y2 −14y −14x −14y + 4 × 72 = 4xy\nx2 −2xy + y2 −28x −28y + 4 × 72 = 0\n(x −y)2 −28 (x + y) + 4 × 72 = 0\n28 (x + y) = (x −y)2 + 4 × 72\nx + y = (x −y)2 + 4 × 72\n28\nx + y = 42\n28 + 4 × 72\n28\n= 4\n7 + 7\n= 4\n7 + 49\n7\n= 53\n7"
+      "explanation": ""
     },
     {
       "id": 1775898873325,
@@ -3900,7 +3900,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "5",
-      "explanation": "If R.U.'s speed were equal to \n then Ida's speed would be \n In other words, if R.U.'s speed\nwere \n then Ida's speed would be \n So for every  miles that R.U. goes, Ida can go  miles.\nR.U. spends three times as much time walking as Ida, so if Ida goes  miles, then R.U. will go\n miles. The ratio of R.U.'s distance to Ida's distance is \n so \n of the total\ndistance is walked by R.U. We are given that the total distance they walk is  miles, so\n7\n6\n5\n3\nw,\n6\n5 w.\n5v,\n6v.\n5\n6\n6\n5 × 3 = 15\n15 : 6,\n15\n21 = 5\n7\n7\n distance R.U. walks  = 5\n7 × 7 =\n miles. \n5"
+      "explanation": ""
     },
     {
       "id": 1775898873327,
@@ -3910,7 +3910,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "4",
-      "explanation": "We can use slope-intercept form to find the equations of the two lines, and solve the system of\nequations to find their intersection. The midpoint of \n is \n and so the line through that\npoint and \n has slope \n and hence equation \nThe midpoint of \n is \n and so the line through that point and \n has slope \n and hence\nequation \nSolving this system of equations, we have\nMath note. It turns out that whenever we intersect the medians of a triangle, the intersection point\nalong each median is \n of the way from each side to the opposite vertex of the triangle.\nA(0, 0), B(12, 0),\nC(0, 6).\nAB\nC\nAC\nB\n(x, y).\nx?\nAB\n(6, 0),\nC\n−1,\ny = −x + 6.\nAC\n(0, 3),\nB\n−1\n4 ,\ny = −1\n4 x + 3.\n−x + 6 = −1\n4 x + 3\n3 = 3\n4 x\nx =\n.\n4\n1\n3"
+      "explanation": ""
     },
     {
       "id": 1775898873328,
@@ -3931,7 +3931,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "-4",
-      "explanation": "The midpoint between \n and \n is \n The slope of the line\nthat passes through these two points is\nSo the other line, being perpendicular to this one, has slope of \n Since it passes through the\nmidpoint, which is \n we can solve the equation\nThe x-intercept is the value of the function when \n so the x-intercept is equal to\n(−10, 1\n3 )\n(−2, 17\n3 ).\n(−10, 1\n3 )\n(−2, 17\n3 )?\n(−10, 1\n3 )\n(−2, 17\n3 )\n( −10−2\n2\n,\n1\n3 + 17\n3\n2\n) = (−6, 3).\n17\n3 −1\n3\n−2 −(−10) = 16\n3 × 1\n8 = 2\n3 .\n−3\n2 .\n(−6, 3),\ny = −3\n2 x + c,\n3 = −3\n2 (−6) + c\n3 = 9 + c ⟹c = −6.\ny = 0,\n0 = −3\n2 x −6 ⟹x = −12\n3 =\n.\n−4",
+      "explanation": "",
       "imageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-final-q17.png"
     },
     {
@@ -3953,7 +3953,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 5\n2. 6",
-      "explanation": "None.\nb\n42ab + 24b = 35a + 20\na?\n1\n2 ,\n1\n2"
+      "explanation": ""
     },
     {
       "id": 1775898873332,
@@ -3963,7 +3963,7 @@
       "note": "",
       "dateAdded": "2026-04-11",
       "answer": "1. 1\n2. 9",
-      "explanation": "xy = 9\nx + 1\ny = 100.\ny + 1\nx .\n1\n2\n(x + 1\ny ) (y + 1\nx ) = xy + x ( 1\nx ) + ( 1\ny )y + ( 1\ny ) ( 1\ny )\n= xy + 1 + 1 + 1\nxy\n= xy + 2 + 1\nxy\n(x + 1\ny ) (y + 1\nx ) = 9 + 2 + 1\n9\n= 11 + 1\n9 + 100\n9\n100 × (y + 1\nx ) = 100\n9\n⟹(y + 1\nx ) = 1\n9"
+      "explanation": ""
     }
   ],
   "lastUpdated": "2026-04-13"
