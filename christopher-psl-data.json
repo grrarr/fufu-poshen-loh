@@ -432,7 +432,7 @@
     {
       "id": 1775886267071,
       "source": "Module 0 - Week 2 Challenge",
-      "text": "10.\n[See image for full question with math notation]",
+      "text": "10.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -551,7 +551,7 @@
     {
       "id": 1775886909654,
       "source": "Module 0 - Week 3 Challenge",
-      "text": "1.\n[See image for full question with math notation]",
+      "text": "1.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -562,7 +562,7 @@
     {
       "id": 1775886909655,
       "source": "Module 0 - Week 3 Challenge",
-      "text": "2.\n[See image for full question with math notation]",
+      "text": "2.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -605,7 +605,7 @@
     {
       "id": 1775886909659,
       "source": "Module 0 - Week 3 Challenge",
-      "text": "6.\n[See image for full question with math notation]",
+      "text": "6.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -714,7 +714,7 @@
     {
       "id": 1775886909670,
       "source": "Module 0 - Week 3 Challenge",
-      "text": "16.\n[See image for full question with math notation]",
+      "text": "16.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -779,7 +779,7 @@
     {
       "id": 1775887263919,
       "source": "Module 0 - Week 4 Challenge",
-      "text": "2.\n[See image for full question with math notation]",
+      "text": "2.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -790,7 +790,7 @@
     {
       "id": 1775887263920,
       "source": "Module 0 - Week 4 Challenge",
-      "text": "3.\n[See image for full question with math notation]",
+      "text": "3.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -964,7 +964,7 @@
     {
       "id": 1775887263938,
       "source": "Module 0 - Week 4 Challenge",
-      "text": "19.\n[See image for full question with math notation]",
+      "text": "19.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -1184,7 +1184,7 @@
     {
       "id": 1775887616014,
       "source": "Module 0 - Final Challenge",
-      "text": "19.\n[See image for full question with math notation]",
+      "text": "19.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3139,7 +3139,7 @@
     {
       "id": 1775898523311,
       "source": "Module 3 - Mini Test 1",
-      "text": "3. The average of two numbers is a, and the two numbers can be written as a+c and a - c. Then, the product of the two numbers is (A) a^2 - c^2 (B) a^2 (C) c^2 (D) c^2 - a^2 (E) a^2 + c^2\n[See image for full question with math notation]",
+      "text": "3. The average of two numbers is a, and the two numbers can be written as a+c and a - c. Then, the product of the two numbers is (A) a^2 - c^2 (B) a^2 (C) c^2 (D) c^2 - a^2 (E) a^2 + c^2",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3171,7 +3171,7 @@
     {
       "id": 1775898523314,
       "source": "Module 3 - Mini Test 1",
-      "text": "6. Let the operation @ be defined like this: a @ b = a - b. Find the value of ((10 @ 9) @ (8 @ 7)) @ (6 @ 5) @ ((4 @ 3) @ (2 @ 1)) (A) 0 (B) 1 (C) - 1 (D) - 3 (E) - 2\n[See image for full question with math notation]",
+      "text": "6. Let the operation @ be defined like this: a @ b = a - b. Find the value of ((10 @ 9) @ (8 @ 7)) @ (6 @ 5) @ ((4 @ 3) @ (2 @ 1)) (A) 0 (B) 1 (C) - 1 (D) - 3 (E) - 2",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3183,7 +3183,7 @@
     {
       "id": 1775898523315,
       "source": "Module 3 - Mini Test 1",
-      "text": "7. Let the function f(x) = 3x + 6, if x < 5; f(x) = 7x - 20, if x >= 5. Find the value of f(f(f(2))). (A) 12 (B) 64 (C) 428 (D) 128 (E) 1024\n[See image for full question with math notation]",
+      "text": "7. Let the function f(x) = 3x + 6, if x < 5; f(x) = 7x - 20, if x >= 5. Find the value of f(f(f(2))). (A) 12 (B) 64 (C) 428 (D) 128 (E) 1024",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3194,7 +3194,7 @@
     {
       "id": 1775898523316,
       "source": "Module 3 - Mini Test 1",
-      "text": "8. How many terms are in the expansion of 2(4x - 4)(4x + 4) when it is simplified to lowest terms?\n[See image for full question with math notation]",
+      "text": "8. How many terms are in the expansion of 2(4x - 4)(4x + 4) when it is simplified to lowest terms?",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3345,7 +3345,7 @@
     {
       "id": 1775898642000,
       "source": "Module 3 - Mini Test 2",
-      "text": "2. If number a decreases by 20% and number b increases by 10%, then which of the following expressions is equal to the sum of a and b after they have changed? (A) a - 20% + b + 10% (B) 0.20a + 0.10b (C) (a + b) * ( - 10%) (D) 0.8a + 1.1b (E) 1.2a + 1.1b\n[See image for full question with math notation]",
+      "text": "2. If number a decreases by 20% and number b increases by 10%, then which of the following expressions is equal to the sum of a and b after they have changed? (A) a - 20% + b + 10% (B) 0.20a + 0.10b (C) (a + b) * ( - 10%) (D) 0.8a + 1.1b (E) 1.2a + 1.1b",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3367,7 +3367,7 @@
     {
       "id": 1775898642002,
       "source": "Module 3 - Mini Test 2",
-      "text": "4. If an arithmetic sequence has a as its first term, which of the following is the nth term of this sequence? (Here r is the difference between neighboring terms.) (A) nth term = a * n (B) nth term = a^n (C) nth term = a * r^n (D) nth term = a + (n - 1)r (E) nth term = a + n\n[See image for full question with math notation]",
+      "text": "4. If an arithmetic sequence has a as its first term, which of the following is the nth term of this sequence? (Here r is the difference between neighboring terms.) (A) nth term = a * n (B) nth term = a^n (C) nth term = a * r^n (D) nth term = a + (n - 1)r (E) nth term = a + n",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3430,7 +3430,7 @@
     {
       "id": 1775898642008,
       "source": "Module 3 - Mini Test 2",
-      "text": "10.\n[See image for full question with math notation]",
+      "text": "10.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3441,7 +3441,7 @@
     {
       "id": 1775898642009,
       "source": "Module 3 - Mini Test 2",
-      "text": "11. The third and twenty-seventh terms of an arithmetic sequence are - 51 and 21, respectively. What is the seventy-second term?\n[See image for full question with math notation]",
+      "text": "11. The third and twenty-seventh terms of an arithmetic sequence are - 51 and 21, respectively. What is the seventy-second term?",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3515,7 +3515,7 @@
     {
       "id": 1775898642016,
       "source": "Module 3 - Mini Test 2",
-      "text": "18. Simplify this expression: sqrt(sqrt(5) - sqrt(3 - sqrt(29 - 12*sqrt(5))))\n[See image for full question with math notation]",
+      "text": "18. Simplify this expression: sqrt(sqrt(5) - sqrt(3 - sqrt(29 - 12*sqrt(5))))",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3581,7 +3581,7 @@
     {
       "id": 1775898718488,
       "source": "Module 3 - Mini Test 3",
-      "text": "4.\n[See image for full question with math notation]",
+      "text": "4.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3614,7 +3614,7 @@
     {
       "id": 1775898718492,
       "source": "Module 3 - Mini Test 3",
-      "text": "7. Find which of the following set of equations has a unique solution; i.e. each variable has a solvable value: (A) x+2y+(1/3)z=3+y/2; z - x=4 (B) x+y=4; y+z=3 (C) xyz=1 (D) 3x+4y+z=20; y - z+2x=3; (1/2)z+(3/4)y=10 - x (E) z=sqrt( - x^2); y=sqrt( - z^2)\n[See image for full question with math notation]",
+      "text": "7. Find which of the following set of equations has a unique solution; i.e. each variable has a solvable value: (A) x+2y+(1/3)z=3+y/2; z - x=4 (B) x+y=4; y+z=3 (C) xyz=1 (D) 3x+4y+z=20; y - z+2x=3; (1/2)z+(3/4)y=10 - x (E) z=sqrt( - x^2); y=sqrt( - z^2)",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3636,7 +3636,7 @@
     {
       "id": 1775898718494,
       "source": "Module 3 - Mini Test 3",
-      "text": "9. If you plug the root of the quadratic equation x^2 + ax + b into itself, i.e. substituting the root for the value of x, the value of the expression becomes (A) - 1 (B) 1 (C) a + b (D) 0 (E) 1 + a + b\n[See image for full question with math notation]",
+      "text": "9. If you plug the root of the quadratic equation x^2 + ax + b into itself, i.e. substituting the root for the value of x, the value of the expression becomes (A) - 1 (B) 1 (C) a + b (D) 0 (E) 1 + a + b",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3658,7 +3658,7 @@
     {
       "id": 1775898718496,
       "source": "Module 3 - Mini Test 3",
-      "text": "11. James and John are swimming. James swims 2x - 4 miles in 5x - 6 hours. John swims 10 - 2x miles in x + 3 hours. If they are swimming at the same speed, then find the value of x.\n[See image for full question with math notation]",
+      "text": "11. James and John are swimming. James swims 2x - 4 miles in 5x - 6 hours. John swims 10 - 2x miles in x + 3 hours. If they are swimming at the same speed, then find the value of x.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3669,7 +3669,7 @@
     {
       "id": 1775898718497,
       "source": "Module 3 - Mini Test 3",
-      "text": "12. If p and q are the two solutions to x^2 + 13x - 39, find (p - q)^2.\n[See image for full question with math notation]",
+      "text": "12. If p and q are the two solutions to x^2 + 13x - 39, find (p - q)^2.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3690,7 +3690,7 @@
     {
       "id": 1775898718499,
       "source": "Module 3 - Mini Test 3",
-      "text": "14. Suppose f(x) = x^2 + 17x - 39 and g(x) = 4x + 1. What is the sum of all possible values of x such that g(f(x)) = 0?\n[See image for full question with math notation]",
+      "text": "14. Suppose f(x) = x^2 + 17x - 39 and g(x) = 4x + 1. What is the sum of all possible values of x such that g(f(x)) = 0?",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3702,7 +3702,7 @@
     {
       "id": 1775898718500,
       "source": "Module 3 - Mini Test 3",
-      "text": "15. What is the sum of all integers p such that x^2 + px + 20 can be factored into (x - a)(x - b) where a and b are integers?\n[See image for full question with math notation]",
+      "text": "15. What is the sum of all integers p such that x^2 + px + 20 can be factored into (x - a)(x - b) where a and b are integers?",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3714,7 +3714,7 @@
     {
       "id": 1775898718501,
       "source": "Module 3 - Mini Test 3",
-      "text": "16. Suppose that x - c is a factor of x^2 + 2cx - 3. Find the larger of the two values of c.\n[See image for full question with math notation]",
+      "text": "16. Suppose that x - c is a factor of x^2 + 2cx - 3. Find the larger of the two values of c.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3726,7 +3726,7 @@
     {
       "id": 1775898718502,
       "source": "Module 3 - Mini Test 3",
-      "text": "17.\n[See image for full question with math notation]",
+      "text": "17.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3737,7 +3737,7 @@
     {
       "id": 1775898718503,
       "source": "Module 3 - Mini Test 3",
-      "text": "18. Solve for x in the equation (5 - x)/(4 - x) - (6 - x)/(5 - x) = (7 - x)/(6 - x) - (8 - x)/(7 - x). Your answer should be a decimal rounded to the nearest tenth.\n[See image for full question with math notation]",
+      "text": "18. Solve for x in the equation (5 - x)/(4 - x) - (6 - x)/(5 - x) = (7 - x)/(6 - x) - (8 - x)/(7 - x). Your answer should be a decimal rounded to the nearest tenth.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3749,7 +3749,7 @@
     {
       "id": 1775898718504,
       "source": "Module 3 - Mini Test 3",
-      "text": "19. Let f_1 = (x+1)/(x - 1). Let f_2 be formed by substituting (x+1)/(x - 1) for x in f_1, f_3 be formed by substituting (x+1)/(x - 1) for x in f_2, and so on and so forth. Find f_x for x = 2019. Your answer should be a fraction in simplest form without spaces, e.g. 1/2\n[See image for full question with math notation]",
+      "text": "19. Let f_1 = (x+1)/(x - 1). Let f_2 be formed by substituting (x+1)/(x - 1) for x in f_1, f_3 be formed by substituting (x+1)/(x - 1) for x in f_2, and so on and so forth. Find f_x for x = 2019. Your answer should be a fraction in simplest form without spaces, e.g. 1/2",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3760,7 +3760,7 @@
     {
       "id": 1775898802316,
       "source": "Module 3 - Mini Test 4",
-      "text": "1.\n[See image for full question with math notation]",
+      "text": "1.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3803,7 +3803,7 @@
     {
       "id": 1775898802320,
       "source": "Module 3 - Mini Test 4",
-      "text": "5. If the distinct lines y = ax + b and y = - 7x + 49 never intersect, what is the value of a?\n[See image for full question with math notation]",
+      "text": "5. If the distinct lines y = ax + b and y = - 7x + 49 never intersect, what is the value of a?",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3824,7 +3824,7 @@
     {
       "id": 1775898802322,
       "source": "Module 3 - Mini Test 4",
-      "text": "7. Find the perimeter of a triangle bounded by a straight line 5x + 12y = - 60 and coordinate axes.\n[See image for full question with math notation]",
+      "text": "7. Find the perimeter of a triangle bounded by a straight line 5x + 12y = - 60 and coordinate axes.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3876,7 +3876,7 @@
     {
       "id": 1775898802327,
       "source": "Module 3 - Mini Test 4",
-      "text": "12. Find the slope of the line containing the midpoint of (0,3) and (7,8) and the midpoint of ( - 3, - 19) and (4,10). Your answer should be a fraction in simplest terms, with no spaces, and not a mixed number, e.g. 3/2\n[See image for full question with math notation]",
+      "text": "12. Find the slope of the line containing the midpoint of (0,3) and (7,8) and the midpoint of ( - 3, - 19) and (4,10). Your answer should be a fraction in simplest terms, with no spaces, and not a mixed number, e.g. 3/2",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3933,7 +3933,7 @@
     {
       "id": 1775898802332,
       "source": "Module 3 - Mini Test 4",
-      "text": "17. Ten different lines pass through the point (3,4), and they each have different slopes which form an arithmetic progression, starting from a slope of - 1, - 2, - 3, - 4, - 5, - 6, - 7, - 8 and - 9 to a slope of - 10. What is the sum of the y-intercepts of these ten lines?\n[See image for full question with math notation]",
+      "text": "17. Ten different lines pass through the point (3,4), and they each have different slopes which form an arithmetic progression, starting from a slope of - 1, - 2, - 3, - 4, - 5, - 6, - 7, - 8 and - 9 to a slope of - 10. What is the sum of the y-intercepts of these ten lines?",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3944,7 +3944,7 @@
     {
       "id": 1775898802333,
       "source": "Module 3 - Mini Test 4",
-      "text": "18. The length of the straight line between (3,7) and (5x - 6, 6x - 5) is sqrt(193x). What is the sum of the possible values of x?\n[See image for full question with math notation]",
+      "text": "18. The length of the straight line between (3,7) and (5x - 6, 6x - 5) is sqrt(193x). What is the sum of the possible values of x?",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -3977,7 +3977,7 @@
     {
       "id": 1775898873313,
       "source": "Module 3 - Final Exam",
-      "text": "1. Find the vertical distance between two parallel lines given by the following equations: y(x) = 5x - 11; g(x) = 5x + 6\n[See image for full question with math notation]",
+      "text": "1. Find the vertical distance between two parallel lines given by the following equations: y(x) = 5x - 11; g(x) = 5x + 6",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -4138,7 +4138,7 @@
     {
       "id": 1775898873328,
       "source": "Module 3 - Final Exam",
-      "text": "16. The length of the straight line between (4,6) and (x+1, 4x - 2) is sqrt(151x). What is the sum of the possible values of x?\n[See image for full question with math notation]",
+      "text": "16. The length of the straight line between (4,6) and (x+1, 4x - 2) is sqrt(151x). What is the sum of the possible values of x?",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -4149,7 +4149,7 @@
     {
       "id": 1775898873329,
       "source": "Module 3 - Final Exam",
-      "text": "17. A straight line passes through the points ( - 10, 1/3) and ( - 2, 17/3). What is the x-intercept of another line perpendicular to this first line which passes through the midpoint between ( - 10, 1/3) and ( - 2, 17/3)?\n[See image for full question with math notation]",
+      "text": "17. A straight line passes through the points ( - 10, 1/3) and ( - 2, 17/3). What is the x-intercept of another line perpendicular to this first line which passes through the midpoint between ( - 10, 1/3) and ( - 2, 17/3)?",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
@@ -4161,7 +4161,7 @@
     {
       "id": 1775898873330,
       "source": "Module 3 - Final Exam",
-      "text": "18. Find the smallest positive integer n such that n^2 - 20n + 64 is a positive square.\n[See image for full question with math notation]",
+      "text": "18. Find the smallest positive integer n such that n^2 - 20n + 64 is a positive square.",
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
