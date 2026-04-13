@@ -301,7 +301,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "answer": "The number of -digit numbers which don’t contain the digit \n; the total number of -digit numbers",
+      "answer": "[See answer image]",
       "explanation": "",
       "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w1-q17-answer.png"
     },
@@ -522,7 +522,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "answer": "Every prime in the prime factorization of a is also in the prime factorization of b.\nEach prime in the prime factorization of b has a power that is greater than or equal to\nits power in the prime factorization of a.",
+      "answer": "[See answer image]",
       "explanation": "The 5th choice is true because when you multiply integers together, the prime factorization of the product comes from\ncombining the prime factorizations of the integers that you multiplied.\nThe 3rd choice is true because it is a consequence of the 5th choice.\nThe 1st choice is false because it is possible for b to equal a, since 1 × a is still a multiple of a.\nThe 2nd and 4th choices are false because 6 is a multiple of 2, but 6 has an additional prime (3) in it.",
       "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w2-q17-answer.png"
     },
@@ -679,7 +679,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "answer": "The number of perfect squares from \n to",
+      "answer": "[See answer image]",
       "explanation": "",
       "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod0-w3-q11-answer.png"
     },
@@ -3909,7 +3909,7 @@
       "status": "untriaged",
       "note": "",
       "dateAdded": "2026-04-11",
-      "answer": "Construct a line perpendicular to \n passing through its\ncenter, and construct a line perpendicular to \n passing\nthrough its center. \n is where these two lines cross.",
+      "answer": "[See answer image]",
       "explanation": "First choice: Connect the midpoints of \n and \n and \n is the midpoint of this line. \nSecond choice: Find the midpoint of the line connecting \n and \n This is \n \nThird choice: Draw an arc with \n as the center, passing through \n and \n and point \n is at\nthe middle of this arc. \nE\nA, B,\nC,\nAB\n–\nBC\n–\nE\nAB\n–\nBC\n–\nE\nAB\n–\nBC,\n–\nE\nA\nC.\nE.\nB\nA\nC,\nE",
       "answerImageUrl": "https://raw.githubusercontent.com/grrarr/fufu-poshen-loh/master/images/mod3-mt4-q2-answer.png"
     },
