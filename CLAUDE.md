@@ -176,7 +176,7 @@ Module 0 - W4 Challenge (Review).pdf      # questions + answers
 - Input IDs: `TCTNF{N}` (numeric FR), `TCTFI{N}` (text FR), `TCTMF{N}1`/`TCTMF{N}2` (split fraction), `TCTMC{N}-{idx}` (MC radio)
 
 ### Exam tracking
-`brillium emails/exam-retake-tracker.csv` tracks all exams: scores, PDF status, review links, retakes remaining.
+`exams/exam-retake-tracker.csv` tracks all exams: scores, PDF status, review links, retakes remaining.
 
 ### If image URLs break later
 PSL's image URLs may expire or require auth. If an image stops loading:
