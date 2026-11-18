@@ -484,7 +484,8 @@
     const GH_REPO = 'fufu-poshen-loh';
     const GH_DATA_PATH = 'christopher-psl-data.json';
 
-    const TODAY = new Date().toISOString().split('T')[0];
+    // LOCAL calendar date (toISOString is UTC: after ~7-8pm Eastern it stamped tomorrow)
+    const TODAY = ((d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`)(new Date());
 
     const DEFAULT_DATA = {
       modules: [
