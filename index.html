@@ -511,6 +511,23 @@
 
     // ── GitHub helpers ─────────────────────────────────────────────────────────
 
+    // Audit FP1 (2026-11-18): a load whose GitHub fetch failed falls back to localStorage / DEFAULT_DATA,
+    // and a later write used to PUT that stale copy over the repo file. Before any write made WITHOUT a
+    // GitHub-loaded sha, this says why it would lose data (problems or flags GitHub has and this copy
+    // lacks), or null when it is safe. Pure - test_gh_guard.js evals this block in Node.
+    // ---- pure: ghOverwriteRisk ----
+    function ghOverwriteRisk(local, remote) {
+      if (!remote) return null;
+      const missing = (key) => {
+        const have = new Set(((local && local[key]) || []).map(x => x.id));
+        return (remote[key] || []).filter(x => !have.has(x.id)).length;
+      };
+      const p = missing('examProblems'), f = missing('flags');
+      if (!p && !f) return null;
+      return `GitHub has ${p ? p + ' problem(s)' : ''}${p && f ? ' and ' : ''}${f ? f + ' flag(s)' : ''} this copy does not`;
+    }
+    // ---- end pure ----
+
     async function ghFetch(token) {
       try {
         const headers = { Accept: 'application/vnd.github.v3+json' };
@@ -654,6 +671,13 @@
             if (!sha) {
               const existing = await ghFetch(token);
               sha = existing?.sha || null;
+              // this session never loaded from GitHub: never write over data it has not seen
+              const risk = ghOverwriteRisk(newData, existing?.data);
+              if (risk) {
+                setGhStatus('error');
+                flash(`Not saved to GitHub: ${risk}. Reload the page to load the GitHub copy first.`, 8000);
+                return;
+              }
             }
             const newSha = await ghWrite(token, newData, sha);
             ghShaRef.current = newSha;
@@ -737,6 +761,19 @@
         try {
           const existing = await ghFetch(t);
           const sha = existing?.sha || null;
+          if (existing && ghOverwriteRisk(data, existing.data)) {
+            // a new device / cleared browser: GitHub holds data this copy lacks - load it, never
+            // overwrite it (this device's copy is kept under STORAGE_KEY + '-pre-github')
+            window.storage.setItem(STORAGE_KEY + '-pre-github', JSON.stringify(data));
+            const merged = mergeWithDefaults(existing.data);
+            setData(merged);
+            window.storage.setItem(STORAGE_KEY, JSON.stringify(merged));
+            ghShaRef.current = existing.sha;
+            setGhStatus('synced');
+            setLastSynced(new Date().toLocaleTimeString());
+            flash('Connected to GitHub - loaded the GitHub copy (this device had an older one)', 5000);
+            return;
+          }
           const newSha = await ghWrite(t, data, sha);
           ghShaRef.current = newSha;
           setGhStatus('synced');
