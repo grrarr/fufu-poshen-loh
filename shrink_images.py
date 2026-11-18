@@ -5,6 +5,7 @@ Also fix the 1 broken URL.
 """
 
 import json
+from psl_io import save_data
 import os
 import re
 import sys
@@ -105,8 +106,7 @@ for p in data['examProblems']:
 
 # Save
 data['examProblems'] = data['examProblems']
-with open('christopher-psl-data.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
+save_data(data)  # atomic: temp + os.replace (psl_io, AW19)
 
 print(f"\n=== Summary ===")
 print(f"Updated URLs: {updated}")

@@ -7,6 +7,7 @@ and attempt proper matching using the clean PDF text against garbled bank text.
 
 import fitz
 import json
+from psl_io import save_data
 import csv
 import os
 import re
@@ -222,8 +223,7 @@ for p in text_fix_problems:
 
 # Save
 data['examProblems'] = problems
-with open('christopher-psl-data.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
+save_data(data)  # atomic: temp + os.replace (psl_io, AW19)
 
 print(f"\n=== Final Summary ===")
 print(f"Corruption matches: {total_matched}")
